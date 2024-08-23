@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846316170942",
+    "project_id": "reussiteapp",
+    "storage_bucket": "reussiteapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846316170942:android:0c70efce5f671015c778ef",
+        "android_client_info": {
+          "package_name": "com.example.reussite1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbdMo-wBaSvLrtH6djlrjZkFKxBgXz7Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

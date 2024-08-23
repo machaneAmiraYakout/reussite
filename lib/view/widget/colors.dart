@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+const orange=Color(0xFFF28D01);
+const bluef=Color(0xFF0258A2);
+const bleuc=Color(0xFF2596be);
+const gris=Color(0xFF7B6F72);
+const blueOpacity40=Color(0x400892d4);
+const p=Color(0x407e8fdb);
+const o=Color(0x4011cfe4);
+const k=Color(0x4Deea37f);
+const pricipalColor=Color(0xFF11cfe4);
+const v=Color(0xff00bf63);
+const vr=Color(0x4000bf63);
+const rs=Color(0xff184784);
