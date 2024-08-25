@@ -6,6 +6,7 @@ const gris=Color(0xFF7B6F72);
 const blueOpacity40=Color(0x400892d4);
 const p=Color(0x407e8fdb);
 const o=Color(0x4011cfe4);
+const to=Color(0x2011cfe4);
 const k=Color(0x4Deea37f);
 const pricipalColor=Color(0xFF11cfe4);
 const v=Color(0xff00bf63);

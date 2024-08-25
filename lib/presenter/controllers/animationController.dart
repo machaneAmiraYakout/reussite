@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 class MyAnimationController extends GetxController {
@@ -8,7 +7,7 @@ class MyAnimationController extends GetxController {
   void onInit() {
     super.onInit();
     // Start the animation automatically when the controller is initialized
-    Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 1), () {
       isAnimating.value = true;
     });
   }

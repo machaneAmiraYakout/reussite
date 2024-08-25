@@ -2,7 +2,8 @@ plugins {
     id "com.android.application"
     id "org.jetbrains.kotlin.android" // Apply Kotlin plugin
     id "dev.flutter.flutter-gradle-plugin"
-    id 'com.google.gms.google-services'
+    id "com.google.gms.google-services"
+    id "kotlin-android-extensions"
 }
 
 android {
@@ -18,12 +19,12 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8
     }
-
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.example.reussite1"
         minSdk = 21
         multiDexEnabled true
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
     }
@@ -40,5 +41,7 @@ flutter {
 }
 
 dependencies {
-    implementation platform('com.google.firebase:firebase-bom:33.1.2')
+    implementation platform('com.google.firebase:firebase-bom:33.2.0')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
 }

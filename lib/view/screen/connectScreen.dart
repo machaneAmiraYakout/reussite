@@ -6,6 +6,8 @@ import '../widget/customButton.dart';
 class ConnecteScreen extends StatelessWidget {
   final ConnectController _connectController = Get.put(ConnectController());
 
+   ConnecteScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +21,7 @@ class ConnecteScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     Image.asset('assets/logo.png', width: 80, height: 80),
-                    SizedBox(width: 20),
+                    const SizedBox(width: 20),
                     const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -36,21 +38,21 @@ class ConnecteScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 30),
+              const SizedBox(height: 30),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: Image.asset('assets/docs.png', width: 280, height: 280),
               ),
-              SizedBox(height: 20),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              const SizedBox(height: 20),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 8.0),
                 child: Text(
                   'Se Connecter pour continuer',
                   style: TextStyle(fontSize: 23, color: Colors.black),
                 ),
               ),
-              SizedBox(height: 30),
-              Container(
+              const SizedBox(height: 30),
+              SizedBox(
                 height: 145,
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -65,24 +67,24 @@ class ConnecteScreen extends StatelessWidget {
                           keyboardType: TextInputType.text,
                           decoration: InputDecoration(
                             hintText: 'Nom et Prénom',
-                            prefixIcon: Icon(Icons.person, color: Colors.cyan),
+                            prefixIcon: const Icon(Icons.person, color: Colors.cyan),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.cyan,
                                 width: 2,
                               ),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.cyan,
                                 width: 2,
                               ),
                             ),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.cyan,
                                 width: 2,
                               ),
@@ -90,7 +92,7 @@ class ConnecteScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       SizedBox(
                         width: 250,
                         child: TextField(
@@ -100,24 +102,24 @@ class ConnecteScreen extends StatelessWidget {
                           keyboardType: TextInputType.phone,
                           decoration: InputDecoration(
                             hintText: 'Numéro du téléphone',
-                            prefixIcon: Icon(Icons.phone, color: Colors.cyan),
+                            prefixIcon: const Icon(Icons.phone, color: Colors.cyan),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.cyan,
                                 width: 2,
                               ),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.cyan,
                                 width: 2,
                               ),
                             ),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(30),
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.cyan,
                                 width: 2,
                               ),
@@ -142,7 +144,7 @@ class ConnecteScreen extends StatelessWidget {
                         child: Container(
                           width: 200,
                           height: 200,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Color(0xFF11cfe4),
                             shape: BoxShape.circle,
                           ),
@@ -156,8 +158,8 @@ class ConnecteScreen extends StatelessWidget {
                       _connectController.connect();
                     },
                     borderRadius: 20,
-                    sideColor: Color(0x207e8fdb),
-                    primary: Color(0xFF11cfe4),
+                    sideColor: const Color(0x207e8fdb),
+                    primary: const Color(0xFF11cfe4),
                     onPrimary: Colors.white,
                   ),
                   Align(
@@ -170,7 +172,7 @@ class ConnecteScreen extends StatelessWidget {
                         child: Container(
                           width: 200,
                           height: 200,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Color(0xFF11cfe4),
                             shape: BoxShape.circle,
                           ),

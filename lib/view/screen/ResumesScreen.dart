@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 class ResumesScreen extends StatelessWidget {
   final List<String> resumes;
 
-  ResumesScreen({required this.resumes});
+  const ResumesScreen({super.key, required this.resumes});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Resumes'),
+        title: const Text('Resumes'),
       ),
       body: ListView.builder(
         itemCount: resumes.length,

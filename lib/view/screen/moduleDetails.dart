@@ -21,7 +21,7 @@ import 'yearSelectionScreen.dart';
 class ModuleDetailsScreen extends StatelessWidget {
   final ModuleData module;
 
-  ModuleDetailsScreen({required this.module,}) {
+  ModuleDetailsScreen({super.key, required this.module,}) {
     // Create or find an instance of ModuleController for this module
     if (Get.isRegistered<ImageAndDataController>(tag: module.name)) {
       Get.delete<ImageAndDataController>(tag: module.name); // Ensure old instance is deleted
@@ -115,7 +115,7 @@ class ModuleDetailsScreen extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween, // Center align items
                   children: [
-                    SizedBox(width: 20,),
+                    const SizedBox(width: 20,),
                     Text(
                       module.name,
                       style: const TextStyle(
@@ -183,7 +183,7 @@ class ModuleDetailsScreen extends StatelessWidget {
                   color: Colors.orangeAccent,
                   onPressed: () {
                     Get.to(YearSelectionScreen(module: module,));
-                    print('jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj${selectedYear}');
+                    print('jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj$selectedYear');
                     print(selectedSem);
                     print(selectedMod);
                   },

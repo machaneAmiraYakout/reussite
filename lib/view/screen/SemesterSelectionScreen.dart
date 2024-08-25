@@ -9,7 +9,7 @@ import 'ModuleSelectionScreen.dart';
 class SemesterSelectionScreen extends StatelessWidget {
   final YearData year; // Received from ChrScreen
 
-  const SemesterSelectionScreen({Key? key, required this.year}) : super(key: key);
+  const SemesterSelectionScreen({super.key, required this.year});
 
   @override
   Widget build(BuildContext context) {
@@ -58,7 +58,7 @@ class SemesterSelectionScreen extends StatelessWidget {
                         width: 200, // Adjust the width to fit your design
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
                         child: Text(
-                          year.name + 'CHIRDENT',
+                          '${year.name}CHIRDENT',
                           style: const TextStyle(
                             fontSize: 25,
                             color: Colors.black,

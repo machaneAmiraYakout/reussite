@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 class MyCustomText extends StatelessWidget {
   final int index;
   final String text;
   //final Color? color;
   final TextAlign alignment;
-  MyCustomText({
+  const MyCustomText({super.key, 
     required this.index,
     required this.text,
     // this.color = primaryColor,
@@ -14,7 +13,7 @@ class MyCustomText extends StatelessWidget {
   double getResponsiveFontSize(BuildContext context, double referenceSize) {
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
-    final referenceWidth = 375; // Reference width for font size calculations (you can adjust it based on your design)
+    const referenceWidth = 375; // Reference width for font size calculations (you can adjust it based on your design)
     // Calculate the ratio of the screen's width to the reference width
     final widthRatio = screenWidth / referenceWidth;
     // Calculate the responsive font size

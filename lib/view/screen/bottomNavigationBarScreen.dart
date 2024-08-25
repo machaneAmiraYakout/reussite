@@ -7,6 +7,8 @@ import 'homeScreen.dart';
 class NavigationScreen extends StatelessWidget {
   final NavigationController navigationController = Get.put(NavigationController());
 
+   NavigationScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,11 +32,11 @@ class NavigationScreen extends StatelessWidget {
       body: Obx(() {
         switch (navigationController.selectedIndex.value) {
           case 0:
-            return HomeScreen();
+            return const HomeScreen();
           case 1:
-            return ProfileScreen();
+            return const ProfileScreen();
           default:
-            return HomeScreen();
+            return const HomeScreen();
         }
       }),
     );

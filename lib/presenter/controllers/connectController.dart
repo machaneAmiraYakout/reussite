@@ -25,7 +25,7 @@ class ConnectController extends GetxController {
             await prefs.setString('phone', phone.value);
             await prefs.setBool('approved', true);
 
-            Get.off(() => NavigationScreen());
+            Get.off(() =>  NavigationScreen());
           } else {
             Get.snackbar(
               'Erreur',
@@ -97,6 +97,6 @@ class ConnectController extends GetxController {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.clear(); // Clear all preferences, or use prefs.remove(key) for specific keys
 
-    Get.off(() => ConnecteScreen()); // Navigate to ConnecteScreen after logout
+    Get.off(() =>  ConnecteScreen()); // Navigate to ConnecteScreen after logout
   }
 }

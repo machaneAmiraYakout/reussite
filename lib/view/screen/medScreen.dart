@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_navigation/get_navigation.dart';
 import '../widget/colors.dart';
 class MedScreen extends StatefulWidget {
-  const MedScreen({Key? key}) : super(key: key);
+  const MedScreen({super.key});
 
   @override
   State<MedScreen> createState() => _MedScreenState();

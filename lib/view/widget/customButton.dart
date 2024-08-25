@@ -7,14 +7,14 @@ class CustomButton extends StatelessWidget {
   final Color primary;
   final Color onPrimary;
   const CustomButton({
-    Key? key,
+    super.key,
     required this.text,
     required this.onPressed,
     this.borderRadius = 20.0,
     required this.sideColor,
     required this.primary,
     required this.onPrimary,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class CustomButton extends StatelessWidget {
 
     return Padding(
         padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 5),
-        child: Container(
+        child: SizedBox(
             height: screenHeight * 0.07,
             width: screenWidth *0.5,
             child: ElevatedButton(

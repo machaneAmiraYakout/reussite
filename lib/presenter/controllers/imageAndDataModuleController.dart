@@ -8,10 +8,6 @@ class ImageAndDataController extends GetxController {
 
   ImageAndDataController(this.module);
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
   // Access image path as a reactive variable
   RxString get imagePath => module.imagePath;

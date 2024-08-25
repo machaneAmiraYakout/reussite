@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../../model/favoriteQuest.dart';
+import '../../presenter/controllers/favoriteController.dart';
 import '../../presenter/controllers/noteController.dart';
 import '../../presenter/controllers/qcmController.dart';
 import '../widget/colors.dart';
@@ -13,12 +15,15 @@ class _QcmScreenState extends State<QcmScreen> {
   late final QuestionController controller;
   late final NoteController noteController;
   late final TextEditingController noteTextController;
+  late final FavoriteController favoriteController;
+
   @override
   void initState() {
     super.initState();
     controller = Get.put(QuestionController()); // Initialize the QuestionController
     noteController = Get.put(NoteController()); // Initialize the NoteController
     noteTextController = TextEditingController(); // Initialize TextEditingController
+    favoriteController = Get.put(FavoriteController());
 
   }
   @override
@@ -126,18 +131,49 @@ class _QcmScreenState extends State<QcmScreen> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
+                            //fav button
                             ElevatedButton(
                               onPressed: () {
-                                // Favorite button action
+                                // Ensure that correctOptions is correctly populated
+                                final correctOptions = controller.currentQuestion.correctAnswers;
+
+                                final currentFavoriteQuestion = FavoriteQuestion(
+                                  questionText: controller.currentQuestion?.question ?? '',
+                                  options: controller.currentQuestion?.options ?? [],
+                                  correctOptions: correctOptions,
+                                  photo: controller.currentQuestion?.photo,
+                                );
+
+                                favoriteController.toggleFavorite(currentFavoriteQuestion);
                               },
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.red, // Background color
-                                shape: CircleBorder(), // Circular shape
+                                shape: const CircleBorder(), // Circular shape
                                 padding: EdgeInsets.zero, // Remove default padding
                                 elevation: 2.0, // Same elevation as Material
                               ),
-                              child: Icon(Icons.favorite, color: Colors.white, size: 20), // Icon size
+                              child: Obx(() {
+                                final correctOptions = controller.currentQuestion.correctAnswers;
+
+                                final currentFavoriteQuestion = FavoriteQuestion(
+                                  questionText: controller.currentQuestion?.question ?? '',
+                                  options: controller.currentQuestion?.options ?? [],
+                                  correctOptions: correctOptions,
+                                  photo: controller.currentQuestion?.photo,
+                                );
+
+                                bool isFavorite = favoriteController.isFavorite(currentFavoriteQuestion);
+
+                                return Icon(
+                                  Icons.favorite,
+                                  color: isFavorite ? Colors.black : Colors.white, // Change color based on favorite status
+                                  size: 20,
+                                );
+                              }),
                             ),
+
+
+
                             const SizedBox(width: 10),
                             ElevatedButton(
                               onPressed: () {
@@ -148,7 +184,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
                                 ),
-                                padding: EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+                                padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
                                 shadowColor: Colors.grey,
                                 elevation: 5,
                               ),
@@ -163,9 +199,6 @@ class _QcmScreenState extends State<QcmScreen> {
                             ),
                             const SizedBox(width: 10),
                             // Note button
-                            // Inside your QcmScreen's build method
-
-// Note button
                             ElevatedButton(
                               onPressed: () {
                                 Get.defaultDialog(
@@ -247,8 +280,6 @@ class _QcmScreenState extends State<QcmScreen> {
                               ),
                               child: const Icon(Icons.description, color: Colors.white, size: 20),
                             ),
-
-
                           ],
                         ),
                       ),
@@ -289,7 +320,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                 leading: CircleAvatar(
                                   backgroundColor: Colors.cyan,
                                   child: Text(
-                                    String.fromCharCode((65 + controller.currentQuestion.options.indexOf(option)) as int),
+                                    String.fromCharCode(65 + controller.currentQuestion.options.indexOf(option)),
                                     style: const TextStyle(color: Colors.white), // Icon color A, B, C, etc.
                                   ),
                                 ),
@@ -307,6 +338,7 @@ class _QcmScreenState extends State<QcmScreen> {
                           }).toList(),
                         ),
                       ),
+
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Row(

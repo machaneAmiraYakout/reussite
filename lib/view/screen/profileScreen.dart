@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:reussite1/view/screen/timerScreen.dart';
 import '../../presenter/controllers/connectController.dart';
 import '../widget/colors.dart';
+import 'daysOfWeekScreen.dart';
 import 'favoriteScreen.dart';
-
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
-
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
 }
-
 class _ProfileScreenState extends State<ProfileScreen> {
   final ConnectController connectController = Get.find<ConnectController>();
   @override
@@ -76,16 +75,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ],
                 ),
-                const SizedBox(height: 100),
+                const SizedBox(height: 80),
                 GestureDetector(
                   onTap: () {
-                    // Handle the Timing container tap
+                    Get.to(() => TimerScreen());
                   },
                   child: Container(
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: o,
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     child: const Row(
                       children: [
@@ -107,17 +106,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 10),
                 GestureDetector(
                   onTap: () {
                     // Handle the Favorite container tap
-                    Get.to(const FavoriteScreen());
+                    Get.to( FavoriteScreen());
                   },
                   child: Container(
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: o,
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     child: const Row(
                       children: [
@@ -139,16 +138,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 10),
                 GestureDetector(
                   onTap: () {
-                    // Handle the To Do List container tap
+                    Get.to( DaysOfWeekScreen());
                   },
                   child: Container(
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: o,
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     child: const Row(
                       children: [
@@ -170,16 +169,45 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 10),
                 GestureDetector(
                   onTap: () {
-                    connectController.logout(); // Call the logout method
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return AlertDialog(
+                          title: const Text('Êtes-vous sûr de vouloir vous déconnecter ?'),
+                          content: const Text('Cette action vous déconnectera de votre compte.'),
+                          actions: [
+                            TextButton(
+                              style: TextButton.styleFrom(
+                                foregroundColor: Colors.cyan, // Text color for ANNULER button
+                              ),
+                              onPressed: () {
+                                Navigator.of(context).pop(); // Close the dialog
+                              },
+                              child: const Text('ANNULER'),
+                            ),
+                            TextButton(
+                              style: TextButton.styleFrom(
+                                foregroundColor: Colors.red, // Text color for SE DÉCONNECTER button
+                              ),
+                              onPressed: () {
+                                Navigator.of(context).pop(); // Close the dialog
+                                connectController.logout(); // Call the logout method
+                              },
+                              child: const Text('SE DÉCONNECTER'),
+                            ),
+                          ],
+                        );
+                      },
+                    );
                   },
                   child: Container(
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
-                      color: o,
-                      borderRadius: BorderRadius.circular(10),
+                      color: o, // Background color for the container
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     child: const Row(
                       children: [
@@ -194,13 +222,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         Spacer(),
                         CircleAvatar(
                           radius: 30,
-                          backgroundColor: pricipalColor,
+                          backgroundColor: Colors.red, // Background color for the icon
                           child: Icon(Icons.logout, size: 40, color: Colors.white),
                         ),
                       ],
                     ),
                   ),
-                ),
+                )
+
               ],
             ),
           ),

@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
@@ -107,7 +106,7 @@ class QuestionController extends GetxController {
         spans.add(WidgetSpan(
           child: Transform.translate(
             offset: const Offset(0, -6), // Superscript offset
-            child: Text(match.group(2)!, style: TextStyle(fontSize: 12.0)),
+            child: Text(match.group(2)!, style: const TextStyle(fontSize: 12.0)),
           ),
         ));
       } else if (match.group(1) == '_') {
@@ -115,13 +114,13 @@ class QuestionController extends GetxController {
         spans.add(WidgetSpan(
           child: Transform.translate(
             offset: const Offset(0, 6), // Subscript offset
-            child: Text(match.group(2)!, style: TextStyle(fontSize: 12.0)),
+            child: Text(match.group(2)!, style: const TextStyle(fontSize: 12.0)),
           ),
         ));
       }
       return '';
     }, onNonMatch: (nonMatch) {
-      spans.add(TextSpan(text: nonMatch, style: TextStyle(fontSize: 16.0)));
+      spans.add(TextSpan(text: nonMatch, style: const TextStyle(fontSize: 16.0)));
       return '';
     });
 

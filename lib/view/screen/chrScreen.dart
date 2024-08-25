@@ -6,7 +6,7 @@ import '../widget/colors.dart';
 import 'SemesterSelectionScreen.dart';
 
 class ChrScreen extends StatefulWidget {
-  const ChrScreen({Key? key}) : super(key: key);
+  const ChrScreen({super.key});
 
   @override
   State<ChrScreen> createState() => _ChrScreenState();

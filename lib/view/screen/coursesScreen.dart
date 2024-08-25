@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 class CoursesScreen extends StatelessWidget {
   final List<String> courses;
 
-  CoursesScreen({required this.courses});
+  const CoursesScreen({super.key, required this.courses});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Courses'),
+        title: const Text('Courses'),
       ),
       body: ListView.builder(
         itemCount: courses.length,

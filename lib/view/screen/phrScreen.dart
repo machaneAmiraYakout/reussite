@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import '../widget/colors.dart';
 
 class PhrScreen extends StatefulWidget {
-  const PhrScreen({Key? key}) : super(key: key);
+  const PhrScreen({super.key});
 
   @override
   State<PhrScreen> createState() => _PhrScreenState();

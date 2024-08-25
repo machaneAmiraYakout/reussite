@@ -12,7 +12,7 @@ import '../widget/colors.dart';
 class YearSelectionScreen extends StatelessWidget {
   final ModuleData module;
 
-  YearSelectionScreen({required this.module}) {
+  YearSelectionScreen({super.key, required this.module}) {
     if (Get.isRegistered<ImageAndDataController>(tag: module.name)) {
       Get.delete<ImageAndDataController>(tag: module.name);
     }

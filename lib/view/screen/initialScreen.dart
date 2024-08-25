@@ -4,7 +4,7 @@ import '../../presenter/controllers/animationController.dart';
 import '../widget/customButton.dart';
 import 'connectScreen.dart';
 class InitialScreen extends StatefulWidget {
-  const InitialScreen({Key? key}) : super(key: key);
+  const InitialScreen({super.key});
   @override
   State<InitialScreen> createState() => _HomeState();
 }
@@ -40,7 +40,7 @@ class _HomeState extends State<InitialScreen> {
                         ),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 25,
                     )
                   ],
@@ -101,7 +101,7 @@ class _HomeState extends State<InitialScreen> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                child: Container(
+                child: SizedBox(
                   width: 450, // Container width
                   height: 410, // Container height
                   child: Stack(
@@ -111,11 +111,11 @@ class _HomeState extends State<InitialScreen> {
                         left: 177, // Adjust left position
                         child: Container(
                           width: 200,
-                          padding: EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            color: Color(0x400892d4), // 30% opacity
+                            color: const Color(0x400892d4), // 30% opacity
                             borderRadius: BorderRadius.circular(30),
-                            border: Border.all(color: Color(0x400892d4), width: 2),
+                            border: Border.all(color: const Color(0x400892d4), width: 2),
                           ),
                           child: const Row(
                             children: [
@@ -135,11 +135,11 @@ class _HomeState extends State<InitialScreen> {
                         left: 177, // Adjust left position
                         child: Container(
                           width: 200,
-                          padding: EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            color: Color(0x407e8fdb) , // 30% opacity
+                            color: const Color(0x407e8fdb) , // 30% opacity
                             borderRadius: BorderRadius.circular(30),
-                            border: Border.all(color: Color(0x407e8fdb), width: 2),
+                            border: Border.all(color: const Color(0x407e8fdb), width: 2),
                           ),
                           child: const Row(
                             children: [
@@ -159,11 +159,11 @@ class _HomeState extends State<InitialScreen> {
                         left: 177, // Adjust left position
                         child: Container(
                           width: 200,
-                          padding: EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            color: Color(0x4011cfe4), // 30% opacity
+                            color: const Color(0x4011cfe4), // 30% opacity
                             borderRadius: BorderRadius.circular(30),
-                            border: Border.all(color: Color(0x2011cfe4), width: 2),
+                            border: Border.all(color: const Color(0x2011cfe4), width: 2),
                           ),
                           child: const Row(
                             children: [
@@ -183,11 +183,11 @@ class _HomeState extends State<InitialScreen> {
                         left: 177, // Adjust left position
                         child: Container(
                           width: 200,
-                          padding: EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            color: Color(0x4Deea37f), // 30% opacity
+                            color: const Color(0x4Deea37f), // 30% opacity
                             borderRadius: BorderRadius.circular(30),
-                            border: Border.all(color: Color(0x4Deea37f), width: 2),
+                            border: Border.all(color: const Color(0x4Deea37f), width: 2),
                           ),
                           child: const Row(
                             children: [
@@ -229,7 +229,7 @@ class _HomeState extends State<InitialScreen> {
                         child: Container(
                           width: 200,
                           height: 200,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Color(0xFF11cfe4), // 50% opacity for #184784 color
                             shape: BoxShape.circle,
                           ),
@@ -240,12 +240,12 @@ class _HomeState extends State<InitialScreen> {
                   CustomButton(
                     text:'Continuer',
                     onPressed:(){
-                      Get.to(ConnecteScreen());
+                      Get.to( ConnecteScreen());
 
                     } ,
                     borderRadius:20 ,
-                    sideColor: Color(0x207e8fdb) ,
-                    primary: Color(0xFF11cfe4) ,
+                    sideColor: const Color(0x207e8fdb) ,
+                    primary: const Color(0xFF11cfe4) ,
                     onPrimary:Colors.white ,
 
 
@@ -260,7 +260,7 @@ class _HomeState extends State<InitialScreen> {
                         child: Container(
                           width: 200,
                           height: 200,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Color(0xFF11cfe4), // 50% opacity for #184784 color
                             shape: BoxShape.circle,
                           ),

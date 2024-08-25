@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 
 Widget buildSpecialtyCard(String title, String assetPath, Color color, double imageHeight, VoidCallback onTap) {
@@ -18,7 +17,7 @@ Widget buildSpecialtyCard(String title, String assetPath, Color color, double im
             assetPath,
             height: imageHeight, // Adjust height as needed
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 10),
           Text(
             title,
             style: const TextStyle(

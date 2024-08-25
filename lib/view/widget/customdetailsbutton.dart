@@ -6,7 +6,7 @@ class CustomDetailsButton extends StatelessWidget {
   final IconData icon;
   final VoidCallback onPressed;
 
-  CustomDetailsButton({
+  const CustomDetailsButton({super.key, 
     required this.text,
     required this.color,
     required this.icon,

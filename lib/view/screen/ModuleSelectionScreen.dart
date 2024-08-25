@@ -10,7 +10,7 @@ class ModuleSelectionScreen extends StatelessWidget {
   final SemesterData semester;
   final String year;
 
-  ModuleSelectionScreen({required this.semester, required this.year,});
+  const ModuleSelectionScreen({super.key, required this.semester, required this.year,});
 
   @override
   Widget build(BuildContext context) {

@@ -6,7 +6,7 @@ import '../widget/colors.dart';
 import 'chrScreen.dart';
 import 'medScreen.dart';
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            SizedBox(height: 70,),
+            const SizedBox(height: 70,),
             Container(
               height: 90 ,
               width: double.infinity,
@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
-            SizedBox(height: 50,),
+            const SizedBox(height: 50,),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             k,
                             120,
                                 (){
-                              Get.to(MedScreen());
+                              Get.to(const MedScreen());
                             }
                         ),
                         buildSpecialtyCard(
@@ -70,12 +70,12 @@ class _HomeScreenState extends State<HomeScreen> {
                             o,
                             100,
                                 (){
-                              Get.to(ChrScreen());
+                              Get.to(const ChrScreen());
                             }
                         ),
                       ],
                     ),
-                    SizedBox(height: 20), // Adjust space between rows as needed
+                    const SizedBox(height: 20), // Adjust space between rows as needed
                     Center(
                       child: buildSpecialtyCard(
                           'Pharmacie',
@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           vr,
                           90,
                               (){
-                            Get.to(PhrScreen());
+                            Get.to(const PhrScreen());
                           }
                       ),
                     ),
