@@ -147,7 +147,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                 favoriteController.toggleFavorite(currentFavoriteQuestion);
                               },
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.red, // Background color
+                                backgroundColor: Colors.red.shade100, // Background color
                                 shape: const CircleBorder(), // Circular shape
                                 padding: EdgeInsets.zero, // Remove default padding
                                 elevation: 2.0, // Same elevation as Material
@@ -166,7 +166,7 @@ class _QcmScreenState extends State<QcmScreen> {
 
                                 return Icon(
                                   Icons.favorite,
-                                  color: isFavorite ? Colors.black : Colors.white, // Change color based on favorite status
+                                  color: isFavorite ? Colors.red : Colors.white, // Change color based on favorite status
                                   size: 20,
                                 );
                               }),

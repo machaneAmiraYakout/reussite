@@ -6,7 +6,7 @@ class DaysOfWeekScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<String> days = [
-      'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
+      'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'
     ];
 
     return Scaffold(
