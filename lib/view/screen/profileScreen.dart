@@ -15,7 +15,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   void initState() {
     super.initState();
-
     // Fetch the user data from Firestore based on the stored phone number
     connectController.fetchUserData();
   }
@@ -99,8 +98,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         Spacer(),
                         CircleAvatar(
                           radius: 30,
-                          backgroundColor: pricipalColor,
-                          child: Icon(Icons.access_time, size: 40, color: Colors.white),
+                          backgroundColor: Colors.white,
+                          child: Icon(Icons.access_time, size: 40, color:pricipalColor ),
                         ),
                       ],
                     ),
@@ -131,7 +130,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         Spacer(),
                         CircleAvatar(
                           radius: 30,
-                          backgroundColor: pricipalColor,
+                          backgroundColor: Colors.white,
                           child: Icon(Icons.favorite, size: 40, color: Colors.red),
                         ),
                       ],
@@ -162,8 +161,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         Spacer(),
                         CircleAvatar(
                           radius: 30,
-                          backgroundColor: pricipalColor,
-                          child: Icon(Icons.checklist, size: 40, color: Colors.white),
+                          backgroundColor: Colors.white,
+                          child: Icon(Icons.checklist, size: 40, color:pricipalColor ),
                         ),
                       ],
                     ),
@@ -229,7 +228,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ),
                 )
-
               ],
             ),
           ),

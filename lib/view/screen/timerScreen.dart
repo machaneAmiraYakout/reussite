@@ -4,7 +4,6 @@ import '../../presenter/controllers/sessionController.dart';
 import '../widget/colors.dart';
 
 class TimerScreen extends StatelessWidget {
-  // Retrieve the controller with Get.find()
   final SessionController sessionController = Get.find<SessionController>();
 
   @override
@@ -38,7 +37,6 @@ class TimerScreen extends StatelessWidget {
                   ? sessionController.studyDuration
                   : sessionController.breakDuration;
               int remainingSeconds = sessionController.seconds.value;
-
               double progress = remainingSeconds / totalSeconds;
 
               int hours = remainingSeconds ~/ 3600;
@@ -52,6 +50,18 @@ class TimerScreen extends StatelessWidget {
               return Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
+                  Text(
+                    'Pomodoro Technique',
+                    style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                      color: sessionController.isStudyPeriod.value
+                          ? Colors.cyan
+                          : Colors.red,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 30),
                   Container(
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
@@ -83,8 +93,8 @@ class TimerScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 20),
                         Container(
-                          width: 200, // Adjust width
-                          height: 200, // Adjust height
+                          width: 200,
+                          height: 200,
                           decoration: BoxDecoration(
                             color: sessionController.isStudyPeriod.value
                                 ? Colors.white
@@ -116,41 +126,56 @@ class TimerScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  Text(
-                    'Pomodoro Technique',
-                    style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold,
-                      color: sessionController.isStudyPeriod.value
-                          ? Colors.cyan
-                          : Colors.red,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                  const SizedBox(height: 10),
+                  Obx(() {
+                    return SwitchListTile(
+                      title: Text(
+                        sessionController.isRunning.value ? 'Stop Timer' : 'Start Timer',
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: sessionController.isRunning.value ? Colors.orange : Colors.cyan,
+                        ),
+                      ),
+                      value: sessionController.isRunning.value,
+                      activeColor: Colors.orange, // Color when the switch is on
+                      inactiveThumbColor: Colors.cyan, // Color when the switch is off
+                      onChanged: (bool value) {
+                        if (value) {
+                          sessionController.startTimer();
+                        } else {
+                          sessionController.stopTimer();
+                        }
+                      },
+                    );
+                  }),
+                  const SizedBox(height: 20),
                   Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Container(
                       height: 120,
                       decoration: BoxDecoration(
-                        color: o, // Adjust to a pastel color
+                        color: o,
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
                           color: Colors.black,
                           width: 2,
                         ),
                       ),
-                      child: const Padding(padding: EdgeInsets.all(16),
-                      child:  Text(
-                        'La technique Pomodoro est une méthode de gestion du temps traditionnellement de 25 minutes, séparée par de courtes pauses. Cette technique aide à améliorer la concentration et la productivité.',
-                        style: TextStyle(fontSize: 16,
-                          fontWeight: FontWeight.bold,
+                      child: const Padding(
+                        padding: EdgeInsets.all(16),
+                        child: Text(
+                          'La technique Pomodoro est une méthode de gestion du temps '
+                              'traditionnellement de 25 minutes, séparée par de courtes pauses. '
+                              'Cette technique aide à améliorer la concentration et la productivité.',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.start,
                         ),
-                        textAlign: TextAlign.start,
-
-                      ),)
+                      ),
                     ),
-                  )
+                  ),
                 ],
               );
             }),

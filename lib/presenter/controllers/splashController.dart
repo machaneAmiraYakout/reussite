@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:reussite1/view/screen/initialScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../view/screen/bottomNavigationBarScreen.dart';
 import '../../view/screen/connectScreen.dart';
@@ -19,7 +20,7 @@ class SplashController extends GetxController {
     if (isApproved) {
       Get.off(() =>  NavigationScreen());
     } else {
-      Get.off(() =>  ConnecteScreen());
+      Get.off(() =>  InitialScreen());
     }
   }
 }

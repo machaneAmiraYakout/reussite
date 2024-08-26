@@ -24,7 +24,7 @@ class _HomeState extends State<InitialScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    Image.asset('assets/logo.png', width: 115, height: 115), // Logo
+                    Image.asset('assets/logo.png', width: 100, height: 100), // Logo
                     const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -33,7 +33,7 @@ class _HomeState extends State<InitialScreen> {
                         Text(
                           'ÉUSSITE',
                           style: TextStyle(
-                            fontSize: 45,
+                            fontSize: 40,
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
                           ),
@@ -41,7 +41,7 @@ class _HomeState extends State<InitialScreen> {
                       ],
                     ),
                     const SizedBox(
-                      width: 25,
+                      width: 20,
                     )
                   ],
                 ),
@@ -60,7 +60,7 @@ class _HomeState extends State<InitialScreen> {
                         Text(
                           'QCMS',
                           style: TextStyle(
-                            fontSize: 45,
+                            fontSize: 40,
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
                           ),
@@ -68,7 +68,7 @@ class _HomeState extends State<InitialScreen> {
                       ],
                     ),
                     SizedBox(
-                      width: 40,
+                      width: 35,
                     )
                   ],
                 ),
@@ -87,7 +87,7 @@ class _HomeState extends State<InitialScreen> {
                         Text(
                           'vous allez réussir',
                           style: TextStyle(
-                            fontSize: 25,
+                            fontSize: 23,
                             color: Colors.black,
                           ),
                         ),
@@ -103,7 +103,7 @@ class _HomeState extends State<InitialScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: SizedBox(
                   width: 450, // Container width
-                  height: 410, // Container height
+                  height: 400, // Container height
                   child: Stack(
                     children: [
                       Positioned(
