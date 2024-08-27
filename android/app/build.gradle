@@ -3,12 +3,11 @@ plugins {
     id "org.jetbrains.kotlin.android" // Apply Kotlin plugin
     id "dev.flutter.flutter-gradle-plugin"
     id "com.google.gms.google-services"
-    id "kotlin-android-extensions"
 }
 
 android {
     namespace = "com.example.reussite1"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../data/dataChirdent.dart';
+import '../../presenter/controllers/fetchAnneController.dart';
 import '../../presenter/controllers/yearController.dart';
 import '../widget/colors.dart';
 import 'SemesterSelectionScreen.dart';
@@ -13,6 +14,14 @@ class ChrScreen extends StatefulWidget {
 }
 
 class _ChrScreenState extends State<ChrScreen> {
+  final FetchAnneeController fetchAnneeController = Get.find<FetchAnneeController>();
+
+  @override
+  void initState() {
+    super.initState();
+    fetchAnneeController.fetchUserAnnee(); // Fetch the annee when initializing
+  }
+
   @override
   Widget build(BuildContext context) {
     final YearsController yearsController = Get.find();
@@ -93,11 +102,25 @@ class _ChrScreenState extends State<ChrScreen> {
                 itemCount: years.length,
                 itemBuilder: (context, index) {
                   return GestureDetector(
-                    onTap: () {
-                      // Set the selected year in the controller (store the year)
-                      yearsController.setSelectedYear(years[index]);
-                      // Navigate to the semester selection screen
-                      Get.to(SemesterSelectionScreen(year: years[index]),);
+                    onTap: () async {
+                      // Get the selected year from the list
+                      final selectedYear = years[index];
+
+                      // Set the selected year in the controller
+                      yearsController.setSelectedYear(selectedYear);
+
+                      // Fetch the annee value
+                      final fetchedAnnee = fetchAnneeController.annee.value.trim();
+                      print('Selected Year: ${selectedYear.name.trim()}');
+                      print('Fetched Annee: ${fetchedAnnee}');
+                      // Compare the selected year with the fetched annee
+                      if (selectedYear.name.trim() == fetchedAnnee) {
+                        // Navigate to the semester selection screen
+                        Get.to(SemesterSelectionScreen(year: selectedYear));
+                      } else {
+                        // Show dialog if the year does not match
+                        fetchAnneeController.showAccessDeniedDialogA();
+                      }
                     },
                     child: Container(
                       margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 70.0),
@@ -120,7 +143,7 @@ class _ChrScreenState extends State<ChrScreen> {
                   );
                 },
               ),
-            ),
+            )
           ],
         ),
       ),

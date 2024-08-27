@@ -1,8 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:reussite1/presenter/controllers/UserDetailsController.dart';
 import 'package:reussite1/presenter/controllers/connectController.dart';
 import 'package:reussite1/presenter/controllers/favoriteController.dart';
+import 'package:reussite1/presenter/controllers/fetchAnneController.dart';
 import 'package:reussite1/presenter/controllers/moduleController.dart';
 import 'package:reussite1/presenter/controllers/selectionContoller.dart';
 import 'package:reussite1/presenter/controllers/semestreController.dart';
@@ -20,6 +22,9 @@ void main()async{
   Get.put(SelectionController());
   Get.put(ConnectController());
   Get.put(FavoriteController());
+  Get.put(UserDetailsController());
+  Get.put(FetchAnneeController());
+
   final sessionController = Get.put(SessionController());
 
   runApp( GetMaterialApp(

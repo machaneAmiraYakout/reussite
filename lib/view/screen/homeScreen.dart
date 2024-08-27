@@ -1,31 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:reussite1/view/screen/phrScreen.dart';
+import '../../presenter/controllers/UserDetailsController.dart';
 import '../widget/card.dart';
 import '../widget/colors.dart';
 import 'chrScreen.dart';
 import 'medScreen.dart';
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-class _HomeScreenState extends State<HomeScreen> {
 
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // Get the instance of UserDetailsController
+    final UserDetailsController userDetailsController = Get.find<UserDetailsController>();
+
     return Scaffold(
       body: SafeArea(
         child: Column(
           children: [
             const SizedBox(height: 70,),
             Container(
-              height: 90 ,
+              height: 90,
               width: double.infinity,
-              color:o ,
-              child:
-              Padding(
+              color: o,
+              child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
                   children: [
@@ -49,46 +48,62 @@ class _HomeScreenState extends State<HomeScreen> {
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        buildSpecialtyCard(
+                child: Obx(() {  // Observe changes in specialite
+                  final specialite = userDetailsController.specialite.value;
+
+                  return Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          buildSpecialtyCard(
                             'Médecine',
-                            'assets/heart.png', // Replace with your image asset
+                            'assets/heart.png',  // Replace with your image asset
                             k,
                             120,
-                                (){
-                              Get.to(const MedScreen());
-                            }
-                        ),
-                        buildSpecialtyCard(
+                                () {
+                              if (specialite == 'Médecine') {
+                                Get.to(const MedScreen());
+                              } else {
+                                userDetailsController.showAccessDeniedDialogS();
+                              }
+                            },
+                          ),
+                          buildSpecialtyCard(
                             'ChirDent',
-                            'assets/dent.png', // Replace with your image asset
+                            'assets/dent.png',  // Replace with your image asset
                             o,
                             100,
-                                (){
-                              Get.to(const ChrScreen());
-                            }
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 20), // Adjust space between rows as needed
-                    Center(
-                      child: buildSpecialtyCard(
+                                () {
+                              if (specialite == 'ChirDent') {
+                                Get.to(const ChrScreen());
+                              } else {
+                                userDetailsController.showAccessDeniedDialogS();
+                              }
+                            },
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 20), // Adjust space between rows as needed
+                      Center(
+                        child: buildSpecialtyCard(
                           'Pharmacie',
-                          'assets/medc.png', // Replace with your image asset
+                          'assets/medc.png',  // Replace with your image asset
                           vr,
                           90,
-                              (){
-                            Get.to(const PhrScreen());
-                          }
+                              () {
+                            if (specialite == 'Pharmacie') {
+                              Get.to(const PhrScreen());
+                            } else {
+                              userDetailsController.showAccessDeniedDialogS();
+                            }
+                          },
+                        ),
                       ),
-                    ),
-                  ],
-                ),
+                    ],
+                  );
+                }),
               ),
             ),
           ],
@@ -97,4 +112,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  // Helper method to show the access denied dialog
 }
