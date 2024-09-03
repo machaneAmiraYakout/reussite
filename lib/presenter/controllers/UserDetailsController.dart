@@ -85,6 +85,7 @@ class UserDetailsController extends GetxController {
 
         if (querySnapshot.docs.isNotEmpty) {
           specialite.value = querySnapshot.docs.first['specialite'];
+          print('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh${specialite.value}');
         }
       } catch (e) {
         Get.snackbar(

@@ -115,15 +115,32 @@ class _QcmScreenState extends State<QcmScreen> {
                       if (controller.currentQuestion.photo != null)
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                          child: SizedBox(
-                            width: 120, // Set the desired width
-                            height: 120, // Set the desired height
-                            child: Image.asset(
-                              controller.currentQuestion.photo!,
-                              fit: BoxFit.contain,
+                          child: GestureDetector(
+                            onTap: () {
+                              // Show the dialog with a larger image when the photo is tapped
+                              Get.dialog(
+                                Dialog(
+                                  child: Container(
+                                    padding: const EdgeInsets.all(16.0),
+                                    child: Image.asset(
+                                      controller.currentQuestion.photo!,
+                                      fit: BoxFit.contain,
+                                    ),
+                                  ),
+                                ),
+                              );
+                            },
+                            child: SizedBox(
+                              width: 120, // Set the desired width for the small image
+                              height: 120, // Set the desired height for the small image
+                              child: Image.asset(
+                                controller.currentQuestion.photo!,
+                                fit: BoxFit.contain,
+                              ),
                             ),
                           ),
                         ),
+
                       // Dynamic SizedBox height based on photo existence
                       SizedBox(height: controller.currentQuestion.photo != null ? 5 : 50),
                       Padding(
@@ -138,10 +155,10 @@ class _QcmScreenState extends State<QcmScreen> {
                                 final correctOptions = controller.currentQuestion.correctAnswers;
 
                                 final currentFavoriteQuestion = FavoriteQuestion(
-                                  questionText: controller.currentQuestion?.question ?? '',
-                                  options: controller.currentQuestion?.options ?? [],
+                                  questionText: controller.currentQuestion.question ?? '',
+                                  options: controller.currentQuestion.options ?? [],
                                   correctOptions: correctOptions,
-                                  photo: controller.currentQuestion?.photo,
+                                  photo: controller.currentQuestion.photo,
                                 );
 
                                 favoriteController.toggleFavorite(currentFavoriteQuestion);

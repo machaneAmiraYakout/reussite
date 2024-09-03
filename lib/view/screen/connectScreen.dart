@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../presenter/controllers/connectController.dart';
+import '../../presenter/controllers/connectivityService.dart';
 import '../widget/customButton.dart';
 
 class ConnecteScreen extends StatelessWidget {
   final ConnectController _connectController = Get.put(ConnectController());
+  final ConnectivityService _connectivityService = Get.find<ConnectivityService>();
 
-   ConnecteScreen({super.key});
+  ConnecteScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -155,7 +157,19 @@ class ConnecteScreen extends StatelessWidget {
                   CustomButton(
                     text: 'Se Connecter',
                     onPressed: () {
-                      _connectController.connect();
+                      // Check the connectivity status before proceeding
+                      if (!_connectivityService.isConnected.value) {
+                        Get.snackbar(
+                          "No Connection",
+                          "You need an internet connection to continue",
+                          snackPosition: SnackPosition.BOTTOM,
+                          backgroundColor: Colors.red,
+                          colorText: Colors.white,
+                        );
+                      } else {
+                        // If connected, proceed with the connection logic
+                        _connectController.connect();
+                      }
                     },
                     borderRadius: 20,
                     sideColor: const Color(0x207e8fdb),

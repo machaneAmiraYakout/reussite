@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:reussite1/presenter/controllers/UserDetailsController.dart';
 import 'package:reussite1/presenter/controllers/connectController.dart';
+import 'package:reussite1/presenter/controllers/connectivityService.dart';
 import 'package:reussite1/presenter/controllers/favoriteController.dart';
 import 'package:reussite1/presenter/controllers/fetchAnneController.dart';
 import 'package:reussite1/presenter/controllers/moduleController.dart';
@@ -24,6 +25,7 @@ void main()async{
   Get.put(FavoriteController());
   Get.put(UserDetailsController());
   Get.put(FetchAnneeController());
+  Get.put(ConnectivityService());
 
   final sessionController = Get.put(SessionController());
 

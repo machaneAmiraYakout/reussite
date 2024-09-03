@@ -192,7 +192,6 @@
               ]
 
             },
-
             {
               "module": "Chimie",
               "year": "2021/2022",
@@ -460,6 +459,204 @@
             },
             {
               "module": "Chimie",
+              "year": "2018/2019",
+              "questions": [
+                {
+                  "question": "Au cours de la recherche de la déflexion d'un faisceau d'azote ionisé qui passe à travers un champ magnétique ainsi qu'un champ électrique sur la plaque photographique qui lui sert comme détecteur, il observe deux taches qui correspondent aux atomes de masses atomiques 14 et 15. Il conclut que l'azote est constitué :",
+                  "options": [
+                    "d'atomes de masses différentes.",
+                    "d'atomes ayant une très petite masse et une charge négative.",
+                    "de deux isotopes.",
+                    "d'atomes de numéros atomiques différents."
+                  ],
+                  "correctAnswers": [
+                    "de deux isotopes.",
+                    "d'atomes de masses différentes."
+                  ]
+                },
+                {
+                  "question": "La masse théorique du noyau du béryllium 10 est :",
+                  "options": [
+                    "10,07826 u.m.a.",
+                    "10,08104 u.m.a.",
+                    "10,07270 u.m.a.",
+                    "10,08660 u.m.a."
+                  ],
+                  "correctAnswers": [
+                    "10,08104 u.m.a."
+                  ]
+                },
+                {
+                  "question": "Le défaut de masse du noyau du béryllium 10 est :",
+                  "options": [
+                    "0",
+                    "0,06140 u.m.a.",
+                    "0,06974 u.m.a.",
+                    "0,06696 u.m.a."
+                  ],
+                  "correctAnswers": [
+                    "0,06974 u.m.a."
+                  ]
+                },
+                {
+                  "question": "La figure représentée ci-après :",
+                  "options": [
+                    "présente le tube de CROOKES",
+                    "sert à déterminer les particules chargées négativement",
+                    "contient une croix métallique placée sur le trajet qui sert à déterminer l'énergie cinétique des électrons",
+                    "prouve que les rayonnements cathodiques ont une trajectoire rectiligne."
+                  ],
+                  "correctAnswers": [
+                    "présente le tube de CROOKES",
+                    "sert à déterminer les particules chargées négativement"
+                  ],
+                  "photo": "assets/imageChimie/chimie7.jpg"
+                },
+                {
+                  "question": "La charge élémentaire a été déterminée à l'aide :",
+                  "options": [
+                    "D'un tube de Crookes",
+                    "D'une chambre de Wilson",
+                    "De l'expérience de la goutte d'huile de Max Planck",
+                    "Aucune des propositions citées (A à C) n'est exacte."
+                  ],
+                  "correctAnswers": [
+                    "Aucune des propositions citées (A à C) n'est exacte."
+                  ]
+                },
+                {
+                  "question": "Joseph John Thomson imagine un modèle de l'atome auquel :",
+                  "options": [
+                    "l'atome est assimilé à une sphère dont la surface porterait des énergies négatives.",
+                    "l'atome est assimilé à une sphère remplie d'une substance électriquement positive et fourrée d'électrons négatifs.",
+                    "son idée est contredite plus tard par Einstein.",
+                    "l'atome est assimilé à une sphère dont la surface porterait des énergies positives et à l'intérieure de laquelle se trouvent des électrons."
+                  ],
+                  "correctAnswers": [
+                    "l'atome est assimilé à une sphère remplie d'une substance électriquement positive et fourrée d'électrons négatifs.",
+                    "l'atome est assimilé à une sphère dont la surface porterait des énergies positives et à l'intérieure de laquelle se trouvent des électrons."
+
+                  ]
+                },
+                {
+                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique). Dans ce modèle appliqué à l'atome d'hydrogène :",
+                  "options": [
+                    "L'énergie totale du système noyau-électron est d'autant moins importante que le rayon de l'orbite est plus grand.",
+                    "Dans l'état fondamental, l'électron gravite autour du noyau sur une orbite circulaire de rayons r = 0,053 n' (nm) avec n = entier positif.",
+                    "Lorsque l'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
+                    "Lorsque l'électron passe du niveau n = 1 (d'énergie Ei) sur le niveau n = 2 (d'énergie Ez) il y a émission d'une radiation de fréquence v telle que v=(Ei-Ez)/h (h=constante de Planck)."
+                  ],
+                  "correctAnswers": [
+                    "Dans l'état fondamental, l'électron gravite autour du noyau sur une orbite circulaire de rayons r = 0,053 n' (nm) avec n = entier positif.",
+                    "Lorsque l'électron passe du niveau n = 1 (d'énergie Ei) sur le niveau n = 2 (d'énergie Ez) il y a émission d'une radiation de fréquence v telle que v=(Ei-Ez)/h (h=constante de Planck)."
+
+                  ]
+                },
+                {
+                  "question": "Thomson, Schrödinger, Millikan, Rutherford et Heisenberg sont cinq scientifiques qui ont travaillé sur le modèle de l'atome, classez leur nom par ordre chronologique.",
+                  "options": [
+                    "J. J. Thomson, Schrödinger, Millikan, Rutherford et Heisenberg.",
+                    "Rutherford, J. J. Thomson, Millikan, Heisenberg et Schrödinger.",
+                    "J. J. Thomson, Rutherford, Schrödinger, Millikan et Heisenberg.",
+                    "J. J. Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
+                  ],
+                  "correctAnswers": [
+                    "J. J. Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
+                  ]
+                },
+                {
+                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène, pris dans son état fondamental pour faire passer l'électron sur le niveau n=6. Après excitation, on enregistre le spectre d'émission. Le spectre d'émission contient :",
+                  "options": [
+                    "trois raies d'émission",
+                    "trois transitions dans l'infra rouge",
+                    "une seule transition dans l'ultraviolet",
+                    "une seule transition de la série de Pfund"
+                  ],
+                  "correctAnswers": [
+                    "trois transitions dans l'infra rouge",
+                    "une seule transition de la série de Pfund"
+
+                  ]
+                },
+                {
+                  "question": "La loi de MOSELEY établit la relation entre la fréquence des rayons x émis par chaque élément et :",
+                  "options": [
+                    "Le numéro atomique",
+                    "La longueur d'onde",
+                    "La masse atomique",
+                    "Le nombre de masse"
+                  ],
+                  "correctAnswers": [
+                    "Le numéro atomique"
+                  ]
+                },
+                {
+                  "question": "Les deux espèces chimiques He^+ et Li^2+ :",
+                  "options": [
+                    "ont le même noyau",
+                    "ne peuvent être différenciées car elles ont la même structure électronique",
+                    "ne peuvent être différenciées car elles ont le même noyau",
+                    "ont la même structure électronique"
+                  ],
+                  "correctAnswers": [
+                    "ont la même structure électronique"
+                  ]
+                },
+                {
+                  "question": "Au cours de l'émission d'un rayonnement de fréquence v, par un atome d'hydrogène, un électron passe d'un niveau d'énergie w1 à un autre w2. Si l'on astreint à ce que n soit inférieur ou égal à 5. Combien y a-t-il de raies possibles dans le spectre et calculer la plus grande fréquence. On donne : h = 4,14x10^(-15) eV.s.",
+                  "options": [
+                    "il y a 10 raies possibles et Vmax =3,155x10^15 gl",
+                    "il y a 10 raies possibles et vux - AEmax/h = 4,155 s-'",
+                    "il y a 9 raies possibles et max correspond à AEmax",
+                    "il y a 10 raies possibles et Ymer Correspond à Emin"
+                  ],
+                  "correctAnswers": [
+                    "il y a 10 raies possibles et Vmax =3,155x10^15 gl"
+                  ]
+                },
+                {
+                  "question": "Associer aux fonctions d'ondes électroniques ainsi définies Ф3, 1,-1 à leurs orbitales :",
+                  "options": [
+                    "6s, 3p, 4d, 5f",
+                    "6s, 3p, 4d, 7d",
+                    "6s, 4d, 5f",
+                    "3p, 4d, 7d"
+                  ],
+                  "correctAnswers": [
+                    "6s, 3p, 4d, 5f"
+                  ]
+                },
+                {
+                  "question": "Le nombre quantique azimutal pour une orbitale 4f est :",
+                  "options": [
+                    "l = 0",
+                    "l = 1",
+                    "l = 4",
+                    "l = 3"
+                  ],
+                  "correctAnswers": [
+                    "l = 3"
+                  ]
+                },
+                {
+                  "question": "Le nombre quantique magnétique mi pour une orbitale 4f est :",
+                  "options": [
+                    "m = -3",
+                    "mi = -1",
+                    "m = 0",
+                    "m = +2"
+                  ],
+                  "correctAnswers": [
+                    "m = -3",
+                    "mi = -1",
+                    "m = 0",
+                    "m = +2"                  ]
+                }
+              ]
+
+            },
+            {
+              "module": "Chimie",
               "year": "2017/2018",
               "questions": [
                 {
@@ -559,8 +756,1124 @@
                   "correctAnswers": [
                     "Tous les paramètres ci-dessus"
                   ]
+                },
+                {
+                  "question": "Pour tout système hydrogénoide,obtenu à partir d'un élément chimique X de numéro atomique Z, la formule de Ritz-Rydberg donnée pour l'atome d'hydrogène se généralise et on appelle Rx la constante de Rydberg de l'élément X Rx=(mxz2/mx+me)*RH. Dans cette formule mx est la masse du noyau de l'élément chimique X,m_e, la\nmasse de l'éléctron et RH=1,09737.10^7 m^-1 .On étudie ici l'atome d'hydrogène et ses deux isotopes : le deutérium et le tritium.",
+                  "options": [
+                  ],
+                  "correctAnswers": [
+                  ]
+                },
+                {
+                  "question": "Calculer, le nombre d'onde de la première raie de la série de lyman de l'atome d'hydrogène",
+                  "options": [
+                    " La série de lyman correspond à n=1. Pour l'atome d'hydrogène est ses isotopes (2=1) .v=0.",
+                    "La série de lyman correspond à n=2. Pour l'atome d'hydrogène est ses isotopes (2=1)v^' -82258cm^-1",
+                    "La série de lyman correspond à n= 1. Pour l'atome d'hydrogène est ses isotopes (Z=1).v -3155cm^-1",
+                    "La série de lyman correspond à n=1. Pour l'atome d'hydrogène est ses isotopes (Z=1).v=82258cm^-1"
+                  ],
+                  "correctAnswers": [
+                    "La série de lyman correspond à n=1. Pour l'atome d'hydrogène est ses isotopes (Z=1).v=82258cm^-1"
+                  ]
+                },
+                {
+                  "question": " les premières raies de la série analogue à celle de lyman pour le deutérium et le tritium valent respectivement :\nv (D)=82281,476cm^-1\"' et v (T)=82288,010cm^-1- En déduire les valeurs numériques de mp et my masses respectives des noyaux de deutérium et de tritium",
+                  "options": [
+                    "m_D =2,5232.10^-24 Kg et m_T =4,0854.10 Kg^-24",
+                    "m_D =2,5232.10^-27 Kg et m_T =4,0854.10 Kg^-27",
+                    "mo=2,0000.10^-27 Kg et mr=3,0000.10^-27 Kg",
+                    "Aucune des propositions citées (A à C) n'est exacte."
+                  ],
+                  "correctAnswers": [
+                    "m_D =2,5232.10^-27 Kg et m_T =4,0854.10 Kg^-27"
+                  ]
+                },
+                {
+                  "question": "calculer le nombre d'onde limite de la série de balmer pour chaque isotope de l'hydrogène.",
+                  "options": [
+                    "La série de Balmer correspond à n=3. Pour l'atome d'hydrogène est ses isotopes (Z=1).v= (1/4) mx R_H / m_e + m_x",
+                    "Pour le deutériumv=(¼) m_D R_H / m_e +m_D=24719 cm_-1 'et Pour le tritium v=(¼) m_T R_H / m_e +m_H=27419 cm^-1",
+                    "Pour le deutériumy =(3/4)mp Ru / metmp=24719 cm'et Pour le tritium v=(3/4) mrRu / metmr=27419 cm^-1 ",
+                    "Pour le deutériumv=(¼) m_D R_H / me+mp=27427 cm 'et Pour le tritium v=(¼) mr Ru / m_e +m_y=27429cm^-1"
+                  ],
+                  "correctAnswers": [
+                    "Pour le deutériumv=(¼) m_D R_H / me+mp=27427 cm 'et Pour le tritium v=(¼) mr Ru / m_e +m_y=27429cm^-1"
+                  ]
+                },
+                {
+                  "question": " quel est le numéro atomique Z de l'atome A, la charge de son noyau étant de\nQ=1.249x10^-17 C et comporte 195 nucléons.",
+                  "options": [
+                    "Le numéro atomique Z=79.",
+                    "Le numéro atomique 2=78 correspond à un métal de transition.",
+                    "Le numéro atomiqueZ=78.L'atome Platine Pt (Z=78) correspond à une irrégularitéet appartient au bloc D.",
+                    "Le numéro atomique Z=79 correspond au Einsteinium et appartient à la colonne 15."
+                  ],
+                  "correctAnswers": [
+                    "Le numéro atomique 2=78 correspond à un métal de transition.",
+                    "Le numéro atomiqueZ=78.L'atome Platine Pt (Z=78) correspond à une irrégularitéet appartient au bloc D."
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes Co (2= 27), 1 (Z= 53) Na (2= 11) et Pu (Z= 94) les bonnes structures électroniques parmi : 1) [Kr] 4d^10 5s^2 5p^5\n 2) [Ar] 3d^7 4s^2\n3) [Xe] 4f^14 5d^6 6s^2\n4) [Rn] 5f^6 7s^2\n5)[He] 2s^2 2p^3 6)[Ne] 3s^1\nLes bonnes associations sont :",
+                  "options": [
+                    "Co (2), I (1), Na (6) et Pu (4)",
+                    "Na (1), Pu (3), Co (5) et I (2)",
+                    "Pu (5), Na (4), I (6) et Co (3)",
+                    "Co (3), Na (1), I(2) et PU (6)"
+                  ],
+                  "correctAnswers": [
+                    "Co (2), I (1), Na (6) et Pu (4)"
+                  ]
+                },
+                {
+                  "question": "Choisir la (ou les) bonne(s) réponse(s).",
+                  "options": [
+                    "Les éléments de la 2ême colonne Constituent la famille des Alcalino-terreux et possède le même nombre d'électrons de valence égale à 1.",
+                    "Tous les isotopes d'un élément chimique possèdent le même nombre d'électrons de valence.",
+                    "Les éléments de la 11ême colonne de la Classification donnent facilement des anions.",
+                    "il existe 9 gaz rares dans la Classification périodique des éléments."
+                  ],
+                  "correctAnswers": [
+                    "Tous les isotopes d'un élément chimique possèdent le même nombre d'électrons de valence."
+                  ]
+                },
+                {
+                  "question": "Choisir la (ou les) bonne(s) réponse(s)\nLe néon, l'argon et le krypton :",
+                  "options": [
+                    "Ont la même structure électronique externe ;",
+                    "Ont une faible réactivité chimique:",
+                    "Existent sous forme diatomique ;",
+                    "Appartiennent à la même famille;"
+                  ],
+                  "correctAnswers": [
+                    "Ont la même structure électronique externe ;",
+                    "Ont une faible réactivité chimique:",
+                    "Appartiennent à la même famille;"
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes Ba (2= 56), Fe (Z- 26) Sn (Z= 50) et Cm (2= 96) les bonnes structures électroniques parmi :\n1) [Kr] 5s^24d^10 5p^2 2) [Xe] 4f^14 5d^5 6s^2 3) [Rn] 5f^3 6d^1 7s^2\n4)[Ar] 3d^6 4s^2 5)[Xe]6s^2 6)[Rn] 5f^7 6d^1 7s^2\nLes bonnes associations sont :",
+                  "options": [
+                    "Sn -1)",
+                    "Ba -5)",
+                    "Fe -4)",
+                    "Cm -6)"
+                  ],
+                  "correctAnswers": [
+                    "Sn -1)",
+                    "Ba -5)",
+                    "Fe -4)",
+                    "Cm -6)"
+
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes Sc(Z-21), V (Z=23), Cr(Z=24), Fe (Z-26) et Ni (Z=28) et Cu (Z=29) les potentiels de troisième ionisation.\nLes potentiels de troisième ionisation sont : (1) 36,8 cV ;(2) 24,8 eV ; (3) 35,2 cV ;\n(4) 31,0 cV ; (5) 30,6 eV et (6)29,3 cV.\nLes bonnes associations sont :",
+                  "options": [
+                    "Cr(1), V (3),Sc(2)Ni (6),Fe(5)et Cu(4)",
+                    "Sc(3), V(1),Fe(2) Cu(6),Ni(5)et Cr(4)",
+                    "Fe(5), Cr(4), V(6)Ni(3), Cu (1)et Sc(2)",
+                    "Aucune des propositions citées (A à C) n'est exacte"
+                  ],
+                  "correctAnswers": [
+                    "Fe(5), Cr(4), V(6)Ni(3), Cu (1)et Sc(2)"
+                  ]
+                },
+                {
+                  "question": "Energie d'ionisation :",
+                  "options": [
+                    "L'énergie de première ionisation est l'énergie minimale qu'il faut fournir à un atome\nX à l'état gazeux pour arracher un électron de sa couche la plus interne.",
+                    "L'arrachement d'un électron est toujours un processus endothermique.",
+                    "L'énergie de première ionisation diminue avec le numéro atomique sur une période.",
+                    "L'énergie de première ionisation des métaux alcalins est particulièrement faible."
+                  ],
+                  "correctAnswers": [
+                    "L'arrachement d'un électron est toujours un processus endothermique.",
+                    "L'énergie de première ionisation des métaux alcalins est particulièrement faible."
+                  ]
+                },
+                {
+                  "question": "Le brome et le fluor qui constituent la molécule de BrF, appartiennent à la famille des halogènes. Le brome est l'atome central de cette molécule.",
+                  "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "correctAnswers": [
+                    "."
+                  ]
+                },
+                {
+                  "question": "Le schéma de Lewis de BrF montre que :",
+                  "options": [
+                    "Seuls les électrons de valence participent à la formation des liaisons.",
+                    "L'atome de brome ne porte aucun doublet non liant",
+                    "L'atome de brome porte 2 doublets non liants",
+                    "Les atomes de la molécule vérifient la règle de l'octet."
+
+                  ],
+                  "correctAnswers": [
+                    "Seuls les électrons de valence participent à la formation des liaisons.",
+                    "L'atome de brome porte 2 doublets non liants",
+                    "Les atomes de la molécule vérifient la règle de l'octet."
+
+                  ]
+                },
+                {
+                  "question": "donner la (ou les) bonne(s) proposition(s):",
+                  "options": [
+                    "Le caractère ionique partiel est calculer en utilisant la différence d'énergie d'ionisation.",
+                    "chaque liaison Br-F à un moment dipolaire non nul",
+                    "Le pourcentage ionique de la liaison est le rapport entre le moment dipolaire théorique et le moment dipolaireexpérimental",
+                    "la molécule BrFj, à un moment dipolaire non nul"
+
+                  ],
+                  "correctAnswers": [
+                    "chaque liaison Br-F à un moment dipolaire non nul",
+                    "la molécule BrFj, à un moment dipolaire non nul"
+                  ]
+                },
+                {
+                  "question": "Quel serait, s'il existait, le numéro atomique du premier élément du bloc g de la classification périodique ?",
+                  "options": [
+                    "Cet élément chimique vient d'être découvert.",
+                    "le numéro atomique Z du premier élément du bloc g soit : Z=119.",
+                    "La configuration électronique du premier élément du bloc g se terminant en 5g^1",
+                    "Le numéro atomique Z du premier élément du bloc g soit : Z=121. "
+
+                  ],
+                  "correctAnswers": [
+                    "La configuration électronique du premier élément du bloc g se terminant en 5g^1",
+                    "Le numéro atomique Z du premier élément du bloc g soit : Z=121. "
+                  ]
                 }
 
+              ]
+            },
+            {
+              "module": "Chimie",
+              "year": "2015/2016",
+              "questions": [
+                {
+                  "question": "À la suite de l'expérience sur le tube de Crookes, on fait passer les rayons cathodiques entre deux plaques métalliques chargées électriquement. Ceux-ci sont attirés par la plaque positive, ceci constitue une preuve que :",
+                  "options": [
+                    "A) les rayons cathodiques sont en réalité un flux de particules ayant une très petite masse et une charge négative.",
+                    "B) les rayons cathodiques sont des particules ayant une charge négative.",
+                    "C) les rayons cathodiques sont des particules avec une charge positive.",
+                    "D) les rayons cathodiques ne sont pas de particules."
+                  ],
+                  "correctAnswers": [
+                    "A) les rayons cathodiques sont en réalité un flux de particules ayant une très petite masse et une charge négative."
+                  ]
+                },
+                {
+                  "question": "Dans une expérience de J.J. Thomson sur les rayons cathodiques, la lumière est déviée entre deux plaques métalliques horizontales produisant un champ électrique uniforme. Sachant que l'intensité du champ électrique entre les deux plaques est E = 2.27x10^5 V/m, que l'électron sort des plaques avec une vitesse de 8.5x10^6 m/s et que la distance entre les plaques est de 1.85 cm. Quelle est l'intensité du champ magnétique ?",
+                  "options": [
+                    "A) L'intensité du champ électrique entre les deux plaques est de 28.15 kV/cm².",
+                    "B) L'intensité du champ magnétique est de 1.76x10^1 kV/m.",
+                    "C) Aucun des paramètres n'est connu.",
+                    "D) L'intensité du champ est de 1.27x10^3 N/C."
+                  ],
+                  "correctAnswers": [
+                    "A) L'intensité du champ électrique entre les deux plaques est de 28.15 kV/cm²."
+                  ]
+                },
+                {
+                  "question": "Une expérience historique établie par Milikan sur les gouttelettes de micro masse et de charge a montré que les gouttelettes peuvent être suspendues à l’aide d’un champ électrique. Calculez la charge élémentaire de ces gouttelettes.",
+                  "options": [
+                    "A) La charge est quantifiée et est un multiple de 1.6x10^-19 C.",
+                    "B) La charge est multiple des mêmes charges quantifiées.",
+                    "C) Aucune charge n'est définie.",
+                    "D) Aucune des propositions n'est correcte."
+                  ],
+                  "correctAnswers": [
+                    "A) La charge est quantifiée et est un multiple de 1.6x10^-19 C."
+                  ],
+                  "photo": "assets/imageChimie/chimie6.jpg"
+
+                },
+                {
+                  "question": "La charge de la gouttelette est donnée par la relation Q = 6πnηr(vg + vg'). Estimez la charge des gouttelettes A et B en utilisant les données du tableau et cette relation.",
+                  "options": [
+                    "A) La charge des gouttelettes est donnée par la relation 6πnηr(vg + vg').",
+                    "B) La charge est égale à vg seul.",
+                    "C) La charge est égale à la somme des valeurs vg et vg'.",
+                    "D) Aucune des propositions n'est correcte."
+                  ],
+                  "correctAnswers": [
+                    "A) La charge des gouttelettes est donnée par la relation 6πnηr(vg + vg')."
+                  ]
+                },
+                {
+                  "question": "Thomson, Schrödinger, Millikan, Rutherford et Heisenberg sont 5 scientifiques ayant travaillé sur le modèle atomique. Classez-les dans l'ordre chronologique.",
+                  "options": [
+                    "A) Thomson, Schrödinger, Millikan, Rutherford et Heisenberg.",
+                    "B) Thomson, Millikan, Rutherford, Heisenberg et Schrödinger.",
+                    "C) Rutherford, Thomson, Millikan, Heisenberg et Schrödinger.",
+                    "D) Thomson, Rutherford, Schrödinger, Millikan et Heisenberg."
+                  ],
+                  "correctAnswers": [
+                    "B) Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
+                  ]
+                },
+                {
+                  "question": "L'énergie nécessaire pour exciter l'atome d'hydrogène, pris dans son état fondamental, pour faire passer l'électron sur le niveau supérieur est :",
+                  "options": [
+                    "A) égale à 13.6.",
+                    "B) supérieure à 13.6.",
+                    "C) inférieure à 13.6.",
+                    "D) donnée par la relation 13.6/n²."
+                  ],
+                  "correctAnswers": [
+                    "C) inférieure à 13.6."
+                  ]
+                },
+                {
+                  "question": "Le spectre d'émission de l'atome d'hydrogène contient :",
+                  "options": [
+                    "A) neuf raies d'émission.",
+                    "B) trois transitions dans le visible.",
+                    "C) une seule transition dans la série de Pfund.",
+                    "D) trois transitions dans l'ultraviolet."
+                  ],
+                  "correctAnswers": [
+                    "C) une seule transition dans la série de Pfund."
+                  ]
+                },
+                {
+                  "question": "Calculer en A la longueur d’onde associée à une balle de fusil dont la masse est de 2g et la vitesse = 300m.s⁻¹.",
+                  "options": [
+                    "la longueur d’onde associée cette balle de fusil est de 1,103m",
+                    "une balle de fusil est une particule de longueur d’onde négligeable.",
+                    "la longueur d’onde associée à cette balle de fusil est de 1,103×10⁻³⁵m.",
+                    "la longueur d’onde associée à cette balle de fusil est donnée par la relation de Ritz Rydberg."
+                  ],
+                  "correctAnswers": ["la longueur d’onde associée à cette balle de fusil est de 1,103×10⁻³⁵m."]
+                },
+                {
+                  "question": "Calculer en Å la longueur d’onde associée à des électrons d’énergie cinétique 54eV.",
+                  "options": [
+                    "la longueur d’onde associée à des électrons est de 1,036×10⁻⁸m.",
+                    "la longueur d’onde associée à ces électrons est de 1,678×10⁻²⁰m.",
+                    "la longueur d’onde de ces électrons est négligeable.",
+                    "la longueur d’onde associée à ces électrons est donnée par la relation de de Broglie et d’Einstein."
+                  ],
+                  "correctAnswers": ["la longueur d’onde associée à des électrons est de 1,036×10⁻⁸m."]
+                },
+                {
+                  "question": "Associer aux fonctions d’ondes électroniques ainsi définies Ψ₁₀₀, Ψ₄₀₀, Ψ₅₀₀ et Ψ₃₂₁ les orbitales.",
+                  "options": [
+                    "1s, 2p, 4d et 4f.",
+                    "1s, 4s, 5p et 5f.",
+                    "2s, 3d, 4f et 5f.",
+                    "4s, 2p, 5d et 5f."
+                  ],
+                  "correctAnswers": ["1s, 4s, 5p et 5f."]
+                },
+                {
+                  "question": "On recherche les valeurs que peuvent prendre les nombres quantiques l et ml lorsqu’ils caractérisent un électron décrit par une orbitale 4f.",
+                  "options": [
+                    "l = 1.",
+                    "l = 3.",
+                    "l = 0.",
+                    "l = -1."
+                  ],
+                  "correctAnswers": [
+                    "l = 3.",
+                    "ml = -5."
+                  ]
+                },
+                {
+                  "question": "Le nombre quantique magnitique m.",
+                  "options": [
+                    "m = -4.",
+                    "m = -1.",
+                    "m = 0.",
+                    "m = +5."
+                  ],
+                  "correctAnswers": [
+                    "m = -1.",
+                    "m = 0."
+                  ]
+                },
+                {
+                  "question": "Quel est le numéro atomique Z de l’atome A, la charge de son noyau étant de Q = 1,33×10⁻¹⁹ C et comporte 209 nucléons.",
+                  "options": [
+                    "Le numéro atomique Z = 200.",
+                    "Le numéro atomique Z = 80 correspond à un alcalino terreux.",
+                    "Le numéro atomique Z = 83 est appartient au bloc d.",
+                    "Le numéro atomique Z = 83 correspond au bismuth et appartient à la colonne 15."
+                  ],
+                  "correctAnswers": ["Le numéro atomique Z = 83 correspond au bismuth et appartient à la colonne 15."]
+                },
+                {
+                  "question": "Les atomes de certains éléments ont des noyaux instables qui se décomposent spontanément et se transforment en d’autres éléments en émettant des rayonnements. On les utilise notamment en médecine pour diagnostiquer.",
+                  "options": [
+                    "(Z=53) à 6s²5p².",
+                    "(Z=12) à 3p⁶.",
+                    "(Z=94) à 5f⁴7s².",
+                    "(Z=11) à 3p³4s⁴."
+                  ],
+                  "correctAnswers": ["(Z=94) à 5f⁴7s²."]
+                },
+                {
+                  "question": "Choisir la ou les bonnes réponses :\n les element situes dans la 1^ere colonnes de la classification ",
+                  "options": [
+                    "constituent la famille des halogènes;",
+                    "ont des atomes avec un seul électron externe;",
+                    "donnent facilement des cations:",
+                    "présentent un caractère métallique"
+                  ],
+                  "correctAnswers": [
+                    "ont des atomes avec un seul électron externe;",
+                    "donnent facilement des cations:",
+                    "présentent un caractère métallique"
+                  ]
+                },
+                {
+                  "question": "Choisir la (ou les) bonne(s) réponse(s). L’hélium, le néon, l’argon :",
+                  "options": [
+                    "ont la même structure électronique externe.",
+                    "appartiennent à la même famille.",
+                    "existent sous forme diatomique.",
+                    "ont une faible réactivité chimique."
+                  ],
+                  "correctAnswers": [
+                    "appartiennent à la même famille.",
+                    "ont une faible réactivité chimique."
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes Os (Z = 76), Bi (Z = 83) Ku (Z = 104) et Np (Z = 93) les bonnes structures électroniques parmi :\n 1) [kr]5s^2 4d^10 5p^2 ,[xe]4f^14 5d^6 6s^2 ,[xe]4f^2 6s^2 \n[Re]5f^14 6d^7 7s^7 ,[xe]4f^14 5d^10 6s^2 6p^2 ,[He]2s^2 2p^3",
+                  "options": [
+                    "Os -2",
+                    "Ku -4",
+                    "Np -6",
+                    "Bi -5"
+                  ],
+                  "correctAnswers": [
+                    "Os -2",
+                    "Ku -4",
+                    "Bi -5"
+
+                  ]
+                },
+                {
+                  "question": "Les deux espèces chimiques _4 Be et _5 B^4 ",
+                  "options": [
+                    "ont le même noyau.",
+                    "ne peuvent être différenciées car elles ont la même structure électronique.",
+                    "ne peuvent être différenciées car elles ont le même noyau.",
+                    "ont la même structure électro"
+                  ],
+                  "correctAnswers": ["B) Non."]
+                },
+                {
+                  "question": "Dans la classification périodique des éléments, chaque atome occupe une colonne et une période bien déterminée. Donner la (les) bonne(s) réponse(s).",
+                  "options": [
+                    "A) Tous les éléments de la colonne 1 ont pour structure électronique ns¹.",
+                    "B) Tous les éléments de la colonne 6 ont la structure électronique externe ns²np⁴.",
+                    "C) Tous les éléments ayant la même structure électronique externe ns²n'p² sont situés en colonne 2.",
+                    "D) 18 est le nombre maximum d’éléments que peut contenir une colonne."
+                  ],
+                  "correctAnswers": ["A) Tous les éléments de la colonne 1 ont pour structure électronique ns¹."]
+                },
+                {
+                  "question": "Associer aux atomes Ne (Z = 10), Na (Z = 11) et Mg (Z = 12) \nles potentiels de première ionisation  1) 05.14eV; 2) 07.64eV 3) 21.56eV \n seconde ionisation:4) 47.29eV 5)41.07eV ,5)22.67eV ",
+                  "options": [
+                    "A) Ne (3) Na(1) et Mg(2)",
+                    "B) Ne (1) Na(3) et Mg(2)",
+                    "C) Ne (5) Na(4) et Mg(6)",
+                    "D) Ne (6) Na(5) et Mg(4)"
+                  ],
+                  "correctAnswers": [
+                    "A) Ne (3) Na(1) et Mg(2)",
+                    "C) Ne (5) Na(4) et Mg(6)"
+                  ]
+                }
+              ]
+            },
+            {
+              "module": "Chimie",
+              "year": "2014/2015",
+              "questions": [
+                {
+                  "question": "On établit entre les 2 disques une différence de potentiel U=3,8 kV. Quelle est la charge et le nombre\nle ont per en e a le cuite Benae este unique de 'huile : P=851kg.m^-3 charge de l electron=1.602x10^-19 C rt le rayon dela goutte est de 1.64 µm",
+                  "options": [
+                    "Q = 31, 89x10^-20 C et 2 électrons portés par la gouttelette.",
+                    "Q-7,527x10^-19 C et 4 électrons portés par la gouttelette",
+                    "Q= 1,6x10^-18 C et 10 électrons portés par la gouttelette",
+                    "Aucune des propositions citées (A a D) n'est exacte"
+                  ],
+                  "correctAnswers": [
+                    "De l'expérience de la goutte d'huile de MILLIKAN"
+                  ],
+                  "photo": "assets/imageChimie/chimie3.jpg"
+                },
+                {
+                  "question": "EXERCICE comportant les questions 2, 3, 4 et 5:\nDes atomes d'hydrogène à l'état fondamental sont excités par un rayonnement UV de longueur d'onde\n97,35 nm.",
+                  "options": [
+                  ],
+                  "correctAnswers": [
+                  ]
+                },
+                {
+                  "question": "Quel est le nombre quantique principal de l'état ainsi obtenu ?donnée : Rw= 1,09677.10' m''.",
+                  "options": [
+                    "égal à 2,97",
+                    " Il faut arrondir le résultat numérique à l'entier le plus proche si le nombre quantique n'est pas un entier positif",
+                    "inférieur ou égal à 4.",
+                    "donné par la relation 2-h/mv."
+                  ],
+                  "correctAnswers": [
+                    " Il faut arrondir le résultat numérique à l'entier le plus proche si le nombre quantique n'est pas un entier positif",
+                    "inférieur ou égal à 4."
+                  ]
+                },
+                {
+                  "question": "Combien de sous-couches admet le nombre quantique principal calculé dans la question 2 ?",
+                  "options": [
+                    "le niveau admet 1 sous- couche.",
+                    "le niveau admet les trois sous- couches s, p et d.",
+                    "le niveau admet 4 sous- couches.",
+                    "Aucune des propositions citées (A à D) n'est exacte."
+                  ],
+                  "correctAnswers": [
+                    "le niveau admet 4 sous- couches."
+                  ]
+                },
+                {
+                  "question": "Quels sont les longueurs d'onde des différentes radiations que peuvent émettre ces atomes lorsqu'ils se désexcitent vers le niveau n=2.",
+                  "options": [
+                    "les longueurs d'onde émises sont calculées à l'aide de la formule de Ritz-Rydberg",
+                    "λ_1 =1.88µm et λ_2 =486nm",
+                    "λ_1 =486µm",
+                    "λ_1 =486µm et λ_2 =656nm"
+                  ],
+                  "correctAnswers": [
+                    "les longueurs d'onde émises sont calculées à l'aide de la formule de Ritz-Rydberg"
+                  ]
+                },
+                {
+                  "question": " Quelles sont les longueurs d'onde des différentes radiations que peuvent émettre ces atomes lorsqu'ils se désexcitent vers le niveau n=1.",
+                  "options": [
+                    "λ_1 =97.3µm et λ_2 =103nm λ_3 =122nm ",
+                    "λ_1 =1.88µm et λ_2 =486nm",
+                    "λ_1 =486µm et λ_2 =656nm",
+                    "les longueurs d'onde émises sont calcuiées à l'aide de la loi de Moseley"
+                  ],
+                  "correctAnswers": [
+                    "les longueurs d'onde émises sont calculées à l'aide de la formule de Ritz-Rydberg"
+                  ]
+                },
+                {
+                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène, pris dans son état fondamental pour faire passer l'électron sur le niveau n=6. Après excitation, on enregistre le spectre d'émission.\nLe spectre d'émission contient :",
+                  "options": [
+                    "Quinze raies d'émission.",
+                    "Quatre transitions dans le visible.",
+                    "Trois transitions dans l'infra-rouge.",
+                    "Une seule transition de la série de Pfund."
+                  ],
+                  "correctAnswers": [
+                    "Quinze raies d'émission.",
+                    "Quatre transitions dans le visible.",
+                    "Trois transitions dans l'infra-rouge.",
+                    "Une seule transition de la série de Pfund."
+                  ]
+                },
+                {
+                  "question": " Quelle est l'énergie nécessaire pour ioniser un atome d'hydrogène à partir de son état fondamental ?",
+                  "options": [
+                    "E_iosination = -13,6 eV",
+                    "E_iosination = E_final- E_initial =-13.6 kJoule/mole",
+                    "E_iosination =E_0 - E_1 =-13.6 eV",
+                    "Aucune des propositions citées (A à D) n'est exacte."
+                  ],
+                  "correctAnswers": [
+                    "E_iosination =E_0 - E_1 =-13.6 eV"
+                  ]
+                },
+                {
+                  "question": " L'ion X est un hydrogénoide. L'énergie du niveau fondamental est -217 eV et l'énergie du même état pour l'atome d'hydrogène est - 13,6 eV.\nDonner le numéro atomique de X ainsi que le rayon de l'ion pour n=2.",
+                  "options": [
+                    "L'ion X a pour numéro atomique Z - 24.",
+                    "L'ion X a pour numéro atomique 2 - 4, correspondant au béryllium.",
+                    "Le rayon de X (ion) pour n = 2 est r = 0.132 A",
+                    "Le rayon de X (ion) pour n= 2 est r= 0.530 À."
+                  ],
+                  "correctAnswers": [
+                    "L'ion X a pour numéro atomique 2 - 4, correspondant au béryllium.",
+                    "Le rayon de X (ion) pour n= 2 est r= 0.530 À."
+                  ]
+                },
+                {
+                  "question": "Associer aux orbitales ainsi définies 3s, 4p. 6d et 5f des fonctions d'ondes électroniques :",
+                  "options": [
+                    "Ψ3.0.0 Ψ4.2.-1 Ψ6.1.0 et Ψ5.3.3",
+                    "Ψ4.3.3 Ψ4.2.-1 Ψ2.1.0 et Ψ1.0.0",
+                    "Ψ2.0.0 Ψ4.1.0 Ψ6.2.-1 et Ψ4.3.3",
+                    "Ψ3.0.0 Ψ4.1.-1 Ψ6.2.-2 et Ψ5.3.0"
+                  ],
+                  "correctAnswers": [
+                    "Ψ3.0.0 Ψ4.1.-1 Ψ6.2.-2 et Ψ5.3.0"
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes Re (2- 75), Po (Z- 84) Hs (2- 109) et Am (2- 95) les bonnes structures électroniques parmi\n 1) [Kr] 5s^2 4d^10 5p^2 4) [Rn] Sf^6 d^1 7s^2\n2) (Xe) 4f^14 Sd^5 6s^2  5) [Xe] 4f^14 5d^10 6s^2 6p^4\"\n3) [Xe) 4f^2 6s^2 6) [He] 2s^2 2p^3",
+                  "options": [
+                    "Re-2)",
+                    "Am-4)",
+                    "Hs-6)",
+                    "Po-5)"
+                  ],
+                  "correctAnswers": [
+                    "Re-2)",
+                    "Am-4)",
+                    "Po-5)"
+                  ]
+                },
+                {
+                  "question": " Dans la classification périodique des éléments. le cuivre (Z.-29) se trouve situé :",
+                  "options": [
+                    "en période 6:",
+                    "dans la couche d :",
+                    "sous-groupe IB:",
+                    "en colonne 6."
+                  ],
+                  "correctAnswers": [
+                    "sous-groupe IB:"
+                  ]
+                },
+                {
+                  "question": " On raisonne sur un élément de la période 4. Donner la (les) bonne (s) proposition(s) :",
+                  "options": [
+                    "son numéro atomique est supérieur ou égal à 29.",
+                    "son numéro atomique est inférieur ou égal à 36.",
+                    "s'il est en colonne 14, il appartient au groupe d.",
+                    "s'il est en colonne 11, alors 7 électrons sont décrits par des orbitales S."
+                  ],
+                  "correctAnswers": [
+                    "son numéro atomique est inférieur ou égal à 36.",
+                    "s'il est en colonne 11, alors 7 électrons sont décrits par des orbitales S."
+                  ]
+                },
+                {
+                  "question": "On raisonne sur un élément de numéro atomique Z= 92.",
+                  "options": [
+                    "sa structure électronique externe est de 5f^14 6d^10 7s^2.",
+                    "est un élément du bloc f",
+                    "de configuration [Rn] Sf^3 6d^1 7s^2, ne fait pas partie des cas irrégulier.",
+                    "est un actinide."
+                  ],
+                  "correctAnswers": [
+                    "est un élément du bloc f",
+                    "est un actinide."
+                  ]
+                },
+                {
+                  "question": "On mesure un moment dipolaire expérimental,ε:mesure la valeur absolue de la charge réelle de chaque atome.",
+                  "options": [
+                    "Le moment dipolaire expérimental est de 4,95x10^-31 C.m",
+                    "la liaison CO ne peut avoir un moment dipolaire",
+                    "Le moment dipolaire théorique est de 1.84 x10^-29 C.m = 3.52 D",
+                    "Le pourcentage ionique de la liaison est 70%"
+                  ],
+                  "correctAnswers": [
+                    "Le moment dipolaire expérimental est de 4,95x10^-31 C.m",
+                    "Le moment dipolaire théorique est de 1.84 x10^-29 C.m = 3.52 D"
+                  ],
+                  "photo": "assets/imageChimie/chimie4.jpg"
+
+                },
+                {
+                  "question": ": L'oxygène et le carbone peuvent s'associer pour former le monoxyde de carbone",
+                  "options": [
+                    "La formule de Lewis du monoxyde de carbone vérifie la règle de l'octet.",
+                    "On crée une liaison triple pour que les deux atomes respectent la règle de l'octer: C≡O)",
+                    " La localisation des charges est en désaccord avec les électronégativités.",
+                    " Le pourcentage d'ionicité d'une liaison est le rapport entre le moment dipolaire théorique et le moment dipolaire expérimental."
+                  ],
+                  "correctAnswers": [
+                    "On crée une liaison triple pour que les deux atomes respectent la règle de l'octer: C≡O)",
+                    " La localisation des charges est en désaccord avec les électronégativités."
+                  ]
+                }
+              ]
+            },
+            {
+              "module": "Chimie",
+              "year": "2013/2014",
+              "questions": [
+                {
+                  "question": "On établit entre les 2 disques une différence de potentiel U=2470V. Quelle est la charge et le nombre d'électrons portés par une gouttelette à l'équilibre?",
+                  "options": [
+                    "Q = 3,1 * 10^-20 C et 2 électrons portés par la gouttelette.",
+                    "Q = 6,4 * 10^-19 C et 4 électrons portés par la gouttelette.",
+                    "Q = 1,6 * 10^-19 C et 10 électrons portés par la gouttelette.",
+                    "Q = 9,45 * 10^-19 C et 6 électrons portés par la gouttelette."
+                  ],
+                  "correctAnswers": [
+                    "Q = 9,45 * 10^-19 C et 6 électrons portés par la gouttelette."
+                  ],
+                  "photo": "assets/imageChimie/chimie4.jpg"
+
+                },
+                {
+                  "question": "Un électron a pour longueur d'onde associée λ=0,364 A. Calculer l'incertitude minimale sur sa position sachant que l'incertitude relative sur la longueur est de 1/100.",
+                  "options": [
+                    "Δx ≥ 36,4 Å.",
+                    "Δx ≤ 36,4 Å.",
+                    "Δx > 36,4 Å.",
+                    "Δx < 36,4 Å."
+                  ],
+                  "correctAnswers": [
+                    "Δx ≥ 36,4 Å."
+                  ]
+                },
+                {
+                  "question": "Connaissant la valeur de la longueur d'onde associée à un électron égal à 3,306 Å. Calculer la vitesse de cette onde.",
+                  "options": [
+                    "v = 33 m/s.",
+                    "v = 0,22 * 10^7 m/s.",
+                    "v = 5 * 10^5 m/s.",
+                    "Aucune des propositions citées."
+                  ],
+                  "correctAnswers": [
+                    "v = 0,22 * 10^7 m/s."
+                  ]
+                },
+                {
+                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique). Lorsque l'électron passe du niveau n=1 (d'énergie E1) au niveau n=2 (d'énergie E2), il y a émission d'une radiation de fréquence ν telle que ν = E2-E1/h.",
+                  "options": [
+                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand.",
+                    "L'électron gravite autour du noyau sur plusieurs orbites circulaires de rayons r = 0,053 n².",
+                    "L'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
+                    "Lorsqu'il passe du niveau n=1 au niveau n=2, il y a émission d'une radiation dans l'ultraviolet."
+                  ],
+                  "correctAnswers": [
+                    "Lorsqu'il passe du niveau n=1 au niveau n=2, il y a émission d'une radiation dans l'ultraviolet."
+                  ]
+                },
+                {
+                  "question": "L'analyse d'un objet métallique par fluorescence X révèle la présence d'une raie Kα à 2,285 Å. Déterminer le numéro atomique de l'élément responsable de cette émission.",
+                  "options": [
+                    "L'élément responsable de cette émission est le manganèse.",
+                    "L'élément responsable de cette émission est le chrome.",
+                    "L'élément responsable de cette émission est le fer.",
+                    "Aucune des propositions citées."
+                  ],
+                  "correctAnswers": [
+                    "L'élément responsable de cette émission est le chrome."
+                  ]
+                },
+                {
+                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène pour le faire passer de son état fondamental à son état excité, puis on examine le spectre d'émission. Le spectre contient :",
+                  "options": [
+                    "Deux transitions dans le visible.",
+                    "Trois transitions dans l'ultraviolet.",
+                    "Une seule transition dans l'ultraviolet.",
+                    "Deux transitions dans l'infrarouge."
+                  ],
+                  "correctAnswers": [
+                    "Deux transitions dans le visible."
+                  ]
+                },
+                {
+                  "question": "Retrouver la proposition exacte qui donne le classement des rayonnements par ordre d'énergie croissante.",
+                  "options": [
+                    "UV < visible < IR < X.",
+                    "X < IR < visible < UV.",
+                    "X < UV < visible < IR.",
+                    "UV < IR < visible < X."
+                  ],
+                  "correctAnswers": [
+                    "X < UV < visible < IR."
+                  ]
+                },
+                {
+                  "question": "La formule de Rydberg donnée pour l'atome d'hydrogène se généralise. Pour le deutérium, déterminer la masse du noyau de deutérium.",
+                  "options": [
+                    "md = 0.",
+                    "md = 6,2726 * 10^-27 kg.",
+                    "md = 6,6261 * 10^-27 kg.",
+                    "md = 4,7125 * 10^-27 kg."
+                  ],
+                  "correctAnswers": [
+                    "md = 6,6261 * 10^-27 kg."
+                  ],
+                  "photo": "assets/imageChimie/chimie5.jpg"
+
+                },
+                {
+                  "question": "Associer aux orbitales ainsi définies 1s, 2P, 4d et 4f des fonctions d'ondes électroniques.",
+                  "options": [
+                    "Ψ1,0,0.",
+                    "Ψ4,3,3.",
+                    "Ψ4,2,2.",
+                    "Aucune des propositions citées."
+                  ],
+                  "correctAnswers": [
+                    "Ψ1,0,0."
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes V (Z=23), Ce (Z=58) et U (Z=92) les bonnes structures électroniques parmi : [Ar] 3d^4 4s^2, [Rn] 5f^4 6d^2, [Xe] 4f^1 6s^2.",
+                  "options": [
+                    "A) 2, 4, 6",
+                    "B) 2, 5, 3",
+                    "C) 1, 5, 4",
+                    "D) 3, 4, 6"
+                  ],
+                  "correctAnswers": [
+                    "C) 1, 5, 4"
+                  ]
+                },
+                {
+                  "question": "Dans la classification périodique des éléments, l'iridium (Z=77) se trouve situé :",
+                  "options": [
+                    "A) en période 6.",
+                    "B) dans la couche P.",
+                    "C) en sous-groupe VIIIB.",
+                    "D) en colonne 6."
+                  ],
+                  "correctAnswers": [
+                    "A) en période 6.",
+                    "C) en sous-groupe VIIIB."
+                  ]
+                },
+                {
+                  "question": "On raisonne sur un élément de la période 6 de la classification périodique. Donner la (les) bonne(s) proposition(s).",
+                  "options": [
+                    "A) Son numéro atomique est supérieur ou égal à 18.",
+                    "B) Son numéro atomique est inférieur ou égal à 86.",
+                    "C) S'il est en colonne 3, il appartient au groupe d.",
+                    "D) S'il est en colonne 3, alors 26 électrons sont décrits par des orbitales p."
+                  ],
+                  "correctAnswers": [
+                    "B) Son numéro atomique est inférieur ou égal à 86.",
+                    "C) S'il est en colonne 3, il appartient au groupe d."
+                  ]
+                },
+                {
+                  "question": "Quelle est la structure électronique externe de rutherfordium Rf (Z=104)?",
+                  "options": [
+                    "[Rn] 5f^14 6d^2 7s^2.",
+                    "[Xe] 4f^14 5d^10 6s^2.",
+                    "[Ar] 3d^10 4s^2.",
+                    "[Rn] 5f^14 6d^2 7s^1."
+                  ],
+                  "correctAnswers": [
+                    "[Rn] 5f^14 6d^2 7s^2."
+                  ]
+                },
+                {
+                  "question": "Les trois espèces chimiques He²⁺ (Z=2), Li²⁺ (Z=3), et Be²⁺ (Z=4) ont la même structure électronique car elles ont le même noyau.",
+                  "options": [
+                    "A) Elles ont la même structure électronique.",
+                    "B) Elles ont la même charge nucléaire.",
+                    "C) Elles ont des charges nucléaires différentes.",
+                    "D) Elles sont dans des groupes voisins."
+                  ],
+                  "correctAnswers": [
+                    "C) Elles ont des charges nucléaires différentes."
+                  ]
+                },
+                {
+                  "question": "Associer les éléments Mn (Z=25), S (Z=16), et I (Z=53) à leurs propriétés chimiques.",
+                  "options": [
+                    "A) 6 électrons dans la couche externe.",
+                    "B) Z=25.",
+                    "C) Z=53.",
+                    "D) 4 électrons dans la couche externe."
+                  ],
+                  "correctAnswers": [
+                    "A) 6 électrons dans la couche externe."
+                  ]
+                }
+              ]
+            },
+            {
+              "module": "Chimie",
+              "year": "2012/2013",
+              "questions": [
+                {
+                  "question": "La charge élémentaire a été déterminée à l'aide :",
+                  "options": [
+                    "D'un tube de CROOKES",
+                    "D'une chambre de WILSON",
+                    "De l'expérience de lu goutte d'huile de MILLIKAN X",
+                    "D'un spectromètre de masse",
+                    "Aucune des propositions citées (a à d) n'est exacte"
+                  ],
+                  "correctAnswers": [
+                    "De l'expérience de lu goutte d'huile de MILLIKAN X"
+                  ]
+                },
+                {
+                  "question": "On établit entre les 2 disques une différence de potentiel U = 2400V. Quelle est la charge et le nombre d'électrons portés par une gouttelette d'huile ù l'équilibre?\nDonnées: masse volumique de l'huile : p =914,3 kg.m^-3), charge de l'électron -1,6x 10^-19 C et le rayon de la goutte est de 1 um",
+                  "options": [
+                    "Q = 31, 89x10^-20 C et 2 électrons portés par la gouttelette.",
+                    "Q = 6,4X10^-19 C et 4 électrons portés par la gouttelette",
+                    "Q = 1,6.x10^-18 et 10 électrons portés par la gouttelette",
+                    "Q = 9,6x10^-18 C et 60 électrons portés par la gouttelette",
+                    "Q = 11,2X10^-19 C et 7 électrons portés par la gouttelette"
+                  ],
+                  "correctAnswers": [
+                    "Q = 31, 89x10^-20 C et 2 électrons portés par la gouttelette."
+                  ],
+                  "photo": "assets/imageChimie/chimie3.jpg"
+
+                },
+                {
+                  "question": "3- La masse théorique du noyau du béryllium 10 est :",
+                  "options": [
+                    "10,07826 u.m.a.",
+                    "10,07270 u.m.a.",
+                    "10,08104 u.m.a.",
+                    "10,08660 u.m.a.",
+                    "10,01130 u.m.a."
+                  ],
+                  "correctAnswers": [
+                    "10,08104 u.m.a."
+                  ]
+                },
+                {
+                  "question": "4- Le défaut de masse du noyau du béryllium 10 est :",
+                  "options": [
+                    "о",
+                    "0,06140 u.m.a.",
+                    "0,06696 u.m.a.",
+                    "0,06974 u.m.a.",
+                    "0,07530 u.m.a."
+                  ],
+                  "correctAnswers": [
+                    "0,06974 u.m.a."
+                  ]
+                },
+                {
+                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique).\nDans ce modèle appliqué à l'atome d'hydrogène:",
+                  "options": [
+                    "L'énergie est une fonction continue de l/r (r = distance électron-noyau).",
+                    "Dans l'état fondamental, l'électron gravite autour du noyau sur plusieurs orbites circulaire de rayons r = 0,053nª(nm) avec n = entier positif.",
+                    "Lorsque l'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
+                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand.",
+                    "Lorsque l'électron passe du niveau n=1 (d'énergie E,) sur le niveau n=2 (d'énergie\nE2) il y a émission d'une radiation de fréquence v telle que. V=E_2 -E_1,/h (h=constante de Planck)."
+                  ],
+                  "correctAnswers": [
+                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand."
+                  ]
+                },
+                {
+                  "question": "La loi de MOSELEY établit une relation entre la fréquence des rayons x émis par chaque élément et :",
+                  "options": [
+                    "Le nombre de masse",
+                    "La longueur d'onde",
+                    "Le numéro atomique",
+                    "La musse atomique",
+                    "Le rapport entre lu charge et la musse de l'électron."
+                  ],
+                  "correctAnswers": [
+                    "Le numéro atomique"
+                  ]
+                },
+                {
+                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène, pris dans son état fondamental pour faire passer l'électron sur le niveau n=3. Après excitation, on enregistre le spectre d'émission.",
+                  "options": [
+                  ],
+                  "correctAnswers": [
+                  ]
+                },
+                {
+                  "question": "7- L'énergie (en eV) qui a été fournie est :",
+                  "options": [
+                    "Égale à 13,6",
+                    "Inférieure 13,6",
+                    "Supérieure à 13,6",
+                    "Donnée par la relation 13,6/n^2",
+                    "Donnée par la relation 13,6n^2"
+                  ],
+                  "correctAnswers": [
+                    "Inférieure 13,6"
+                  ]
+                },
+                {
+                  "question": "Le spectre d'émission contient :",
+                  "options": [
+                    "Trois raies d'émission.",
+                    "Trois transitions dans l'ultraviolet",
+                    "Une seule transition dans l'ultraviolet",
+                    "Une seule transition dans le visible",
+                    "Une seule transition dans l'infrarouge"
+                  ],
+                  "correctAnswers": [
+                    "Trois raies d'émission."
+                  ]
+                },
+                {
+                  "question": " Retrouver la proposition exacte qui donne le classement des rayonnements par ordre d'énergie croissante.",
+                  "options": [
+                    "UV < Visible < IR < X",
+                    "X < IR < Visible < UV",
+                    "IR < Visible < UV < X",
+                    "X < UV < Visible < IR",
+                    "Visible < IR < UV < X"
+                  ],
+                  "correctAnswers": [
+                    "IR < Visible < UV < X"
+                  ]
+                },
+                {
+                  "question": "On recherche les valeurs que peuvent prendre les nombres quantiques | et m, lorsqu'ils caractérisent un électron décrit par une orbitale 4p.\n Le nombre quantique secondaire I :",
+                  "options": [
+                    "I = 0",
+                    "I = 1",
+                    "I = 2",
+                    "I = -1",
+                    "I = -2"
+                  ],
+                  "correctAnswers": [
+                    "I = 1"
+                  ]
+                },
+                {
+                  "question": "Le nombre quantique magnétique mi:",
+                  "options": [
+                    "m_1 =-2",
+                    "m_1 =-1",
+                    "m_1 =0",
+                    "m_1 =1",
+                    "m_1 =2"
+                  ],
+                  "correctAnswers": [
+                    "m_1 =-1",
+                    "m_1 =0",
+                    "m_1 =1"
+                  ]
+                },
+                {
+                  "question": "Dans la classification périodique des éléments, le molybdène (Z=42) se trouve situé :",
+                  "options": [
+                    "En période 3",
+                    "En période 5",
+                    "Sous-groupe VB",
+                    "En colonne 6",
+                    "En colonne 15"
+                  ],
+                  "correctAnswers": [
+                    "En période 5",
+                    "En colonne 6"
+                  ]
+                },
+                {
+                  "question": "On raisonne sur un élément de la période 4 de la classification périodique. Donner la (les) bonne (s) proposition(s) :",
+                  "options": [
+                    "Son numéro atomique est supérieur ou égal à 18",
+                    "Son numéro atomique est inférieur ou égal à 36",
+                    "S'il est en colonne 13, alors 13 électrons sont décrits par des orbitales p",
+                    "S'il est en colonne 2, alors aucun électron n'est décrit par une orbitale p",
+                    "S'il est en colonne 3, il appartient au groupe p"
+                  ],
+                  "correctAnswers": [
+                    "Son numéro atomique est inférieur ou égal à 36",
+                    "S'il est en colonne 13, alors 13 électrons sont décrits par des orbitales p"
+                  ]
+                },
+                {
+                  "question": "Les deux espèces chimiques He^+ et Li^2- :",
+                  "options": [
+                    "Ont le même noyau",
+                    "Ont la même structure électronique",
+                    "Ne peuvent être différenciées car elles ont le même noyau",
+                    "Ne peuvent être différenciées car elles ont la même structure électronique",
+                    "Proviennent d'atomes neutres qui ont gagné au moins un électron"
+                  ],
+                  "correctAnswers": [
+                    "Ont la même structure électronique"
+                  ]
+                },
+                {
+                  "question": "Dans la classification périodique des éléments, chaque atome occupe une colonne et une période bien déterminée.\nDonner la(les) bonne(s) proposition(s)",
+                  "options": [
+                    "Tous les éléments de la période 1 ont pour structure électronique externe ns^1",
+                    "Tous les éléments de la colonne 8 ont la structure électronique externe ns^2 np^6",
+                    "Tous les éléments ayant comme structure électronique externe ns' avec n>1 sont situés en colonne 2",
+                    "Chaque période contient au moins 8 éléments",
+                    "18 est le nombre maximum d'éléments que peut contenir une colonne"
+                  ],
+                  "correctAnswers": [
+                    "Tous les éléments ayant comme structure électronique externe ns' avec n>1 sont situés en colonne 2"
+                  ]
+                },
+                {
+                  "question": " Pour l'électron de l'atome d'hydrogène dans le modèle de Bohr, quel(s) est (sont) le\n(s) couple(s) de valeurs possible(s) pour E et n? :",
+                  "options": [
+                    "E = -6,044 eV ; n = 2,25",
+                    "E = 0,544 eV ; n = 25",
+                    "E = -0,544 eV ; n = 5",
+                    "E = -6,044 eV ; n = 1,5",
+                    "E = 0,544 eV ; n= 5"
+                  ],
+                  "correctAnswers": [
+                    "E = -0,544 eV ; n = 5"
+                  ]
+                },
+                {
+                  "question": "Associer aux atomes K (2 = 19), P (2 = 15) et 5n (2 = 50) les bonnes structures\nélectroniques parmi : 1)_36 [Kr] 5s^2 4d^10 5p^2 2)_18 [Ar] 4s^2 3d^10 4p^2 3)_10 [Ne] 3s^1 \n 4)_18 [Ar] 4s^1 _10[Ne] 3s^2 3p^3  6)_2 [He] 2S^2 2p^3",
+                  "options": [
+                    "K -2)",
+                    "K -5)",
+                    "p -3)",
+                    "p -6)",
+                    "Sn -1)"
+                  ],
+                  "correctAnswers": [
+                    "K -5)",
+                    "p -3)",
+                    "Sn -1)"
+
+                  ]
+                },
+                {
+                  "question": "Quelle est la structure électronique externe de l'europium Eu (2=63) ? :",
+                  "options": [
+                    "7s^2 6d^7",
+                    "6s^2 6d^7",
+                    "7s^2 4F^7",
+                    "6s^2- 4F^7",
+                    "6s^2 5d^7"
+                  ],
+                  "correctAnswers": [
+                    "6s^2- 4F^7"
+                  ]
+                },
+                {
+                  "question": "On considère les éléments suivants K (Z=19) et Ca (Z=20), donner la(les)\nproposition(s) juste correspondant à leur énergie de 1^ère et 2^ème ionisation",
+                  "options": [
+                    "Ei, 1 (K) > Ei, 1 (Ca)",
+                    "Ei, 2 (K) > Ei, 1 (Ca)",
+                    "Ei, 1 (K) < Ei, 1 (Ca)",
+                    "Ei, 2 (K) = Ei, 2 (Ca)",
+                    "Aucune des propositions citées (A à D) n'est exacte"
+                  ],
+                  "correctAnswers": [
+                    "Ei, 2 (K) > Ei, 1 (Ca)",
+                    "Ei, 1 (K) < Ei, 1 (Ca)"
+                  ]
+                },
+                {
+                  "question": "On donne Yévolution de 'énersie de première ionisation des chalcogenes (2-5), '\nS (Z=16), Se (Z=34) et Te (2=50):",
+                  "options": [
+                    "Ei, 1 (O) < Ei, 1 (S) < Ei, 1 (Se) < Ei, 1 (Te)",
+                    "Ei, 1 (O) >Ei, 1 (Se) >Ei, 1 (S) >Ei, 1 (Te)",
+                    "Ei, 1 (O) >Ei, 1 (Te) >Ei, 1 (S) >Ei, 1 (Se)",
+                    "Ei, 1 (0) >Ei, 1 (S) >Ei, 1 (Se) >Ei, 1 (Te)",
+                    "Ei, 1 (S) < Ei, 1 (O) < Ei, 1 (Te) < Ei, 1 (Se)"
+                  ],
+                  "correctAnswers": [
+                    "Ei, 1 (0) >Ei, 1 (S) >Ei, 1 (Se) >Ei, 1 (Te)"
+                  ]
+                }
               ]
             }
           ]
