@@ -7,7 +7,9 @@ import '../../presenter/controllers/qcmController.dart';
 import '../widget/colors.dart';
 class QcmScreen extends StatefulWidget {
   final String year;
-  const QcmScreen({super.key, required this.year});
+  final String name;
+
+  const QcmScreen({super.key, required this.year, required this.name});
   @override
   _QcmScreenState createState() => _QcmScreenState();
 }
@@ -153,12 +155,12 @@ class _QcmScreenState extends State<QcmScreen> {
                               onPressed: () {
                                 // Ensure that correctOptions is correctly populated
                                 final correctOptions = controller.currentQuestion.correctAnswers;
-
                                 final currentFavoriteQuestion = FavoriteQuestion(
                                   questionText: controller.currentQuestion.question ?? '',
                                   options: controller.currentQuestion.options ?? [],
                                   correctOptions: correctOptions,
                                   photo: controller.currentQuestion.photo,
+                                  nameModule:widget.name,
                                 );
 
                                 favoriteController.toggleFavorite(currentFavoriteQuestion);
@@ -173,14 +175,13 @@ class _QcmScreenState extends State<QcmScreen> {
                                 final correctOptions = controller.currentQuestion.correctAnswers;
 
                                 final currentFavoriteQuestion = FavoriteQuestion(
-                                  questionText: controller.currentQuestion?.question ?? '',
-                                  options: controller.currentQuestion?.options ?? [],
+                                  questionText: controller.currentQuestion.question ?? '',
+                                  options: controller.currentQuestion.options ?? [],
                                   correctOptions: correctOptions,
-                                  photo: controller.currentQuestion?.photo,
+                                  photo: controller.currentQuestion.photo,
+                                  nameModule: widget.name,
                                 );
-
                                 bool isFavorite = favoriteController.isFavorite(currentFavoriteQuestion);
-
                                 return Icon(
                                   Icons.favorite,
                                   color: isFavorite ? Colors.red : Colors.white, // Change color based on favorite status
@@ -355,7 +356,6 @@ class _QcmScreenState extends State<QcmScreen> {
                           }).toList(),
                         ),
                       ),
-
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Row(

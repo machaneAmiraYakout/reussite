@@ -5,12 +5,14 @@ class FavoriteQuestion {
   final List<String> options;
   final List<String> correctOptions;
   final String? photo;
+  final String nameModule;
 
   FavoriteQuestion({
     required this.questionText,
     required this.options,
     required this.correctOptions,
     this.photo,
+    required this.nameModule
   });
 
   // From JSON
@@ -20,6 +22,7 @@ class FavoriteQuestion {
       options: List<String>.from(json['options']),
       correctOptions: List<String>.from(json['correctOptions']),
       photo: json['photo'],
+      nameModule:json['nameModule']
     );
   }
 
@@ -30,6 +33,7 @@ class FavoriteQuestion {
       'options': options,
       'correctOptions': correctOptions,
       'photo': photo,
+      'nameModule':nameModule
     };
   }
 }

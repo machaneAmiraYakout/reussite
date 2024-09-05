@@ -315,7 +315,7 @@
                     "Deux grandeurs, la position et la quantité de mouvement.",
                     "Les orbitales atomiques.",
                     "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie.",
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie."
+                    "Deux grandeurs, la position et la quantité de mouvement,ne peuvent être connues simultanément avec précision infinie."
                   ],
                   "correctAnswers": [
                     "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie."
@@ -347,7 +347,7 @@
                     "La plus petite longueur d'onde correspond au plus grand écart énergétique, d'après la formule ΔE= (hc)/λ: on a donc λ = 434nm"
                   ],
                   "correctAnswers": [
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie."
+                    "La plus petite longuen d'onde correspond au plus grand écart energétique, d'après la formule  ΔE= (hc)/λ on a donc λ= 405nm"
                   ]
                 },
                 {
@@ -359,7 +359,9 @@
                     "Il constitue une exception aux règles de remplissage des orbitales atomiques enr il ne respecte pas le principe d'exclusion de\nPauli"
                   ],
                   "correctAnswers": [
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie."
+                    "Il fait partie des métaux de transition.",
+                    "Il constitue une exception aux règles de remplissage des orbitales atomiques enr il ne respecte pas le principe d'exclusion de\nPauli"
+
                   ]
                 },
                 {

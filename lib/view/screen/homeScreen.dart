@@ -6,15 +6,12 @@ import '../widget/card.dart';
 import '../widget/colors.dart';
 import 'chrScreen.dart';
 import 'medScreen.dart';
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     // Get the instance of UserDetailsController
     final UserDetailsController userDetailsController = Get.find<UserDetailsController>();
-
     return Scaffold(
       body: SafeArea(
         child: FutureBuilder(
@@ -25,20 +22,19 @@ class HomeScreen extends StatelessWidget {
             } else if (snapshot.hasError) {
               return Center(child: Text('Error loading data: ${snapshot.error}')); // Handle errors
             } else {
-              return buildHomeScreenContent(userDetailsController); // Build the main content when data is ready
+              return buildHomeScreenContent(context, userDetailsController); // Pass context to the method
             }
           },
         ),
       ),
     );
   }
-
-  Widget buildHomeScreenContent(UserDetailsController userDetailsController) {
+  Widget buildHomeScreenContent(BuildContext context, UserDetailsController userDetailsController) {
     final specialite = userDetailsController.specialite.value;
 
     return Column(
       children: [
-        const SizedBox(height: 70,),
+        SizedBox(height: 70),
         Container(
           height: 90,
           width: double.infinity,
@@ -51,11 +47,11 @@ class HomeScreen extends StatelessWidget {
                   'assets/logo.png', // Replace with your image asset
                   height: 100,
                 ),
-                const SizedBox(width: 10),
-                const Text(
+                SizedBox(width: 10),
+                Text(
                   'Les Spécialités Disponibles :',
                   style: TextStyle(
-                    fontSize: 25,
+                    fontSize: MediaQuery.of(context).size.width * 0.06, // 6% of screen width
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -63,7 +59,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(height: 50,),
+        SizedBox(height: 50),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.all(16.0),
@@ -101,7 +97,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ],
                 ),
-                const SizedBox(height: 20), // Adjust space between rows as needed
+                SizedBox(height: 20), // Adjust space between rows as needed
                 Center(
                   child: buildSpecialtyCard(
                     'Pharmacie',

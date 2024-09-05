@@ -13,7 +13,8 @@ class ToDoScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    toDoController.setDay(day); // Set the current day's list
+    // Set the current day at the beginning of the build method
+    toDoController.setDay(day);
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -59,7 +60,7 @@ class ToDoScreen extends StatelessWidget {
                       background: Container(
                         color: Colors.red,
                         child:
-                            Icon(Icons.delete, color: Colors.white, size: 40),
+                        Icon(Icons.delete, color: Colors.white, size: 40),
                         alignment: Alignment.centerLeft,
                         padding: EdgeInsets.only(left: 40),
                       ),
@@ -94,7 +95,7 @@ class ToDoScreen extends StatelessWidget {
                                 ? Icons.check
                                 : Icons.radio_button_unchecked,
                             color:
-                                item.isCompleted ? Colors.green : Colors.black,
+                            item.isCompleted ? Colors.green : Colors.black,
                           ),
                           onTap: () =>
                               toDoController.toggleToDoCompletion(index),
@@ -114,8 +115,7 @@ class ToDoScreen extends StatelessWidget {
           children: [
             Expanded(
               child: TextField(
-                controller: toDoController
-                    .controller, // Use the controller from ToDoController
+                controller: toDoController.controller,
                 decoration: InputDecoration(
                   labelText: 'Add a new task',
                   border: OutlineInputBorder(
@@ -146,3 +146,4 @@ class ToDoScreen extends StatelessWidget {
     );
   }
 }
+

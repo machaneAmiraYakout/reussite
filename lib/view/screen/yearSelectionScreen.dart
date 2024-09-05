@@ -130,7 +130,7 @@ class YearSelectionScreen extends StatelessWidget {
                         );
 
                         // Navigate to QcmScreen with the selected year
-                        Get.to(() => QcmScreen(year: year));
+                        Get.to(() => QcmScreen(year: year,name:module.name));
                       },
                       child: Container(
                         margin: const EdgeInsets.all(8.0),

@@ -32,11 +32,11 @@ class NavigationScreen extends StatelessWidget {
       body: Obx(() {
         switch (navigationController.selectedIndex.value) {
           case 0:
-            return const HomeScreen();
+            return  HomeScreen();
           case 1:
             return const ProfileScreen();
           default:
-            return const HomeScreen();
+            return  HomeScreen();
         }
       }),
     );

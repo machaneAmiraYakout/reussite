@@ -3,16 +3,23 @@ import 'package:get/get.dart';
 import '../../presenter/controllers/animationController.dart';
 import '../widget/customButton.dart';
 import 'connectScreen.dart';
+
 class InitialScreen extends StatefulWidget {
   const InitialScreen({super.key});
+
   @override
   State<InitialScreen> createState() => _HomeState();
 }
+
 class _HomeState extends State<InitialScreen> {
   final MyAnimationController animationController = Get.put(MyAnimationController());
 
   @override
   Widget build(BuildContext context) {
+    // Get screen width and height for responsiveness
+    final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
+
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -24,7 +31,7 @@ class _HomeState extends State<InitialScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    Image.asset('assets/logo.png', width: 100, height: 100), // Logo
+                    Image.asset('assets/logo.png', width: screenWidth * 0.25, height: screenWidth * 0.25), // Responsive Logo
                     const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -40,16 +47,14 @@ class _HomeState extends State<InitialScreen> {
                         ),
                       ],
                     ),
-                    const SizedBox(
-                      width: 20,
+                    SizedBox(
+                      width: screenWidth * 0.05, // Responsive spacing
                     )
                   ],
                 ),
               ),
               const Padding(
-                padding: EdgeInsets.symmetric(
-                  horizontal: 8.0,
-                ),
+                padding: EdgeInsets.symmetric(horizontal: 8.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -74,9 +79,7 @@ class _HomeState extends State<InitialScreen> {
                 ),
               ),
               const Padding(
-                padding: EdgeInsets.symmetric(
-                  horizontal: 8.0,
-                ),
+                padding: EdgeInsets.symmetric(horizontal: 8.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -102,15 +105,15 @@ class _HomeState extends State<InitialScreen> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: SizedBox(
-                  width: 450, // Container width
-                  height: 400, // Container height
+                  width: screenWidth * 0.9, // Responsive container width
+                  height: screenHeight * 0.5, // Responsive container height
                   child: Stack(
                     children: [
                       Positioned(
-                        top: 40, // Adjust top position
-                        left: 177, // Adjust left position
+                        top: screenHeight * 0.03, // Responsive top position
+                        left: screenWidth * 0.4, // Responsive left position
                         child: Container(
-                          width: 200,
+                          width: screenWidth * 0.5,
                           padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
                             color: const Color(0x400892d4), // 30% opacity
@@ -131,13 +134,13 @@ class _HomeState extends State<InitialScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 135, // Adjust top position
-                        left: 177, // Adjust left position
+                        top: screenHeight * 0.16, // Responsive top position
+                        left: screenWidth * 0.4, // Responsive left position
                         child: Container(
-                          width: 200,
+                          width: screenWidth * 0.5,
                           padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
-                            color: const Color(0x407e8fdb) , // 30% opacity
+                            color: const Color(0x407e8fdb), // 30% opacity
                             borderRadius: BorderRadius.circular(30),
                             border: Border.all(color: const Color(0x407e8fdb), width: 2),
                           ),
@@ -155,10 +158,10 @@ class _HomeState extends State<InitialScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 210, // Adjust top position
-                        left: 177, // Adjust left position
+                        top: screenHeight * 0.26, // Responsive top position
+                        left: screenWidth * 0.4, // Responsive left position
                         child: Container(
-                          width: 200,
+                          width: screenWidth * 0.5,
                           padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
                             color: const Color(0x4011cfe4), // 30% opacity
@@ -179,10 +182,10 @@ class _HomeState extends State<InitialScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 285, // Adjust top position
-                        left: 177, // Adjust left position
+                        top: screenHeight * 0.36, // Responsive top position
+                        left: screenWidth * 0.4, // Responsive left position
                         child: Container(
-                          width: 200,
+                          width: screenWidth * 0.5,
                           padding: const EdgeInsets.all(8.0),
                           decoration: BoxDecoration(
                             color: const Color(0x4Deea37f), // 30% opacity
@@ -203,12 +206,12 @@ class _HomeState extends State<InitialScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 10,
-                        right: 120,
+                        top: screenHeight * 0.01, // Responsive top position
+                        right: screenWidth * 0.23, // Responsive right position
                         child: Image.asset(
                           'assets/phone.png',
-                          width: 355, // Increased width
-                          height: 355, // Increased height
+                          width: screenWidth * 0.9, // Responsive width
+                          height: screenHeight * 0.45, // Responsive height
                           fit: BoxFit.contain,
                         ),
                       ),
@@ -227,10 +230,10 @@ class _HomeState extends State<InitialScreen> {
                         widthFactor: 0.4,
                         heightFactor: 0.5,
                         child: Container(
-                          width: 200,
-                          height: 200,
+                          width: screenWidth * 0.4, // Responsive width
+                          height: screenHeight * 0.4, // Responsive height
                           decoration: const BoxDecoration(
-                            color: Color(0xFF11cfe4), // 50% opacity for #184784 color
+                            color: Color(0xFF11cfe4),
                             shape: BoxShape.circle,
                           ),
                         ),
@@ -238,17 +241,14 @@ class _HomeState extends State<InitialScreen> {
                     ),
                   ),
                   CustomButton(
-                    text:'Continuer',
-                    onPressed:(){
-                      Get.to( ConnecteScreen());
-
-                    } ,
-                    borderRadius:20 ,
-                    sideColor: const Color(0x207e8fdb) ,
-                    primary: const Color(0xFF11cfe4) ,
-                    onPrimary:Colors.white ,
-
-
+                    text: 'Continuer',
+                    onPressed: () {
+                      Get.to(ConnecteScreen());
+                    },
+                    borderRadius: 20,
+                    sideColor: const Color(0x207e8fdb),
+                    primary: const Color(0xFF11cfe4),
+                    onPrimary: Colors.white,
                   ),
                   Align(
                     alignment: Alignment.bottomRight,
@@ -258,10 +258,10 @@ class _HomeState extends State<InitialScreen> {
                         widthFactor: 0.4,
                         heightFactor: 0.5,
                         child: Container(
-                          width: 200,
-                          height: 200,
+                          width: screenWidth * 0.4, // Responsive width
+                          height: screenHeight * 0.4, // Responsive height
                           decoration: const BoxDecoration(
-                            color: Color(0xFF11cfe4), // 50% opacity for #184784 color
+                            color: Color(0xFF11cfe4),
                             shape: BoxShape.circle,
                           ),
                         ),
@@ -269,7 +269,7 @@ class _HomeState extends State<InitialScreen> {
                     ),
                   ),
                 ],
-              )
+              ),
             ],
           ),
         ),
