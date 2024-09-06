@@ -19,6 +19,9 @@ class QuestionController extends GetxController {
   }
   Future<void> loadAvailableYears(String selectedYear, String selectedSem, String selectedMod) async {
     try {
+      // Clear the list before loading new data to prevent duplication
+      availableYears.clear();
+
       final String jsonString = await rootBundle.loadString('assets/resources/annee1S1/Anatomie.json');
       final Map<String, dynamic> data = json.decode(jsonString);
       final List<dynamic> yearsData = data['years'];

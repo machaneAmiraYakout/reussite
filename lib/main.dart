@@ -7,6 +7,7 @@ import 'package:reussite1/presenter/controllers/connectivityService.dart';
 import 'package:reussite1/presenter/controllers/favoriteController.dart';
 import 'package:reussite1/presenter/controllers/fetchAnneController.dart';
 import 'package:reussite1/presenter/controllers/moduleController.dart';
+import 'package:reussite1/presenter/controllers/qcmController.dart';
 import 'package:reussite1/presenter/controllers/selectionContoller.dart';
 import 'package:reussite1/presenter/controllers/semestreController.dart';
 import 'package:reussite1/presenter/controllers/sessionController.dart';
@@ -26,6 +27,8 @@ void main()async{
   Get.put(UserDetailsController());
   Get.put(FetchAnneeController());
   Get.put(ConnectivityService());
+  Get.put(  QuestionController());
+
 
   final sessionController = Get.put(SessionController());
 

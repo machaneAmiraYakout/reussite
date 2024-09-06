@@ -365,7 +365,7 @@
                   ]
                 },
                 {
-                  "question": "Données : Z(Sc) = 21 ; Z(La) = 57 ; 2(Ac) = 89 ; 7(Ru) = 44 ;\n7(Fe) = 26 ; Z(Na) = 11 : 2(Sn) = 50.",
+                  "question": "Quelle sont les bonnes réponces !",
                   "options": [
                     "Les alcalins sont des atomes qui possèdent deux diectrons sur leu couche de valence. Ils ont une structure en (n)s^2",
                     "Le Scandium, le Lanthane et l'Actinium apportiennent au mêm groupe du tableau de classification périodique.",
@@ -373,7 +373,9 @@
                     "L'électron célibataire du sodium est caractérisé par les valeurs nombre quantique suivantes n=3, l=0; m_1 = 0; m_2 = - ½."
                   ],
                   "correctAnswers": [
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie."
+                    "Le Scandium, le Lanthane et l'Actinium apportiennent au mêm groupe du tableau de classification périodique.",
+                    "L'électron célibataire du sodium est caractérisé par les valeurs nombre quantique suivantes n=3, l=0; m_1 = 0; m_2 = - ½."
+
                   ]
                 },
                 {
@@ -455,6 +457,260 @@
                   ],
                   "correctAnswers": [
                     "A (34): B (35): C (36): D (42) et E (69)."
+                  ]
+                }
+              ]
+            },
+            {
+              "module": "Chimie",
+              "year": "2020/2021",
+              "questions": [
+                {
+                  "question": "Données : h=6,626.10^-34 js ; c = 3.10^8 m/s; Ru =1,097.10^7 m^-1 ; m_proton = 1,6726.10^-27 Kg :\n m_electron 9,1094.10^-31 Kg:\n La figure ci-dessous présente l'expérience de Rutherford.",
+                  "options": [
+                    "la mince feuille d'or est constituée en grande partie d'un vide de matière.",
+                    "La plupart des particules sont fortement déviées.",
+                    "La matière est constituée d'atomes dont la masse et la charge positive sont concentrées dans des volumes de très grande dimension.",
+                    "Un petit nombre de particule est fortement dévié, voire renvoyé en arrière."
+                  ],
+                  "correctAnswers": [
+                    "la mince feuille d'or est constituée en grande partie d'un vide de matière.",
+                    "Un petit nombre de particule est fortement dévié, voire renvoyé en arrière."
+                  ],
+                  "photo": "assets/imageChimie/chimie8.jpg"
+                },
+                {
+                  "question": "Si l'énergie cinétique d'un électron est de 11.4 eV, sa vitesse est égale à :",
+                  "options": [
+                    "2.0 x 10^3 m/s",
+                    "2.0 x 10^5 m/s",
+                    "3.0 x 10^3 m/s",
+                    "2.0 x 10^6 m/s"
+                  ],
+                  "correctAnswers": [
+                    "2.0 x 10^6 m/s"
+                  ]
+                },
+                {
+                  "question": "Rappeler la définition d'un ion hydrogénoïde",
+                  "options": [
+                    "Un ion hydrogénoïde est un ion diatomique.",
+                    "Un ion hydrogénoïde est un ion qui possède un seul électron.",
+                    "Un ion hydrogénoïde est un ion qui possède Z électron.",
+                    "Un ion hydrogénoïde est un ion monoatomique."
+                  ],
+                  "correctAnswers": [
+                    "Un ion hydrogénoïde est un ion qui possède un seul électron."
+                  ]
+                },
+                {
+                  "question": " Les ions _3 Li^+ et _4 Be^3+ sont-ils des systèmes hydrogénoides ?",
+                  "options": [
+                    "L'ion _3 Li^+ est un hydrogénoïde car il possède deux électrons.",
+                    "L'ion _4 Be^3+ est un hydrogénoïde car il possède un seul électron.",
+                    "L'ion _3 Li^+ est un hydrogénoïde car il possède un nombre de protons égale à trois.",
+                    "L'ion _3 Li^+ n'est pas un hydrogénoide car il possède deux électrons et trois protons."
+                  ],
+                  "correctAnswers": [
+                    "L'ion _3 Li^+ n'est pas un hydrogénoide car il possède deux électrons et trois protons."
+                  ]
+                },
+                {
+                  "question": "calculer l'énergie d'ionisation pour l'ion ,Be** dans son état fondamental",
+                  "options": [
+                    "E_i = 661 eV",
+                    "E_i =  -217,6 eV",
+                    "E_i =  13,6 eV",
+                    "E_i =  217,6 eV"
+                  ],
+                  "correctAnswers": [
+                    "E_i =  217,6 eV"
+                  ]
+                },
+                {
+                  "question": " caule la on fonda ende qui corespond à cet inergie d'ionisation pour l'ion _4Be^3+ dans son etat fondamental.",
+                  "options": [
+                    "λ= 5.7 μm",
+                    "λ= 242 x 10^-10 m",
+                    "λ= 5,7 nm",
+                    "λ=  217,610^-10 m"
+                  ],
+                  "correctAnswers": [
+                    "λ=  217,610^-10 m"
+                  ]
+                },
+                {
+                  "question": "Un photon de longueur d'onde ^ = 25,64 mm peut -il être absorbé par un électron se trouvant initialement sur le niveau n=2 de _4 Be^+3 ? si oui, dans quel état se trouve alors l'ion _4 Be^+3 ? le photon est donc absorbé par _4 Be^+3 qui passe à l'état excité n= ?",
+                  "options": [
+                    "nj =5",
+                    "nj =3",
+                    "nj =6",
+                    "nj =4"
+                  ],
+                  "correctAnswers": [
+                    "nj =3"
+                  ]
+                },
+                {
+                  "question": "définit cette raie.",
+                  "options": [
+                    "C'est la 2^eme raie de la série de Pfund ",
+                    "C'est la 3^eme raie de la série de Paschen",
+                    "C'est la 4^eme raie de la série de Balmer",
+                    "C'est la 5^eme raie de la série de Lyman"
+                  ],
+                  "correctAnswers": [
+                    "C'est la 3^eme raie de la série de Paschen"
+                  ]
+                },
+                {
+                  "question": "La longueur d'onde de de Broglie est associé à un électron se déplaçant à une\nvitesse cent fois plus lente que celle de la lumière est :",
+                  "options": [
+                    "2,422 x 10^-7 mm ",
+                    "2.422 x 10^-11 m",
+                    "24.22 x 10^-12 m",
+                    "2.422 x 10^-10 m"
+                  ],
+                  "correctAnswers": [
+                    "2.422 x 10^-10 m"
+                  ]
+                },
+                {
+                  "question": "Qu'indique le principe d'incertitude d'Heisenberg",
+                  "options": [
+                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie.",
+                    "Les orbitales atomiques.",
+                    "Deux grandeurs, la position et la quantité de mouvement.",
+                    "Deux grandeurs, la position et la quantité de mouvement, ne peuvent pas être connues simultanément avec précision infinie."
+                  ],
+                  "correctAnswers": [
+                    "Deux grandeurs, la position et la quantité de mouvement, ne peuvent pas être connues simultanément avec précision infinie."
+                  ]
+                },
+                {
+                  "question": "Quelle est l'orbitale atomique associée aux nombres quantiques n=2; 1=2 et mt =0 ?",
+                  "options": [
+                    "Il s'agit d'une orbitale atomique 5d",
+                    "Il s'agit d'une orbitale atomique 4f",
+                    "impossible car & doit être inférieur ou égal à n-1.",
+                    " Il s'agit d'une orbitale atomique 4P."
+                  ],
+                  "correctAnswers": [
+                    "Il s'agit d'une orbitale atomique 5d",
+                    "impossible car & doit être inférieur ou égal à n-1."
+                  ]
+                },
+                {
+                  "question": "Une orbitale atomique est caractérisée par :",
+                  "options": [
+                    "un ensemble de quatre nombres quantiques.",
+                    "Une énergie caractéristique.",
+                    "un ensemble de trois nombres quantiques. ",
+                    " Les nombres quantiques n ; 1=2 et m."
+                  ],
+                  "correctAnswers": [
+                    "un ensemble de quatre nombres quantiques."
+                  ]
+                },
+                {
+                  "question": " Lequel de ces éléments possède exactement deux électrons non appariés ?",
+                  "options": [
+                    "L'hélium He",
+                    "L'oxygène O",
+                    "Le bore B",
+                    "Le béryllium Be"
+                  ],
+                  "correctAnswers": [
+                    "L'oxygène O"
+                  ]
+                },
+                {
+                  "question": "D'après le principe d'exclusion de Pauli, les sous-couches s, p. d et f contiennent\nau maximum respectivement 2, 6, 10 et 14 électrons.",
+                  "options": [
+                    "Le remplissage des sous-couches se fait par énergie décroissante. ",
+                    "L'ordre énergétique des sous-couches est donné par la règle de Klechkowski.",
+                    "Une sous-couche de type nd contient 26+1 orbitales atomiques.",
+                    "Le remplissage des sous-couches se fait par énergie croissante."
+                  ],
+                  "correctAnswers": [
+                    "Le remplissage des sous-couches se fait par énergie décroissante. ",
+                    "L'ordre énergétique des sous-couches est donné par la règle de Klechkowski.",
+                    "Une sous-couche de type nd contient 26+1 orbitales atomiques."
+                  ]
+                },
+                {
+                  "question": " Ecrire la configuration électronique des métaux de transition suivants :\nNi(Z-28), Zr(Z-40), Cd(Z-48).",
+                  "options": [
+                    "[Ar] 3d^10 4s^0, [Kr] 4d^2 5s^2 et [Kr] 4d^10 5s^2",
+                    "[Ar] 3d^8 4s^2, [Ar] 4d^2 5s^2 et [Kr] 4d^10 5s^2",
+                    "[Ar] 3d^8 4s^2, [Kr] 4d^4 5s^0 et [Kr] 4d^10 5s^2",
+                    "[Ar] 3d^8 4s^2, [Kr] 4d^2 5s^2 et [Kr] 4d^10 5s^2"
+                  ],
+                  "correctAnswers": [
+                    "[Ar] 3d^8 4s^2, [Ar] 4d^2 5s^2 et [Kr] 4d^10 5s^2"
+                  ]
+                },
+                {
+                  "question": "La configuration électronique de l'oxygène _8 O est :",
+                  "options": [
+                    "1s^2 2s^2 2p^6",
+                    "1s^2 2s^2 2p^4",
+                    "1s^2 2s^2 2p^3",
+                    "[He] 2s^2 2p^4"
+                  ],
+                  "correctAnswers": [
+                    "1s^2 2s^2 2p^4",
+                    "[He] 2s^2 2p^4"
+
+                  ]
+                },
+                {
+                  "question": " Parmi les configurations électroniques suivantes\n1)- 1s^2 2s^2 2p^1; 2)- 1s^2 2s^2 2p^3; 3)- 1s^2 2s^2 2p^6 ;4)- 1s^2 2s^2 2p^6 3s^2 ; 5)- 1s^2 2s^2 2p^6 3s^2 3p^2\nLa quelle correspond à un gaz rare :",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ],
+                  "correctAnswers": [
+                    "3"
+                  ]
+                },
+                {
+                  "question": "Quel est l'atome qui se trouve sur la 6eme ligne et sur la 13*me colonne ?",
+                  "options": [
+                    "_29 Cu",
+                    "_81 Ti",
+                    "_38 Sr",
+                    "_40 Zr"
+                  ],
+                  "correctAnswers": [
+                    "_81 Ti"
+                  ]
+                },
+                {
+                  "question": " Donnez les configurations électroniques inexactes",
+                  "options": [
+                    "_18 Ar:1s^2 2s^2 2p^6 3s^2 3p^6",
+                    "_20 Ca:1s^2 2s^2 2p^6 3s^2 3p^8",
+                    "_33 As:1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^11 4p^2",
+                    "_18 Ar:1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^6"
+                  ],
+                  "correctAnswers": [
+                    "_20 Ca:1s^2 2s^2 2p^6 3s^2 3p^8",
+                    "_33 As:1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^11 4p^2",
+                    "_18 Ar:1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^6"                  ]
+                },
+                {
+                  "question": "Combien y a-t-il d'orbitales 5f ?",
+                  "options": [
+                    "5 OA Sf. Une sous-couche f correspond à 1=3 donc il y a 21+1=7 valeurs de m possibles soit 7 OA dans une sous-couche f.",
+                    "7 0A Sf. Une sous-couche f correspond à 1=2 donc il y a 21+1=5 valeurs de m possibles soit 5 OA dans une sous-couche f.",
+                    "3 OA Sf. Une sous-couche f correspond à 1-1 donc il y a 21+1-3 valeurs de m possibles soit 3 OA dans une sous-couche f.",
+                    "7 0A Sf. Une sous-couche f correspond à 1=3 done il y a 21+1-7 valeurs de m possibles soit 7 OA dans une sous-couche f."
+                  ],
+                  "correctAnswers": [
+                    "7 0A Sf. Une sous-couche f correspond à 1=3 done il y a 21+1-7 valeurs de m possibles soit 7 OA dans une sous-couche f."
                   ]
                 }
               ]
