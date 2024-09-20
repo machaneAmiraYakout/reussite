@@ -45,7 +45,7 @@ class CustomButton extends StatelessWidget {
           child: Text(
             text,
             style: TextStyle(
-              fontSize: screenWidth * 0.06, // 5% of the screen width
+              fontSize: screenWidth * 0.055, // 4% of the screen width
               fontWeight: FontWeight.w700,
             ),
           ),

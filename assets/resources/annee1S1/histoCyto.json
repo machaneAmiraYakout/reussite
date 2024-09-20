@@ -1,0 +1,890 @@
+[
+  {
+    "year": "2022/2023",
+    "questions":[
+      {
+        "question": "Le MEB permet d'observer :",
+        "options": [
+          "les cellules en 3D",
+          "les tissus en 3D",
+          "les molécules",
+          "les virus",
+          "les bactéries"
+        ],
+        "correctAnswers": [
+          "les cellules en 3D"
+        ]
+      },
+      {
+        "question": "La maturation concerne :",
+        "options": [
+          "L'ADN",
+          "l'ARNt",
+          "L'ARNr",
+          "l'ARNm",
+          "L'ARN"
+        ],
+        "correctAnswers": [
+          "l'ARNm"
+        ]
+      },
+      {
+        "question": "Parmi les procaryotes on a :",
+        "options": [
+          "les cellules hépatiques",
+          "les polycaryotes",
+          "la moelle osseuse",
+          "les plaquettes",
+          "les globules blancs"
+        ],
+        "correctAnswers": [
+          "les plaquettes"
+        ]
+      },
+      {
+        "question": "Les pilis ont pour rôle :",
+        "options": [
+          "l'expulsion des déchets",
+          "la synthèse des protéines",
+          "la protection de la cellule",
+          "le transfert des plasmides",
+          "la reconnaissance des cellules"
+        ],
+        "correctAnswers": [
+          "le transfert des plasmides"
+        ]
+      },
+      {
+        "question": "La membrane plasmique est perméable aux :",
+        "options": [
+          "K+",
+          "grosses molécules",
+          "Le CO2",
+          "Na+",
+          "Cl-"
+        ],
+        "correctAnswers": [
+          "Le CO2"
+        ]
+      },
+      {
+        "question": "Parmi les protéines effectrices on a :",
+        "options": [
+          "l'adenyle cyclase",
+          "l'adenylate A",
+          "l'adenylate cyclase",
+          "le phospholipide",
+          "le phospholypase A"
+        ],
+        "correctAnswers": [
+          "l'adenyle cyclase"
+        ]
+      },
+      {
+        "question": "Le hyaloplasme veut dire :",
+        "options": [
+          "cytosol",
+          "cytosol et cytoplasme",
+          "cytosquelette",
+          "cytosol + organites cytoplasme"
+        ],
+        "correctAnswers": [
+          "cytosol"
+        ]
+      },
+      {
+        "question": "Le RE contient :",
+        "options": [
+          "30% de glucides",
+          "30% de protéines",
+          "70% de lipides",
+          "50% de protéines",
+          "30% de lipides"
+        ],
+        "correctAnswers": [
+          "30% de lipides"
+        ]
+      },
+      {
+        "question": "La zone cis est proche :",
+        "options": [
+          "du REL",
+          "du noyau",
+          "du ribosome",
+          "du REG",
+          "de l'ADN"
+        ],
+        "correctAnswers": [
+          "du REG"
+        ]
+      },
+      {
+        "question": "Le mouvement des procaryotes :",
+        "options": [
+          "lent",
+          "rapide",
+          "complexe",
+          "immobile",
+          "fragile"
+        ],
+        "correctAnswers": [
+          "lent"
+        ]
+      },
+      {
+        "question": "La membrane plasmique contient :",
+        "options": [
+          "3 lames",
+          "2 lames",
+          "5 lames",
+          "aucunes lames",
+          "une seule lame"
+        ],
+        "correctAnswers": [
+          "3 lames"
+        ]
+      },
+      {
+        "question": "Le glycérol contient :",
+        "options": [
+          "2 acides aminés",
+          "2 lipides",
+          "2 alcools",
+          "2 acides gras",
+          "2 phosphates"
+        ],
+        "correctAnswers": [
+          "2 acides gras"
+        ]
+      },
+      {
+        "question": "Les éléments de transport sont :",
+        "options": [
+          "le cholestérol",
+          "les glucides",
+          "les lipides",
+          "les protéines",
+          "les ions"
+        ],
+        "correctAnswers": [
+          "les protéines"
+        ]
+      },
+      {
+        "question": "Les procaryotes ne possèdent pas de :",
+        "options": [
+          "cytosquelettes",
+          "ADN",
+          "peptidoglycanes",
+          "hyaloplasme"
+        ],
+        "correctAnswers": [
+          "cytosquelettes"
+        ]
+      },
+      {
+          "question": "Le MO agrandit jusqu'à :",
+          "options": [
+            "800000",
+            "1000",
+            "100000",
+            "50000",
+            "40"
+          ],
+          "correctAnswers": ["800000", "100000"]
+        },
+      {
+          "question": "Le cholestérol :",
+          "options": [
+            "adouci la membrane",
+            "rigidifie la cellule",
+            "stabilise la membrane",
+            "synthétise la vitamine E",
+            "diminue la fluidité"
+          ],
+          "correctAnswers": ["rigidifie la cellule", "diminue la fluidité"]
+        },
+      {
+          "question": "La Kinase A :",
+          "options": [
+            "phosphoryle les protéines",
+            "phosphoryle les ions",
+            "active la protéine G",
+            "active l'Adenyle cyclase",
+            "active le DAG"
+          ],
+          "correctAnswers": ["phosphoryle les protéines", "active l'Adenyle cyclase"]
+        },
+      {
+          "question": "Le ribosome est un complexe :",
+          "options": [
+            "ribonucleoproteique",
+            "ribonucleotidique",
+            "ribonucleolipidique",
+            "nucléique",
+            "riboproteique"
+          ],
+          "correctAnswers": ["ribonucleoproteique"]
+        },
+      {
+          "question": "Les organites de dégradation sont :",
+          "options": [
+            "le noyau",
+            "les mitochondries",
+            "les peroxysomes",
+            "les vésicules sécrétoires",
+            "les microtubules"
+          ],
+          "correctAnswers": ["les peroxysomes"]
+        },
+      {
+          "question": "L'appareil de Golgi est composé de :",
+          "options": [
+            "3 régions",
+            "5 régions",
+            "d'un seul dictyosome",
+            "d'un saccule",
+            "de 4 régions"
+          ],
+          "correctAnswers": ["5 régions"]
+        },
+      {
+          "question": "La cytologie exfoliatrice étudie :",
+          "options": [
+            "les protéines",
+            "les tumeurs",
+            "les liquides",
+            "le pH",
+            "les vaisseaux"
+          ],
+          "correctAnswers": ["les tumeurs", "les liquides"]
+        },
+      {
+        "question": "La plasmolyse veut dire:",
+        "options": [
+          "Lyse de la cellule",
+          "Éclatement de la cellule",
+          "Assèchement de la cellule",
+          "Gonflement de la cellule",
+          "Rétrécissement de la cellule"
+        ],
+        "correctAnswers": ["Rétrécissement de la cellule"]
+      },
+      {
+        "question": "Le REL contient:",
+        "options": [
+          "Des glucides",
+          "Des protéines",
+          "Des ions",
+          "Des acides aminés",
+          "Du calcium"
+        ],
+        "correctAnswers": ["Du calcium"]
+      },
+      {
+        "question": "Le peroxysome a pour rôle:",
+        "options": [
+          "Le transfert d'énergie",
+          "L'élimination des déchets",
+          "L'élimination des toxines",
+          "L'attachement des cellules",
+          "La régulation du pH"
+        ],
+        "correctAnswers": ["L'élimination des toxines"]
+      },
+      {
+        "question": "La pinocytose est un type:",
+        "options": [
+          "De phagocytose",
+          "D'exocytose",
+          "D'endocytose",
+          "De diffusion simple",
+          "De diffusion facilitée"
+        ],
+        "correctAnswers": ["D'endocytose"]
+      },
+      {
+        "question": "Le glycocalyx entoure:",
+        "options": [
+          "Les organites",
+          "Le cytoplasme",
+          "Les cellules",
+          "Les tissus",
+          "Les protéines"
+        ],
+        "correctAnswers": ["Les cellules"]
+      },
+      {
+        "question": "La membrane basale:",
+        "options": [
+          "Est une structure cellulaire",
+          "Est constituée de 3 lames",
+          "Renferme une lame dite « réticulaire »",
+          "Sépare la matrice extracellulaire du tissu épithélial",
+          "Est dépourvue de fibres"
+        ],
+        "correctAnswers": ["Renferme une lame dite « réticulaire »"]
+      },
+      {
+        "question": "La cytologie exfoliatrice étudie:",
+        "options": [
+          "Les protéines",
+          "Les tumeurs",
+          "Les liquides",
+          "Le pH",
+          "Les vaisseaux"
+        ],
+        "correctAnswers": []
+      },
+      {
+        "question": "Les protéoglycanes:",
+        "options": [
+          "Ne sont pas impliqués dans la biodisponibilité",
+          "Ne renferment pas de GAG",
+          "Sont des molécules plus grandes que les GAG",
+          "Sont caractéristiques des tissus épithéliaux",
+          "Sont des molécules intracellulaires"
+        ],
+        "correctAnswers": ["Sont des molécules plus grandes que les GAG"]
+      },
+      {
+        "question": "Un tissu non minéralisé:",
+        "options": [
+          "Est dépourvu de minéraux",
+          "C'est le cas de l'os",
+          "C'est le cas du cartilage",
+          "Contient abondamment du Ca+",
+          "Contient abondamment du P"
+        ],
+        "correctAnswers": ["C'est le cas du cartilage"]
+      },
+      {
+        "question": "Les glycoprotéines:",
+        "options": [
+          "N'interviennent pas dans l'adhérence",
+          "Sont sulfatées",
+          "Sont impliquées dans la migration des cellules cancéreuses",
+          "Sont des molécules polychargées",
+          "Appartiennent à la partie fibrillaire du tissu"
+        ],
+        "correctAnswers": ["Sont impliquées dans la migration des cellules cancéreuses"]
+      },
+      {
+        "question": "La régénération et la croissance tissulaire:",
+        "options": [
+          "Signifient le même processus",
+          "La deuxième est pathologique",
+          "La première est dépendante de la vascularisation",
+          "Sont deux phénomènes pathologiques du cartilage",
+          "Se déroulent tout au long de la vie"
+        ],
+        "correctAnswers": ["La première est dépendante de la vascularisation"]
+      },
+      {
+        "question": "Les GAG:",
+        "options": [
+          "Garantissent une déformabilité temporaire",
+          "Sont des sucres ordinaires",
+          "Sont plus grands que les PG et les GP",
+          "Appartiennent à la partie cellulaire du tissu",
+          "Ne sont pas polaires"
+        ],
+        "correctAnswers": ["Garantissent une déformabilité temporaire"]
+      },
+      {
+        "question": "L'IGE:",
+        "options": [
+          "Est un facteur de croissance des tissus épithéliaux",
+          "Est responsable parmi d'autres de la croissance continuelle du cartilage",
+          "N'agit pas sur l'os",
+          "Est spécifique au mâle",
+          "Est une hormone sexuelle"
+        ],
+        "correctAnswers": ["Est responsable parmi d'autres de la croissance continuelle du cartilage"]
+      },
+      {
+        "question": "Les chondroclastes:",
+        "options": [
+          "Ne sont pas des macrophages",
+          "Interviennent dans la cicatrisation",
+          "Sont spécifiques au tissu conjonctif",
+          "Sont des logettes",
+          "Sont des fibres"
+        ],
+        "correctAnswers": ["Interviennent dans la cicatrisation"]
+      },
+      {
+        "question": "Les éléments glandulaires:",
+        "options": [
+          "Consomment une partie de leur substance sécrétée",
+          "Les endocrines ont perdu leur lien avec l'épithélium de dérivation",
+          "Les exocrines n'ont pas de canaux",
+          "Ayant adénomère sont de type endocrine",
+          "Ne sont pas des épithéliums"
+        ],
+        "correctAnswers": ["Les endocrines ont perdu leur lien avec l'épithélium de dérivation"]
+      },
+      {
+        "question": "L'épithélium pavimenteux simple:",
+        "options": [
+          "Se trouve là où le milieu de contact est inoffensif",
+          "Signifie plus long que large",
+          "Est cylindrique",
+          "Est caractéristique de la couche basale de l'épiderme",
+          "Se trouve au niveau des voies respiratoires supérieures"
+        ],
+        "correctAnswers": ["Se trouve là où le milieu de contact est inoffensif"]
+      },
+      {
+        "question": "Extra-épithélial intrapariétal:",
+        "options": [
+          "Est une description de la localisation de la glande gastrique",
+          "Est une description du mode de sécrétion",
+          "Est le cas des glandes endocrines",
+          "Est le cas des cellules alpha du pancréas",
+          "Est le cas des cellules beta du pancréas"
+        ],
+        "correctAnswers": ["Est une description de la localisation de la glande gastrique"]
+      }
+    ]
+  },
+  {
+    "year": "2021/2022",
+    "questions":[
+      {
+        "question": "Le DAG a pour rôle :",
+        "options": [
+          "de supprimer les protéines",
+          "d'inhiber la pk-c",
+          "d'activer la protéine G",
+          "d'activer la pk-c"
+        ],
+        "correctAnswers": [
+          "d'activer la pk-c"
+        ]
+      },
+      {
+        "question": "Le récepteur serpentin est couplé à :",
+        "options": [
+          "la protéine G",
+          "La phospholipase C",
+          "l'ATPase",
+          "l'adenylate cyclase"
+        ],
+        "correctAnswers": [
+          "la protéine G"
+        ]
+      },
+      {
+        "question": "La membrane cellulaire est composée de :",
+        "options": [
+          "une seule couche phospholipidique",
+          "deux lames membranaires",
+          "trilamination membranaire",
+          "Ph acide"
+        ],
+        "correctAnswers": [
+          "trilamination membranaire"
+        ]
+      },
+      {
+        "question": "Les pilis ont pour rôle :",
+        "options": [
+          "stockage de l'ADN",
+          "division cellulaire",
+          "transfert des plasmides",
+          "protection de la bactérie"
+        ],
+        "correctAnswers": [
+          "transfert des plasmides"
+        ]
+      },
+      {
+        "question": "Les bactéries sont connues par :",
+        "options": [
+          "la présence de stérol",
+          "absence de membrane nucléaire",
+          "présence de membrane complexe",
+          "absence de flagelles"
+        ],
+        "correctAnswers": [
+          "absence de membrane nucléaire"
+        ]
+      },
+      {
+        "question": "La caséine est une protéine :",
+        "options": [
+          "de transport",
+          "de communication",
+          "de réserve",
+          "catalytique"
+        ],
+        "correctAnswers": [
+          "de réserve"
+        ]
+      },
+      {
+        "question": "La membrane biologique assure :",
+        "options": [
+          "l'inhibition du transport d'ions",
+          "le contrôle de l'entrée et le rejet des déchets",
+          "une perméabilité sélective",
+          "la régulation du Ph"
+        ],
+        "correctAnswers": [
+          "une perméabilité sélective"
+        ]
+      },
+      {
+        "question": "La taille de l'appareil de Golgi dépend :",
+        "options": [
+          "de la nature du Ph",
+          "des protéines qu'il stocke",
+          "de l'état du cycle cellulaire",
+          "de la taille des saccules"
+        ],
+        "correctAnswers": [
+          "de l'état du cycle cellulaire"
+        ]
+      },
+      {
+        "question": "Le rôle du codon est :",
+        "options": [
+          "de former l'ARNt",
+          "de former l'ARNr",
+          "la maturation de l'ARNm",
+          "l'association avec un acide aminé"
+        ],
+        "correctAnswers": [
+          "l'association avec un acide aminé"
+        ]
+      },
+      {
+        "question": "Le transport des particules virales se fait par :",
+        "options": [
+          "endocytose",
+          "diffusion facilitée",
+          "transport passif",
+          "l'action catalytique d'une enzyme"
+        ],
+        "correctAnswers": [
+          "endocytose"
+        ]
+      },
+      {
+        "question": "Les pores nucléaires permettent le mouvement :",
+        "options": [
+          "des enzymes",
+          "des anticodons",
+          "des protéines de l'ARNm",
+          "des protéines de l'ADN"
+        ],
+        "correctAnswers": [
+          "des protéines de l'ARNm"
+        ]
+      },
+      {
+        "question": "La structure du RE est :",
+        "options": [
+          "fragile",
+          "en déséquilibre dynamique",
+          "en équilibre dynamique",
+          "fragile mais stable"
+        ],
+        "correctAnswers": [
+          "en équilibre dynamique"
+        ]
+      },
+      {
+        "question": "Les cellules sont composées de :",
+        "options": [
+          "15% d'ADN",
+          "3% d'acide gras",
+          "60% d'eau",
+          "2% de glucose"
+        ],
+        "correctAnswers": [
+          "60% d'eau"
+        ]
+      },
+      {
+        "question": "La vacuole a pour rôle :",
+        "options": [
+          "le développement cellulaire",
+          "la migration cellulaire",
+          "le stockage des nutriments",
+          "la protection de la cellule"
+        ],
+        "correctAnswers": [
+          "le stockage des nutriments"
+        ]
+      },
+      {
+        "question": "Le karyoskeleton se trouve :",
+        "options": [
+          "dans le cytosquelette",
+          "dans le hyaloplasme",
+          "dans le cytosol",
+          "dans le noyau"
+        ],
+        "correctAnswers": [
+          "dans le noyau"
+        ]
+      },
+      {
+        "question": "Le tissu conjonctif est d'origine :",
+        "options": [
+          "non mésoblastique",
+          "mésenchymateux",
+          "épithélial",
+          "endoblastique"
+        ],
+        "correctAnswers": [
+          "mésenchymateux"
+        ]
+      },
+      {
+        "question": "Le fibroblaste :",
+        "options": [
+          "est la cellule principale des tissus conjonctifs spécialisés",
+          "est une cellule très jeune",
+          "est une cellule épithéliale",
+          "est une cellule mature"
+        ],
+        "correctAnswers": [
+          "est la cellule principale des tissus conjonctifs spécialisés"
+        ]
+      },
+      {
+        "question": "Le mode mérocrine :",
+        "options": [
+          "n'affecte pas l'espérance de vie cellulaire",
+          "implique une perte de surface membranaire",
+          "concerne la forme de la glande",
+          "fait partie du type endocrine"
+        ],
+        "correctAnswers": [
+          "n'affecte pas l'espérance de vie cellulaire"
+        ]
+      },
+      {
+        "question": "La classification des tissus :",
+        "options": [
+          "est basée sur la morphologie",
+          "prend en compte tous les tissus sans exception",
+          "a été établi pour la première fois par un certain Virchow",
+          "principaux nécessite un microscope"
+        ],
+        "correctAnswers": [
+          "est basée sur la morphologie"
+        ]
+      },
+      {
+        "question": "L'épithélium pseudostratifié est :",
+        "options": [
+          "composé de plusieurs assises",
+          "fait de cellules cubiques",
+          "fait de cellules pavimenteuses",
+          "fait de cellules plus hautes que larges"
+        ],
+        "correctAnswers": [
+          "fait de cellules plus hautes que larges"
+        ]
+      },
+      {
+        "question": "Les cavités closes :",
+        "options": [
+          "sont au nombre de 5",
+          "sont tapissées par des mésothéliums",
+          "sont tapissées par des endothéliums",
+          "sont tapissées par des épithéliums"
+        ],
+        "correctAnswers": [
+          "sont tapissées par des mésothéliums"
+        ]
+      },
+      {
+        "question": "Les glandes mixtes :",
+        "options": [
+          "gardent une partie de la substance élaborée pour leur propre usage",
+          "sont caractérisées par une phase de stockage discontinue",
+          "ne disposent pas de canaux de sécrétion",
+          "ne dispose pas d'adénomère"
+        ],
+        "correctAnswers": [
+          "sont caractérisées par une phase de stockage discontinue"
+        ]
+      },
+      {
+        "question": "L'atrophie :",
+        "options": [
+          "est physiologique",
+          "décrit une variation numérique",
+          "décrit une variation quantitative",
+          "peut être la conséquence d'un processus adaptatif"
+        ],
+        "correctAnswers": [
+          "peut être la conséquence d'un processus adaptatif"
+        ]
+      },
+      {
+        "question": "À propos de la figure ci-dessous :",
+        "options": [
+          "elle décrit la localisation de la glande",
+          "est un mode qui n'affecte pas l'espérance de vie de la cellule",
+          "se déroule au sein de la glande sudoripare",
+          "il s'agit du sébum"
+        ],
+        "correctAnswers": [
+          "est un mode qui n'affecte pas l'espérance de vie de la cellule"
+        ],
+        "photo": "assets/imageHisto/h1.jpg"
+      },
+      {
+        "question": "Les desmosomes :",
+        "options": [
+          "sont des structures extracellulaire",
+          "occupent simultanément 2 cellule voisines.",
+          "limitent la perméabilité intracellulaire.",
+          "sont le résultat de la différenciation apicale."
+        ],
+        "correctAnswers": [
+          "occupent simultanément 2 cellule voisines."
+        ]
+      },
+      {
+        "question": "Les différents tissus de soutien:",
+        "options": [
+          "ont la même composition.",
+          "diffèrent par l'arrangement de la STA.",
+          "sont des tissus de consistance différente.",
+          "soutiennent l'organisme immunologiquement."
+        ],
+        "correctAnswers": [
+          "sont des tissus de consistance différente."
+        ]
+      },
+      {
+        "question": "Les glandes salivaires :",
+        "options": [
+          "ne possèdent pas d'adénomère.",
+          "ont 2 modes de sécrétions.",
+          "sécrètent des substances à constances variables.",
+          "sont mixtes."
+        ],
+        "correctAnswers": [
+          "ont 2 modes de sécrétions."
+        ]
+      },
+      {
+        "question": "La couche granuleuse :",
+        "options": [
+          "est la couche la plus profonde de l'épiderme.",
+          "est faite de cellules polygonales.",
+          "est caractérisée par l'abondance des desmosomes.",
+          "se présente comme réserve de la kératine épidermique."
+        ],
+        "correctAnswers": [
+          "est caractérisée par l'abondance des desmosomes."
+        ]
+      },
+      {
+        "question": "Les fibrocytes :",
+        "options": [
+          "sont des cellules épithéliales.",
+          "sont jeunes et inactifs.",
+          "peuvent rajeunir.",
+          "ne peuvent pas désintégrer le T.C."
+        ],
+        "correctAnswers": [
+          "peuvent rajeunir."
+        ]
+      },
+      {
+        "question": "Les endothéliums :",
+        "options": [
+          "ne sont pas des épithéliums.",
+          "peuvent faire partie des cellules constitutives du tissu conjonctif.",
+          "sont faits de cellules polymorphes.",
+          "sont multi stratifiés."
+        ],
+        "correctAnswers": [
+          "peuvent faire partie des cellules constitutives du tissu conjonctif."
+        ]
+      },
+      {
+        "question": "Les acini pancréatiques :",
+        "options": [
+          "sont intra-épithéliales.",
+          "sont extra-pariétales intra-épithéliales.",
+          "sont des glandes à sécrétion exocrine.",
+          "constituent des glandes mixtes."
+        ],
+        "correctAnswers": [
+          "sont des glandes à sécrétion exocrine."
+        ]
+      },
+      {
+        "question": "La vascularisation :",
+        "options": [
+          "est une caractéristique des épithéliums.",
+          "est indispensable au processus de sécrétion exocrine.",
+          "contient une substance dépourvu de fibres.",
+          "est faite essentiellement de mésothéliums."
+        ],
+        "correctAnswers": [
+          "est indispensable au processus de sécrétion exocrine."
+        ]
+      },
+      {
+        "question": "L'épithélium pavimenteux simple :",
+        "options": [
+          "est le plus adapté à l'acheminement de la substance toxique.",
+          "est le plus adapté aux endroits où l'espace ne constitue pas un souci.",
+          "n'est pas adapté à l'échange à travers ces cellules.",
+          "est en contact avec les substances inoffensives."
+        ],
+        "correctAnswers": [
+          "est le plus adapté aux endroits où l'espace ne constitue pas un souci."
+        ]
+      },
+      {
+        "question": "Les adipocytes :",
+        "options": [
+          "ont un pouvoir prolifératif remarquable.",
+          "ont un pouvoir évolutif important.",
+          "sont des cellules jeunes.",
+          "sont d'origine mésenchymateuse."
+        ],
+        "correctAnswers": [
+          "sont d'origine mésenchymateuse."
+        ]
+      },
+      {
+        "question": "Lectoblaste :",
+        "options": [
+          "peut donner des tissus nerveux.",
+          "ne donne pas de tissus de soutien.",
+          "ne donne pas d'épithéliums.",
+          "ne donne pas de tissus musculaires."
+        ],
+        "correctAnswers": [
+          "peut donner des tissus nerveux."
+        ]
+      },
+      {
+        "question": "A propos de la figure ci-dessous:",
+        "options": [
+          "il s'agit d'un épithélium gastrique.",
+          "il s'agit d'un mésothéliums respiratoire.",
+          "il s'agit d'une différentiation apicale.",
+          "la présence des stériocils."
+        ],
+        "correctAnswers": [
+          "il s'agit d'un épithélium gastrique."
+        ],
+        "photo": "assets/imageHisto/h2.jpg"
+      }
+    ]
+  }
+]

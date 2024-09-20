@@ -9,7 +9,8 @@ class QuestionController extends GetxController {
   var currentQuestionIndex = 0.obs;
   var selectedAnswers = <List<String>>[].obs; // List of lists to store selected answers for each question
   var showResults = <bool>[].obs; // List to track whether to show results for each question
-  var availableYears = <String>[].obs; // List to store available years
+  var availableYears = <String>[].obs; // Make it observable
+
   late QuestionData currentQuestion;
   @override
   void onInit() {
@@ -19,50 +20,53 @@ class QuestionController extends GetxController {
   }
   Future<void> loadAvailableYears(String selectedYear, String selectedSem, String selectedMod) async {
     try {
-      // Clear the list before loading new data to prevent duplication
       availableYears.clear();
 
-      final String jsonString = await rootBundle.loadString('assets/resources/annee1S1/Anatomie.json');
-      final Map<String, dynamic> data = json.decode(jsonString);
-      final List<dynamic> yearsData = data['years'];
+      // Step 1: Load Anatomie JSON to find the module
+      final String anatomieJsonString = await rootBundle.loadString('assets/resources/annee1S1/Chirdent.json');
+      final Map<String, dynamic> anatomieData = json.decode(anatomieJsonString);
 
-      for (var yearData in yearsData) {
-        if (yearData['annee'].trim() == selectedYear.trim()) {
-          for (var semester in yearData['semesters']) {
-            if (semester['semestre'].trim() == selectedSem.trim()) {
-              for (var module in semester['modules']) {
-                if (module['module'].trim() == selectedMod.trim()) {
-                  availableYears.add(module['year']); // Add the available year to the list
-                }
-              }
-            }
-          }
-        }
+      if (anatomieData['years'] is! List) {
+        throw Exception('Invalid format: years section is missing or not a list.');
       }
-    } catch (e) {
-      Get.snackbar("Error", "Failed to load available years: $e");
-    }
-  }
-  Future<void> loadQuestionsForYear(String selectedYear, String selectedSem, String selectedMod, String year) async {
-    try {
-      final String jsonString = await rootBundle.loadString('assets/resources/annee1S1/Anatomie.json');
-      final Map<String, dynamic> data = json.decode(jsonString);
-      final List<dynamic> yearsData = data['years'];
+
+      final List<dynamic> yearsData = anatomieData['years'];
+      bool moduleFound = false;
 
       for (var yearData in yearsData) {
-        if (yearData['annee'].trim() == selectedYear.trim()) {
-          for (var semester in yearData['semesters']) {
-            if (semester['semestre'].trim() == selectedSem.trim()) {
-              for (var module in semester['modules']) {
-                if (module['module'].trim() == selectedMod.trim() && module['year'].trim() == year.trim()) {
-                  questions.clear(); // Clear any previous questions
-                  selectedAnswers.clear(); // Clear previous selected answers
-                  showResults.clear(); // Clear previous results
+        if (yearData['annee']?.trim() == selectedYear.trim()) {
+          for (var semester in yearData['semesters'] ?? []) {
+            if (semester['semestre']?.trim() == selectedSem.trim()) {
+              final modules = semester['modules'];
+              if (modules is List) {
+                for (var module in modules) {
+                  if (module['module']?.trim() == selectedMod.trim()) {
+                    moduleFound = true;
 
-                  for (var questionData in module['questions']) {
-                    questions.add(QuestionData.fromJson(questionData));
-                    selectedAnswers.add([]); // Initialize with empty lists
-                    showResults.add(false);  // Initialize show results to false
+                    // Step 2: Get the module link
+                    final String? moduleLink = module['link'];
+                    if (moduleLink == null) {
+                      throw Exception('Module link not found.');
+                    }
+
+                    // Step 3: Load the module JSON (e.g., francais.json)
+                    final String moduleJsonString = await rootBundle.loadString(moduleLink);
+                    final List<dynamic> moduleData = json.decode(moduleJsonString);
+
+                    // Step 4: Extract the year from the module JSON
+                    for (var moduleYearData in moduleData) {
+                      if (moduleYearData is Map<String, dynamic> && moduleYearData['year'] != null) {
+                        availableYears.add(moduleYearData['year']);
+                      }
+                    }
+
+                    print("Available Years: $availableYears");
+
+                    if (availableYears.isEmpty) {
+                      print('No available years found in module: $selectedMod');
+                    }
+
+                    break;
                   }
                 }
               }
@@ -71,11 +75,79 @@ class QuestionController extends GetxController {
         }
       }
 
+      if (!moduleFound) {
+        throw Exception('Module not found.');
+      }
+
+    } catch (e) {
+      Get.snackbar("Error", "Failed to load available years: $e");
+      print("Error loading available years: $e");
+    }
+  }
+  Future<void> loadQuestionsForYear(String selectedYear, String selectedSem, String selectedMod, String year) async {
+    try {
+      // Step 1: Load Anatomie JSON to find the module's JSON file path
+      final String anatomieJsonString = await rootBundle.loadString('assets/resources/annee1S1/Chirdent.json');
+      final Map<String, dynamic> anatomieData = json.decode(anatomieJsonString);
+
+      final List<dynamic> yearsData = anatomieData['years'];
+      String moduleJsonPath = '';
+
+      for (var yearData in yearsData) {
+        if (yearData['annee']?.trim() == selectedYear.trim()) {
+          for (var semester in yearData['semesters'] ?? []) {
+            if (semester['semestre']?.trim() == selectedSem.trim()) {
+              for (var module in semester['modules'] ?? []) {
+                if (module['module']?.trim() == selectedMod.trim()) {
+                  moduleJsonPath = module['link'];
+                  break;
+                }
+              }
+              if (moduleJsonPath.isNotEmpty) break;
+            }
+            if (moduleJsonPath.isNotEmpty) break;
+          }
+          if (moduleJsonPath.isNotEmpty) break;
+        }
+      }
+
+      if (moduleJsonPath.isEmpty) {
+        throw Exception('Module JSON path not found.');
+      }
+
+      // Step 2: Load the module JSON file
+      final String moduleJsonString = await rootBundle.loadString(moduleJsonPath);
+      final List<dynamic> moduleData = json.decode(moduleJsonString);
+
+      // Step 3: Clear previous data
+      questions.clear();
+      selectedAnswers.clear();
+      showResults.clear();
+
+      // Step 4: Extract questions for the selected year
+      for (var moduleYearData in moduleData) {
+        if (moduleYearData is! Map<String, dynamic>) {
+          throw Exception('Invalid format: moduleYearData is not a Map.');
+        }
+        if (moduleYearData['year']?.trim() == year.trim()) {
+          for (var questionData in moduleYearData['questions'] ?? []) {
+            if (questionData is! Map<String, dynamic>) {
+              throw Exception('Invalid format: questionData is not a Map.');
+            }
+            questions.add(QuestionData.fromJson(questionData));
+            selectedAnswers.add([]);
+            showResults.add(false);
+          }
+          break; // Exit loop once the correct year is found
+        }
+      }
+
       if (questions.isNotEmpty) {
         currentQuestionIndex.value = 0;
         currentQuestion = questions[0];  // Initialize with the first question
       }
     } catch (e) {
+      print("Error in loadQuestionsForYear: $e"); // Added for debugging
       Get.snackbar("Error", "Failed to load questions: $e");
     }
   }
@@ -130,3 +202,5 @@ class QuestionController extends GetxController {
     return spans;
   }
 }
+
+

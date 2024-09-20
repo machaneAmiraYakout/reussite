@@ -1,0 +1,2964 @@
+[
+  {
+    "year": "2023/2024",
+    "questions":[
+      {
+        "question": "À propos des miroirs plans :",
+        "options": [
+          "L’image d’un objet dans un miroir est réversible",
+          "Un observateur se regardant dans un miroir plan situé à 50 cm de lui voit son image à 1 m de lui",
+          "Le rayon incident et le rayon réfléchi par un miroir plan sont dans deux plans différents."
+        ],
+        "correctAnswers": [
+          "Un observateur se regardant dans un miroir plan situé à 50 cm de lui voit son image à 1 m de lui"
+        ]
+      },
+      {
+        "question": "Un rayon lumineux frappe un miroir plan. L’angle d’incidence est 50°, l’angle de déviation est :",
+        "options": [
+          "10°",
+          "80°",
+          "100°",
+          "180°"
+        ],
+        "correctAnswers": [
+          "80°"
+        ]
+      },
+      {
+        "question": "Les surfaces réfléchissantes de 2 miroirs plans accolés forment un angle de 50°. Un rayon lumineux issu d’une source ponctuelle S subit deux réflexions successives. La déviation totale est donc :",
+        "options": [
+          "45°",
+          "90°",
+          "120°",
+          "180°"
+        ],
+        "correctAnswers": [
+          "180°"
+        ]
+      },
+      {
+        "question": "Si un rayon lumineux pénètre dans un milieu moins réfringent avec un angle d’incidence I, on peut dire que :",
+        "options": [
+          "Le rayon réfracté n’existe plus si l’angle I dépasse une valeur limitée",
+          "Le rayon réfracté existe toujours",
+          "Le rayon réfléchi existe toujours",
+          "Le rayon réfracté n’existe jamais"
+        ],
+        "correctAnswers": [
+          "Le rayon réfracté n’existe plus si l’angle I dépasse une valeur limitée"
+        ]
+      },
+      {
+        "question": "Une lame de verre à faces planes et parallèles est placée dans l’air. Son épaisseur est de 3 cm et son indice n = 1,5.",
+        "options": [
+          "La lame donne d’un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A’B’ placée à 2 cm de ce même dioptre.",
+          "Un rayon qui arrive sur la lame avec un angle d’incidence de 15° ressort de la lame avec un angle d’émergence de 10°.",
+          "La distance objet - image dépend de la distance de l’objet à la lame.",
+          "Quand l’objet se déplace de 1 cm vers la lame, celle-ci restant fixe, l’image se déplace de 1,5 cm."
+        ],
+        "correctAnswers": [
+          "La lame donne d’un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A’B’ placée à 2 cm de ce même dioptre."
+        ]
+      },
+      {
+        "question": "Une lentille plan-convexe est :",
+        "options": [
+          "Une lentille de vergence négative",
+          "Une lentille à bords épais",
+          "Une lentille à bords minces",
+          "Toutes ces réponses sont fausses"
+        ],
+        "correctAnswers": [
+          "Une lentille à bords minces"
+        ]
+      },
+      {
+        "question": "Une lentille mince convergente :",
+        "options": [
+          "Ne peut pas posséder de face plane",
+          "Est à bords épais",
+          "Peut posséder deux faces bombées",
+          "Peut avoir sa face d'entrée plane et sa face de sortie plane également"
+        ],
+        "correctAnswers": [
+          "Peut posséder deux faces bombées"
+        ]
+      },
+      {
+        "question": "Concernant le grandissement :",
+        "options": [
+          "Si l'image est renversée, le grandissement est négatif",
+          "Si l'image est renversée et de même taille que son objet, alors le grandissement est nul",
+          "Si l'image est droite et de même taille que son objet, alors le grandissement est nul",
+          "Si l'image est renversée, le grandissement est positif"
+        ],
+        "correctAnswers": [
+          "Si l'image est renversée, le grandissement est négatif"
+        ]
+      },
+      {
+        "question": "Une lentille d’indice de réfraction n=1,5 et située dans l'air fait d'un objet AB réel placé à 30 cm de son centre optique O, une image virtuelle A'B' située à 15 cm de O. La vergence C de la lentille vaut :",
+        "options": [
+          "+6,66d",
+          "-3,33d",
+          "+1,5d",
+          "-2d"
+        ],
+        "correctAnswers": [
+          "-3,33d"
+        ]
+      },
+      {
+        "question": "Les deux rayons de courbure de cette lentille sont égaux. Cette lentille est donc :",
+        "options": [
+          "Biconcave",
+          "Biconvexe",
+          "Plan-concave",
+          "Plan-convexe",
+          "Aucune réponse n'est vraie"
+        ],
+        "correctAnswers": [
+          "Biconcave"
+        ]
+      },
+      {
+        "question": "La valeur des rayons de courbure de cette lentille est :",
+        "options": [
+          "60 cm",
+          "15 cm",
+          "30 cm",
+          "10 cm"
+        ],
+        "correctAnswers": [
+          "30 cm"
+        ]
+      },
+      {
+        "question": "L’angle de réfraction sur la première face AB est :",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°"
+        ],
+        "correctAnswers": [
+          "60°"
+        ]
+      },
+      {
+        "question": "L’indice du prisme est :",
+        "options": [
+          "√3",
+          "√2",
+          "2",
+          "3"
+        ],
+        "correctAnswers": [
+          "√3"
+        ]
+      },
+      {
+        "question": "Un rayon lumineux passant par le centre optique d’une lentille mince divergente :",
+        "options": [
+          "Ne subit aucune déviation.",
+          "Émerge en passant par le foyer image.",
+          "Émerge en passant par le foyer objet.",
+          "Toutes ces réponses sont fausses."
+        ],
+        "correctAnswers": [
+          "Ne subit aucune déviation."
+        ]
+      },
+      {
+        "question": "Une lentille convergente donne d'un objet virtuel situé sur son plan focal image, une image située :",
+        "options": [
+          "Sur le plan focal image.",
+          "Sur le plan focal objet.",
+          "À l'infini.",
+          "Droite réduite au moitié."
+        ],
+        "correctAnswers": [
+          "Droite réduite au moitié."
+        ]
+      },
+      {
+        "question": "Soit un objet AB situé après le foyer objet d'une lentille divergente, son image A'B' est :",
+        "options": [
+          "Virtuelle droite.",
+          "Virtuelle renversée.",
+          "Réelle inversée.",
+          "Toutes ces réponses sont fausses."
+        ],
+        "correctAnswers": [
+          "Virtuelle droite.",
+          "Virtuelle renversée."
+        ]
+      },
+      {
+        "question": "Un individu voit nettement les objets situés devant lui entre 25 cm et l'infini lorsqu'il porte des verres de contact dont la vergence C vaut -1 dioptrie. Cet individu retire ces verres de contact. Son PP est situé à :",
+        "options": [
+          "20 cm",
+          "50 cm",
+          "75 cm",
+          "100 cm"
+        ],
+        "correctAnswers": [
+          "20 cm"
+        ]
+      },
+      {
+        "question": "Son PR est situé à :",
+        "options": [
+          "20 cm",
+          "50 cm",
+          "75 cm",
+          "100 cm"
+        ],
+        "correctAnswers": [
+          "100 cm"
+        ]
+      }
+
+    ]
+
+
+  },
+  {
+    "year": "2022/2023",
+    "questions":[
+      {
+        "question": "La force électrique exercée sur la charge se trouvant en O est égale à",
+        "options": [
+          "-kg/a^2",
+          "-7kq^2/4a^2 i",
+          "-2kq²/a² i",
+          "-4kq/a² i",
+          "o i"
+        ],
+        "correctAnswers": [
+          "-4kq/a² i"
+        ]
+      },
+      {
+        "question": "Le champ électrique en O vaut :",
+        "options": [
+          "-kq/a² i",
+          "-7kq/4a² i",
+          "-2kq/a² i",
+          "-4kq/a² i"
+        ],
+        "correctAnswers": [
+          "-4kq/a² i"
+        ]
+      },
+      {
+        "question": "Le champ électrique en M_1 vaut :",
+        "options": [
+          "-kq/a²",
+          "-7kq/4a²",
+          "-2kq/a²",
+          "-4kq/a²"
+        ],
+        "correctAnswers": [
+          "-7kq/4a²"
+        ]
+      },
+      {
+        "question": "Le potentiel électrique en O est égal à:",
+        "options": [
+          "-kq/a",
+          "-7kq/4a",
+          "2kq/a",
+          "-4kq/a",
+          "0"
+        ],
+        "correctAnswers": [
+          "2kq/a"
+        ]
+      },
+      {
+        "question": "La vergence C de la lentille vaut :",
+        "options": [
+          "+6,66 d",
+          "+1,50 d",
+          "-3,33 d",
+          "-2 d"
+        ],
+        "correctAnswers": [
+          "-3,33 d"
+        ]
+      },
+      {
+        "question": "Les deux rayons de courbure de cette lentille sont égaux. Cette lentille est donc :",
+        "options": [
+          "biconcave",
+          "biconvexe",
+          "plan-concave",
+          "plan-convexe"
+        ],
+        "correctAnswers": [
+          "biconcave"
+        ]
+      },
+      {
+        "question": "La valeur des rayons de courbure de cette lentille est :",
+        "options": [
+          "60 cm",
+          "15 cm",
+          "30 cm",
+          "10 cm"
+        ],
+        "correctAnswers": [
+          "30 cm"
+        ]
+      },
+      {
+        "question": "Un individu voit nettement les objets situés entre 25 cm et l'infini avec des verres de contact de vergence C = -1 dioptrie. son PP est",
+        "options": [
+          "40 cm",
+          "33,3 cm",
+          "25 cm",
+          "20 cm",
+          "15 cm"
+        ],
+        "correctAnswers": [
+          "20 cm"
+        ]
+      },
+      {
+        "question": "Son PR (point le plus proche) est situé à :",
+        "options": [
+          "40 cm",
+          "50 cm",
+          "75 cm",
+          "100 cm",
+          "150 cm"
+        ],
+        "correctAnswers": [
+          "100 cm"
+        ]
+      },
+      {
+        "question": "Solent un objet AB virtuel de 2 cm de hauteur, une lentille L (de 4 cm de distance focale), et l'image réelle A'8' de cet objet AB à travers L. Sachant que l'image A'B' est située à 20 cm du centre optique de L. La hauteur de rimage A'B' est:",
+        "options": [
+          "4 cm",
+          "8 cm",
+          "10 cm",
+          "12 cm",
+          "15 cm"
+        ],
+        "correctAnswers": [
+          "12 cm"
+        ]
+      },
+      {
+        "question": "Une lentille donne d'un objet virtuel une image virtuelle deux fois plus grande. L'objet est à 12 cm du centre optique de la lentille. Cette lentille est :",
+        "options": [
+          "convergente de 8 cm de distance focale",
+          "divergente de 8 cm de distance focale",
+          "divergente de 24 cm de distance focale",
+          "convergente de 24 cm de distance focale"
+        ],
+        "correctAnswers": [
+          "convergente de 8 cm de distance focale"
+        ]
+      },
+      {
+        "question": "Une lentille convergente donne d'un objet virtuel situé sur son plan focal objet, une image située :",
+        "options": [
+          "Sur le plan focal image",
+          "Sur le plan focal objet",
+          "À l'infini",
+          "Au centre de la lentille",
+          "armv"
+        ],
+        "correctAnswers": [
+          "armv"
+        ]
+      },
+      {
+        "question": "Un prisme d'angle au sommet A=60°. Si le rayon incident sur la face AB est égal au rayon émergent par la face AC et l'indice de réfraction du prisme est n=2, l'angle d'incidence est :",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°",
+          "120°"
+        ],
+        "correctAnswers": [
+          "90°"
+        ]
+      },
+      {
+        "question": "La déviation vaut :",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°",
+          "120°"
+        ],
+        "correctAnswers": [
+          "120°"
+        ]
+      },
+      {
+        "question": "La distance D du miroir qui permettrait de se voir entièrement est :",
+        "options": [
+          "0,5 m",
+          "1 m",
+          "1,5 m",
+          "2 m",
+          "aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "aucune des réponses n'est vraie"
+        ]
+      },
+      {
+        "question": "La distance focale de la deuxième lentille est :",
+        "options": [
+          "3,2 cm",
+          "2,6 cm",
+          "5 cm",
+          "4.5 cm"
+        ],
+        "correctAnswers": [
+          "4.5 cm"
+        ]
+      },
+      {
+        "question": "Avec un miroir convexe, on peut obtenir une image réelle si :",
+        "options": [
+          "L'objet est réel",
+          "L'objet est virtuel, peu importe sa place",
+          "L'objet est virtuel, placé entre 5 et E",
+          "L'objet est virtuel, placé entre F et C"
+        ],
+        "correctAnswers": [
+          "L'objet est virtuel, placé entre 5 et E"
+        ]
+      },
+      {
+        "question": "Un condensateur de capacité 2200 pF est chargé sous une tension de 100 V. La charge et l'énergie stockée par le condensateur sont respectivement :",
+        "options": [
+          "22 µC et 11 µl",
+          "0,22 µC et 0,11 W",
+          "0,22 µC et 11 w",
+          "22 µC et 11 J"
+        ],
+        "correctAnswers": [
+          "0,22 µC et 11 w"
+        ]
+      },
+      {
+        "question": "Lorsqu'on rapproche un objet réel d'une lentille convergente de position fixe, l'image restant réelle :",
+        "options": [
+          "L'image se rapproche de la lentille.",
+          "L'image s'éloigne de la lentille.",
+          "La taille de l'image diminue.",
+          "La taille de l'image sera égale à la taille de l'objet."
+        ],
+        "correctAnswers": [
+          "L'image s'éloigne de la lentille."
+        ]
+      },
+      {
+        "question": "Défauts de l'œil :",
+        "options": [
+          "L'œil myope est trop convergent, c'est pour cela qu'on corrige la myopie par des verres divergents.",
+          "L'œil hypermétrope n'est pas assez convergent, alors la correction se fait par des verres divergents.",
+          "Le PR d'un œil hypermétrope est infini.",
+          "Au repos, le foyer d'un œil myope est virtuel."
+        ],
+        "correctAnswers": [
+          "L'œil myope est trop convergent, c'est pour cela qu'on corrige la myopie par des verres divergents."
+        ]
+      }
+    ]
+
+  },
+  {
+    "year": "2021/2022",
+    "questions":[
+      {
+        "question": "Quatre charges identiques (+q) sont placées aux sommets d'un carré de côté 'a'. Au centre O du carré :",
+        "options": [
+          "Le potentiel électrique est nul.",
+          "Le champ électrique est : 4√2 Kg/a^2",
+          "Le champ électrique est nul.",
+          "Le potentiel électrique est : 4√2 Kq/a^2"
+        ],
+        "correctAnswers": [
+          "Le champ électrique est nul.",
+          "Le potentiel électrique est : 4√2 Kq/a^2"
+
+        ]
+      },
+      {
+        "question": "Un condensateur plan de capaciter C est porté à un potentiel V. Ce condensateur est constitué de deux plaques métalliques de surface 5 séparées par un diélectrique d'épaisseur e et de permittivité E. Si S est multipliée par 2, la capacité sera :",
+        "options": [
+          "C/2",
+          "C",
+          "2C",
+          "4C"
+        ],
+        "correctAnswers": [
+          "2C"
+        ]
+      },
+      {
+        "question": "Si S est multipliée par 2, la charge sera :",
+        "options": [
+          "Q/2",
+          "Q",
+          "2Q",
+          "4Q"
+        ],
+        "correctAnswers": [
+          "2Q"
+        ]
+      },
+      {
+        "question": "Si S est multipliée par 2, l'énergie emmagasinée sera :",
+        "options": [
+          "W/2",
+          "W",
+          "2W",
+          "4W"
+        ],
+        "correctAnswers": [
+          "2W"
+        ]
+      },
+      {
+        "question": "Si e est multipliée par 2, la capacité sera :",
+        "options": [
+          "C/2",
+          "C",
+          "2C",
+          "4C"
+        ],
+        "correctAnswers": [
+          "C/2"
+        ]
+      },
+      {
+        "question": "Si e est multipliée par 2, la charge sera :",
+        "options": [
+          "Q/2",
+          "Q",
+          "C. 20",
+          "D. 40"
+        ],
+        "correctAnswers": [
+          "Q/2"
+        ]
+      },
+      {
+        "question": "Si e est multipliée par 2, l'énergie emmagasinée sera :",
+        "options": [
+          "W/2",
+          "W",
+          "2W",
+          "4W"
+        ],
+        "correctAnswers": [
+          "W/2"
+        ]
+      },
+      {
+        "question": "Si V est multiplié par 2, la capacité sera :",
+        "options": [
+          "C/2",
+          "C",
+          "2C",
+          "4C"
+        ],
+        "correctAnswers": [
+          "C"
+        ]
+      },
+      {
+        "question": "Si V est multiplié par 2, la charge sera :",
+        "options": [
+          "Q/2",
+          "Q",
+          "2Q",
+          "4Q"
+        ],
+        "correctAnswers": [
+          "2Q"
+        ]
+      },
+      {
+        "question": "Si V est multiplié par 2, l'énergie emmagasinée sera :",
+        "options": [
+          "W/2",
+          "W",
+          "2W",
+          "4W"
+        ],
+        "correctAnswers": [
+          "4W"
+        ]
+      },
+      {
+        "question": "Une résistance de 500Ω est alimentée par un courant de 2A pendant 30 min. Quelle sera l'énergie dissipée par la résistance ?",
+        "options": [
+          "61 kj",
+          "30 kj",
+          "180 kj",
+          "360 kj"
+
+        ],
+        "correctAnswers": [
+          "360 kj"
+        ]
+      },
+      {
+        "question": "Un conducteur métallique de longueur L, de section S et de résistivité p a une résistance R. On utilise un autre fil dont la longueur est triple. Que faut-il faire pour que la résistance soit divisée par deux ?",
+        "options": [
+          "Ne rien faire.",
+          "Diviser par deux la résistivité p et tripler la section S.",
+          "Tripler la résistivité p et diviser par deux la section S.",
+          "Tripler la résistivité p et doubler la section S."
+        ],
+        "correctAnswers": [
+          "Diviser par deux la résistivité p et tripler la section S."
+        ]
+      },
+      {
+        "question": "Un prisme possède un angle au sommet de 60°. Si le prisme est placé dans un liquide, l'angle de déviation minimum est de 30°. L'indice de réfraction du liquide est :",
+        "options": [
+          "√(3/2)",
+          "√3/2",
+          "√2",
+          "2"
+        ],
+        "correctAnswers": [
+          "√3/2"
+        ]
+      },
+      {
+        "question": "Un individu situé à 2m d'un miroir plan ne voit que la moitié de son corps. La distance pour se voir entièrement est :",
+        "options": [
+          "D = 1m",
+          "D = 3m",
+          "D = 4m",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "D = 4m"
+        ]
+      },
+      {
+        "question": " Une lame de verre à faces planes et parallèles est placée dans l'air. Son épaisseur este « 3cm », et son indice n = 1,5",
+        "options": [
+          "La lame donne d'un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B' placée à 2 cm de ce même dioptre",
+          "Un rayon qui arrive sur la lame avec un angle d'incidence de 15°, ressort de la lame avec un angle d'émergence de 10°.",
+          "La distance objet - image dépend de la distance de l'objet à la lame. Nom",
+          "Quand l'objet se déplace de 1 cm vers la lame, celle-ci restant fixe, l'image se déplace de 1,5 cm."
+        ],
+        "correctAnswers": [
+          "La lame donne d'un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B' placée à 2 cm de ce même dioptre"
+        ]
+      },
+      {
+        "question": "La lentille divergente donne toujours une image virtuelle sauf si l'objet est :",
+        "options": [
+          "Réel en avant du foyer image.",
+          "Réel entre le foyer image et la lentille.",
+          "Virtuel entre la lentille et le foyer objet.",
+          "Virtuel au-delà du foyer objet."
+        ],
+        "correctAnswers": [
+          "Réel entre le foyer image et la lentille."
+        ]
+      },
+      {
+        "question": "La lentille convergente donne toujours une image réelle sauf si l'objet est :",
+        "options": [
+          "Réel en avant du foyer objet.",
+          "Réel entre le foyer objet et la lentille.",
+          "Virtuel entre la lentille et le foyer image.",
+          "Virtuel au-delà du foyer image."
+        ],
+        "correctAnswers": [
+          "Réel entre le foyer objet et la lentille."
+        ]
+      },
+      {
+        "question": "Miroir plan :",
+        "options": [
+          "L'image est renversée.",
+          "L'image ne peut être observée que si l'objet est en face du miroir.",
+          "Un observateur à 50 cm du miroir voit son image à 1m.",
+          "Le rayon incident et le rayon réfléchi n'ont jamais la même direction."
+        ],
+        "correctAnswers": [
+          "L'image est renversée.",
+          "L'image ne peut être observée que si l'objet est en face du miroir.",
+          "Un observateur à 50 cm du miroir voit son image à 1m.",
+          "Le rayon incident et le rayon réfléchi n'ont jamais la même direction."
+        ]
+      },
+      {
+        "question": "Une lentille mince convergente :",
+        "options": [
+          "Ne peut pas avoir de face plane.",
+          "Est à bords épais.",
+          "Peut posséder deux faces bombées.",
+          "Peut avoir une face d'entrée plane et une face de sortie également plane."
+        ],
+        "correctAnswers": [
+          "Peut posséder deux faces bombées."
+        ]
+      },
+      {
+        "question": "Lorsqu'on rapproche un objet réel d'une lentille convergente de position fixe, l'image restant réelle :",
+        "options": [
+          "L'image se rapproche de la lentille.",
+          "L'image s'éloigne de la lentille.",
+          "La taille de l'image diminue.",
+          "La taille de l'image augmente."
+        ],
+        "correctAnswers": [
+          "L'image s'éloigne de la lentille.",
+          "La taille de l'image augmente."
+
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2021/2022",
+    "questions":[
+      {
+        "question": "Deux conducteurs sont faits du même matériau et ont la même longueur. Le conducteur A est un fil solide dont le diamètre est de 1 mm. Le conducteur B est un fil solide dont le diamètre extérieur est de 2 mm et le diamètre intérieur est de 1 mm. Le rapport RA/RB des résistances mesurées entre les extrémités des conducteurs est :",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswers": [
+          "4"
+        ]
+      },
+      {
+        "question": "Trois résistances, F1=607 42=40/ R3= 50, sont montées comme l'indique la\nfigure. La tension appliquée entre A et B est 37 V",
+        "options": [
+          "La résistance équivalente est donnée par : 1/Rt = 1/R1+1/R2+1/R30 Req= R3",
+          "L'intensité du courant dans R3 est égal à 5A",
+          "La tension aux bornes des résistances R1 et R2 est identique car les courants qui circulent dans ces résistances sont identiques.",
+          "La tension entre les bornes A et C est égale à la tension entre les bornes C et B"
+        ],
+        "correctAnswers": [
+          "L'intensité du courant dans R3 est égal à 5A"
+        ]
+      },
+      {
+        "question": "Un circuit a une puissance de 175 W fonctionnant sous une tension de 70 V. Quelle est la résistance de ce circuit (en ohms) ?",
+        "options": [
+          "375",
+          "70",
+          "175",
+          "28"
+        ],
+        "correctAnswers": [
+          "28"
+        ]
+      },
+      {
+        "question": "Un condensateur ayant des plaques de surface 12 m² séparées par une distance de 3 cm, a une énergie emmagasinée de 72 J. Ce condensateur est donc soumis à une tension de :",
+        "options": [
+          "4 V",
+          "2.100 V",
+          "2.10³ V",
+          "2 V"
+        ],
+        "correctAnswers": [
+          "2.10³ V"
+        ]
+      },
+      {
+        "question": "On considère deux charges électriques ponctuelles q et 4q (avec q > 0) distantes de a. La valeur de x pour laquelle le champ électrique E en un point M tel que OM = x est nul :",
+        "options": [
+          "x = -4a",
+          "x = -a",
+          "x = -2a",
+          "x = -3a"
+        ],
+        "correctAnswers": [
+          "x = -a"
+        ]
+      },
+      {
+        "question": "La valeur du potentiel électrique V en ce point est :",
+        "options": [
+          "Kq / 2a",
+          "Kq / a",
+          "-3Kq / a",
+          "2Kq / 3a"
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Le potentiel électrique en un point est de la forme V(x, y) = 4x²y - 2y, le vecteur champ électrique au point (0, 1) est :",
+        "options": [
+          "i→ + j→",
+          "+2j→",
+          "-2j→",
+          "+2j→ +j→"
+        ],
+        "correctAnswers": [
+          "+2j→"
+        ]
+      },
+      {
+        "question": "Si un rayon lumineux pénètre dans un milieu moins réfringent avec un angle d'incidence i, on peut dire que :",
+        "options": [
+          "Le rayon réfracté n'existe plus si l'angle i dépasse une valeur limite.",
+          "Le rayon réfracté existe toujours mais supérieur à i.",
+          "Le rayon réfracté existe toujours mais inférieur à i.",
+          "Le rayon réfracté existe toujours, variant de 0° à 90°."
+        ],
+        "correctAnswers": [
+          "Le rayon réfracté n'existe plus si l'angle i dépasse une valeur limite."
+        ]
+      },
+      {
+        "question": "Un condensateur plan, constitué de deux plaques métalliques de surface S et distances de e, porte une charge Q. On écarte les armatures d'une valeur 2e. La grandeur qui reste constante est :",
+        "options": [
+          "L'énergie emmagasinée par le condensateur.",
+          "La charge Q.",
+          "La capacité du condensateur.",
+          "Aucune des réponses n'est vraie."
+        ],
+        "correctAnswers": [
+          "Aucune des réponses n'est vraie."
+        ]
+      },
+      {
+        "question": "Le miroir concave ne donne une image virtuelle que si l'objet est :",
+        "options": [
+          "Réel.",
+          "Réel entre F et S.",
+          "Réel quelle que soit sa position.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Un miroir sphérique donne d'un objet réel une image droite deux fois plus grande. Le miroir est :",
+        "options": [
+          "Obligatoirement concave.",
+          "Obligatoirement convexe.",
+          "Peut être concave ou convexe.",
+          "Ce n'est pas possible."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Un objet est placé dans le centre C d'un miroir concave. Où se trouve l'image ?",
+        "options": [
+          "L'image se trouve dans le centre C du miroir.",
+          "L'image se trouve au foyer du miroir.",
+          "L'image est rejetée à l'infini.",
+          "L'image se trouve au sommet S du miroir."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "On considère une lentille mince divergente et un objet virtuel tel que 2f < OA < ∞. L'image obtenue est :",
+        "options": [
+          "Réelle, droite, agrandie.",
+          "Virtuelle, inversée, plus petite.",
+          "Virtuelle, inversée, agrandie.",
+          "Réelle, inversée, plus petite."
+        ],
+        "correctAnswers": [
+          "Virtuelle, inversée, plus petite."
+        ]
+      },
+      {
+        "question": "À propos des dioptres sphériques :",
+        "options": [
+          "Si l'on connaît la distance focale objet on peut calculer la distance focale image sans connaître les indices de réfraction des deux milieux constituant le dioptre.",
+          "Le grandissement des dioptres dépend des indices de réfraction.",
+          "Il est possible d'avoir les deux foyers (image et objet) dans un seul des deux milieux.",
+          "L'image virtuelle est l'image qui se situe à l'infini."
+        ],
+        "correctAnswers": [
+          "Le grandissement des dioptres dépend des indices de réfraction."
+        ]
+      },
+      {
+        "question": "Une lentille plan-concave d'indice n = 1.5 donne d'un objet réel, situé à 1 m de son centre optique, une image droite deux fois plus petite que l'objet. Quelle est la convergence de la lentille ?",
+        "options": [
+          "1 dioptre.",
+          "-1 dioptre.",
+          "0.5 dioptres.",
+          "-0.5 dioptres."
+        ],
+        "correctAnswers": [
+          "-1 dioptre."
+        ]
+      },
+      {
+        "question": "Lorsqu'un courant i traverse une résistance métallique sous l'action d'un potentiel V, la puissance dissipée :",
+        "options": [
+          "Vaut P = R i².",
+          "Vaut P = V² / R.",
+          "Vaut P = V i.",
+          "Augmente avec le temps."
+        ],
+        "correctAnswers": [
+          "Vaut P = R i²."
+        ]
+      },
+      {
+        "question": "Un circuit électrique est formé d'une pile idéale et d'une résistance R. Si on place une autre résistance en parallèle sur R, alors :",
+        "options": [
+          "La tension aux bornes de R diminue.",
+          "Le courant traversant R diminue.",
+          "Le courant fourni par la pile augmente.",
+          "La puissance dissipée par R augmente."
+        ],
+        "correctAnswers": [
+          "Le courant traversant R diminue."
+        ]
+      },
+      {
+        "question": "Un prisme possède un angle au sommet de 60° et d'indice n = √3. Si le prisme est placé dans l'air, l'angle de déviation minimum est de :",
+        "options": [
+          "60°",
+          "30°",
+          "45°",
+          "90°"
+        ],
+        "correctAnswers": [
+          "60°"
+        ]
+      },
+      {
+        "question": "Si le prisme est placé dans un liquide d'indice 1.5, l'angle de déviation minimum devient :",
+        "options": [
+          "30°",
+          "0°",
+          "120°",
+          "45°"
+        ],
+        "correctAnswers": [
+          "30°"
+        ]
+      },
+      {
+        "question": "L'œil d'un observateur, muni d'un verre de contact de vergence -5/4d, voit nettement les objets situés entre (20 cm) et l'infini. Les limites de son champ de vision nette lorsqu'il n'est pas muni du verre correcteur sont en cm",
+        "options": [
+          "{15,80}",
+          "{16,80}",
+          "{16,120}",
+          "{15,90}"
+        ],
+        "correctAnswers": [
+          "{16,80}"
+        ]
+      }
+    ]
+
+  },
+  {
+    "year": "2023/2024(médecine)",
+    "questions":[
+        {
+          "question": "Un prisme a pour plan de section principale un triangle équilatéral ABC. Ce prisme est au minimum de déviation de 60°; donc son indice est :",
+          "options": [
+            "√2",
+            "√3",
+            "3",
+            "2",
+            "0.3"
+          ],
+          "correctAnswers": ["√3"]
+        },
+        {
+          "question": "Miroir plan:",
+          "options": [
+            " l'image d'un objet dans un miroir plan est renversée.",
+            "L'image d'un objet donnée par un miroir plan ne peut être observée que si l'objet se trouve en face du miroir.",
+            "Un observateur se regardant dans un miroir plan situé à 50 cm de lui voit son image à 1 m de lui.",
+            "Le rayon incident et le rayon réfléchi par un miroir plan n'ont jamais la même direction."
+          ],
+          "correctAnswers": [
+            "Un observateur se regardant dans un miroir plan situé à 50 cm de lui voit son image à 1 m de lui."
+          ]
+        },
+        {
+          "question": "Défauts de l'œil:",
+          "options": [
+            " Une personne myope a un œil trop convergent. C'est pour cela qu'on corrige la myopie par des verres divergents.",
+            "L'œil hypermétrope n'est pas assez convergent.",
+            "Le PR d'un œil hypermétrope est virtuel.",
+            "Au repos, le foyer d'un œil myope est virtuel."
+          ],
+          "correctAnswers": [
+            " Une personne myope a un œil trop convergent. C'est pour cela qu'on corrige la myopie par des verres divergents.",
+            "Le PR d'un œil hypermétrope est virtuel."
+          ]
+        },
+        {
+          "question": "Lorsqu'on rapproche un objet tel d'une lentille convergente de position fixe. Image restant réelle:",
+          "options": [
+            "L'image se rapproche de la lentille.",
+            "La taille de l'image diminue.",
+            "L'image s'éloigne de la lentille.",
+            "La taille de l'image augmente."
+          ],
+          "correctAnswers": [
+            "L'image s'éloigne de la lentille.",
+            "La taille de l'image augmente."          ]
+        },
+        {
+          "question": "Un objet est placé à 1,50 m d'une lentille mince de 50 cm de distance focale. L'image est:",
+          "options": [
+            "Droite et plus petite que l'objet.",
+            "Renversée et plus grande que l'objet.",
+            "Renversée et de même taille que l'objet.",
+            "Droite et plus grande que l'objet."
+          ],
+          "correctAnswers": [
+            "Droite et plus petite que l'objet."
+          ]
+        },
+        {
+          "question": "Une lentille mince convergente :",
+          "options": [
+            "Ne peut pas posséder de face plane.",
+            "Peut posséder deux faces bombées.",
+            "Est à bords épais.",
+            "Peut avoir sa face d'entrée plane et sa face de sortie plane également."
+          ],
+          "correctAnswers": [
+            "Peut posséder deux faces bombées."
+          ]
+        },
+        {
+          "question": "Les lentilles minces convergentes :",
+          "options": [
+            "Devient tous les rayons lumineux qui les traversent.",
+            "Devient seulement les rayons qui ne sont pas parallèles à l'axe optique.",
+            "Devient forcément tous les rayons qui passent par le foyer objet.",
+            "Ne devient pas les rayons qui passent par le centre optique."
+          ],
+          "correctAnswers": [
+            "Devient forcément tous les rayons qui passent par le foyer objet.",
+            "Ne devient pas les rayons qui passent par le centre optique."          ]
+        },
+        {
+          "question": "La longueue d'onde associée dans le vide a des particules matérielles animées de la vitesse v=10^5 m/s et de m_g c=6.2 keV.s.m^-1 ",
+          "options": [
+            "511*10^-5 A°",
+            "2.42*10^-5 A°",
+            "2*10^-5 A°",
+            "6.2*10^-5 A°"
+          ],
+          "correctAnswers": [
+            "2*10^-5 A°"
+          ]
+        },
+        {
+          "question": "La longueur d'onde associée dans le vide a des photons déenergie 12.4 keV est:",
+          "options": [
+            "10 A°",
+            "124 A°",
+            "2 A°",
+            "0.124A°",
+            "9.10*10^-31A°"
+          ],
+          "correctAnswers": [
+            "2 A°"
+          ]
+        },
+        {
+          "question": "Quelle est en kg la masse de l un de ces electron:",
+          "options": [
+            "6.02 10^-23",
+            "1.67 10^-27",
+            "6.68 10^-27",
+            "2.73 10^-30"
+          ],
+          "correctAnswers": [
+            "2.73 10^-30"
+          ]
+        },
+        {
+          "question": "Quelle est en kg l'augmentation de l un de ces electron:",
+          "options": [
+            "6.02 10^-23",
+            "1.67 10^-27",
+            "1.82 10^-30",
+            "2.73 10^-30"
+          ],
+          "correctAnswers": [
+            "1.82 10^-30"
+          ]
+        },
+        {
+          "question": "Dans une cellule photoélectrique ; le photon incident a une énergie de 5 eV, La différence de potentiel à partir de laquelle le courant photoélectrique commence à se créer est de : Ua =-2 V. Alors, l'énergie de seuil (travail d'extraction) caractéristique de la cathode est :",
+          "options": [
+            "1 eV",
+            "2 eV",
+            "3 eV",
+            "4 eV"
+          ],
+          "correctAnswers": [
+            "3 eV"
+          ]
+        },
+        {
+          "question": "Un observateur muni de verres divergents de 1,25d voit en accommodant au maximum un objet situé à 20 cm et sans accommoder, un objet situé à l'infini. L'intervalle (en cm) de vision distincte à l'œil nu est donc :",
+          "options": [
+            "[20, 100]",
+            "[10, 80]",
+            "[16, 100]",
+            "[16, 80]",
+            "[50, 500]"
+          ],
+          "correctAnswers": [
+            "[16, 100]"
+          ]
+        },
+        {
+          "question": "On dispose de deux lentilles accolées L1 et L2. L1 est convergente de convergence 8 d, L2 est divergente de 20 cm de distance focale. Pour obtenir une image réelle de même grandeur que l'objet, il faut placer l'objet (réel) à :",
+          "options": [
+            "66 cm du système",
+            "80 cm du système",
+            "12 cm du système",
+            "30 cm du système"
+          ],
+          "correctAnswers": [
+            "66 cm du système"
+          ]
+        },
+        {
+          "question": "La quantité de mouvement photon est :",
+          "options": [
+            "h / λ",
+            "h / 2",
+            "hc / λ",
+            "E / C"
+          ],
+          "correctAnswers": [
+            "E / C"
+          ]
+        },
+        {
+          "question": "Une lame de verre à faces planes et parallèles est placée dans l'air. Son épaisseur est e = 3 cm, et son indice n = 1,5. Que peut-on dire ?",
+          "options": [
+            "la lame donne d'un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B' placée à 2 cm de ce même dioptre.",
+            "Un rayon qui arrive sur la lame avec un angle d'incidence de 15°, ressort de la lame avec un angle d'émergence de 10°.",
+            "La distance objet - image dépend de la distance de l'objet à la lame.",
+            "Quand l'objet se déplace de 1 cm vers la lame, celle-ci restant fixe, l'image se déplace de 1,5 cm.",
+            "Aucune des réponses n'est vraie."
+          ],
+          "correctAnswers": [
+            "la lame donne d'un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B' placée à 2 cm de ce même dioptre."
+          ]
+        },
+        {
+          "question": "Une lentille projette l'image d'un objet réel sur un écran situé à 12 cm de la lentille. Lorsque la lentille est éloignée de 2 cm de l'objet, l'écran doit être rapproché de 2 cm pour obtenir une bonne mise au point. Quelle est la distance focale de la lentille ?",
+          "options": [
+            "8 cm",
+            "4 cm",
+            "12 cm",
+            "5 cm",
+            "80 cm"
+          ],
+          "correctAnswers": [
+            "4 cm"
+          ]
+        },
+        {
+          "question": "On forme une image à l'aide d'une lentille convergente de distance focale f. On mesure un grandissement G = -1. Quelle est la distance objet-image ?",
+          "options": [
+            "La distance objet-image est égale à f/2.",
+            "La distance objet-image est égale à f.",
+            "La distance objet-image est égale à 2f.",
+            "La distance objet-image est égale à 4f."
+          ],
+          "correctAnswers": [
+            "La distance objet-image est égale à 4f."
+          ]
+        },
+        {
+          "question": "Concernant le grandissement :",
+          "options": [
+            "Si l'image est tenversée, le grandissement est négatif.",
+            "Si l'image est renversée, le grandissement est positif.",
+            "Si l'image est renversée et de même taille que son objet, alors le grandissement est nul. / λ",
+            "Si l'image est droite et de même taile que son objet, alors le grandissement est nul"
+          ],
+          "correctAnswers": [
+            "Si l'image est tenversée, le grandissement est négatif."
+          ]
+        },
+        {
+          "question": "Dand l'effet photoelectrique :",
+          "options": [
+            "il existe une frequence seul pour le photon incident en dessous de laquelle l effet ne se produit pas",
+            "il existe une longueur d'onde seul au dessus de laquelle l'effet ne se produit pas",
+            "il existe une frequence seul qui se depend de la nature du matériau irradié ",
+            "il existe une frequence seul qui détermine en partie l'energie cinétique des photoélectron émis"
+          ],
+          "correctAnswers": [
+            "il existe une frequence seul pour le photon incident en dessous de laquelle l effet ne se produit pas",
+            "il existe une longueur d'onde seul au dessus de laquelle l'effet ne se produit pas",
+            "il existe une frequence seul qui se depend de la nature du matériau irradié ",
+            "il existe une frequence seul qui détermine en partie l'energie cinétique des photoélectron émis"
+          ]
+        }
+
+    ]
+  },
+  {
+    "year": "2022/2023(médecine)",
+    "questions": [
+      {
+        "question": "La force électrique exercée sur la charge se trouvant en 0 est égale à :",
+        "options": [
+          "-2ka²/a",
+          "-4ka/a",
+          "0"
+        ],
+        "correctAnswers": [
+          "-4ka/a"
+        ]
+      },
+      {
+        "question": "Le champ électrique en O vaut :",
+        "options": [
+          "-kq/a'i",
+          "-ka/4a'1",
+          "-2kg/31",
+          "-4kg/a'i"
+        ],
+        "correctAnswers": [
+          "-4kg/a'i"
+        ]
+      },
+      {
+        "question": "Le champ électrique en M1 vaut :",
+        "options": [
+          "-ka/a2i",
+          "-7kg/4a'|",
+          "-2kg/a|",
+          "-4ka/a|",
+          "0i"
+        ],
+        "correctAnswers": [
+          "-4ka/a|"
+        ]
+      },
+      {
+        "question": "Le potentiel électrique en O est égal à :",
+        "options": [
+          "-ka/a",
+          "-7kg/4a",
+          "2kg/a",
+          "-4kg/a",
+          "0"
+        ],
+        "correctAnswers": [
+          "2kq/a"
+        ]
+      },
+      {
+        "question": "Une lentille d'indice de réfraction n = 1,5 et située dans l'air fait d'un objet AB réel placé à 30 cm de son centre optique O, une image virtuelle A'B' située à 15 cm de O. La vergence C de la lentille vaut :",
+        "options": [
+          "+6,66d",
+          "-3,33d",
+          "+1,5d",
+          "-2d"
+        ],
+        "correctAnswers": [
+          "-3,33d"
+        ]
+      },
+      {
+        "question": "Les deux rayons de courbure de cette lentille sont égaux. Cette lentille est donc :",
+        "options": [
+          "biconcave",
+          "biconvexe",
+          "plan-concave",
+          "plan-convexe"
+        ],
+        "correctAnswers": [
+          "biconcave"
+        ]
+      },
+      {
+        "question": "La valeur des rayons de courbure de cette lentille est :",
+        "options": [
+          "60 cm",
+          "15 cm",
+          "30 cm",
+          "10 cm"
+        ],
+        "correctAnswers": [
+          "30 cm"
+        ]
+      },
+      {
+        "question": "Un individu voit nettement les objets situés devant lui entre 25 cm et l'infini lorsque celui-ci porte des verres de contact dont la vergence C vaut -1 dioptrie. Cet individu retire ces verres de contact. Son PP est situé à :",
+        "options": [
+          "40 cm",
+          "33,3 cm",
+          "25 cm",
+          "20 cm",
+          "15 cm"
+        ],
+        "correctAnswers": [
+          "20 cm"
+        ]
+      },
+      {
+        "question": "Son PR est situé à :",
+        "options": [
+          "40 cm",
+          "50 cm",
+          "75 cm",
+          "100 cm",
+          "150 cm"
+        ],
+        "correctAnswers": [
+          "100 cm"
+        ]
+      },
+      {
+        "question": "Soient un objet AB virtuel de 2 cm de hauteur, une lentille L (de 4 cm de distance focale), et l'image réelle A'B' de cet objet AB à travers L. Sachant que l'image A'B' est située à 20 cm du centre optique de L. La hauteur de l'image A'B' est :",
+        "options": [
+          "4 cm",
+          "8 cm",
+          "10 cm",
+          "12 cm",
+          "16 cm"
+        ],
+        "correctAnswers": [
+          "12 cm"
+        ]
+      },
+      {
+        "question": "Une lentille donne d'un objet virtuel une image virtuelle deux fois plus grande. L'objet est à 12 cm du centre optique de la lentille. Cette lentille est :",
+        "options": [
+          "Convergente de 8 cm de distance focale",
+          "Divergente de 24 cm de distance focale",
+          "Divergente de 8 cm de distance focale",
+          "Convergente de 24 cm de distance focale"
+        ],
+        "correctAnswers": [
+          "Convergente de 8 cm de distance focale"
+        ]
+      },
+      {
+        "question": "Une lentille convergente donne d'un objet virtuel situé sur son plan focal image, une image située :",
+        "options": [
+          "Sur le plan focal image",
+          "Sur le plan focal objet",
+          "A l'infini",
+          "Au centre de la lentille",
+          "arnv"
+
+        ],
+        "correctAnswers": [
+          "arnv"
+        ]
+      },
+      {
+        "question": "Soit un prisme d'angle au sommet A = 60°. Si le rayon incident sur la face AB est égal au rayon émergent par la face AC, l'indice de réfraction du prisme est n = 2. L'angle d'incidence est :",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°",
+          "120°"
+        ],
+        "correctAnswers": [
+          "90°"
+        ]
+      },
+      {
+        "question": "La déviation vaut :",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°",
+          "120°"
+        ],
+        "correctAnswers": [
+          "120°"
+        ]
+      },
+      {
+        "question": "Soit un individu situé face à un miroir plan vertical. Celui-ci, positionné à 2 m de ce miroir, ne voit à l'aide de ses yeux (à 1,8 m du sol) que la moitié de son corps. La distance D du miroir qui lui permettrait de se voir entièrement est :",
+        "options": [
+          "0,5 m",
+          "1 m",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "Aucune des réponses n'est vraie"
+        ]
+      },
+      {
+        "question": "Soit un système de deux lentilles convergentes L1 et L2 distantes de 20 cm. La lentille L1 donne d'un objet AB situé à 4 cm en avant de L1, une image A'B' située à 16 cm après L1. De cette image A'B' intermédiaire, L2 en forme une image A\"B\" virtuelle, droite, et agrandie située à 16 cm en avant de la lentille L2. La distance focale de L2 vaut :",
+        "options": [
+          "3,2 cm",
+          "2,6 cm",
+          "4,5 cm",
+          "5 cm",
+          "2 cm"
+        ],
+        "correctAnswers": [
+          "4,5 cm"
+        ]
+      },
+      {
+        "question": "Un moteur électrique fonctionnant sous une tension de 120 V fournit une puissance mécanique de 240 W. Ce moteur traversé par un courant d'intensité 2,5 A a pour force contre-électromotrice :",
+        "options": [
+          "300 V",
+          "2 V",
+          "96 V",
+          "48 V",
+          "84 V"
+        ],
+        "correctAnswers": [
+          "96 V"
+        ]
+      },
+      {
+        "question": "Un condensateur de capacité 2200 pF est chargé sous une tension de 100 V. La charge et l'énergie stockée par le condensateur sont respectivement :",
+        "options": [
+          "22 µC et 11 µJ",
+          "0,22 µC et 0,11 µ",
+          "0,22 µC et 11 µJ",
+          "22 nC et 11 J"
+        ],
+        "correctAnswers": [
+          "0,22 µC et 11 µ"
+        ]
+      },
+      {
+        "question": "Un générateur de force électromotrice 24 V alimente un circuit comportant en série un moteur (18 V : 7,5 Ω) et une lampe à incandescence (30 Ω). L'intensité du courant dans le circuit est de 0,5 A. La résistance interne du générateur vaut :",
+        "options": [
+          "0,5 Ω",
+          "1 Ω",
+          "1,5 Ω",
+          "2 Ω",
+          "2,5 Ω"
+        ],
+        "correctAnswers": [
+          "1,5 Ω"
+        ]
+      },
+      {
+        "question": "Défauts de l'œil :",
+        "options": [
+          "L'œil myope est trop convergent, c'est pour cela qu'on corrige la myopie par des verres divergents.",
+          "L'œil hypermétrope n'est pas assez convergent. Alors la correction se fait par des verres divergents.",
+          "Le PR d'un œil hypermétrope est réel.",
+          "Au repos, le foyer d'un œil myope est virtuel.",
+          "arnv"
+        ],
+        "correctAnswers": [
+          "L'œil myope est trop convergent, c'est pour cela qu'on corrige la myopie par des verres divergents."
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2021/2022(médecine)",
+    "questions": [
+      {
+        "question": "Quatre charges identiques (+q) sont placées au sommet d'un carré de côté 'a'. Au centre O du carré :",
+        "options": [
+          "Le potentiel électrique est nul",
+          "Le champ électrique est : 42kg/a",
+          "Le champ électrique est nul",
+          "Le potentiel électrique est : 42kg/a"
+        ],
+        "correctAnswers": [
+          "Le champ électrique est nul",
+          "Le potentiel électrique est : 42kg/a"
+        ]
+      },
+      {
+        "question": "Un condensateur plan de capacité C est porté à un potentiel V. Ce condensateur est constitué de deux plaques de surface S séparées par un diélectrique d'épaisseur e et de permittivité E. Si S est multipliée par 2, la capacité sera :",
+        "options": [
+          "C/2",
+          "C",
+          "2C",
+          "4C"
+        ],
+        "correctAnswers": [
+          "2C"
+        ]
+      },
+      {
+        "question": "Si S est multipliée par 2, la charge sera :",
+        "options": [
+          "Q/2",
+          "Q",
+          "2Q",
+          "40"
+        ],
+        "correctAnswers": [
+          "2Q"
+        ]
+      },
+      {
+        "question": "Si S est multipliée par 2, l'énergie emmagasinée sera :",
+        "options": [
+          "W/2",
+          "W",
+          "2W",
+          "4W"
+        ],
+        "correctAnswers": [
+          "2W"
+        ]
+      },
+      {
+        "question": "Si e est multipliée par 2, la capacité sera :",
+        "options": [
+          "C/2",
+          "C",
+          "2C",
+          "4C"
+        ],
+        "correctAnswers": [
+          "C/2"
+        ]
+      },
+      {
+        "question": "Si e est multipliée par 2, la charge sera :",
+        "options": [
+          "Q/2",
+          "Q",
+          "20",
+          "40"
+        ],
+        "correctAnswers": [
+          "Q/2"
+        ]
+      },
+      {
+        "question": "Si e est multipliée par 2, l'énergie emmagasinée sera :",
+        "options": [
+          "W/2",
+          "W",
+          "2W",
+          "4W"
+        ],
+        "correctAnswers": [
+          "W/2"
+        ]
+      },
+      {
+        "question": "Si V est multipliée par 2, la capacité sera :",
+        "options": [
+          "C/2",
+          "C",
+          "2C",
+          "4C"
+        ],
+        "correctAnswers": [
+          "C"
+        ]
+      },
+      {
+        "question": "Si V est multipliée par 2, la charge sera :",
+        "options": [
+          "Q/2",
+          "Q",
+          "2Q",
+          "40"
+        ],
+        "correctAnswers": [
+          "2Q"
+        ]
+      },
+      {
+        "question": "Si V est multipliée par 2, l'énergie emmagasinée sera :",
+        "options": [
+          "W/2",
+          "W",
+          "2W",
+          "4W"
+        ],
+        "correctAnswers": [
+          "4W"
+        ]
+      },
+      {
+        "question": "Une résistance de 5052 est alimentée par un courant de 2A pendant 30 min. Quelle sera l'énergie dissipée par la résistance ?",
+        "options": [
+          "6 kJ",
+          "30 kJ",
+          "180 kJ",
+          "360 kJ"
+        ],
+        "correctAnswers": [
+          "360 kJ"
+        ]
+      },
+      {
+        "question": "Soit un conducteur métallique de longueur L de section S et de résistivité p. Sa résistance vaut R. On utilise un autre fil conducteur dont la longueur est trois fois celle du premier. Que faut-il faire pour que la résistance soit divisée par deux ?",
+        "options": [
+          "Ne rien faire",
+          "Diviser par deux la résistivité p et tripler la section S",
+          "Tripler la résistivité p et diviser par deux la section S",
+          "Tripler la résistivité p et doubler la section S"
+        ],
+        "correctAnswers": [
+          "Diviser par deux la résistivité p et tripler la section S"
+        ]
+      },
+      {
+        "question": "L'image d'un objet AB réel situé à 3 cm d'une lentille convergente de distance focale 1.5 cm est :",
+        "options": [
+          "Réelle inversée, à 3 cm du centre optique",
+          "Réelle droite, à 3 cm du centre optique",
+          "Réelle inversée, à 1 cm du centre optique",
+          "Réelle droite, à 1 cm du centre optique"
+        ],
+        "correctAnswers": [
+          "Réelle inversée, à 3 cm du centre optique"
+        ]
+      },
+      {
+        "question": "L'image d'un objet AB virtuel situé à 3 cm d'une lentille divergente de distance focale 1.5 cm est :",
+        "options": [
+          "Virtuelle inversée, à 1 cm du centre optique",
+          "Virtuelle droite, à 1 cm du centre optique",
+          "Virtuelle inversée, à 3 cm du centre optique",
+          "Virtuelle droite, à 3 cm du centre optique"
+        ],
+        "correctAnswers": [
+          "Virtuelle inversée, à 3 cm du centre optique"
+        ]
+      },
+      {
+        "question": "On considère une lentille mince convergente. On place un objet entre le point F et le centre de la lentille. L'image obtenue est :",
+        "options": [
+          "Réelle et droite",
+          "Virtuelle et inversée",
+          "Virtuelle et droite",
+          "Réelle et inversée"
+        ],
+        "correctAnswers": [
+          "Virtuelle et droite"
+        ]
+      },
+      {
+        "question": "On considère une lentille mince divergente. On place un objet entre le point F et le centre de la lentille. L'image obtenue est :",
+        "options": [
+          "Réelle et droite",
+          "Virtuelle et inversée",
+          "Virtuelle et droite",
+          "Réelle et inversée"
+        ],
+        "correctAnswers": [
+          "Virtuelle et droite"
+        ]
+      },
+      {
+        "question": "On considère une lentille mince divergente et un objet virtuel placé entre le centre de la lentille et le plan focal objet. L'image obtenue est :",
+        "options": [
+          "Réelle et droite",
+          "Virtuelle et inversée",
+          "Virtuelle et droite",
+          "Réelle et inversée"
+        ],
+        "correctAnswers": [
+          "Réelle et droite"
+        ]
+      },
+      {
+        "question": "Un prisme possède un angle au sommet de 60°. Si le prisme est placé dans l'air, l'angle de déviation minimum est de 60°. Si le prisme est placé dans un liquide, l'angle de déviation minimum est de 30°. L'indice de réfraction du liquide est :",
+        "options": [
+          "√3/2",
+          "3/2",
+          "2",
+          "2"
+        ],
+        "correctAnswers": [
+          "√3/2"
+        ]
+      },
+      {
+        "question": "Soit un individu situé face à un miroir plan vertical. Celui-ci, positionné à 2 m de ce miroir, ne voit à l'aide de ses yeux (à 1,80 m du sol) que la moitié de son corps. La distance D au miroir qui lui permettrait de se voir entièrement est :",
+        "options": [
+          "D = 1 m",
+          "D = 3 m",
+          "D = 4 m",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "Aucune des réponses n'est vraie"
+        ]
+      },
+      {
+        "question": "Une lame de verre à faces planes et parallèles est placée dans l'air. Son épaisseur est e = 3 cm, et son indice n = 1,5.",
+        "details": [
+          "La lame donne d'un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B' placée à 2 cm de ce même dioptre.",
+          "Un rayon qui arrive sur la lame avec un angle d'incidence de 15°, ressort de la lame avec un angle d'émergence de 10°.",
+          "La distance objet-image dépend de la distance de l'objet à la lame.",
+          "Quand l'objet se déplace de 1 cm vers la lame, celle-ci reste fixe, l'image se déplace de 1,5 cm."
+        ],
+        "correctAnswers": [
+          "La lame donne d'un AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B' placée à 2 cm de ce même dioptre."
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2020/2021(médecine)",
+    "questions":[
+      {
+        "question": "On dispose d'un prisme d'angle A = 30° dont on veut déterminer l'indice de réfraction. On constate qu'un rayon normal à la face d'entrée sort dévié de 30°. L'indice dans ce cas est :",
+        "options": [
+          "√2",
+          "√3",
+          "3",
+          "2"
+        ],
+        "correctAnswers": [
+          "√3"
+        ]
+      },
+      {
+        "question": "Une lentille convergente ne peut pas former une image :",
+        "options": [
+          "Virtuelle, droite et agrandie",
+          "Réelle, renversée et réduite",
+          "Virtuelle, renversée et réduite",
+          "Réelle, renversée et agrandie"
+        ],
+        "correctAnswers": [
+          "Virtuelle, renversée et réduite"
+        ]
+      },
+      {
+        "question": "Dans le cas d'une lentille convergente, l'image d'un objet placé au foyer objet est :",
+        "options": [
+          "Virtuelle et droite",
+          "Réelle et renversée",
+          "Rejetée à l'infini",
+          "Réelle et droite"
+        ],
+        "correctAnswers": [
+          "Rejetée à l'infini"
+        ]
+      },
+      {
+        "question": "Dans le cas d'une lentille divergente, l'image d'un objet placé au foyer objet est :",
+        "options": [
+          "Virtuelle et droite",
+          "Réelle et renversée",
+          "Rejetée à l'infini",
+          "Réelle et droite"
+        ],
+        "correctAnswers": [
+          "Rejetée à l'infini"
+        ]
+      },
+      {
+        "question": "Une lentille convergente de très petite distance focale est accolée à une lentille convergente de très grande distance focale. La distance focale de l'ensemble est :",
+        "options": [
+          "Beaucoup plus grande que l'une ou l'autre",
+          "Approximativement égale à la plus grande",
+          "Approximativement égale à la plus petite",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "Approximativement égale à la plus petite"
+        ]
+      },
+      {
+        "question": "Soit un conducteur métallique de longueur L, de section S et de résistivité ρ. Sa résistance vaut R. On utilise un autre fil conducteur dont la longueur est triple de celle du fil conducteur. Que faut-il faire pour que la résistance soit divisée par deux ?",
+        "options": [
+          "Ne rien faire de plus",
+          "Diviser par deux la résistivité ρ et tripler la section S",
+          "Tripler la résistivité ρ et diviser par deux la section S",
+          "Tripler la résistivité ρ et doubler la section S"
+        ],
+        "correctAnswers": [
+          "Diviser par deux la résistivité ρ et tripler la section S"
+        ]
+      },
+      {
+        "question": "Que vaut l'intensité du courant I₄ ?",
+        "options": [
+          "300 mA",
+          "420 mA",
+          "480 mA",
+          "840 mA"
+        ],
+        "correctAnswers": [
+          "480 mA"
+        ],
+        "photo": "assets/imageGenetique/g2.jpg"
+      },
+      {
+        "question": "Quelle résistance faut-il coupler en parallèle avec une résistance de 12Ω pour obtenir une résistance de 3Ω ?",
+        "options": [
+          "4Ω",
+          "6Ω",
+          "9Ω",
+          "12Ω"
+        ],
+        "correctAnswers": [
+          "4Ω"
+        ]
+      },
+      {
+        "question": "Si on soumet ces deux résistances à une tension de 12V, quelle est la puissance dissipée dans le circuit ?",
+        "options": [
+          "12W",
+          "24W",
+          "36W",
+          "48W"
+        ],
+        "correctAnswers": [
+          "12W"
+        ]
+      },
+      {
+        "question": "Quelle résistance faut-il associer en série avec une résistance de 8Ω pour obtenir une résistance de 12Ω ?",
+        "options": [
+          "2Ω",
+          "4Ω",
+          "6Ω",
+          "8Ω"
+        ],
+        "correctAnswers": [
+          "4Ω"
+        ]
+      },
+      {
+        "question": "Si on soumet ces deux résistances à une tension de 12V, quelle est la puissance dissipée dans le circuit ?",
+        "options": [
+          "12W",
+          "24W",
+          "36W",
+          "48W"
+        ],
+        "correctAnswers": [
+          "24W"
+        ]
+      },
+      {
+        "question": "L’angle de déviation minimum dans le cas d’un prisme d’indice n est obtenu hors de la variation de ",
+        "options": [
+          "L’angle de réfraction sur la seconde face ",
+          "L’angle d’incidence sur la première face ",
+          "L’indice de réfraction du prisme ",
+          "L’angle au sommet du prisme"
+        ],
+        "correctAnswers": [
+          "L’angle d’incidence sur la première face "
+        ]
+      },
+      {
+        "question": "un rayon de lumiere est incident sur un bloc transparant d'indice de réfraction n=v_1 /v_2 l'angle :",
+        "options": [
+          "30°",
+          "45°",
+          "60°",
+          "90°"
+        ],
+        "correctAnswers": [
+          "45°"
+        ],
+        "photo": "assets/imageGenetique/g0.jpg"
+
+      },
+      {
+        "question": "La première loi de la réflexion stipule que le faisceau incident et le faisceau réfléchi :",
+        "options": [
+          "Se trouvent dans le plan horizontal à la surface de séparation des deux milieux",
+          "Se trouvent dans le plan d'incidence qui est parallèle à la surface de séparation des deux milieux",
+          "Définissent un plan appelé plan d'incidence et tangentiel à la surface réfléchissante",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "Aucune des réponses n'est vraie"
+        ]
+      },
+      {
+        "question": "La première loi de la réfraction stipule que le rayon incident et le rayon réfracté :",
+        "options": [
+          "Se trouvent dans le plan horizontal à la surface de séparation des deux milieux",
+          "Se trouvent dans le plan d'incidence qui est perpendiculaire à la surface de séparation des deux milieux",
+          "Définissent un plan appelé plan d'incidence et tangentiel à la surface réfléchissante",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "Se trouvent dans le plan d'incidence qui est perpendiculaire à la surface de séparation des deux milieux"
+        ]
+      },
+      {
+        "question": "Quand un faisceau de lumière passe d'un milieu à un autre milieu plus réfringent, il dévie en :",
+        "options": [
+          "S'écartant de la normale",
+          "S'approchant de la normale",
+          "Formant un angle de 90° avec la normale",
+          "Formant un angle de réfraction plus faible que l'angle d'incidence"
+        ],
+        "correctAnswers": [
+          "S'approchant de la normale",
+          "Formant un angle de réfraction plus faible que l'angle d'incidence"
+        ]
+      },
+      {
+        "question": "On considère un rayon lumineux incident d'un milieu d'indice n₁ vers un milieu d'indice n₂. On peut affirmer que :",
+        "options": [
+          "Pour une incidence normale, la déviation est nulle et la réfraction est rasante",
+          "Pour une incidence limite (i=1), on obtient une réfraction rasante",
+          "Pour une incidence de 90°, on obtient une réfraction limite",
+          "Aucune des réponses n'est vraie"
+        ],
+        "correctAnswers": [
+          "Pour une incidence limite (i=1), on obtient une réfraction rasante"
+        ]
+      },
+      {
+        "question": "Un dioptre plan donne une image s'il reçoit les rayons lumineux :",
+        "options": [
+          "Sous une incidence rasante",
+          "Sous une forte incidence",
+          "Sous une incidence faible",
+          "Sous une incidence quelconque"
+        ],
+        "correctAnswers": [
+          "Sous une incidence faible"
+        ]
+      },
+      {
+        "question": "Un condensateur de 1000 μF est chargé sous une tension de 10 volts. Quelle est l'énergie emmagasinée par le condensateur ?",
+        "options": [
+          "0.005 J",
+          "0.01 J",
+          "0.05 J",
+          "0.1 J"
+        ],
+        "correctAnswers": [
+          "0.05 J"
+        ]
+      },
+      {
+        "question": "Une lame à faces parallèles dans l'air donne une image :",
+        "options": [
+          "Égale à l'objet et plus loin de la lame",
+          "Plus grande que l'objet et plus près de la lame",
+          "Égale à l'objet et plus près de la lame",
+          "Plus petite que l'objet et plus loin de la lame"
+        ],
+        "correctAnswers": [
+          "Égale à l'objet et plus près de la lame"
+        ]
+      }
+    ]
+
+  },
+  {
+    "year": "2016/2017(médecine)",
+    "questions":[
+
+          {
+            "question": "On place un objet perpendiculaire à l'axe optique avant le foyer d'un miroir sphérique concave, l'image est :",
+            "options": [
+              "Virtuelle",
+              "Réelle",
+              "Agrandie de double",
+              "Droite",
+              "Rejetée à l'infini"
+            ],
+            "correctAnswers": [
+              "Virtuelle",
+              "Droite"
+            ]
+          },
+          {
+            "question": "On se place dans la même configuration que pour la question précédente, l'image se trouve :",
+            "options": [
+              "Avant le centre",
+              "Entre le foyer et le miroir",
+              "Entre le foyer et le centre",
+              "Au-delà du miroir",
+              "Aucune des réponses n'est vraie"
+            ],
+            "correctAnswers": [
+              "Entre le foyer et le miroir"
+            ]
+          },
+          {
+            "question": "L'objet est maintenant approché du miroir parallèlement à l'axe optique, sans toutefois atteindre le foyer objet, l'image :",
+            "options": [
+              "S'éloigne du miroir",
+              "S'approche du miroir",
+              "Ne bouge pas",
+              "Est confondue avec l'objet",
+              "Est rejetée à l'infini"
+            ],
+            "correctAnswers": [
+              "S'éloigne du miroir"
+            ]
+          },
+          {
+            "question": "Dans ce même cas (lorsqu'on approche l'objet du miroir sans qu'il atteigne le foyer), l'image :",
+            "options": [
+              "S'agrandit",
+              "Se réduit",
+              "Ne change pas de taille",
+              "Est confondue avec l'objet",
+              "Est rejetée à l'infini"
+            ],
+            "correctAnswers": [
+              "S'agrandit"
+            ]
+          },
+          {
+            "question": "Si maintenant l'objet atteint le foyer objet du miroir, l'image :",
+            "options": [
+              "Est confondue avec l'objet",
+              "Change de nature",
+              "Est le symétrique de l'objet par rapport à l'axe optique"
+            ],
+            "correctAnswers": [
+              "Est confondue avec l'objet"
+            ]
+          },
+          {
+            "question": "Un condensateur plan de capacité C est formé par des armatures de surface S, le diélectrique de permittivité e a pour épaisseur. On charge le condensateur sous un potentiel V, donc la charge est l'énergie emmagasinée.Si S est multipliée par 2, la capacité est :",
+            "options": [
+              "C/4",
+              "4C",
+              "2/C",
+              "C"
+            ],
+            "correctAnswers": [
+              "2/C"
+            ]
+          },
+          {
+            "question": "Si e est multipliée par 2, la capacité est :",
+            "options": [
+              "C/4",
+              "4C",
+              "C/2",
+              "2C"
+            ],
+            "correctAnswers": [
+              "C/2"
+            ]
+          },
+          {
+            "question": "Si V est multipliée par 2, la charge est :",
+            "options": [
+              "4Q",
+              "2Q",
+              "Q/2",
+              "Q"
+            ],
+            "correctAnswers": [
+              "2Q"
+            ]
+          },
+          {
+            "question": "Si S est divisée par 2, l'énergie est :",
+            "options": [
+              "W/4",
+              "4W",
+              "W/2",
+              "2W",
+              "W"
+            ],
+            "correctAnswers": [
+              "W/2"
+            ]
+          },
+          {
+            "question": "Si e est divisée par 2, l'énergie est :",
+            "options": [
+              "W/4",
+              "4W",
+              "2W",
+              "W"
+            ],
+            "correctAnswers": [
+              "2W"
+            ]
+          }
+        ]
+  },
+  {
+    "year": "2015/2016(médecine)",
+    "questions":[
+
+          {
+            "question": "1) La hauteur h2 est :",
+            "options": [
+              "10 cm",
+              "15 cm",
+              "12 cm",
+              "11 cm",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "15 cm"
+            ],
+            "photo":"assets/imageGenetique/g6.jpg"
+          },
+          {
+            "question": "2) On inverse les deux milieux d'indices n1 et n2. L'image A' vue par un observateur O est située à :",
+            "options": [
+              "20 cm",
+              "22 cm",
+              "21 cm",
+              "19 cm",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "19 cm"
+            ],
+            "photo":"assets/imageGenetique/g7.jpg"
+          },
+          {
+            "question": "3) L'angle d'incidence est :",
+            "options": [
+              "60°",
+              "30°",
+              "45°",
+              "90°",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "45°"
+            ]
+          },
+          {
+            "question": "4) La déviation vaut :",
+            "options": [
+              "60°",
+              "30°",
+              "45°",
+              "90°",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "30°"
+            ]
+          },
+          {
+            "question": "5) La distance D du miroir qui permettrait de se voir entièrement est :",
+            "options": [
+              "0.5 m",
+              "1 m",
+              "1.5 m",
+              "2 m",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+            ]
+          },
+          {
+            "question": "6) Soit un rayon incident avec un angle d'incidence de 60°, la réflexion se fait avec un angle de :",
+            "options": [
+              "30°",
+              "60°",
+              "90°",
+              "120°",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "60°"
+            ]
+          },
+          {
+            "question": "7) Une lentille donne d'un objet virtuel une image virtuelle deux fois plus grande. L'objet est à 12 cm du centre optique de la lentille, cette lentille est :",
+            "options": [
+              "Convergente de 8 cm de distance focale",
+              "Divergente de 8 cm de distance focale",
+              "Divergente de 24 cm de distance focale",
+              "Convergente de 24 cm de distance focale",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "Convergente de 8 cm de distance focale"
+            ]
+          },
+          {
+            "question": "8) Une lentille convergente donne d'un objet virtuel situé sur son plan focal image, une image située :",
+            "options": [
+              "Sur le plan focal image",
+              "À l'infini",
+              "Au centre de la lentille",
+              "Sur le plan focal objet",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "Aucune réponse juste"
+            ]
+          },
+          {
+            "question": "9) La distance focale de la lentille L2 vaut :",
+            "options": [
+              "3.2 cm",
+              "2.6 cm",
+              "4.5 cm",
+              "5 cm",
+              "2 cm"
+            ],
+            "correctAnswers": [
+              "4.5 cm"
+            ]
+          },
+          {
+            "question": "10) Son point proche (PP) est situé à :",
+            "options": [
+              "40 cm",
+              "33.3 cm",
+              "25 cm",
+              "20 cm",
+              "15 cm"
+            ],
+            "correctAnswers": [
+              "20 cm"
+            ]
+          },
+          {
+            "question": "11) Son point éloigné (PR) est situé à :",
+            "options": [
+              "40 cm",
+              "50 cm",
+              "75 cm",
+              "100 cm",
+              "150 cm"
+            ],
+            "correctAnswers": [
+              "100 cm"
+            ]
+          },
+          {
+            "question": "12) La hauteur de l'image A'B' est :",
+            "options": [
+              "4 cm",
+              "8 cm",
+              "10 cm",
+              "12 cm",
+              "16 cm"
+            ],
+            "correctAnswers": [
+              "12 cm"
+            ]
+          },
+          {
+            "question": "13) La vergence C de la lentille vaut :",
+            "options": [
+              "+6.66 d",
+              "-3.33 d",
+              "+1.5 d",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "-3.33 d"
+            ]
+          },
+          {
+            "question": "14) Cette lentille est :",
+            "options": [
+              "Biconcave",
+              "Biconvexe",
+              "Plan-concave",
+              "Plan-convexe",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "Biconcave"
+            ]
+          },
+          {
+            "question": "15) La valeur des rayons de courbure de cette lentille est :",
+            "options": [
+              "60 cm",
+              "15 cm",
+              "30 cm",
+              "10 cm",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "30 cm"
+            ]
+          },
+          {
+            "question": "16) Avec un miroir convexe, on peut obtenir une image réelle si :",
+            "options": [
+              "L'objet est réel",
+              "L'objet est virtuel, peu importe sa place",
+              "L'objet est virtuel, placé entre S et F",
+              "L'objet est virtuel, placé entre F et C",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+            ]
+          },
+          {
+            "question": "17) La force électrique exercée sur la charge en 0 est égale à :",
+            "options": [
+              "-kq^2/ a²",
+              "-7kq^2 /a²",
+              "-2kq^2 /a²",
+              "-4kq^2 /a²",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "-4kq^2 /a²"
+            ]
+          },
+          {
+            "question": "18) Le champ électrique en M1 vaut :",
+            "options": [
+              "kq/a²",
+              "-7kq/a²",
+              "-2kq/a²",
+              "-kq/a²",
+              "0"
+            ],
+            "correctAnswers": [
+              "-7kq/a²"
+            ]
+          },
+          {
+            "question": "19) Le champ électrique en O est égal à :",
+            "options": [
+              "-kq/a²",
+              "-7kq/a²",
+              "-2kq/a²",
+              "0",
+              "-4kq/a^2"
+            ],
+            "correctAnswers": [
+              "-4kq/a^2"
+            ]
+          },
+          {
+            "question": "20) Le potentiel électrique en O est égal à :",
+            "options": [
+              "-kq/a",
+              "-7kq/a",
+              "2kq/a",
+              "-4kq/a",
+              "0"
+            ],
+            "correctAnswers": [
+              "2kq/a"
+            ]
+          }
+
+    ]
+  },
+  {
+    "year": "2014/2015(médecine)",
+    "questions":[
+          {
+            "question": "1) L'image d'un objet AB virtuel situé à 3 cm d'une lentille divergente de distance focale 1.5 cm est :",
+            "options": [
+              "Virtuelle inversée, à 1cm du centre optique",
+              "Virtuelle droite, à 1cm du centre optique",
+              "Virtuelle inversée, à 3 cm du centre optique",
+              "Virtuelle droite, à 3 cm du centre optique"
+            ],
+            "correctAnswers": [
+              "Virtuelle inversée, à 3 cm du centre optique"
+            ]
+          },
+          {
+            "question": "2) On forme une image à l'aide d'une lentille convergente de distance focale f. On mesure un agrandissement égal à -1. La distance objet-image est alors égale à :",
+            "options": [
+              "f/2",
+              "f",
+              "2f",
+              "4f"
+            ],
+            "correctAnswers": [
+              "4f"
+            ]
+          },
+          {
+            "question": "3) L'image d'un objet AB réel situé à 3 cm d'une lentille convergente de distance focale 1.5 cm est :",
+            "options": [
+              "Réelle inversée, à 3 cm du centre optique",
+              "Réelle droite, à 3 cm du centre optique",
+              "Réelle inversée, à 1 cm du centre optique",
+              "Réelle droite, à 1 cm du centre optique"
+            ],
+            "correctAnswers": [
+              "Réelle inversée, à 3 cm du centre optique"
+            ]
+          },
+          {
+            "question": "4) L'image d'un objet placé loin se forme sans accommodation pour l'œil normal :",
+            "options": [
+              "Entre le cristallin et la rétine",
+              "Sur la rétine",
+              "Entre le cristallin et la rétine pour un œil myope",
+              "Après la rétine pour un œil hypermétrope"
+            ],
+            "correctAnswers": [
+              "Sur la rétine",
+              "Entre le cristallin et la rétine pour un œil myope"
+            ]
+          },
+          {
+            "question": "5) Quel est le nom du phénomène qui permet à l'œil de voir aussi bien les objets éloignés que les objets proches ?",
+            "options": [
+              "Presbytie",
+              "Myopie",
+              "Acuité visuelle",
+              "Accommodation"
+            ],
+            "correctAnswers": [
+              "Acuité visuelle"
+            ]
+          },
+          {
+            "question": "6) Concernant l'hypermétrope, il a :",
+            "options": [
+              "Une vision nette de loin",
+              "La convergence de l'œil anormalement élevée",
+              "Une distance focale anormalement élevée",
+              "Des lentilles divergentes pour corriger l'hypermétropie"
+            ],
+            "correctAnswers": [
+              "Une vision nette de loin",
+              "Une distance focale anormalement élevée"
+            ]
+          },
+          {
+            "question": "7) Les surfaces réfléchissantes de deux miroirs plans forment un angle de 45°. L'angle formé entre le rayon réfléchi et le rayon incident est :",
+            "options": [
+              "0°",
+              "45°",
+              "90°",
+              "135°"
+            ],
+            "correctAnswers": [
+              "90°"
+            ]
+          },
+          {
+            "question": "8) La distance D du miroir qui permet à un individu de se voir en entier est :",
+            "options": [
+              "3 m",
+              "4 m",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "Aucune réponse juste"
+            ]
+          },
+          {
+            "question": "9) Le miroir convexe ne donne une image réelle que si l'objet est :",
+            "options": [
+              "Réel",
+              "Virtuel entre F et C",
+              "Virtuel quel que soit sa position",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+            ]
+          },
+          {
+            "question": "10) Soit un rayon incident qui frappe un dioptre plan séparant deux milieux d'indices de réfraction. La déviation du rayon émergent par rapport au rayon incident vaut :",
+            "options": [
+              "60°",
+              "90°",
+              "120°",
+              "Aucune réponse juste"
+            ],
+            "correctAnswers": [
+              "120°"
+            ]
+          },
+          {
+            "question": "11) Quatre charges identiques (+q) sont placées aux sommets d'un carré de côté a. Au centre O du carré :",
+            "options": [
+              "Le potentiel électrique est nul",
+              "Le champ électrique est nul",
+              "Le potentiel électrique est 4kq/a",
+              "Le champ électrique est 4kq/a²"
+            ],
+            "correctAnswers": [
+              "Le champ électrique est nul"
+            ]
+          },
+          {
+            "question": "12) Si la surface S est divisée par 2, la capacité sera :",
+            "options": [
+              "C/2",
+              "2C",
+              "C/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "C/2"
+            ]
+          },
+          {
+            "question": "13) Si la surface S est divisée par 2, la charge sera :",
+            "options": [
+              "Q/2",
+              "2Q",
+              "Q/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "Q/2"
+            ]
+          },
+          {
+            "question": "14) Si la surface S est divisée par 2, l'énergie emmagasinée sera :",
+            "options": [
+              "2W",
+              "W/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "W/2"
+            ]
+          },
+          {
+            "question": "15) Si l'épaisseur e est divisée par 2, la capacité sera :",
+            "options": [
+              "C/2",
+              "2C",
+              "C/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "2C"
+            ]
+          },
+          {
+            "question": "16) Si l'épaisseur e est divisée par 2, la charge sera :",
+            "options": [
+              "Q/2",
+              "2Q",
+              "Q/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "2Q"
+            ]
+          },
+          {
+            "question": "17) Si l'épaisseur e est divisée par 2, l'énergie emmagasinée sera :",
+            "options": [
+              "W/2",
+              "2W",
+              "W/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "2W"
+            ]
+          },
+          {
+            "question": "18) Si la tension V est divisée par 2, la capacité sera :",
+            "options": [
+              "C/2",
+              "2C",
+              "C/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "Ne change pas"
+            ]
+          },
+          {
+            "question": "19) Si la tension V est divisée par 2, la charge sera :",
+            "options": [
+              "Q/2",
+              "2Q",
+              "Q/4",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "Q/2"
+            ]
+          },
+          {
+            "question": "20) Si la tension V est divisée par 2, l'énergie emmagasinée sera :",
+            "options": [
+              "W/2",
+              "2W",
+              "Ne change pas"
+            ],
+            "correctAnswers": [
+              "W/4"
+            ]
+          }
+    ]
+  },
+  {
+    "year": "2013/2014(médecine)",
+    "questions":[
+
+            {
+              "question": "Les surfaces réfléchissantes de deux miroirs plans accolés forment un angle de 45°. Un rayon lumineux issu d'une source ponctuelle S est parallèle au miroir M1 et se réfléchit au point i du miroir M2. Quel est l'angle B formé entre le second rayon réfléchi et le rayon incident ?",
+              "options": [
+                "B = 0°",
+                "B = 45°",
+                "B = 90°",
+                "B = 180°"
+              ],
+              "correctAnswers": [
+                "B = 90°"
+              ]
+            },
+            {
+              "question": "Une lame de verre à faces planes et parallèles est placée dans l'air avec une épaisseur de 3 cm et un indice de réfraction de 1.5. La lame donne une image A'B' d'un segment AB parallèle à la lame, situé à 3 cm du premier dioptre. Où se situe l'image A'B' ?",
+              "options": [
+                "la lame donne d'un segment - objet AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B'",
+                "un rayon qui arrive sur la lame avec un angle d'incidence de 15* ressort avec\nLEP desh\nun angle d'émergence de 10°",
+                "la distance objet-image dépend de la distance de l'objet à la lame X d= e1.",
+                "Fquand l'objet se déplace de 1 cm vers la lame, celle-cl restent fixe, l'image se déplace de 1.5 cm."
+              ],
+              "correctAnswers": [
+                "la lame donne d'un segment - objet AB, parallèle à la lame et placé à 3 cm du premier dioptre, une image A'B'"
+              ]
+            },
+            {
+              "question": "La convergence (en dioptrie) de la lentille L1 qui permet de voir à l'infini sans accommoder est :",
+              "options": [
+                "-11/12",
+                "-5/6",
+                "-4.2",
+                "8/5"
+              ],
+              "correctAnswers": [
+                "-5/6"
+              ]
+            },
+            {
+              "question": "Pour voir de près sans changer de lunettes, on accole à la partie inférieure de L1 une lentille L2. Quelle doit être la convergence (en dioptrie) de L2 pour ramener le PP à 20 cm ?",
+              "options": [
+                "11/3",
+                "-4/3",
+                "-5/6",
+                "10/3"
+              ],
+              "correctAnswers": [
+                "10/3"
+              ]
+            },
+            {
+              "question": "Pour obtenir une image réelle avec une lentille divergente :",
+              "options": [
+                "L'objet doit être réel",
+                "L'objet doit être virtuel et placé n'importe où",
+                "L'objet doit être virtuel et placé entre le centre optique et le foyer",
+                "L'objet doit être virtuel et placé entre le foyer et l'infini"
+              ],
+              "correctAnswers": [
+                "L'objet doit être virtuel et placé entre le centre optique et le foyer"
+              ]
+            },
+            {
+              "question": "Avec une lentille convergente de distance focale f, on mesure un grandissement y. Quelle est la distance objet-image ?",
+              "options": [
+                "Égale à f/2",
+                "Égale à f",
+                "Égale à 2f",
+                "Égale à 4f"
+              ],
+              "correctAnswers": [
+                "Égale à 4f"
+              ]
+            },
+            {
+              "question": "Un système optique est formé de deux lentilles convergentes, L1 (10d) et L2 (5d), situées à 30 cm l'une de l'autre. À 20 cm de L1 se trouve un objet AB. Quelle est l'image donnée par le système ?",
+              "options": [
+                "Réelle droite",
+                "Réelle renversée",
+                "Virtuelle droite",
+                "Virtuelle renversée"
+              ],
+              "correctAnswers": [
+                "Réelle renversée"
+              ]
+            },
+            {
+              "question": "Quelle est la combinaison correcte parmi ces propositions :",
+              "options": [
+                "Un rayon lumineux passant par le foyer ressort parallèlement à l'axe optique",
+                "Un faisceau parallèle à l'axe converge au plan focal",
+                "Quand un objet est situé dans le plan focal, son image est à l'infini",
+                "Une lentille convergente donne toujours une image réelle sauf si l'objet est entre le foyer et la lentille",
+                "Une lentille change de nature si placée dans un milieu avec un indice inférieur"
+              ],
+              "correctAnswers": [
+                "Quand un objet est situé dans le plan focal, son image est à l'infini",
+                "Une lentille convergente donne toujours une image réelle sauf si l'objet est entre le foyer et la lentille"
+              ]
+            },
+            {
+              "question": "Défauts de l'œil :",
+              "options": [
+                "L'œil myope est trop convergent, corrigé par des verres divergents",
+                "L'œil hypermétrope n'est pas assez convergent, corrigé par des verres divergents",
+                "Le PR d'un œil hypermétrope est virtuel",
+                "Au repos, le foyer d'un œil myope est virtuel"
+              ],
+              "correctAnswers": [
+                "L'œil myope est trop convergent, corrigé par des verres divergents"
+              ]
+            },
+            {
+              "question": "Miroir plan :",
+              "options": [
+                "L'image dans un miroir plan est renversée",
+                "L'image dans un miroir plan ne peut être observée que si l'objet se trouve en face",
+                "Un observateur à 50 cm du miroir voit son image à 1 m",
+                "Le rayon incident et réfléchi par un miroir plan n'ont jamais la même direction"
+              ],
+              "correctAnswers": [
+                "Le rayon incident et réfléchi par un miroir plan n'ont jamais la même direction"
+              ]
+            }
+
+    ]
+  },
+  {
+    "year": "2012/2013(médecine)",
+    "questions":[
+            {
+              "question": "1) On dispose quatre charges de valeurs +q et -q placées aux sommets ABCD d'un carré. Laquelle des cinq propositions ci-dessous est fausse ?",
+              "options": [
+                "Le champ en P est parallèle à CD",
+                "Le champ au centre O est nul",
+                "Le champ en P est parallèle à OP",
+                "Le champ en R est parallèle à BD",
+                "Le champ en P est perpendiculaire à BC"
+              ],
+              "correctAnswers": [
+                "Le champ en P est parallèle à OP"
+              ]
+            },
+            {
+              "question": "2) Pour la même configuration : laquelle des cinq propositions est fausse ?",
+              "options": [
+                "V(O) = 0",
+                "V(P) = 0",
+                "V(R) = 0",
+                "V(P) + V(O) = 0"
+              ],
+              "correctAnswers": [
+                "V(R) = 0"
+              ]
+            },
+            {
+              "question": "3) Laquelle des expressions ci-dessous de l'énergie potentielle W emmagasinée par un condensateur de capacité C, sous une différence de potentiel V, est juste ?",
+              "options": [
+                "W = CV/2",
+                "W = C^2 v/2",
+                "W = C^2 V^2/2",
+                "W = Q^2/2C",
+                "W = C^2V/2"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "4) Soit P la puissance dissipée par effet Joule dans une résistance de 2 ohms sous une tension de 6 volts :",
+              "options": [
+                "P = 72 W",
+                "P = 18 W",
+                "P = 24 W",
+                "P = 15 W"
+              ],
+              "correctAnswers": [
+                "P = 18 W"
+              ]
+            },
+            {
+              "question": "5) Soit l'association de condensateurs de la figure ci-contre. Calculons la capacité du condensateur équivalent et la tension à ses bornes. Données : C1 = 1μF, C2 = 1μF, C3 = 2μF, V1 = V3 = 15V. Quelle est la combinaison juste parmi les propositions suivantes :",
+              "options": [
+                "La capacité du condensateur équivalent est de 2μF",
+                "La capacité du condensateur équivalent est de 1μF",
+                "La tension aux bornes de ce condensateur équivalent est de 45V",
+                "La tension aux bornes de ce condensateur équivalent est de 30V",
+                "La tension aux bornes de ce condensateur équivalent est de 15V"
+              ],
+              "correctAnswers": [
+              ],
+              "photo": "assets/imageGenetique/g10.jpg"
+            },
+            {
+              "question": "6) La résistance équivalente entre A et B est :",
+              "options": [
+                "16 Ω",
+                "20 Ω",
+                "8 Ω",
+                "18 Ω",
+                "6 Ω"
+              ],
+              "correctAnswers": [
+              ],
+              "photo": "assets/imageGenetique/g9.jpg"
+
+            },
+            {
+              "question": "7) La différence de potentiel entre A et C, sachant que le courant passant dans la résistance de 8 Ω est de 0,5 A :",
+              "options": [
+                "6V",
+                "9V",
+                "27V",
+                "24V",
+                "8V"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "8) La valeur de la f.é.m., E, du générateur de résistance interne est :",
+              "options": [
+                "16V",
+                "9V",
+                "27V",
+                "24V",
+                "8V"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "9) La constante k dans l'expression de la force électrostatique dépend :",
+              "options": [
+                "De la nature des charges électriques",
+                "De la nature des charges électriques et les caractéristiques du milieu dans lequel elles se trouvent",
+                "Des caractéristiques du milieu dans lequel se trouvent les charges",
+                "De la nature des charges électriques, du milieu dans lequel elles se trouvent, le point de mesure et tous points intermédiaires",
+                "Aucune des réponses n'est correcte"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "10) Deux charges électriques q et q' placées à une distance d l'une de l'autre se repoussent selon une force d'intensité F. Si l'on double d, que peut-on faire pour que F soit doublé et que les charges s'attirent ?",
+              "options": [
+                "Doubler q et q' et changer le signe d'une des charges",
+                "Quadrupler q ou q' et changer le signe de la charge q",
+                "Quadrupler q, doubler q' et changer le signe de la charge q",
+                "Aucune des réponses n'est correcte",
+                "Toutes les réponses sont correctes"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "11) Une résistance est formée d'un matériau de résistivité ρ. Sa section est constante (10mm²) et sa longueur est de 5 cm. Elle a pour valeur 1 kΩ. Calculer sa résistivité en Ω.m :",
+              "options": [
+                "5",
+                "20",
+                "100",
+                "104",
+                "50"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "12) Une résistance de 50Ω est alimentée par un courant de 2 A pendant 30 min. Quelle sera l'énergie dissipée par la résistance ?",
+              "options": [
+                "6 kJ",
+                "150 kJ",
+                "360 kJ",
+                "3 kJ",
+                "30 kJ"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "13) Avec un miroir convexe, on peut obtenir une image réelle si :",
+              "options": [
+                "L'objet est réel",
+                "L'objet est virtuel, peu importe sa place",
+                "L'objet est virtuel, placé entre S et F",
+                "L'objet est virtuel, placé entre F et C",
+                "L'objet est virtuel, placé entre C et l'infini"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "14) On place un objet réel, sur l'axe optique, à une distance égale à 1,5 m du sommet d'un miroir concave de 1m de distance focale. L'image est :",
+              "options": [
+                "Virtuelle et située à 3 m du miroir",
+                "Réelle et située à 3 m du miroir",
+                "Réelle et située à 60 cm du miroir",
+                "Virtuelle et située à 60 cm du miroir",
+                "Réelle et située à 30 cm du miroir"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "15) On place un objet perpendiculaire à l'axe optique devant le foyer d'un miroir sphérique concave. L'image est :",
+              "options": [
+                "Virtuelle",
+                "Réelle",
+                "Agrandie de double",
+                "Droite",
+                "Rejetée à l'infini"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "16) On se place dans la même configuration que pour la question précédente, l'image se trouve :",
+              "options": [
+                "Avant le centre",
+                "Entre le foyer et le miroir",
+                "Entre le foyer et le centre",
+                "Au-delà du miroir",
+                "Aucune des réponses n'est vraie"
+              ],
+              "correctAnswers": [
+              ]
+            },
+            {
+              "question": "17) L'objet est maintenant approché du miroir parallèlement à l'axe optique, sans toutefois atteindre le foyer objet, l'image :",
+              "options": [
+                "S'éloigne du miroir",
+                "S'approche du miroir",
+                "Ne bouge pas",
+                "Rejetée à l'infini",
+                "Aucune des réponses n'est vraie"
+              ],
+              "correctAnswers": [
+              ]
+            }
+    ]
+  }
+]

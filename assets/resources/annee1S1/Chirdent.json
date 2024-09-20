@@ -1,0 +1,56 @@
+{
+  "years": [
+    {
+      "annee": "1 ÈRE ANNÉE",
+      "semesters": [
+        {
+          "semestre": "Semestre 1",
+          "modules": [
+            {
+              "module": "francais",
+              "link": "assets/resources/annee1S1/francais.json"
+            },
+            {
+              "module": "Chimie",
+              "link": "assets/resources/annee1S1/Chimie.json"
+            },
+            {
+              "module": "Anglais",
+              "link": "assets/resources/annee1S1/Anglais.json"
+            },
+            {
+              "module": "Anatomie",
+              "link": "assets/resources/annee1S1/Anatomie.json"
+            },
+            {
+              "module": "genetique",
+              "link": "assets/resources/annee1S1/genetique.json"
+            },
+            {
+              "module": "physique",
+              "link": "assets/resources/annee1S1/physique.json"
+            },
+            {
+              "module": "histoCyto",
+              "link": "assets/resources/annee1S1/histoCyto.json"
+            },
+            {
+              "module": "Biochimie",
+              "link": "assets/resources/annee1S1/Biochimie.json"
+            }
+
+          ]
+        },
+        {
+          "semestre": "Semestre 2",
+          "modules": [
+            {
+              "module": "Physiologie",
+              "link": "assets/resources/annee1S1/physiologie.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,958 @@
+[
+  {
+    "year": "2022/2023",
+    "questions":[
+      {
+        "question": "Que signifie le préfixe « a il » (exemple : illégal) ?",
+        "options": [
+          "a) avant",
+          "b) le contraire",
+          "c) à nouveau"
+        ],
+        "correctAnswers": [
+          "b) le contraire"
+        ]
+      },
+      {
+        "question": "Lis ces mots et indique le sens du préfixe « re » : reconnaitre, recommencer, relire, reproduire",
+        "options": [
+          "à nouveau",
+          "après",
+          "avant"
+        ],
+        "correctAnswers": [
+          "à nouveau"
+        ]
+      },
+      {
+        "question": "Le suffixe « able » (raisonnable, lavable) signifie :",
+        "options": [
+          "la raison",
+          "le lavage",
+          "la possibilité"
+        ],
+        "correctAnswers": [
+          "la possibilité"
+        ]
+      },
+      {
+        "question": "Complétez par le mot qui convient : Les dents ........ situées dans le champ d'irradiation.",
+        "options": [
+          "sains",
+          "sainx",
+          "saines"
+        ],
+        "correctAnswers": [
+          "saines"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « gaz » ?",
+        "options": [
+          "des gazs",
+          "des gaz",
+          "des gazx"
+        ],
+        "correctAnswers": [
+          "des gaz"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « émail » ?",
+        "options": [
+          "des émails",
+          "des émaux",
+          "des émeaux"
+        ],
+        "correctAnswers": [
+          "des émaux"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « monsieur » ?",
+        "options": [
+          "monsieurs",
+          "mesieurs",
+          "messieurs"
+        ],
+        "correctAnswers": [
+          "messieurs"
+        ]
+      },
+      {
+        "question": "Quel est le féminin de l'adjectif de couleur « bleu » ?",
+        "options": [
+          "bleu",
+          "bleue",
+          "bleux"
+        ],
+        "correctAnswers": [
+          "bleue"
+        ]
+      },
+      {
+        "question": "Quel est le féminin de « un médecin » ?",
+        "options": [
+          "une médecine",
+          "une médecin",
+          "une médicinale"
+        ],
+        "correctAnswers": [
+          "une médecin"
+        ]
+      },
+      {
+        "question": "Identifiez la forme féminine mal orthographiée :",
+        "options": [
+          "vieux/vielle",
+          "grand/grande",
+          "directeur/directeuse"
+        ],
+        "correctAnswers": [
+          "vieux/vielle",
+          "directeur/directeuse"
+        ]
+      },
+      {
+        "question": "Indiquez le mot qui ne change pas au féminin :",
+        "options": [
+          "étudiant",
+          "président",
+          "malade"
+        ],
+        "correctAnswers": [
+          "malade"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : L'eau (bouillir) à 100°C",
+        "options": [
+          "bout",
+          "bouille",
+          "bouilli"
+        ],
+        "correctAnswers": [
+          "bouille"
+        ]
+      },
+      {
+        "question": "Choisissez la bonne conjugaison du présent de l'indicatif. Les dentistes (soigner) les dents des patients",
+        "options": [
+          "soignent",
+          "soignons",
+          "soigne"
+        ],
+        "correctAnswers": [
+          "soignent"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : J' (étudier) à la faculté de médecine.",
+        "options": [
+          "étudie",
+          "étudis",
+          "étudies"
+        ],
+        "correctAnswers": [
+          "étudie"
+        ]
+      },
+      {
+        "question": "Conjuguez : « Hier, tu (finir) tes devoirs. »",
+        "options": [
+          "as fini",
+          "a fini",
+          "es fini"
+        ],
+        "correctAnswers": [
+          "as fini"
+        ]
+      },
+      {
+        "question": "Complétez le vide : ils se sont les dents",
+        "options": [
+          "brossées",
+          "brossé",
+          "brossés"
+        ],
+        "correctAnswers": [
+          "brossées"
+        ]
+      },
+      {
+        "question": "La nouvelle que j'ai ..... va te surprendre. Complétez le vide :",
+        "options": [
+          "appris",
+          "apprise",
+          "appri"
+        ],
+        "correctAnswers": [
+          "apprise"
+        ]
+      },
+      {
+        "question": "Le patient a terminé...",
+        "options": [
+          "le premier",
+          "les premiers",
+          "les premières"
+        ],
+        "correctAnswers": [
+          "les premiers"
+        ]
+      },
+      {
+        "question": "Conjuguer le verbe entre parenthèses : Quand je serai grand, je (devenir médecin)",
+        "options": [
+          "deviendrais",
+          "deviendral",
+          "deviendré"
+        ],
+        "correctAnswers": [
+          "deviendrais"
+        ]
+      },
+      {
+        "question": "Conjuguer le verbe entre parenthèses : Si tu apprends bien ta leçon, tu (obtenir) une bonne note à l'examen.",
+        "options": [
+          "obteniras",
+          "obtiendras",
+          "obtenir"
+        ],
+        "correctAnswers": [
+          "obtiendras"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2021/2022",
+    "questions":[
+      {
+        "question": "Parmi les propositions suivantes, laquelle permet de compléter correctement cette phrase : « Elle s'est ... les dents »",
+        "options": [
+          "Brossée",
+          "Brosser",
+          "Brossé",
+          "Brosses"
+        ],
+        "correctAnswers": [
+          "Brossée"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : l'eau (bouillir) à 100°C",
+        "options": [
+          "Bout",
+          "Bouille",
+          "Boue",
+          "Bouilli"
+        ],
+        "correctAnswers": [
+          "Bouille"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « émail » ?",
+        "options": [
+          "émails",
+          "émaux",
+          "émailex",
+          "èmeaux"
+        ],
+        "correctAnswers": [
+          "émaux"
+        ]
+      },
+      {
+        "question": "Quelle est l'orthographe correcte ?",
+        "options": [
+          "Elles se sont nui",
+          "Elles se s Ont nuies",
+          "Elles se sont nuis",
+          "Elles se sont nuit"
+        ],
+        "correctAnswers": [
+          "Elles se sont nuit"
+        ]
+      },
+      {
+        "question": "Quelle proposition permet de compléter correctement la phrase suivante ? Les fleurs séchées qu'...... les enfants.",
+        "options": [
+          "On laissait",
+          "Ont laissé",
+          "Ont laissées",
+          "Ont laissés"
+        ],
+        "correctAnswers": [
+          "Ont laissées"
+        ]
+      },
+      {
+        "question": "Complète la phrase avec le verbe aller au présent de l'indicatif : Chaque semaine je.... à la piscine.",
+        "options": [
+          "Aille",
+          "Vais",
+          "Allé",
+          "Va"
+        ],
+        "correctAnswers": [
+          "Vais"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : Tu (descendre) de la voiture.",
+        "options": [
+          "Descens",
+          "Descends",
+          "Descend",
+          "Descents"
+        ],
+        "correctAnswers": [
+          "Descends"
+        ]
+      },
+      {
+        "question": "Quelle est la bonne conjugaison du verbe « rendre » à la première personne du pluriel du présent de l'indicatif ?",
+        "options": [
+          "Nous avons rendu",
+          "Nous rendrons",
+          "Nous tendons",
+          "Nous serons rendus"
+        ],
+        "correctAnswers": [
+          "Nous rendons"
+        ]
+      },
+      {
+        "question": "Mettez au pluriel « madame et monsieur »",
+        "options": [
+          "Madames et monsieurs",
+          "Mesdames et messieurs",
+          "Mesdames et monsieurs",
+          "Madames et messieurs"
+        ],
+        "correctAnswers": [
+          "Mesdames et messieurs"
+        ]
+      },
+      {
+        "question": "Complétez la phrase suivante : Vous n'avez plus d'ennuis ? Je n'en ai jamais...",
+        "options": [
+          "Eu",
+          "Eues",
+          "Eut",
+          "Eus"
+        ],
+        "correctAnswers": [
+          "Eu"
+        ]
+      },
+      {
+        "question": "Parmi les phrases suivantes, laquelle contient un participe passé mal accordé ?",
+        "options": [
+          "J'ai vu jouer des pièces",
+          "Combien avez-vous rencontré de personnes",
+          "Elle s'est construit une maison",
+          "Elles se sont lavées les mains"
+        ],
+        "correctAnswers": [
+          "Elle s'est construit une maison"
+        ]
+      },
+      {
+        "question": "Complétez le vide : « Elle a les cheveux ... et les yeux noisette »",
+        "options": [
+          "Noir",
+          "Noirs",
+          "Noires",
+          "Noire"
+        ],
+        "correctAnswers": [
+          "Noirs"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « cheveu » ?",
+        "options": [
+          "Chevaux",
+          "Chevals",
+          "Cheveux",
+          "Cheveus"
+        ],
+        "correctAnswers": [
+          "Cheveux"
+        ]
+      },
+      {
+        "question": "Complétez le vide : Ils se sont ... des e-mails",
+        "options": [
+          "Adressés",
+          "Adressé",
+          "Adressées",
+          "Adressée"
+        ],
+        "correctAnswers": [
+          "Adressés"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « œil » ?",
+        "options": [
+          "Œils",
+          "Yeux",
+          "Yeus",
+          "Euils"
+        ],
+        "correctAnswers": [
+          "Yeux"
+        ]
+      },
+      {
+        "question": "Identifiez la forme féminine mal orthographiée :",
+        "options": [
+          "Vieux / Vieille",
+          "Grand / Grande",
+          "Épuisé / Épuisée",
+          "Directeur / Directeuse"
+        ],
+        "correctAnswers": [
+          "Vieux / Vieille",
+          "Directeur / Directeuse"
+        ]
+      },
+      {
+        "question": "Indiquez le mot qui ne change pas au féminin :",
+        "options": [
+          "Étudiant",
+          "Président",
+          "Malade",
+          "Assistant"
+        ],
+        "correctAnswers": [
+          "Malade"
+        ]
+      },
+      {
+        "question": "Conjuguez : « Hier, tu ... les devoirs »",
+        "options": [
+          "As fini",
+          "A fini",
+          "Es fini",
+          "A finis"
+        ],
+        "correctAnswers": [
+          "As fini"
+        ]
+      },
+      {
+        "question": "Le pluriel de « minéral » est :",
+        "options": [
+          "Minéraux",
+          "Minérals",
+          "Minéralx",
+          "Minérale"
+        ],
+        "correctAnswers": [
+          "Minéraux"
+        ]
+      },
+      {
+        "question": "Complétez la phrase : « Elle a ... attentivement la leçon »",
+        "options": [
+          "Écoute",
+          "Écoutée",
+          "Écoutes",
+          "Écoutées"
+        ],
+        "correctAnswers": [
+          "Écoutée"
+        ]
+      },
+      {
+        "question": "Complétez la phrase : « Je vais ... laboratoire »",
+        "options": [
+          "à",
+          "au",
+          "à le",
+          "en"
+        ],
+        "correctAnswers": [
+          "au"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : Je te (rejoindre) tout à l'heure.",
+        "options": [
+          "Rejoinds",
+          "Rejoints",
+          "Rejoind",
+          "Rejoind"
+        ],
+        "correctAnswers": [
+          "Rejoins"
+        ]
+      },
+      {
+        "question": "Les cours de français ont lieu les...",
+        "options": [
+          "Jeudi matin",
+          "Jeudismatin",
+          "Jeudismatins",
+          "Jeudi matins"
+        ],
+        "correctAnswers": [
+          "Jeudi matin"
+        ]
+      },
+      {
+        "question": "La nouvelle que j'ai ... va te surprendre. Complétez le vide :",
+        "options": [
+          "Appris",
+          "Apprise",
+          "Appri",
+          "Apprit"
+        ],
+        "correctAnswers": [
+          "Apprise"
+        ]
+      },
+      {
+        "question": "Quel écriture en lettres Correspond au chiffre « 2022 » ?",
+        "options": [
+          "Deux mille vingt",
+          "Deux mille vingt deux",
+          "Deux mille deux",
+          "Mille vingt deux"
+        ],
+        "correctAnswers": [
+          "Deux mille vingt deux"
+        ]
+      },
+      {
+        "question": "Un des verbes suivants n'est pas du 2ème groupe. Lequel ?",
+        "options": [
+          "Choisir",
+          "Grandir",
+          "Partir",
+          "Finir"
+        ],
+        "correctAnswers": [
+          "Partir"
+        ]
+      },
+      {
+        "question": "Parmi ces quatre mots, un seul est masculin, lequel ?",
+        "options": [
+          "Inspectrice",
+          "Bonne",
+          "Neuve",
+          "Epoux"
+        ],
+        "correctAnswers": [
+          "Epoux"
+        ]
+      },
+      {
+        "question": "Choisissez la forme correcte :",
+        "options": [
+          "J'apele",
+          "J'appelle",
+          "J'appele"
+        ],
+        "correctAnswers": [
+          "J'appelle"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de 'Gaz' ?",
+        "options": [
+          "Gaz",
+          "Gazx",
+          "Gazes"
+        ],
+        "correctAnswers": [
+          "Gaz"
+        ]
+      },
+      {
+        "question": "Que veut dire « bi » ?",
+        "options": [
+          "Un seul",
+          "Deux",
+          "Trois"
+        ],
+        "correctAnswers": [
+          "Deux"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2022/2023(pharmacie)",
+    "questions":[
+      {
+        "question": "Penses-tu à tes vacances ?",
+        "options": [
+          "Oui, Fen pense",
+          "Qui je pense",
+          "Oui, fy pense",
+          "Oui, penses-tu"
+        ],
+        "correctAnswers": [
+          "Oui, penses-tu"
+        ]
+      },
+      {
+        "question": "Vous pouvez aller à la banque pour moi ?",
+        "options": [
+          "Oui, je peux aller",
+          "Non, je n'y peux pas aller",
+          "Oui, je peux y aller",
+          "Non, je peux pas aller"
+        ],
+        "correctAnswers": [
+          "Oui, je peux y aller"
+        ]
+      },
+      {
+        "question": "Tu t'intéresses à la politique ?",
+        "options": [
+          "Oui, je m'en intéresse",
+          "Non, je ne m'y intéresse pas",
+          "Non, je n'en m'intéresse pas",
+          "Oui, je m'intéresse"
+        ],
+        "correctAnswers": [
+          "Oui, je m'en intéresse"
+        ]
+      },
+      {
+        "question": "Est-ce qu'on parle du Covid-19 en France ?",
+        "options": [
+          "Oui, on en parle beaucoup",
+          "Non, on n'y parle pas trop",
+          "Oui, on en parle tous les jours",
+          "Non, on n'en parle pas du tout"
+        ],
+        "correctAnswers": [
+          "Oui, on en parle beaucoup"
+        ]
+      },
+      {
+        "question": "L'abréviation de « Laboratoire » est :",
+        "options": [
+          "Une abréviation",
+          "Un acronyme",
+          "Un sigle",
+          "Un symbole"
+        ],
+        "correctAnswers": [
+          "Un sigle"
+        ]
+      },
+      {
+        "question": "« M. » est l'abréviation par initiale de :",
+        "options": [
+          "Maître",
+          "Madame",
+          "Monsieur",
+          "Malade"
+        ],
+        "correctAnswers": [
+          "Monsieur"
+        ]
+      },
+      {
+        "question": "L'acronyme du « Syndrome d'immunodéficience acquise » est :",
+        "options": [
+          "AIDS",
+          "SIDA",
+          "CSIAC",
+          "SYNDIMAC"
+        ],
+        "correctAnswers": [
+          "SIDA"
+        ]
+      },
+      {
+        "question": "CHU (Centre Hospitalier Universitaire). Il s'agit ici d'un(e) :",
+        "options": [
+          "Abréviation",
+          "Acronyme",
+          "Sigle",
+          "Symbole"
+        ],
+        "correctAnswers": [
+          "Sigle"
+        ]
+      },
+      {
+        "question": "Il faut que j' (aller) chez le médecin.",
+        "options": [
+          "Il faut que j'aille chez le médecin",
+          "Il faut que je vais chez le médecin",
+          "Il faut que j'irai chez le médecin",
+          "Il faut que j'alla chez le médecin"
+        ],
+        "correctAnswers": [
+          "Il faut que j'aille chez le médecin"
+        ]
+      },
+      {
+        "question": "Lydia est contente que sa voiture (être) réparée :",
+        "options": [
+          "Lydia est contente que sa voiture est réparée",
+          "Lydia est contente que sa voiture soit réparée",
+          "Lydia est contente que sa voiture ai réparée",
+          "Lydia est contente que sa voiture sera réparée"
+        ],
+        "correctAnswers": [
+          "Lydia est contente que sa voiture soit réparée"
+        ]
+      },
+      {
+        "question": "Il est possible qu'elle (savoir) tout !",
+        "options": [
+          "Il est possible qu'elle save tout",
+          "Il est possible qu'elle sache tout",
+          "Il est possible qu'elle savais tout",
+          "Il est possible qu'elle saura tout"
+        ],
+        "correctAnswers": [
+          "Il est possible qu'elle sache tout"
+        ]
+      },
+      {
+        "question": "Transposez les phrases en style direct ou indirect : « Levez-vous ! » nous dit le professeur.",
+        "options": [
+          "Le professeur nous demande de nous lever",
+          "Le professeur nous demande de nous levoris",
+          "Le professeur nous dit que nous levons",
+          "Le professeur nous dit levez-vous"
+        ],
+        "correctAnswers": [
+          "Le professeur nous demande de nous lever"
+        ]
+      },
+      {
+        "question": "Le médecin a dit qu'il viendrait nous voir le lendemain.",
+        "options": [
+          "Le médecin a dit : « je viendrai vous voir demain »",
+          "Le médecin a dit : « je viendrais vous voir demain »",
+          "Le médecin a dit : « je viens vous voir demain »",
+          "Le médecin a dit : « Je viens vous voir le surlendemain »"
+        ],
+        "correctAnswers": [
+          "Le médecin a dit : « je viendrai vous voir le lendemain »"
+        ]
+      },
+      {
+        "question": "« Tu peux me le prêter ? » me demanda-t-il.",
+        "options": [
+          "Il me demanda si je pouvais le lui prêter",
+          "Il me demanda si je peux le lui prêter",
+          "Il me demanda si je pouvais lui prêter",
+          "Il me demanda si je pourrais le prêter"
+        ],
+        "correctAnswers": [
+          "Il me demanda si je pouvais le lui prêter"
+        ]
+      },
+      {
+        "question": "Je lui ai dit : « Vas-y ! »",
+        "options": [
+          "Je lui ai dit d'y aller",
+          "Je lui ai dit vas-y",
+          "Je lui ai dit va",
+          "Je lui ai dit de partir"
+        ],
+        "correctAnswers": [
+          "Je lui ai dit d'y aller"
+        ]
+      },
+      {
+        "question": "Parmi les propositions suivantes, laquelle permet de compléter correctement cette phrase : « Des lettres ? On en a ... une dizaine ». ",
+        "options": [
+          "reçus",
+          "reçue",
+          "reçues",
+          "reçu"
+        ],
+        "correctAnswers": [
+          "reçues"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : j' (étudier) à la faculté de médecine.",
+        "options": [
+          "étudie",
+          "étudis",
+          "étudies",
+          "étude"
+        ],
+        "correctAnswers": [
+          "étudie"
+        ]
+      },
+      {
+        "question": "Conjuguez : « Hier, tu ... tes devoirs. »",
+        "options": [
+          "as fini",
+          "a fini",
+          "es fini",
+          "est fini"
+        ],
+        "correctAnswers": [
+          "as fini"
+        ]
+      },
+      {
+        "question": "Quelle est l'orthographe correcte ?",
+        "options": [
+          "Elles se sont nui",
+          "Elles se sont nuies",
+          "Elles se sont nuis",
+          "Elles se sont nuit"
+        ],
+        "correctAnswers": [
+          "Elles se sont nuit"
+        ]
+      },
+      {
+        "question": "Quelle proposition permet de compléter correctement la phrase suivante ? Les fleurs séchées qu' .......... les enfants.",
+        "options": [
+          "on laissait",
+          "ont laissé",
+          "ont laissées",
+          "ont laissés"
+        ],
+        "correctAnswers": [
+          "ont laissées"
+        ]
+      },
+      {
+        "question": "Quelle est la bonne conjugaison du verbe « rendre » à la première personne du pluriel du présent de l'indicatif ?",
+        "options": [
+          "Nous avons rendu",
+          "Nous rendrons",
+          "Nous rendons",
+          "Nous serons rendus"
+        ],
+        "correctAnswers": [
+          "Nous rendons"
+        ]
+      },
+      {
+        "question": "Complétez la phrase : « Vous n'avez plus d'ennuis ? Je n'en ai jamais ... »",
+        "options": [
+          "Eu",
+          "Eues",
+          "Eut",
+          "Eus"
+        ],
+        "correctAnswers": [
+          "Eu"
+        ]
+      },
+      {
+        "question": "Parmi les phrases suivantes, laquelle contient un participe passé mal accordé ?",
+        "options": [
+          "J'ai vu jouer des pièces",
+          "Combien avez-vous rencontré de personnes ?",
+          "Elle s'est construit une maison",
+          "Elles se sont lavées les mains"
+        ],
+        "correctAnswers": [
+          "Elle s'est construit une maison"
+        ]
+      },
+      {
+        "question": "Complétez le vide : La nouvelle que j'ai ... va te surprendre.",
+        "options": [
+          "Appris",
+          "Apprise",
+          "Appri",
+          "Apprit"
+        ],
+        "correctAnswers": [
+          "Apprise"
+        ]
+      },
+      {
+        "question": "Mettez le verbe entre parenthèses au présent de l'indicatif : l'eau (bouillir) à 100°C.",
+        "options": [
+          "Bout",
+          "Bouille",
+          "Boue",
+          "Bouilli"
+        ],
+        "correctAnswers": [
+          "Bouille"
+        ]
+      },
+      {
+        "question": "Identifiez la forme féminine mal orthographiée :",
+        "options": [
+          "Vieux/vielle",
+          "Grand/grande",
+          "Epuisé/épuisée",
+          "Docteur/docteure"
+        ],
+        "correctAnswers": [
+          "Vieux/vielle"
+        ]
+      },
+      {
+        "question": "Indiquez le mot qui ne change pas au féminin :",
+        "options": [
+          "Etudiant",
+          "Président",
+          "Malade",
+          "Assistant"
+        ],
+        "correctAnswers": [
+          "Malade"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « monsieur » ?",
+        "options": [
+          "Monsieurs",
+          "Mesieurs",
+          "Messieurs",
+          "Messieurx"
+        ],
+        "correctAnswers": [
+          "Messieurs"
+        ]
+      },
+      {
+        "question": "Le pluriel de la phrase « cet exercice est banal » :",
+        "options": [
+          "Ces exercices sont banaux",
+          "Ces exercices sont banal",
+          "Ces exercices sont banals",
+          "Ces exercices sont banaus"
+        ],
+        "correctAnswers": [
+          "Ces exercices sont banals"
+        ]
+      },
+      {
+        "question": "Quel est le pluriel de « gaz » ?",
+        "options": [
+          "Des gazs",
+          "Des gaz",
+          "Des gazx",
+          "Des gases"
+        ],
+        "correctAnswers": [
+          "Des gaz"
+        ]
+      }
+    ]
+
+
+  }
+]

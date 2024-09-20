@@ -59,8 +59,8 @@ class SemesterSelectionScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
                         child: Text(
                           '${year.name}CHIRDENT',
-                          style: const TextStyle(
-                            fontSize: 25,
+                          style:  TextStyle(
+                            fontSize: MediaQuery.of(context).size.width * 0.06, // Responsive font size based on screen width
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
@@ -112,8 +112,8 @@ class SemesterSelectionScreen extends StatelessWidget {
                           () => Text(
                         controller.quotes[controller.currentIndex.value],
                         textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          fontSize: 21,
+                        style:  TextStyle(
+                          fontSize: MediaQuery.of(context).size.width * 0.048, // Error here
                           color: Colors.black,
                           fontWeight: FontWeight.w400,
                         ),

@@ -160,7 +160,7 @@ class ModuleDetailsScreen extends StatelessWidget {
                   icon: Icons.book,
                   color: pricipalColor,
                   onPressed: () {
-                    Get.to(CoursesScreen(courses: module.courses));
+                    Get.to(CoursesScreen(courses: module.coursespdfs));
                   },
                 ),
                 CustomDetailsButton(

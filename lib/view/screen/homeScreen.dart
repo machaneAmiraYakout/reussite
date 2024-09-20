@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   'Les Spécialités Disponibles :',
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width * 0.06, // 6% of screen width
+                    fontSize: MediaQuery.of(context).size.width * 0.059, // 4% of screen width
                     fontWeight: FontWeight.bold,
                   ),
                 ),

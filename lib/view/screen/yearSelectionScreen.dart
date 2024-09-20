@@ -24,12 +24,10 @@ class YearSelectionScreen extends StatelessWidget {
     final ImageAndDataController controller = Get.find<ImageAndDataController>(tag: module.name);
     final QuestionController cont = Get.put(QuestionController());
 
-    // Get instances of the other controllers
     final YearsController yearsController = Get.find();
     final SemestreController semController = Get.find();
     final ModuleController modController = Get.find();
 
-    // Retrieve the selected data
     final selectedYear = yearsController.getSelectedYear();
     final selectedSem = semController.getSelectedSem();
     final selectedMod = modController.getSelectedMod();
@@ -77,7 +75,7 @@ class YearSelectionScreen extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const SizedBox(width: 20,),
+                    const SizedBox(width: 20),
                     Text(
                       module.name,
                       style: const TextStyle(
@@ -108,29 +106,27 @@ class YearSelectionScreen extends StatelessWidget {
                   return const Center(child: CircularProgressIndicator());
                 }
 
+                print("Available Years in UI: ${cont.availableYears}");
+
                 return GridView.builder(
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2, // Increase the number of columns for smaller width items
-                    crossAxisSpacing: 10.0, // Adjust horizontal spacing between grid items
-                    mainAxisSpacing: 10.0, // Vertical spacing between grid items
-                    childAspectRatio: 3.0, // Adjust aspect ratio to make items smaller in width
+                    crossAxisCount: 2,
+                    crossAxisSpacing: 10.0,
+                    mainAxisSpacing: 10.0,
+                    childAspectRatio: 3.0,
                   ),
                   itemCount: cont.availableYears.length,
                   itemBuilder: (context, index) {
                     final year = cont.availableYears[index];
-
                     return GestureDetector(
                       onTap: () async {
-                        // Load questions for the selected year, semester, module, and year
                         await cont.loadQuestionsForYear(
                           selectedYear.name,
                           selectedSem.name,
                           selectedMod.name,
                           year,
                         );
-
-                        // Navigate to QcmScreen with the selected year
-                        Get.to(() => QcmScreen(year: year,name:module.name));
+                        Get.to(() => QcmScreen(year: year, name: module.name));
                       },
                       child: Container(
                         margin: const EdgeInsets.all(8.0),
@@ -140,9 +136,9 @@ class YearSelectionScreen extends StatelessWidget {
                         ),
                         child: Center(
                           child: Text(
-                            year,  // Display the year string
-                            style: const TextStyle(
-                              fontSize: 18,
+                            year,
+                            style:  TextStyle(
+                              fontSize: MediaQuery.of(context).size.width * 0.04, // Error here
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             ),
@@ -153,8 +149,8 @@ class YearSelectionScreen extends StatelessWidget {
                   },
                 );
               }),
-            ),
 
+            ),
           ],
         ),
       ),

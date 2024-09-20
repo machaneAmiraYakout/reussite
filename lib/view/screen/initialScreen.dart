@@ -120,15 +120,22 @@ class _HomeState extends State<InitialScreen> {
                             borderRadius: BorderRadius.circular(30),
                             border: Border.all(color: const Color(0x400892d4), width: 2),
                           ),
-                          child: const Row(
+                          child:  Row(
                             children: [
                               Expanded(
-                                child: Text(
-                                  'Réussir vos études médicales Externat/Résidanat',
-                                  style: TextStyle(fontSize: 18, color: Colors.black),
+                                child: Builder( // Wrapping it in a Builder to correctly access the context
+                                  builder: (context) {
+                                    return Text(
+                                      'Réussir vos études médicales Externat/Résidanat',
+                                      style: TextStyle(
+                                        fontSize: MediaQuery.of(context).size.width * 0.04, // Adjust font size based on screen width
+                                        color: Colors.black,
+                                      ),
+                                    );
+                                  },
                                 ),
                               ),
-                              Icon(Icons.check_circle_outline, color: Colors.black, size: 24),
+                              const Icon(Icons.check_circle_outline, color: Colors.black, size: 24),
                             ],
                           ),
                         ),
@@ -144,12 +151,19 @@ class _HomeState extends State<InitialScreen> {
                             borderRadius: BorderRadius.circular(30),
                             border: Border.all(color: const Color(0x407e8fdb), width: 2),
                           ),
-                          child: const Row(
+                          child:  Row(
                             children: [
                               Expanded(
-                                child: Text(
-                                  'Qcms avec leurs corrigés type',
-                                  style: TextStyle(fontSize: 18, color: Colors.black),
+                                child: Builder( // Wrapping it in a Builder to correctly access the context
+                                  builder: (context) {
+                                    return Text(
+                                      'Qcms avec leurs corrigés type',
+                                      style: TextStyle(
+                                        fontSize: MediaQuery.of(context).size.width * 0.04, // Adjust font size based on screen width
+                                        color: Colors.black,
+                                      ),
+                                    );
+                                  },
                                 ),
                               ),
                               Icon(Icons.check_circle_outline, color: Colors.black, size: 24),
@@ -168,15 +182,22 @@ class _HomeState extends State<InitialScreen> {
                             borderRadius: BorderRadius.circular(30),
                             border: Border.all(color: const Color(0x2011cfe4), width: 2),
                           ),
-                          child: const Row(
+                          child:  Row(
                             children: [
                               Expanded(
-                                child: Text(
-                                  'Préparer bien vos examens',
-                                  style: TextStyle(fontSize: 18, color: Colors.black),
+                                child: Builder( // Wrapping it in a Builder to correctly access the context
+                                  builder: (context) {
+                                    return Text(
+                                      'Préparer bien vos examens',
+                                      style: TextStyle(
+                                        fontSize: MediaQuery.of(context).size.width * 0.04, // Adjust font size based on screen width
+                                        color: Colors.black,
+                                      ),
+                                    );
+                                  },
                                 ),
                               ),
-                              Icon(Icons.check_circle_outline, color: Colors.black, size: 24),
+                              const Icon(Icons.check_circle_outline, color: Colors.black, size: 24),
                             ],
                           ),
                         ),
@@ -192,12 +213,19 @@ class _HomeState extends State<InitialScreen> {
                             borderRadius: BorderRadius.circular(30),
                             border: Border.all(color: const Color(0x4Deea37f), width: 2),
                           ),
-                          child: const Row(
+                          child:  Row(
                             children: [
                               Expanded(
-                                child: Text(
-                                  'Résumés qui vous aident',
-                                  style: TextStyle(fontSize: 18, color: Colors.black),
+                                child: Builder( // Wrapping it in a Builder to correctly access the context
+                                  builder: (context) {
+                                    return Text(
+                                      'Résumés qui vous aident',
+                                      style: TextStyle(
+                                        fontSize: MediaQuery.of(context).size.width * 0.04, // Adjust font size based on screen width
+                                        color: Colors.black,
+                                      ),
+                                    );
+                                  },
                                 ),
                               ),
                               Icon(Icons.check_circle_outline, color: Colors.black, size: 24),

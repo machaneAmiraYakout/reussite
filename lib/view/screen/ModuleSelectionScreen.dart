@@ -58,8 +58,8 @@ class ModuleSelectionScreen extends StatelessWidget {
                           width: 200, // Adjust the width to fit your design
                           padding: const EdgeInsets.symmetric(horizontal: 16.0),
                           child: Text(year+semester.name,
-                            style: const TextStyle(
-                              fontSize: 25,
+                            style:  TextStyle(
+                              fontSize: MediaQuery.of(context).size.width * 0.055, // Error here
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             ),

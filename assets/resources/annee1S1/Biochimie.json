@@ -1,0 +1,148 @@
+[
+  {
+    "year": "2018/2019",
+    "questions":[
+      {
+        "question": "La structure de la lysine est :",
+        "options": [
+          "A pH = 2, plus de la moitié des lysines auront leur groupement amine de la chaîne principale sous forme protonnée",
+          "A pH = 10,7, 25% des lysines auront leurs groupements amines des chaînes latérales sous forme déprotonnée",
+          "Le pH isoélectrique est égal à 5,7",
+          "La majorité des lysines sera chargée positivement à pH physiologique"
+        ],
+        "correctAnswers": [
+          "A pH = 2, plus de la moitié des lysines auront leur groupement amine de la chaîne principale sous forme protonnée",
+          "La majorité des lysines sera chargée positivement à pH physiologique"
+        ],
+        "photo": "assets/imageBiochimie/bch.png"
+      },
+      {
+        "question": "Concernant la détermination de la structure primaire des protéines :",
+        "options": [
+          "Dans la dégradation d'Edman, le dérivé est le 2,4 dinitrofluorobenzène",
+          "Le β-mercaptoéthanol coupe la liaison disulfure",
+          "L'iso-thiocyanate de phényle se fixe sur le NH2 terminal",
+          "Les carboxypeptidases libèrent l'acide aminé N-terminal"
+        ],
+        "correctAnswers": [
+          "Le β-mercaptoéthanol coupe la liaison disulfure",
+          "L'iso-thiocyanate de phényle se fixe sur le NH2 terminal"
+        ]
+      },
+      {
+        "question": "Donner la(les) bonne(s) réponse(s) concernant les acides aminés :",
+        "options": [
+          "Une augmentation de certains acides aminés peut être observée dans certaines maladies",
+          "Certains acides aminés sont des précurseurs de neurotransmetteurs",
+          "La leucine est un acide aminé aromatique",
+          "Les acides aminés peuvent subir une réaction de décarboxylation"
+        ],
+        "correctAnswers": [
+          "Une augmentation de certains acides aminés peut être observée dans certaines maladies",
+          "Certains acides aminés sont des précurseurs de neurotransmetteurs",
+          "Les acides aminés peuvent subir une réaction de décarboxylation"
+        ]
+      },
+      {
+        "question": "Une solution contenant de l'albumine, de la β-lactoglobuline et de la chymotrypsinogène est chargée sur une colonne de DEAE cellulose à pH 5,4. L'ordre d'élution est :",
+        "options": [
+          "Albumine, β lactoglobuline, Chymotrypsinogène",
+          "β lactoglobuline, Albumine, Chymotrypsinogène",
+          "Chymotrypsinogène, Albumine, β lactoglobuline",
+          "Chymotrypsinogène, β lactoglobuline, Albumine"
+        ],
+        "correctAnswers": [
+          "Albumine, β lactoglobuline, Chymotrypsinogène"
+        ]
+      },
+      {
+        "question": "Concernant le collagène :",
+        "options": [
+          "C'est une protéine très soluble",
+          "Le tropocollagène est composé de trois hélices formant une superhélice",
+          "La formation du pont en hydroxyproline nécessite la présence d'une hydroxylase et d'un coenzyme dérivant de la vitamine K",
+          "Le collagène est la protéine majoritaire du corps humain"
+        ],
+        "correctAnswers": [
+          "Le tropocollagène est composé de trois hélices formant une superhélice",
+          "Le collagène est la protéine majoritaire du corps humain"
+        ]
+      },
+      {
+        "question": "On utilise un tampon à pH 6,8 pour la séparation électrophorétique des protéines suivantes : Sérum Albumine (pHi 4,9), Hémoglobine (pHi 6,8), Lysozyme (pHi 11,0). La charge nette de l'hémoglobine est :",
+        "options": [
+          "L'hémoglobine ne migre pas",
+          "L'albumine est chargée positivement",
+          "Le lysozyme est chargé négativement",
+          "La charge nette de l'hémoglobine est nulle",
+          "Le lysozyme migre vers la cathode"
+        ],
+        "correctAnswers": [
+          "L'hémoglobine ne migre pas",
+          "La charge nette de l'hémoglobine est nulle",
+          "Le lysozyme migre vers la cathode"
+        ],
+        "photo": "assets/imageBiochimie/bch1.png"
+
+      },
+      {
+        "question": "La structure tertiaire des protéines peut être stabilisée par :",
+        "options": [
+          "Des liaisons hydrogène",
+          "L'exposition à l'urée désorganise la structure tertiaire",
+          "Des forces attractives ou répulsives tout au long de la chaîne linéaire d'acides aminés",
+          "La protéine est stabilisée par des liaisons hydrophobes"
+        ],
+        "correctAnswers": [
+          "Des liaisons hydrogène",
+          "Des forces attractives ou répulsives tout au long de la chaîne linéaire d'acides aminés",
+          "La protéine est stabilisée par des liaisons hydrophobes"
+        ]
+      },
+      {
+        "question": "Concernant les peptides d’intérêt biologique :",
+        "options": [
+          "L'insuline est une hormone hypoglycémiante sécrétée par les cellules bêta des îlots de Langerhans",
+          "L'angiotensine II est un décapeptide formé de Asp-Arg-Val-Tyr-Ile-His-Pro-Phe",
+          "L'hormone adrénocorticotrope (ACTH) est constituée d'une chaîne peptidique unique de 39 résidus d'acides aminés",
+          "Les hormones nonapeptidiques oxytocine et vasopressine présentent une analogie structurelle"
+        ],
+        "correctAnswers": [
+          "L'insuline est une hormone hypoglycémiante sécrétée par les cellules bêta des îlots de Langerhans",
+          "L'hormone adrénocorticotrope (ACTH) est constituée d'une chaîne peptidique unique de 39 résidus d'acides aminés"
+        ],
+        "photo": "assets/imageBiochimie/bch2.png"
+      },
+      {
+        "question": "Concernant le séquençage des peptides :",
+        "options": [
+          "La carboxypeptidase A libère exclusivement du glycocolle",
+          "L’acide aminé suivant établit des ponts disulfures dans la structure tertiaire des protéines",
+          "L’absence d’action de l’aminopeptidase sur le tripeptide suggère une liaison peptidique",
+          "Ce tripeptide est sûrement dégradé"
+        ],
+        "correctAnswers": [
+          "La carboxypeptidase A libère exclusivement du glycocolle",
+          "L’acide aminé suivant établit des ponts disulfures dans la structure tertiaire des protéines",
+          "L’absence d’action de l’aminopeptidase sur le tripeptide suggère une liaison peptidique",
+          "Ce tripeptide est sûrement dégradé"
+        ]
+      },
+      {
+        "question": "Le composé suivant TRP-LYS-VAL-PRO-GLU-ARG :",
+        "options": [
+          "Est hydrolysé par la trypsine",
+          "Est hydrolysé par la chymotrypsine",
+          "Est hydrolysé par le β-mercaptoéthanol",
+          "Absorbe à 280 nm"
+        ],
+        "correctAnswers": [
+          "Est hydrolysé par la trypsine",
+          "Est hydrolysé par la chymotrypsine",
+          "Absorbe à 280 nm"
+        ]
+      }
+    ]
+
+  }
+]

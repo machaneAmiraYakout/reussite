@@ -1,2165 +1,1621 @@
-{
-  "years": [
-    {
-      "annee": "1 ÈRE ANNÉE ",
-      "semesters": [
-        {
-          "semestre": "Semestre 1",
-          "modules": [
-            {
-              "module": "Anatomie",
+[
+  {
+    "module": "Anatomie",
+    "year": "2023/2024",
+    "questions": [
+      {
+        "question": "Concernant les généralités sur l'anatomie:",
+        "options": [
+          "L'anatomie descriptive permet d'étudier les rapports ente les organes",
+          "C'est la science qui étudie la fonction des organes.",
+          "L'anatomie de développement correspond à l'embryologie",
+          "L'anatomie topographique est appelée anatomie régionale"
+        ],
+        "correctAnswers": [
+          "L'anatomie descriptive permet d'étudier les rapports ente les organes",
+          "C'est la science qui étudie la fonction des organes.",
+          "L'anatomie de développement correspond à l'embryologie",
+          "L'anatomie topographique est appelée anatomie régionale"
+        ]
+      },
+      {
+        "question": "Concernant la position anatomique:",
+        "options": [
+          "Le sujet est debout, regard droit et la tête inclinée ?",
+          "C'est la position de référence dans l'étude du corps humain",
+          "Les membres supérieurs sont tendus horizontalement",
+          "Les mains sont en supination ?"
+        ],
+        "correctAnswers": [
+          "C'est la position de référence dans l'étude du corps humain",
+          "Les membres supérieurs sont tendus horizontalement",
+          "Les mains sont en supination ?"
+        ]
+      },
+      {
+        "question": "Concernant les plans et les axes de références:",
+        "options": [
+          "Le plan sagittal médian passe par l'axe vertical du corps",
+          "L'axe horizontal traverse le corps de droite à gauche.",
+          "Le plan frontal coupe le corps en deux segments symétriques",
+          "L'axe ventro-dorsal est appelé aussi antéropostérieur."
+        ],
+        "correctAnswers": [
+          "Le plan sagittal médian passe par l'axe vertical du corps",
+          "L'axe horizontal traverse le corps de droite à gauche.",
+          "L'axe ventro-dorsal est appelé aussi antéropostérieur."
+        ]
+      },
+      {
+        "question": "Concernant les généralités d'ostéologie:",
+        "options": [
+          "Le corps d'un os long est appelé épiphyse.",
+          "Le squelette appendiculaire est attaché au tronc par des ceintures.",
+          "Un os plat présente deux faces, des bords et des angles.",
+          "La saillie osseuse est une formation qui permet le passage aux vaisseaux et nerfs."
+        ],
+        "correctAnswers": [
+          "Le squelette appendiculaire est attaché au tronc par des ceintures.",
+          "Un os plat présente deux faces, des bords et des angles.",
+          "La saillie osseuse est une formation qui permet le passage aux vaisseaux et nerfs."
+        ]
+      },
+      {
+        "question": "Concernant les généralités sur l'arthrologie:",
+        "options": [
+          "Les articulations se distinguent en deux types.",
+          "Les ligaments sont des moyens actifs.",
+          "Les articulations sont des jointures entre les épiphyses.",
+          "La capsule tapisse en dedans la synoviale."
+        ],
+        "correctAnswers": [
+          "Les articulations se distinguent en deux types.",
+          "Les articulations sont des jointures entre les épiphyses.",
+          "La capsule tapisse en dedans la synoviale."
+        ]
+      },
+      {
+        "question": "Concernant les généralités sur la myologie:",
+        "options": [
+          "C'est la science qui étudie les articulations mobiles",
+          "Les muscles sont les éléments moteurs du corps humain.",
+          "Les muscles squelettiques sont des muscles lisses.",
+          "les muscles squelettiques sont involontaires."
+        ],
+        "correctAnswers": [
+          "Les muscles sont les éléments moteurs du corps humain."
+        ]
+      },
+      {
+        "question": "Concernant les généralités sur les vaisseaux et les nerfs:",
+        "options": [
+          "Les artères transportent seulement le sang artériel.",
+          "Les nerfs appartiennent au système nerveux central.",
+          "Les nerfs crâniens appartiennent au système nerveux central.",
+          "Les veines pulmonaires transportent le sang riche en oxygene."
+        ],
+        "correctAnswers": [
+          "Les artères transportent seulement le sang artériel.",
+          "Les veines pulmonaires transportent le sang riche en oxygene."
+        ]
+      },
+      {
+        "question": "A propos du thorax.",
+        "options": [
+          "Le squelette postérieur est formé par la superposition de 12 vertèbres.",
+          "C'est la partie supérieure de l'abdomen.",
+          "La superposition des vertebres déterminent le canal vertébral.",
+          "La côte présente une extrémité antérieure sternale qui présente la tête."
+        ],
+        "correctAnswers": [
+          "Le squelette postérieur est formé par la superposition de 12 vertèbres.",
+          "La superposition des vertebres déterminent le canal vertébral."
+        ]
+      },
+      {
+        "question": "A propos du thorax.",
+        "options": [
+          "L'orifice supérieur est fibro-cartilagineux.",
+          "L'orifice inférieur est ostéo-cartilagineux.",
+          "le médiastin est la partie intermédiaire inter pulmonaire.",
+          "L'œsophage parcourt médiastin moyen."
+        ],
+        "correctAnswers": [
+          "L'orifice supérieur est fibro-cartilagineux.",
+          "L'orifice inférieur est ostéo-cartilagineux.",
+          "le médiastin est la partie intermédiaire inter pulmonaire."
+        ]
+      },
+      {
+        "question": "Concernant le péricarde :",
+        "options": [
+          "Est un revêtement de protection et de fixité.",
+          "Il recouvre médialement les parois des cavités cardiaques"
+        ],
+        "correctAnswers": [
+          "Est un revêtement de protection et de fixité."
+        ]
+      },
+      {
+        "question": "Concernant le cœur :",
+        "options": [
+          "L'innervation parasympathique est cardio accélérateur.",
+          "Est une enveloppe fibro-séreuse.",
+          "Est une tunique musculaire.",
+          "Les colonnes charnues du premier ordre présentent des cordages",
+          "La valve mitrale occupe l'ostium atrio-ventriculaire droit.",
+          "La valve aortique est formée de deux cuspides"
+        ],
+        "correctAnswers": [
+          "Est une enveloppe fibro-séreuse.",
+          "Est une tunique musculaire."
+        ]
+      },
+      {
+        "question": "L'atrium droit du cœur reçoit :",
+        "options": [
+          "La veine cave supérieure",
+          "Les veines pulmonaires"
+        ],
+        "correctAnswers": [
+          "La veine cave supérieure"
+        ]
+      },
+      {
+        "question": "Concernant l'innervation du cœur :",
+        "options": [
+          "Le cœur présente une double innervation.",
+          "Le sinus coronaire",
+          "L'artère pulmonaire.",
+          "L'innervation parasympathique est cardio modérateur.",
+          "L'innervation de l'automatisme cardiaque est assurée par le système sympathique",
+          "Le nœud sinusal est situé au niveau de l'atrium droit."
+        ],
+        "correctAnswers": [
+          "Le cœur présente une double innervation.",
+          "L'innervation parasympathique est cardio modérateur.",
+          "Le nœud sinusal est situé au niveau de l'atrium droit."
+        ]
+      },
+      {
+        "question": "A propos de l'appareil respiratoire :",
+        "options": [
+          "Est constitué par trois systèmes.",
+          "Le diaphragme présente trois orifices principaux.",
+          "Le système ventilatoire assure les échanges gazeux.",
+          "La trachée fait partie du système ventilatoire."
+        ],
+        "correctAnswers": [
+          "Le diaphragme présente trois orifices principaux.",
+          "Le système ventilatoire assure les échanges gazeux.",
+          "La trachée fait partie du système ventilatoire."
+        ]
+      },
+      {
+        "question": "Concernant les voies aériennes supérieures :",
+        "options": [
+          "Les fosses nasales s'ouvrent en arrière par le choan.",
+          "L'os maxillaire participe à la formation du palais dur.",
+          "La trompe auditive met en communication la cavité nasale et le pharynx.",
+          "La cavité nasale présente trois cornets : supérieurs, moyen et inférieur."
+        ],
+        "correctAnswers": [
+          "Les fosses nasales s'ouvrent en arrière par le choan.",
+          "L'os maxillaire participe à la formation du palais dur.",
+          "La trompe auditive met en communication la cavité nasale et le pharynx.",
+          "La cavité nasale présente trois cornets : supérieurs, moyen et inférieur."
+        ]
+      },
+      {
+        "question": "A propos des bronches :",
+        "options": [
+          "La bronche principale droite est plus verticale que la gauche.",
+          "Les bronches segmentaires sont les branches des bronches principales.",
+          "Les bronches lobaires sont les branches des bronches segmentaires.",
+          "Les bronches s'ouvrent dans les alvéoles pulmonaires."
+        ],
+        "correctAnswers": [
+          "La bronche principale droite est plus verticale que la gauche.",
+          "Les bronches segmentaires sont les branches des bronches principales.",
+          "Les bronches lobaires sont les branches des bronches segmentaires."
+        ]
+      },
+      {
+        "question": "Concernant les poumons :",
+        "options": [
+          "Le poumon a une forme pyramidale.",
+          "L'unité fonctionnelle du poumon est le segment pulmonaire.",
+          "Les deux poumons sont symétriques avec 03 lobes chacun.",
+          "La face diaphragmatique constitue la base."
+        ],
+        "correctAnswers": [
+          "Le poumon a une forme pyramidale.",
+          "L'unité fonctionnelle du poumon est le segment pulmonaire.",
+          "La face diaphragmatique constitue la base."
+        ]
+      },
+      {
+        "question": "Concernant le larynx:",
+        "options": [
+          "Il est constitué par 3 cartilages impairs.",
+          "C'est l'organe de la digestion.",
+          "La cavité laryngée est appelée endolarynx.",
+          "Il se continue par le laryngopharynx.",
+          "Le nasopharynx présente les cornets.",
+          "Il est séparé des fosses nasales par le voile du palais.",
+          "Les choanes présentent l'orifice postérieur du nasopharynx."
+        ],
+        "correctAnswers": [
+          "Il est constitué par 3 cartilages impairs.",
+          "Le nasopharynx présente les cornets.",
+          "Il est séparé des fosses nasales par le voile du palais.",
+          "Les choanes présentent l'orifice postérieur du nasopharynx."
+        ]
+      },
+      {
+        "question": "Concernant la trachée:",
+        "options": [
+          "Elle fait suite au larynx.",
+          "Elle commence au bord inférieur du cartilage cricoïde.",
+          "Elle se termine en regard de la quatrième vertèbre thoracique (T4) et la (T5).",
+          "Est composée d'une vingtaine d'anneaux cartilagineux."
+        ],
+        "correctAnswers": [
+          "Est composée d'une vingtaine d'anneaux cartilagineux."
+        ]
+      },
+      {
+        "question": "Concernant les poumons:",
+        "options": [
+          "Le poumon a une forme pyramidale.",
+          "L'unité fonctionnelle du poumon est le segment pulmonaire.",
+          "Les deux poumons sont symétriques avec 03 lobes chacun.",
+          "La face diaphragmatique constitue la base."
+        ],
+        "correctAnswers": [
+          "Les deux poumons sont symétriques avec 03 lobes chacun."
+        ]
+      },
+      {
+        "question": "A propos de l'abdomen:",
+        "options": [
+          "C'est la partie inférieure du tronc.",
+          "Le rôle du colon est la réabsorption de l'eau.",
+          "La cavité abdominale présente trois grands espaces.",
+          "La cavité rétropéritonéale comprend les reins, les colons droit et gauche."
+        ],
+        "correctAnswers": [
+          "C'est la partie inférieure du tronc.",
+          "Le rôle du colon est la réabsorption de l'eau.",
+          "La cavité abdominale présente trois grands espaces."
+        ]
+      },
+      {
+        "question": "Concernant l'œsophage:",
+        "options": [
+          "L'œsophage est le premier segment du tube digestif.",
+          "C'est un organe médiastinal.",
+          "L'œsophage transporte le bol alimentaire depuis la cavité orale jusqu'à l'estomac.",
+          "L'œsophage permet le passage des aliments contre la gravité."
+        ],
+        "correctAnswers": [
+          "L'œsophage est le premier segment du tube digestif.",
+          "C'est un organe médiastinal.",
+          "L'œsophage transporte le bol alimentaire depuis la cavité orale jusqu'à l'estomac."
+        ]
+      },
+      {
+        "question": "A propos de l'estomac:",
+        "options": [
+          "Le cardia est l'orifice supérieur de l'œsophage.",
+          "Est un organe thoraco-abdominal.",
+          "La petite tubérosité de l'estomac est constituée de deux parties: l'antre et le pylore.",
+          "Le pylore se continue par le jejuno-iléon."
+        ],
+        "correctAnswers": [
+          "Le cardia est l'orifice supérieur de l'œsophage.",
+          "La petite tubérosité de l'estomac est constituée de deux parties: l'antre et le pylore."
+        ]
+      },
+      {
+        "question": "Concernant le duodénum et le pancréas:",
+        "options": [
+          "Le duodénum fait suite à l'estomac au niveau de l'angle duodéno-jéjunal.",
+          "La portion D2 constitue un carrefour aéro digestif.",
+          "La portion D3 est située verticalement.",
+          "Le pancréas est entouré par le duodénum."
+        ],
+        "correctAnswers": [
+          "Le duodénum fait suite à l'estomac au niveau de l'angle duodéno-jéjunal.",
+          "La portion D2 constitue un carrefour aéro digestif.",
+          "La portion D3 est située verticalement."
+        ]
+      },
+      {
+        "question": "Concernant les glandes annexes de l'appareil digestif:",
+        "options": [
+          "La glande parotide est située dans la cavité buccale (orale).",
+          "Le canal de Sténon déverse la salive au niveau de la cavité orale.",
+          "Le canal pancréatique principal se jette dans la petite caroncule du deuxième duodénum (D2).",
+          "Le canal cholédoque s'ouvre au niveau du premier duodénum (D1)."
+        ],
+        "correctAnswers": [
+          "Le canal de Sténon déverse la salive au niveau de la cavité orale.",
+          "Le canal pancréatique principal se jette dans la petite caroncule du deuxième duodénum (D2)."
+        ]
+      },
+      {
+        "question": "Concernant les glandes annexes de l'appareil digestif:",
+        "options": [
+          "Le foie forme un carrefour veineux porto-cave.",
+          "L'insuline est secrétée au niveau du pancréas exocrine.",
+          "La synthèse de la bile se fait au niveau de la vésicule biliaire.",
+          "Le canal cholédoque draine les secrétions biliaires synthétisées au niveau du foie."
+        ],
+        "correctAnswers": [
+          "Le foie forme un carrefour veineux porto-cave.",
+          "La synthèse de la bile se fait au niveau de la vésicule biliaire.",
+          "Le canal cholédoque draine les secrétions biliaires synthétisées au niveau du foie."
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Anatomie",
+    "year": "2022/2023",
+    "questions": [
+      {
+        "question": "A propos des généralités sur l'anatomie :",
+        "options": [
+          "L'anatomie descriptive permet d'étudier les rapports entre les organes.",
+          "C'est la science qui étudie la fonction des organes.",
+          "Les termes Distal et caudal sont synonymes.",
+          "Un élément caudal est plus proche du sol."
+        ],
+        "correctAnswers": [
+          "L'anatomie descriptive permet d'étudier les rapports entre les organes.",
+          "Un élément caudal est plus proche du sol."
+        ]
+      },
+      {
+        "question": "A propos des généralités sur l'anatomie :",
+        "options": [
+          "Le plan frontal coupe le corps en deux parties symétriques.",
+          "Un élément latéral est plus loin du plan sagittal (médian).",
+          "La partie proximale d'un membre est plus proche de sa racine.",
+          "L'axe dorso-ventral traverse le corps de l'arrière vers l'avant."
+        ],
+        "correctAnswers": [
+          "Un élément latéral est plus loin du plan sagittal (médian).",
+          "La partie proximale d'un membre est plus proche de sa racine.",
+          "L'axe dorso-ventral traverse le corps de l'arrière vers l'avant."
+        ]
+      },
+      {
+        "question": "A propos de la position anatomique :",
+        "options": [
+          "C'est la position de référence dans l'étude du corps humain.",
+          "La paume de la main regarde en dedans.",
+          "Les pieds et les mains sont joints.",
+          "Le pouce est en position latérale."
+        ],
+        "correctAnswers": [
+          "C'est la position de référence dans l'étude du corps humain.",
+          "Le pouce est en position latérale."
+        ]
+      },
+      {
+        "question": "Concernant les généralités d'ostéologie :",
+        "options": [
+          "Un os plat présente deux faces, des bords et des angles.",
+          "Le squelette axial est attaché au tronc par des ceintures.",
+          "Le corps d'un os long est appelé épiphyse.",
+          "La saillie osseuse est une formation qui permet le passage aux vaisseaux et nerfs."
+        ],
+        "correctAnswers": [
+          "Un os plat présente deux faces, des bords et des angles.",
+          "La saillie osseuse est une formation qui permet le passage aux vaisseaux et nerfs."
+        ]
+      },
+      {
+        "question": "Concernant les généralités sur l'arthrologie :",
+        "options": [
+          "Les articulations se distinguent en deux types.",
+          "Les articulations sont des jointures entre les épiphyses.",
+          "La capsule tapisse en dedans la synoviale.",
+          "Les ligaments sont des moyens actifs."
+        ],
+        "correctAnswers": [
+          "Les articulations se distinguent en deux types.",
+          "La capsule tapisse en dedans la synoviale."
+        ]
+      },
+      {
+        "question": "Concernant les généralités sur la myologie :",
+        "options": [
+          "Les muscles sont les éléments moteurs du corps humain.",
+          "Les muscles squelettiques sont des muscles lisses.",
+          "Un muscle digastrique présente deux ventres avec un tendon intermédiaire.",
+          "Un muscle digastrique présente deux tendons avec un ventre intermédiaire."
+        ],
+        "correctAnswers": [
+          "Les muscles sont les éléments moteurs du corps humain.",
+          "Un muscle digastrique présente deux ventres avec un tendon intermédiaire."
+        ]
+      },
+      {
+        "question": "Concernant les généralités sur les nerfs :",
+        "options": [
+          "Les nerfs sont les éléments qui transportent l’influx nerveux.",
+          "Les nerfs rachidiens transportent seulement l'influx sensitifs.",
+          "Les nerfs crâniens appartiennent au système nerveux central.",
+          "Les nerfs crâniens transportent l'influx nerveux vers la moelle."
+        ],
+        "correctAnswers": [
+          "Les nerfs sont les éléments qui transportent l’influx nerveux."
+        ]
+      },
+      {
+        "question": "A propos du thorax :",
+        "options": [
+          "C'est la partie supérieure de l'abdomen.",
+          "Le squelette postérieur est formé par la superposition de 12 vertèbres.",
+          "La superposition des vertèbres déterminent le canal vertébral.",
+          "La côte présente une extrémité antérieure sternale qui présente la tête."
+        ],
+        "correctAnswers": [
+          "Le squelette postérieur est formé par la superposition de 12 vertèbres.",
+          "La superposition des vertèbres déterminent le canal vertébral."
+        ]
+      },
+      {
+        "question": "A propos de l'appareil cardio-vasculaire :",
+        "options": [
+          "Les artères transportent le sang artériel riche en oxygène.",
+          "Les veines pulmonaires transportent le sang riche en oxygène.",
+          "Le système circulatoire assure le transport du sang seulement du cœur vers les organes.",
+          "La grande circulation entre le cœur et les poumons."
+        ],
+        "correctAnswers": [
+          "Les artères transportent le sang artériel riche en oxygène.",
+          "Les veines pulmonaires transportent le sang riche en oxygène."
+        ]
+      },
+      {
+        "question": "Le système vasculaire :",
+        "options": [
+          "La veine cave inférieure draine le sang riche en CO2 vers le cœur.",
+          "L'artère pulmonaire transporte le sang riche en O2 vers le cœur.",
+          "Les veines pulmonaires drainent le sang riche en O2 vers le cœur.",
+          "Les veines pulmonaires drainent le sang riche en CO2 vers les poumons."
+        ],
+        "correctAnswers": [
+          "La veine cave inférieure draine le sang riche en CO2 vers le cœur.",
+          "Les veines pulmonaires drainent le sang riche en O2 vers le cœur."
+        ]
+      },
+      {
+        "question": "Concernant le cœur :",
+        "options": [
+          "Le cœur présente une enveloppe séreuse le péricarde.",
+          "La cavité péricardique se trouve entre le cœur et le péricarde.",
+          "Les colonnes charnues du premier ordre présentent des cordages.",
+          "L'innervation parasympathique est cardio accélérateur."
+        ],
+        "correctAnswers": [
+          "Le cœur présente une enveloppe séreuse le péricarde.",
+          "La cavité péricardique se trouve entre le cœur et le péricarde."
+        ]
+      },
+      {
+        "question": "Les cavités cardiaques communiquent entre elles par des orifices munies par des veines :",
+        "options": [
+          "L'orifice aortique présente la valve mitrale.",
+          "L'orifice atrio-ventriculaire droit présente la valve tricuspide.",
+          "L'orifice atrio-ventriculaire gauche présente la valve sigmoïde.",
+          "L'atrium droit présente l'orifice de la veine cave supérieure qui présente la valve tricuspide."
+        ],
+        "correctAnswers": [
+          "L'orifice atrio-ventriculaire droit présente la valve tricuspide.",
+          "L'atrium droit présente l'orifice de la veine cave supérieure qui présente la valve tricuspide."
+        ]
+      },
+      {
+        "question": "A propos de l'appareil respiratoire :",
+        "options": [
+          "Est constitué par trois systèmes.",
+          "La trachée fait partie du système ventilatoire.",
+          "Le diaphragme fait partie du système ventilatoire.",
+          "Le diaphragme présente seulement deux orifices principaux."
+        ],
+        "correctAnswers": [
+          "La trachée fait partie du système ventilatoire.",
+          "Le diaphragme fait partie du système ventilatoire."
+        ]
+      },
+      {
+        "question": "Anatomie de l'appareil respiratoire :",
+        "options": [
+          "Le poumon a une forme pyramidale.",
+          "L'unité fonctionnelle du poumon est l'alvéole pulmonaire.",
+          "Les deux poumons sont symétriques avec 10 segments chacun.",
+          "Le diaphragme est un muscle respiratoire accessoire."
+        ],
+        "correctAnswers": [
+          "L'unité fonctionnelle du poumon est l'alvéole pulmonaire."
+        ]
+      },
+      {
+        "question": "A propos de l'appareil respiratoire:",
+        "options": [
+          "Est constitué par trois systèmes.",
+          "La trachée fait partie du système ventilatoire.",
+          "Le diaphragme fait partie du système ventilatoire.",
+          "Le diaphragme présente seulement deux orifices principaux."
+        ],
+        "correctAnswers": [
+          "La trachée fait partie du système ventilatoire.",
+          "Le diaphragme fait partie du système ventilatoire."
+        ]
+      },
+      {
+        "question": "Anatomie de l'appareil respiratoire :",
+        "options": [
+          "Le poumon a une forme pyramidale.",
+          "L'unité fonctionnelle du poumon est l'alvéole pulmonaire.",
+          "Les deux poumons sont symétriques avec 10 segments chacun.",
+          "Le diaphragme est un muscle respiratoire accessoire."
+        ],
+        "correctAnswers": [
+          "L'unité fonctionnelle du poumon est l'alvéole pulmonaire."
+        ]
+      },
+      {
+        "question": "Concernant le pharynx :",
+        "options": [
+          "L'étage le plus bas est le rhinopharynx.",
+          "Le nasopharynx présente les cornets.",
+          "Il est séparé des fosses nasales par le voile du palais.",
+          "Les choanes présentent l’orifice antérieur du nasopharynx."
+        ],
+        "correctAnswers": [
+          "Il est séparé des fosses nasales par le voile du palais.",
+          "Les choanes présentent l’orifice antérieur du nasopharynx."
+        ]
+      },
+      {
+        "question": "Concernant le larynx:",
+        "options": [
+          "C’est l’organe de la déglutition.",
+          "Il est constitué par 4 os impairs.",
+          "Il se continue en bas avec la trachée.",
+          "Il se continue par le laryngopharynx."
+        ],
+        "correctAnswers": [
+          "Il se continue en bas avec la trachée."
+        ]
+      },
+      {
+        "question": "Concernant le poumon :",
+        "options": [
+          "Le poumon gauche présente une seule scissure.",
+          "Le poumon droit présente trois lobes.",
+          "La face médiastinale est la face costale.",
+          "Le pédicule pulmonaire est seulement nourricier."
+        ],
+        "correctAnswers": [
+          "Le poumon gauche présente une seule scissure.",
+          "Le poumon droit présente trois lobes."
+        ]
+      },
+      {
+        "question": "À propos de l’abdomen :",
+        "options": [
+          "C'est la partie inférieure du tronc.",
+          "Le squelette postérieur est formé par la superposition de 05 vertèbres.",
+          "La cavité abdominale présente trois grands espaces.",
+          "La cavité rétropéritonéale comprend les reins, l'aorte abdominale, et la veine cave supérieure."
+        ],
+        "correctAnswers": [
+          "C'est la partie inférieure du tronc.",
+          "La cavité rétropéritonéale comprend les reins, l'aorte abdominale, et la veine cave supérieure."
+        ]
+      },
+      {
+        "question": "Concernant l'appareil digestif:",
+        "options": [
+          "Le cardia est l'orifice supérieur de l'œsophage.",
+          "Le rôle du colon est la réabsorption de l'eau.",
+          "La petite tubérosité de l'estomac est constituée de deux parties: corps et fundus.",
+          "Le pylore est l'orifice inférieur de l'estomac."
+        ],
+        "correctAnswers": [
+          "Le rôle du colon est la réabsorption de l'eau.",
+          "Le pylore est l'orifice inférieur de l'estomac."
+        ]
+      },
+      {
+        "question": "Concernant l’appareil digestif :",
+        "options": [
+          "Le péritoine est une membrane séreuse qui permet l'attachement des organes.",
+          "L'œsophage permet le passage des aliments contre la gravité.",
+          "L'œsophage mesure 25cm de long.",
+          "La synthèse de la bile se fait au niveau de la vésicule biliaire."
+        ],
+        "correctAnswers": [
+          "Le péritoine est une membrane séreuse qui permet l'attachement des organes.",
+          "L'œsophage permet le passage des aliments contre la gravité.",
+          "L'œsophage mesure 25cm de long."
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Anatomie",
+    "year": "2019/2020",
+    "questions": [
+      {
+        "question": "À propos des termes anatomiques ; la position anatomique :",
+        "options": [
+          "le sujet est debout, les pieds joints, la paume de la main regarde vers le dedans.",
+          "le sujet est couché sur le dos, regarde vers le haut, la paume de la main regarde vers le dedans.",
+          "le sujet est debout sur le genou ; la paume de la main regarde vers l’arrière.",
+          "Le sujet est debout ; les pieds joints ; la paume de la main regarde vers l'avant."
+        ],
+        "correctAnswers": [
+          "Le sujet est debout ; les pieds joints ; la paume de la main regarde vers l'avant."
+        ]
+      },
+      {
+        "question": "Concernant les plans et les axes:",
+        "options": [
+          "Une coupe dans un plan frontal détermine un côté droit et un côté gauche.",
+          "Une coupe dans un plan sagittal détermine un côté droit et un côté gauche.",
+          "L'axe vertical est orienté de l'avant vers l'arrière.",
+          "L'axe antéropostérieur est ventro-dorsal."
+        ],
+        "correctAnswers": [
+          "Une coupe dans un plan sagittal détermine un côté droit et un côté gauche.",
+          "L'axe antéropostérieur est ventro-dorsal."
+        ]
+      },
+      {
+        "question": "Généralités sur l'anatomie:",
+        "options": [
+          "L'anatomie descriptive décrit la forme : la taille et le nombre des organes.",
+          "L'anatomie topographique décrit la forme, la taille, le nombre des organes.",
+          "L'anatomie de surface décrit l'aspect externe des différentes parties du corps.",
+          "L'anatomie clinique décrit les rapports entre les organes."
+        ],
+        "correctAnswers": [
+          "L'anatomie de surface décrit l'aspect externe des différentes parties du corps.",
+          "L'anatomie clinique décrit les rapports entre les organes."
+        ]
+      },
+      {
+        "question": "Généralités sur l'anatomie:",
+        "options": [
+          "La myologie est la science qui étudie les vaisseaux.",
+          "On dénombre trois types d'os : les os longs, les os courts et les os plats.",
+          "On dénombre trois types d'articulations : mobile, semi-mobile et immobile.",
+          "Les artères transportent le sang des organes vers le cœur."
+        ],
+        "correctAnswers": [
+          "On dénombre trois types d'os : les os longs, les os courts et les os plats.",
+          "On dénombre trois types d'articulations : mobile, semi-mobile et immobile."
+        ]
+      },
+      {
+        "question": "À propos du thorax :",
+        "options": [
+          "Le thorax est la partie supérieure du tronc.",
+          "Le médiastin est la partie médiane de l'abdomen.",
+          "Le thorax est plus dur que l'abdomen.",
+          "La partie postérieure du médiastin est formée par le rachis thoracique."
+        ],
+        "correctAnswers": [
+          "Le thorax est la partie supérieure du tronc.",
+          "partie postérieure du médiastin est formée par le rachis thoracique."
+        ]
+      },
+      {
+        "question": "À propos du thorax:",
+        "options": [
+          "Les vertèbres thoraciques sont au nombre de dix (10).",
+          "Les côtes sont des os longs.",
+          "On distingue 10 côtes vraies (costales).",
+          "Le sternum constitue le squelette postérieur."
+        ],
+        "correctAnswers": [
+          "Les côtes sont des os longs.",
+          "On distingue 10 côtes vraies (costales)."
+        ]
+      },
+      {
+        "question": "À propos de l'appareil respiratoire :",
+        "options": [
+          "Il se distingue en quatre systèmes.",
+          "Le système aérifère comprend le diaphragme et la cage thoracique.",
+          "Le système ventilatoire comprend le diaphragme et la cage thoracique.",
+          "Le système d'échange est aéro-vasculaire."
+        ],
+        "correctAnswers": [
+          "Le système ventilatoire comprend le diaphragme et la cage thoracique.",
+          "Le système d'échange est aéro-vasculaire."
+        ]
+      },
+      {
+        "question": "À propos des fosses nasales :",
+        "options": [
+          "Les narines représentent l'orifice postérieur des fosses nasales.",
+          "Ce sont les premiers segments de l'appareil respiratoire.",
+          "Les choanes s'ouvrent sur le larynx.",
+          "Elles sont tapissées par une muqueuse."
+        ],
+        "correctAnswers": [
+          "Ce sont les premiers segments de l'appareil respiratoire.",
+          "Elles sont tapissées par une muqueuse."
+        ]
+      },
+      {
+        "question": "À propos du pharynx:",
+        "options": [
+          "L'étage supérieur est appelé oropharynx.",
+          "L'étage supérieur est appelé aussi cavum.",
+          "C'est un carrefour uro-digestif.",
+          "Il est ouvert en arrière sur les fosses nasales, la cavité buccale."
+        ],
+        "correctAnswers": [
+          "L'étage supérieur est appelé oropharynx.",
+          "Il est ouvert en arrière sur les fosses nasales, la cavité buccale."
+        ]
+      },
+      {
+        "question": "À propos du larynx :",
+        "options": [
+          "C'est l'organe de la phonation.",
+          "Présente un squelette osseux.",
+          "Présente un squelette cartilagineux.",
+          "Il se continue par l'œsophage."
+        ],
+        "correctAnswers": [
+          "C'est l'organe de la phonation.",
+          "Présente un squelette cartilagineux.",
+          "Il se continue par l'œsophage."
+        ]
+      },
+      {
+        "question": "À propos de la trachée:",
+        "options": [
+          "Appartient au système aérifère.",
+          "Fait suite au larynx.",
+          "Présente un segment thoracique et un segment abdominal.",
+          "Elle est entièrement cartilagineuse."
+        ],
+        "correctAnswers": [
+          "Appartient au système aérifère.",
+          "Fait suite au larynx.",
+          "Elle est entièrement cartilagineuse."
+        ]
+      },
+      {
+        "question": "À propos des poumons:",
+        "options": [
+          "Le poumon gauche est parcouru par une seule scissure.",
+          "Les deux poumons sont symétriques avec trois lobes chacun.",
+          "La face médiastinale est en rapport avec le cœur."
+        ],
+        "correctAnswers": [
+          "Le poumon gauche est parcouru par une seule scissure.",
+          "La face médiastinale est en rapport avec le cœur."
+        ]
+      },
+      {
+        "question": "À propos des poumons :",
+        "options": [
+          "L'huile est située dans la face médiale.",
+          "Chaque poumon possède 3 lobes et 10 segments.",
+          "La bronche lobaire supérieure gauche est semblable à celle du droit.",
+          "La base du poumon repose sur le médiastin."
+        ],
+        "correctAnswers": [
+          "Chaque poumon possède 3 lobes et 10 segments.",
+          "La bronche lobaire supérieure gauche est semblable à celle du droit.",
+          "La base du poumon repose sur le médiastin."
+        ]
+      },
+      {
+        "question": "À propos du diaphragme :",
+        "options": [
+          "Est une cloison purement musculaire.",
+          "Sépare les cavités thoracique et pelvienne.",
+          "Présente trois orifices principaux.",
+          "Appartient au système ventilatoire."
+        ],
+        "correctAnswers": [
+          "Est une cloison purement musculaire.",
+          "Présente trois orifices principaux.",
+          "Appartient au système ventilatoire."
+        ]
+      },
+      {
+        "question": "À propos du cœur :",
+        "options": [
+          "Est un muscle creux.",
+          "Il a une forme pyramidale avec deux faces.",
+          "La base du cœur est supérieure.",
+          "Le grand axe du cœur est orienté de haut en bas et de gauche à droite."
+        ],
+        "correctAnswers": [
+          "Est un muscle creux.",
+          "La base du cœur est supérieure.",
+          "Le grand axe du cœur est orienté de haut en bas et de gauche à droite."
+        ]
+      },
+      {
+        "question": "À propos du cœur :",
+        "options": [
+          "Il est recouvert par une séreuse à deux feuillets.",
+          "Il est en contact direct avec le péricarde fibreux.",
+          "Il est en contact direct avec le péricarde séreux.",
+          "Le feuillet pariétal est en contact avec les poumons."
+        ],
+        "correctAnswers": [
+          "Il est recouvert par une séreuse à deux feuillets.",
+          "Il est en contact direct avec le péricarde fibreux."
+        ]
+      },
+      {
+        "question": "À propos du cœur :",
+        "options": [
+          "Il présente quatre cavités deux ventricules du côté de la base.",
+          "Les cavités droites communiquent par l'orifice mitral.",
+          "Les cavités gauches communiquent par l'orifice mitral.",
+          "Les gros vaisseaux sont munis de valves sigmoides."
+        ],
+        "correctAnswers": [
+          "Les cavités gauches communiquent par l'orifice mitral.",
+          "Les gros vaisseaux sont munis de valves sigmoides."
+        ]
+      },
+      {
+        "question": "À propos du cœur :",
+        "options": [
+          "Il est vascularisé par les artères coronaires.",
+          "Les veines sont satellites des artères.",
+          "L'innervation sympathique ralentit le rythme cardiaque.",
+          "L'innervation sympathique accélère le rythme cardiaque."
+        ],
+        "correctAnswers": [
+          "Il est vascularisé par les artères coronaires.",
+          "L'innervation sympathique accélère le rythme cardiaque."
+        ]
+      },
+      {
+        "question": "À propos des gros vaisseaux :",
+        "options": [
+          "L'aorte est branchée sur l'atrium gauche.",
+          "La veine cave supérieure draine uniquement le sang veineux de la tête et du cou.",
+          "La veine porte draine le sang veineux de l'espace rétro-péritonéale.",
+          "L'artère pulmonaire transporte le sang artériel des poumons vers l'atrium gauche."
+        ],
+        "correctAnswers": [
+          "La veine cave supérieure draine uniquement le sang veineux de la tête et du cou."
+        ]
+      },
+      {
+        "question": "À propos de l'abdomen :",
+        "options": [
+          "L'abdomen est la partie supérieure du tronc.",
+          "Il comprend la cavité abdominopelvienne.",
+          "Il contient et protège l'appareil urogénital.",
+          "Le thorax est plus dur que l'abdomen."
+        ],
+        "correctAnswers": [
+          "Il comprend la cavité abdominopelvienne."
+        ]
+      },
+      {
+        "question": "À propos de l'abdomen :",
+        "options": [
+          "L'abdomen est la partie inférieure du tronc.",
+          "Il comprend la cavité pleuro-pulmonaire.",
+          "La cavité abdominale présente une séreuse le péritoine.",
+          "La vessie est dans l'hypogastre."
+        ],
+        "correctAnswers": [
+          "La cavité abdominale présente une séreuse le péritoine.",
+          "La vessie est dans l'hypogastre."
+        ]
+      },
+      {
+        "question": "À propos de l'abdomen :",
+        "options": [
+          "L'abdomen est devisé en neuf régions.",
+          "L'épigastre est situé entre le flanc droit et gauche.",
+          "Dans l'hypochondre droit se trouve le foie.",
+          "Dans l'hypochondre gauche se trouve la rate."
+        ],
+        "correctAnswers": [
+          "L'abdomen est devisé en neuf régions.",
+          "Dans l'hypochondre droit se trouve le foie.",
+          "Dans l'hypochondre gauche se trouve la rate."
+        ]
+      },
+      {
+        "question": "À propos de la cavité orale :",
+        "options": [
+          "La fente labiale représente l’orifice postérieur de la cavité orale.",
+          "La cavité orale s'ouvre en arrière sur le rhinopharynx.",
+          "La cavité orale est appelée aussi cavité buccale.",
+          "Le vestibule constitue sa partie antérolaterale."
+        ],
+        "correctAnswers": [
+          "La cavité orale est appelée aussi cavité buccale.",
+          "Le vestibule constitue sa partie antérolaterale."
+        ]
+      },
+      {
+        "question": "À propos de la cavité orale :",
+        "options": [
+          "Les glandes salivaires sont au nombre de trois.",
+          "Ce sont des glandes mixtes.",
+          "La glande sub maxillaire est la plus volumineuse.",
+          "La glande parotide est la plus volumineuse."
+        ],
+        "correctAnswers": [
+          "Les glandes salivaires sont au nombre de trois.",
+          "Ce sont des glandes mixtes.",
+          "La glande parotide est la plus volumineuse."
+        ]
+      },
+      {
+        "question": "À propos du tube digestif :",
+        "options": [
+          "L'intestin grêle fait suite au côlon.",
+          "Le côlon fait suite à l'intestin grêle.",
+          "L'intestin grêle fait suite à l'estomac.",
+          "Le côlon fait suite à l'estomac."
+        ],
+        "correctAnswers": [
+          "Le côlon fait suite à l'intestin grêle.",
+          "L'intestin grêle fait suite à l'estomac."
+        ]
+      },
+      {
+        "question": "A propos de l'appareil digestif :",
+        "options": [
+          "L'orifice supérieur de l'estomac est appelé cardia.",
+          "L'orifice inférieur de l'estomac se continue avec le jejunum.",
+          "Le péritoine est une membrane séreuse qui permet l'attachement des organes.",
+          "Le foie est la plus volumineuse glande salivaire."
+        ],
+        "correctAnswers": [
+          "L'orifice supérieur de l'estomac est appelé cardia.",
+          "Le péritoine est une membrane séreuse qui permet l'attachement des organes."
+        ]
+      },
+      {
+        "question": "A propos des glandes annexes du tube digestif :",
+        "options": [
+          "Le foie présente trois lobes et dix segments.",
+          "Le pancréas est une glande mixte.",
+          "Les canaux excréteurs du foie et du pancréas s'abouchent au niveau du deuxième duodenum.",
+          "Les canaux excréteurs du foie et du pancréas s'abouchent au niveau du troisième duodénum."
+        ],
+        "correctAnswers": [
+          "Le pancréas est une glande mixte.",
+          "Les canaux excréteurs du foie et du pancréas s'abouchent au niveau du deuxième duodenum."
+        ]
+      },
+      {
+        "question": "A propos de l’appareil urinaire :",
+        "options": [
+          "Les reins sont situés de part et d'autre du rachis lombaire (L3-L4).",
+          "Le rein mesure 6 cm de long.",
+          "Les uretères sont conduits excreteurs de la vessie.",
+          "La vessie présente 3 orifices."
+        ],
+        "correctAnswers": [
+          "Les reins sont situés de part et d'autre du rachis lombaire (L3-L4).",
+          "La vessie présente 3 orifices."
+        ]
+      },
+      {
+        "question": "A propos du parenchyme du rein :",
+        "options": [
+          "La corticale est périphérique.",
+          "La medulla est centrale.",
+          "Les pyramides de Malpighi appartiennent à la médulla.",
+          "Les colonnes de Bertin appartiennent à la médulla."
+        ],
+        "correctAnswers": [
+          "La corticale est périphérique.",
+          "La medulla est centrale.",
+          "Les pyramides de Malpighi appartiennent à la médulla."
+        ]
+      },
+      {
+        "question": "Les voies excrétrices rénales :",
+        "options": [
+          "La réunion des calices donne le bassinet.",
+          "Le bassinet est suivi par l'urètre.",
+          "Les reins sont drainés par la veine porte.",
+          "La veine rénale se jette dans la veine cave inférieure."
+        ],
+        "correctAnswers": [
+          "La réunion des calices donne le bassinet.",
+          "La veine rénale se jette dans la veine cave inférieure."
+        ]
+      }
+    ]
+  },
+  {
+    "module": "Anatomie",
+    "year": "2018/2019",
+    "questions":[
+      {
+        "question": "Les fosses nasales:",
+        "options": [
+          "Forment le segment initial des voies respiratoires.",
+          "Leur paroi inférieure les sépare de la cavité buccale.",
+          "Leur paroi latérale forme la cloison nasale.",
+          "S'ouvrent en arrière par les narines.",
+          "Communiquent avec des cavités pneumatiques appelées les sinus para nasaux."
+        ],
+        "correctAnswers": [
+          "Forment le segment initial des voies respiratoires.",
+          "Leur paroi inférieure les sépare de la cavité buccale.",
+          "Communiquent avec des cavités pneumatiques appelées les sinus para nasaux."
+        ]
+      },
+      {
+        "question": "La fosse nasale droite:",
+        "options": [
+          "Est séparée de la fosse nasale gauche par le septum nasal.",
+          "S'ouvre en avant par la choane.",
+          "Sa paroi latérale présente 3 cornets nasaux et 3 méats nasaux.",
+          "Sa paroi supérieure correspond au plancher.",
+          "Communique avec le sinus maxillaire droit."
+        ],
+        "correctAnswers": [
+          "Est séparée de la fosse nasale gauche par le septum nasal.",
+          "Sa paroi latérale présente 3 cornets nasaux et 3 méats nasaux.",
+          "Communique avec le sinus maxillaire droit."
+        ]
+      },
+      {
+        "question": "Le pharynx:",
+        "options": [
+          "Est un carrefour aéro-digestif.",
+          "Est situé en avant du rachis dorsal.",
+          "Ressemble à une gouttière verticale ouverte en avant.",
+          "Se divise en trois étages superposés.",
+          "S'ouvre en haut sur le larynx."
+        ],
+        "correctAnswers": [
+          "Est un carrefour aéro-digestif.",
+          "Se divise en trois étages superposés.",
+          "S'ouvre en haut sur le larynx."
+        ]
+      },
+      {
+        "question": "Le larynx est:",
+        "options": [
+          "Un conduit aérifère et phonatoire.",
+          "Situé à la partie postéro-médiane du cou.",
+          "Mobile.",
+          "Formé d'un squelette ostéo-cartilagineux.",
+          "Traversé par quatre vraies cordes vocales."
+        ],
+        "correctAnswers": [
+          "Un conduit aérifère et phonatoire.",
+          "Situé à la partie postéro-médiane du cou.",
+          "Formé d'un squelette ostéo-cartilagineux."
+        ]
+      },
+      {
+        "question": "Les bronches principales:",
+        "options": [
+          "Font suite à la trachée.",
+          "Se ramifient à l'intérieur des poumons.",
+          "Se divise chacune en trois bronches lobaires.",
+          "La bronche droite est plus longue que la gauche.",
+          "La bronche gauche est plus verticale que la droite."
+        ],
+        "correctAnswers": [
+          "Font suite à la trachée.",
+          "Se ramifient à l'intérieur des poumons.",
+          "La bronche droite est plus longue que la gauche."
+        ]
+      },
+      {
+        "question": "La bronche principale droite:",
+        "options": [
+          "Est une branche de division du larynx.",
+          "Est plus courte que la gauche.",
+          "Est plus grêle que la gauche.",
+          "Est plus verticale que la gauche.",
+          "Se segmente en bronches lobaires."
+        ],
+        "correctAnswers": [
+          "Est plus courte que la gauche.",
+          "Est plus verticale que la gauche.",
+          "Se segmente en bronches lobaires."
+        ]
+      },
+      {
+        "question": "Le poumon gauche:",
+        "options": [
+          "Occupe le médiastin.",
+          "Est traversé par deux scissures.",
+          "Est divisé en deux lobes.",
+          "Présente sur sa face médiale le hile pulmonaire.",
+          "Est parcouru par les éléments du pédicule pulmonaire gauche."
+        ],
+        "correctAnswers": [
+          "Est divisé en deux lobes.",
+          "Présente sur sa face médiale le hile pulmonaire.",
+          "Est parcouru par les éléments du pédicule pulmonaire gauche."
+        ]
+      },
+      {
+        "question": "L'oreille interne:",
+        "options": [
+          "Est constituée par le pavillon et le conduit auditif externe.",
+          "C'est le labyrinthe membraneux.",
+          "Ses rôles sont : l'audition et l'équilibration.",
+          "Située dans le rocher.",
+          "Toutes les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "C'est le labyrinthe membraneux.",
+          "Ses rôles sont : l'audition et l'équilibration.",
+          "Située dans le rocher."
+        ]
+      },
+      {
+        "question": "La trompe d'Eustache:",
+        "options": [
+          "Prolonge en arrière la caisse du tympan.",
+          "Permet l'aération de la caisse du tympan.",
+          "C'est la trompe auditive.",
+          "C'est la trompe utérine.",
+          "Toutes les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Prolonge en arrière la caisse du tympan.",
+          "Permet l'aération de la caisse du tympan.",
+          "C'est la trompe auditive."
+        ]
+      },
+      {
+        "question": "Les voies biliaires:",
+        "options": [
+          "Se jettent dans le duodénum.",
+          "Représentées par les voies principale et accessoire.",
+          "Drainent le suc gastrique.",
+          "Sont le siège de calculs.",
+          "Toutes les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Se jettent dans le duodénum.",
+          "Représentées par les voies principale et accessoire.",
+          "Sont le siège de calculs."
+        ]
+      },
+      {
+        "question": "Le pancréas endocrine:",
+        "options": [
+          "Est la partie périphérique du pancréas.",
+          "Est plus volumineux que le pancréas exocrine.",
+          "Secrète l'insuline et le glucagon.",
+          "Est en rapport avec le duodénum.",
+          "Toutes les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Secrète l'insuline et le glucagon.",
+          "Est en rapport avec le duodénum."
+        ]
+      },
+      {
+        "question": "Le jéjunum-iléon:",
+        "options": [
+          "Est une partie courte de l'intestin grêle.",
+          "Fait suite au duodénum.",
+          "Se termine par iléon terminal.",
+          "Est profond et fixe.",
+          "Toutes les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Fait suite au duodénum.",
+          "Se termine par iléon terminal."
+        ]
+      }
+    ]
 
-              "year": "2016/2017",
-              "questions": [
-                {
-                  "question": "A propos du système circulatoire :",
-                  "options": [
-                    "Toutes les veines transportent le sang veineux.",
-                    "La circulation pulmonaire est une circulation fonctionnelle.",
-                    "La veine cave inférieure draine le sang veineux de tout le corps.",
-                    "Les artères transportent le sang artériel."
-                  ],
-                  "correctAnswers": [
-                    "La circulation pulmonaire est une circulation fonctionnelle.",
-                    "Les artères transportent le sang artériel."
-                  ]
-                },
-                {
-                  "question": "Concernant le système ventilatoire :",
-                  "options": [
-                    "Le trachée est élément principal.",
-                    "Le diaphragme ne fait pas partie.",
-                    "Les muscles intercostaux sont des muscles principaux.",
-                    "La cage thoracique est l'élément principal."
-                  ],
-                  "correctAnswers": [
-                    "Les muscles intercostaux sont des muscles principaux.",
-                    "La cage thoracique est l'élément principal."
-                  ]
-                },
-                {
-                  "question": "Concernant le pharynx :",
-                  "options": [
-                    "L'oropharynx sa poursuit par le larynx.",
-                    "L'oropharynx et le nasopharynx sont séparés par le voile du palais.",
-                    "Le cavum est le nasopharynx.",
-                    "C'est un carrefour aéro-digestif."
-                  ],
-                  "correctAnswers": [
-                    "Le cavum est le nasopharynx.",
-                    "C'est un carrefour aéro-digestif."
-                  ]
-                },
-                {
-                  "question": "Concernant la trachée",
-                  "options": [
-                    "Est un canal arrière supérieur.",
-                    "Mesure 12 cm.",
-                    "Le segment thoracique est plus long que le segment cervical.",
-                    "Est formée de deux segments."
-                  ],
-                  "correctAnswers": [
-                    "Mesure 12 cm.",
-                    "Le segment thoracique est plus long que le segment cervical."
-                  ]
-                },
-                {
-                  "question": "Concernant le poumon droit :",
-                  "options": [
-                    "L'unité fonctionnelle est le sac alvéolo-capillaire.",
-                    "Poumon droit est plus grand que le gauche.",
-                    "Ils présentent les mêmes segments que le gauche.",
-                    "Sa face médiastinale répond aux côtes."
-                  ],
-                  "correctAnswers": [
-                    "L'unité fonctionnelle est le sac alvéolo-capillaire.",
-                    "Poumon droit est plus grand que le gauche."
-                  ]
-                },
-                {
-                  "question": "Concernant l'atrium droit:",
-                  "options": [
-                    "Il reçoit le sang riche on CO2 ramoné par les veines caves supérieure et inférieure.",
-                    "est située sur le côté droit du Cœur.",
-                    "Il est séparée du ventricule droit par un septum menu d'une valve tricuspide ?",
-                    "Il communique largement avec l'atrium gauche."
-                  ],
-                  "correctAnswers": [
-                    "Il reçoit le sang riche on CO2 ramoné par les veines caves supérieure et inférieure.",
-                    "est située sur le côté droit du Cœur.",
-                    "Il est séparée du ventricule droit par un septum menu d'une valve tricuspide ?"
-                  ]
-                },
-                {
-                  "question": "La cage thoracique est formée par :",
-                  "options": [
-                    "Les 12paires de côtes.",
-                    "Les 12cartilages costaux X Non",
-                    "Les 12 vertèbres dorsales.",
-                    "Le steinum."
-                  ],
-                  "correctAnswers": [
-                    "Les 12paires de côtes.",
-                    "Les 12 vertèbres dorsales.",
-                    "Le steinum."
-                  ]
-                },
-                {
-                  "question": "Le larynx présente de haut en bas:",
-                  "options": [
-                    "Les cartilages épiglotte thyroïde cricoïde.",
-                    "Les cartilages épiglotte cricoïde thyroïde.",
-                    "Les cartilages thyroïdes épiglotte cricoïde.",
-                    "Les cartilages thyroïde cricoïde épiglotte."
-                  ],
-                  "correctAnswers": [
-                    "Les cartilages épiglotte thyroïde cricoïde."
-                  ]
-                },
-                {
-                  "question": "A proposdu larynx:",
-                  "options": [
-                    "Est l'organe de la phonation et de la déglutition",
-                    "Présente tes cordes vocales.",
-                    "Appartient aux voies aériennes supérieures.",
-                    "Appartient aux voies aériennes inférieures."
-                  ],
-                  "correctAnswers": [
-                    "Présente tes cordes vocales.",
-                    "Appartient aux voies aériennes supérieures."
-                  ]
-                },
-                {
-                  "question": "A propos du pharynx:",
-                  "options": [
-                    "Est unorgane musculaire.",
-                    "Il a undouble rôle.",
-                    "Sa contraction provoque la déglutition.",
-                    "sa situation est antérieure par rapport sux pe."
-                  ],
-                  "correctAnswers": [
-                    "Est unorgane musculaire.",
-                    "Il a undouble rôle.",
-                    "Sa contraction provoque la déglutition."
-                  ]
-                },
-                {
-                  "question": "Concernant la trachée",
-                  "options": [
-                    "Elle présente 3 segments.",
-                    "tletatsurteascarlage/hycidetor.",
-                    "Elle est formée d'anneaux cartilagineux incomplets en avant.",
-                    "Elle setermine au niveau e huile pulmonaire."
-                  ],
-                  "correctAnswers": [
-                    "Elle est formée d'anneaux cartilagineux incomplets en avant.",
-                    "Elle setermine au niveau e huile pulmonaire."
-                  ]
-                },
-                {
-                  "question": "Concernant les bronches:",
-                  "options": [
-                    "Chaque poumon présente 3 bronches lobaires.",
-                    "Les bronches segmentaires font' suite-aux bronches lobaires.",
-                    "GLa stuture l'arbre bronchique est identique à celle de la trachée.",
-                    "La muqueuse des bronches est une muqueuse ciliée."
-                  ],
-                  "correctAnswers": [
-                    "Les cartilages épiglotte thyroïde cricoïde."
-                  ]
-                }
-              ]
-            },
-            {
-              "module": "Anatomie",
-              "year": "2022/2023",
-              "questions": [
-                {
-                  "question": "Concernant le lobule pulmonaire :",
-                  "options": [
-                    "Représente l'unité fonctionnelle du poumon.",
-                    "C'est une structure microscopique.",
-                    "Présente une artériole une veinule et une bronchiole terminale.",
-                    "La veinule pulmonaire est située à l'intérieur du lobule."
-                  ],
-                  "correctAnswers": [
-                    "Représente l'unité fonctionnelle du poumon.",
-                    "C'est une structure microscopique.",
-                    "Présente une artériole une veinule et une bronchiole terminale."
-                  ]
-                }
-
-              ]
-
-            },
-            {
-              "module": "Chimie",
-              "year": "2021/2022",
-              "questions": [
-                {
-                  "question": "La figure représentée ci-après :",
-                  "options": [
-                    "La gouttelette chargée est sous l'influence du champ électrique\nE = U.L, dont l'effet est compensé par le poids et la force de Stokes, qui s'oppose au mouvement ascendant.",
-                    "Présente le dispositif de Thomson, le pionnier de la caractérisation de l'électron.",
-                    "sert à déterminer la charge électrique portée par la gouttelette.",
-                    "présente l'expérience de Millikan réaliser en 1900."
-                  ],
-                  "correctAnswers": [
-                    "La gouttelette chargée est sous l'influence du champ électrique\nE = U.L, dont l'effet est compensé par le poids et la force de Stokes, qui s'oppose au mouvement ascendant.",
-                    "sert à déterminer la charge électrique portée par la gouttelette."
-                  ],
-                  "photo": "assets/imageChimie/figure2022.jpg"
-                },
-                {
-                  "question": "Un rayonnement possède une longueur d'onde dans le vide égale à 700 mm. Calculer sa fréquence",
-                  "options": [
-                    "v = 7,19 x 10^14 Hz",
-                    "v = 4,29 x 10^14 Hz",
-                    "v = 4,29 x 10^12 Hz",
-                    "v = 10,8 x 10^14 Hz"
-                  ],
-                  "correctAnswers": [
-                    "v = 4,29 x 10^14 Hz"
-                  ]
-                },
-                {
-                  "question": " Si l'énergie cinétique d'un électron (me=9.11 10^-31\"Kg) est de 11.4 eV, sa vitesse est égale à :",
-                  "options": [
-                    "2.0 x 10^6 cm/s",
-                    "2.0 x 10^6 m/s",
-                    "3.0 x 10^8 m/s",
-                    "2.0 x 10^3 m/s"
-                  ],
-                  "correctAnswers": [
-                    "2.0 x 10^6 m/s"
-                  ]
-                },
-                {
-                  "question": "Enoncé commun aux questions 4, 5, 6,7 et 8\nLa transition électronique à partir de l'état fondamental vers le troisième état excité d'un ion Hydrogénoide _z X^a+ a mis en jeu une . énergie égale à 5.1 10^17 joules.\nDonnées : m. = 9.11 10^-31\"Kg, h= 6.62 10^-34 JS, C _lumiere = 3 10^8 m/s.\n Déterminer le numéro atomique Z puis en déduire la notation symbolique de cet ion Hydrogénoïde.",
-                  "options": [
-                    "Z=2 d'où: _2 X^1+ = 2He^1+",
-                    "Z=4 d'où: _4 X^3+ = 4Be^3+",
-                    "Z=5 d'où: _5 X^4+ = 5B^4+",
-                    "Z=6 d'où: _6 X^5+ = 6C^5+"
-                  ],
-                  "correctAnswers": [
-                    "La gouttelette chargée est sous l'influence du champ électrique\nE = U.L, dont l'effet est compensé par le poids et la force de Stokes, qui s'oppose au mouvement ascendant.",
-                    "sert à déterminer la charge électrique portée par la gouttelette."
-                  ]
-                },
-                {
-                  "question": "Calculer le rayon de l'orbite, correspondant au 3 eme état excité.",
-                  "options": [
-                    "r^x_4 = r^H_1 ,n^2 /Z=0.26 A^°",
-                    "r^x_4 = r^H_1 ,n^2 /Z^2=1.26 A^°",
-                    "r^x_4 = r^H_1 ,n^2 =1.69 A^°",
-                    "r^x_4 = r^H_1 ,n^2 /Z=1.69 A^°"
-                  ],
-                  "correctAnswers": [
-                    "r^x_4 = r^H_1 ,n^2 /Z=1.69 A^°"
-                  ]
-                },
-                {
-                  "question": "Calculer la vitesse de l'électron gravitant sur cette orbite.",
-                  "options": [
-                    "v = 2,7.10^6 m/s",
-                    "v = 2,7.10^3 m/s",
-                    "v = 2,2.10^4 m/s",
-                    "v = 2,76.10^5 m/s"
-                  ],
-                  "correctAnswers": [
-                    "v = 2,7.10^6 m/s"
-                  ]
-                },
-                {
-                  "question": "Quelle serait, selon l'hypothèse de De Broglie, L'onde associé a cet électron ?",
-                  "options": [
-                    "λ = 2,725 A^°",
-                    "λ = 2,6 A^°",
-                    "λ = 3,69 A^°",
-                    "λ = 2,6 10^-10 m"
-                  ],
-                  "correctAnswers": [
-                    "λ = 2,6 A^°",
-                    "λ = 2,6 10^-10 m"
-
-                  ]
-                },
-                {
-                  "question": "Calculer la fréquence du rayonnement qui\nprovoquerait l'ionisation de cet ion Hydrogénoïde pris dans son troisième état excité.",
-                  "options": [
-                    "v=2,413x 10^11 Hz",
-                    "v -6,13x 10^15 Hz",
-                    "v - 7,013x 10^15Hz",
-                    "v - 5,130x 10^15 Hz"
-                  ],
-                  "correctAnswers": [
-                    "v - 5,130x 10^15 Hz"
-                  ]
-                },
-                {
-                  "question": "La longueur d'onde de De Broglie est associé à un électron (m_e= 9.11 10^31Kg, h- 6.62 10^-34 J s, C lumière = 3 10^8 m/s) se déplaçant à une vitesse cent fois plus lente que celle de la lumière est :",
-                  "options": [
-                    "2,422 x 10^-10 m",
-                    "24,22 x 10^-12 m",
-                    "2,422 x 10^-22 m",
-                    "2,422 x 10^-6 m"
-                  ],
-                  "correctAnswers": [
-                    "2,422 x 10^-10 m"
-                  ]
-                },
-                {
-                  "question": "Qu'indique le principe d'incertitude d'Heisenberg",
-                  "options": [
-                    "Deux grandeurs, la position et la quantité de mouvement.",
-                    "Les orbitales atomiques.",
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie.",
-                    "Deux grandeurs, la position et la quantité de mouvement,ne peuvent être connues simultanément avec précision infinie."
-                  ],
-                  "correctAnswers": [
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie."
-                  ]
-                },
-                {
-                  "question": "Enoncé commun aux  cette question et la prochaine  Voici le diagramme simplifié des niveaux d'énergie du mercure (sans souci d'échelle) :\nDonnées : h=6.62*10^-34 S.I; c=3.0*10^8 m.s^-1 ; 1eV=1.6*10^-19 J.",
-                  "options": [
-                    "Les transitions indiquées correspondent à des radiations absorbées.",
-                    "Les transitions indiquées correspondent à des radiations émises.",
-                    "Les transitions indiquées correspondent à des radiations absorbées et émises.",
-                    "Les transitions correspondent à un passage d'un niveau d'énergie élevé à un niveau d'énergie plus faible: l'atome de mercure cède donc de l'énergie, en émettant une radiation."
-
-                  ],
-                  "correctAnswers": [
-                    "Les transitions indiquées correspondent à des radiations émises.",
-                    "Les transitions correspondent à un passage d'un niveau d'énergie élevé à un niveau d'énergie plus faible: l'atome de mercure cède donc de l'énergie, en émettant une radiation."
-
-                  ],
-                  "photo": "assets/imageChimie/figurechimie2.jpg"
-
-                },
-                {
-                  "question": "Quelle est La plus petite longueur d'onde correspondant à ces trois transitions ?",
-                  "options": [
-                    "La plus petite longuen d'onde correspond au plus grand écart energétique, d'après la formule  ΔE= (hc)/λ on a donc λ= 405nm",
-                    "La plus petite longueur d'onde correspond au plus petit écart energétique, d'après la formule ΔE= (hc)/λ on a donc λ = 405nm",
-                    "La plus petite longueur d'onde correspond au plus grand écart ónergétique, d'après la formule ΔE= (he)/λ: on a donc λ= 410nm",
-                    "La plus petite longueur d'onde correspond au plus grand écart énergétique, d'après la formule ΔE= (hc)/λ: on a donc λ = 434nm"
-                  ],
-                  "correctAnswers": [
-                    "La plus petite longuen d'onde correspond au plus grand écart energétique, d'après la formule  ΔE= (hc)/λ on a donc λ= 405nm"
-                  ]
-                },
-                {
-                  "question": "Le chrome Gr (Z-24) a une structure électronique: 1s^2 2s^2 2p^6 3s^2 3p^6\" 3d^5 4s^1",
-                  "options": [
-                    "Il fait partie des alcalins.",
-                    "Il fait partie des métaux de transition.",
-                    "Il a un caractère métallique plus marqué que le Fer,",
-                    "Il constitue une exception aux règles de remplissage des orbitales atomiques enr il ne respecte pas le principe d'exclusion de\nPauli"
-                  ],
-                  "correctAnswers": [
-                    "Il fait partie des métaux de transition.",
-                    "Il constitue une exception aux règles de remplissage des orbitales atomiques enr il ne respecte pas le principe d'exclusion de\nPauli"
-
-                  ]
-                },
-                {
-                  "question": "Quelle sont les bonnes réponces !",
-                  "options": [
-                    "Les alcalins sont des atomes qui possèdent deux diectrons sur leu couche de valence. Ils ont une structure en (n)s^2",
-                    "Le Scandium, le Lanthane et l'Actinium apportiennent au mêm groupe du tableau de classification périodique.",
-                    "Le Ruthénium, le Fer et l'étain sont des atomes faisant partie de métaux de transition.",
-                    "L'électron célibataire du sodium est caractérisé par les valeurs nombre quantique suivantes n=3, l=0; m_1 = 0; m_2 = - ½."
-                  ],
-                  "correctAnswers": [
-                    "Le Scandium, le Lanthane et l'Actinium apportiennent au mêm groupe du tableau de classification périodique.",
-                    "L'électron célibataire du sodium est caractérisé par les valeurs nombre quantique suivantes n=3, l=0; m_1 = 0; m_2 = - ½."
-
-                  ]
-                },
-                {
-                  "question": " Le lanthane et le cérium appartiennent à la même\npériode et présentent la configuration électronique ci-dessous:\nLa (Z=57) : [Xe) 5d^1 6S^2 ; Ce (Z=58) : [Xe) 4f^1 5d^1  6S^2\nJustifier la répartition des électrons de cœur.",
-                  "options": [
-                    "Quelques éléments du tableau périodique constituent des\ndes configuration électroniques.",
-                    "L'électron se placera dans la case qui stabilise plus l'atome.",
-                    "Les énergies des orbitales atomiques d et f sont proches l'une de l'autre, c'est pour cela que pour le lanthane l'électron présente une\nfonction Sd plutôt que 4f.",
-                    "Le lanthane et le cérium appartiennent au même bloc."
-                  ],
-                  "correctAnswers": [
-                    "Quelques éléments du tableau périodique constituent des\ndes configuration électroniques.",
-                    "L'électron se placera dans la case qui stabilise plus l'atome.",
-                    "Les énergies des orbitales atomiques d et f sont proches l'une de l'autre, c'est pour cela que pour le lanthane l'électron présente une\nfonction Sd plutôt que 4f."
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes Mg (Z= 12), V (Z =23), At (Z. = 85) et\nMd (Z = 101) les bonnes structures électroniques parmi :1) [Ar] 3d^3 4S^2?\n2) [Ar] 3d^7 4S^2\n3) [Xe] 4f^14 5d^10 6S^2 6p^5\n4) (Rn] 5f^6 7S^2\n5) [He| 2S^2 2p^3\n6)[Ne] 3S^2\n7) [Rn] 5f^13 7S^2",
-                  "options": [
-                    "V (2), At (1), Mg (5) et Md (6)",
-                    "V (1), At(3), Mg (6) et Md (7)",
-                    "Md (4), V (5), At (6) et Mg (2)",
-                    "Mg (7).V(3) :Md(1) et At(6)"
-                  ],
-                  "correctAnswers": [
-                    "V (1), At(3), Mg (6) et Md (7)"
-                  ]
-                },
-                {
-                  "question": "Donnez, pour chacun des élémenis sulvants, le timbre d'Électrons ayant pour nombre quantique magnétique 40Zr^2+ ,24Cr, 28Ni^- , 48Cd.",
-                  "options": [
-                    "_40 Zr^2+ :2 _24 Cr:1 _28 Ni^- :2 _48 Cd:4",
-                    "_40 Zr^2+ :18 _24 Cr:12 _28 Ni^- :13  _48 Cd:20",
-                    "_40 Zr^2+ :9 _24 Cr:5 _28 Ni^- :6  _48 Cd:10",
-                    "_40 Zr^2+ :8 _24 Cr:6 _28 Ni^- :6 _48 Cd:8"
-                  ],
-                  "correctAnswers": [
-                    "_40 Zr^2+ :9 _24 Cr:5 _28 Ni^- :6  _48 Cd:10"
-                  ]
-                },
-                {
-                  "question": "Enoncé commun aux questions suivantes \nSoient les éléments A : B; C; D et E où Z. représente le Numéro Atomique :\nA (Z - 1) ; B (2): C (2 + 1); D (6/5 Z) et E (27 - 1)\nL'élément D appartient à la 5to Période et à la Colonne VIB.\nAprès avoir calculer les Numéros Atomiques des éléments A, B.\nC, D et E",
-                  "options": [
-                  ],
-                  "correctAnswers": [
-                  ]
-                },
-                {
-                  "question": "établir leur structure électronique",
-                  "options": [
-                    "A (17); B (18): C (19) ; Đ (24) et E (35).",
-                    "A (35): B (36): C (37); D (42) et E (77).",
-                    "A (34): B (35): C (36): D (42) et E (69).",
-                    "A (53) : B (54) : C (55) : D (74) et E (85)."
-                  ],
-                  "correctAnswers": [
-                    "A (34): B (35): C (36): D (42) et E (69)."
-                  ]
-                },
-                {
-                  "question": "donner leur place dans le Tableau Périodique Sous-Groupe, Colonne et bloc).",
-                  "options": [
-                    "A (4, VIA,16 et P); B (4,VIIA, 17 et P); C (4,VIA, 18 et P):\nD (S,VIB, 6 et d) et E(P=6, Bloef).",
-                    "A (4, VITA, 16 et P): B(4,VIA, (7 et P): C(3,VIA,18 et D):\nD (3,VIA, 6 et D) et E (P»6, Bloed).",
-                    "A (3, VIIA, 16 ct P): B (3, VIIA, 17 et P): C(4, VIIIA, 18 et\nD): D (4VIA, 6 et D) et E(P=6,Blocd).",
-                    "A (5, VIA,16 ct P); B (5,VIA,17 et P); C(4,VIIIA,18 ct P):\nD (4,VIB, 6 et d) et E(P=6, Blocf)"
-                  ],
-                  "correctAnswers": [
-                    "A (4, VIA,16 et P); B (4,VIIA, 17 et P); C (4,VIA, 18 et P):\nD (S,VIB, 6 et d) et E(P=6, Bloef)."
-                  ]
-                },
-                {
-                  "question": "Attribuer à chaque élément une valeur parmi les valeurs des énergies de premières ionisation suivantes: Ei en V : 13,999;\n6,184; 11,814; 7,099:9.752.",
-                  "options": [
-                    "A (06,184), B (07,099), C (09,752), D (11,814) ctE\n(13,999)",
-                    "A (13,999), B (11,814), C (06,184), D (07,099) et E\nde (09,752).",
-                    "A (13,999), B (06,184), C (11,814), D (07,099) et E\n(09,752).",
-                    "A (09,752), B (11,814), C (13,999), D (07,099) et E(06.184)"
-                  ],
-                  "correctAnswers": [
-                    "A (34): B (35): C (36): D (42) et E (69)."
-                  ]
-                }
-              ]
-            },
-            {
-              "module": "Chimie",
-              "year": "2020/2021",
-              "questions": [
-                {
-                  "question": "Données : h=6,626.10^-34 js ; c = 3.10^8 m/s; Ru =1,097.10^7 m^-1 ; m_proton = 1,6726.10^-27 Kg :\n m_electron 9,1094.10^-31 Kg:\n La figure ci-dessous présente l'expérience de Rutherford.",
-                  "options": [
-                    "la mince feuille d'or est constituée en grande partie d'un vide de matière.",
-                    "La plupart des particules sont fortement déviées.",
-                    "La matière est constituée d'atomes dont la masse et la charge positive sont concentrées dans des volumes de très grande dimension.",
-                    "Un petit nombre de particule est fortement dévié, voire renvoyé en arrière."
-                  ],
-                  "correctAnswers": [
-                    "la mince feuille d'or est constituée en grande partie d'un vide de matière.",
-                    "Un petit nombre de particule est fortement dévié, voire renvoyé en arrière."
-                  ],
-                  "photo": "assets/imageChimie/chimie8.jpg"
-                },
-                {
-                  "question": "Si l'énergie cinétique d'un électron est de 11.4 eV, sa vitesse est égale à :",
-                  "options": [
-                    "2.0 x 10^3 m/s",
-                    "2.0 x 10^5 m/s",
-                    "3.0 x 10^3 m/s",
-                    "2.0 x 10^6 m/s"
-                  ],
-                  "correctAnswers": [
-                    "2.0 x 10^6 m/s"
-                  ]
-                },
-                {
-                  "question": "Rappeler la définition d'un ion hydrogénoïde",
-                  "options": [
-                    "Un ion hydrogénoïde est un ion diatomique.",
-                    "Un ion hydrogénoïde est un ion qui possède un seul électron.",
-                    "Un ion hydrogénoïde est un ion qui possède Z électron.",
-                    "Un ion hydrogénoïde est un ion monoatomique."
-                  ],
-                  "correctAnswers": [
-                    "Un ion hydrogénoïde est un ion qui possède un seul électron."
-                  ]
-                },
-                {
-                  "question": " Les ions _3 Li^+ et _4 Be^3+ sont-ils des systèmes hydrogénoides ?",
-                  "options": [
-                    "L'ion _3 Li^+ est un hydrogénoïde car il possède deux électrons.",
-                    "L'ion _4 Be^3+ est un hydrogénoïde car il possède un seul électron.",
-                    "L'ion _3 Li^+ est un hydrogénoïde car il possède un nombre de protons égale à trois.",
-                    "L'ion _3 Li^+ n'est pas un hydrogénoide car il possède deux électrons et trois protons."
-                  ],
-                  "correctAnswers": [
-                    "L'ion _3 Li^+ n'est pas un hydrogénoide car il possède deux électrons et trois protons."
-                  ]
-                },
-                {
-                  "question": "calculer l'énergie d'ionisation pour l'ion ,Be** dans son état fondamental",
-                  "options": [
-                    "E_i = 661 eV",
-                    "E_i =  -217,6 eV",
-                    "E_i =  13,6 eV",
-                    "E_i =  217,6 eV"
-                  ],
-                  "correctAnswers": [
-                    "E_i =  217,6 eV"
-                  ]
-                },
-                {
-                  "question": " caule la on fonda ende qui corespond à cet inergie d'ionisation pour l'ion _4Be^3+ dans son etat fondamental.",
-                  "options": [
-                    "λ= 5.7 μm",
-                    "λ= 242 x 10^-10 m",
-                    "λ= 5,7 nm",
-                    "λ=  217,610^-10 m"
-                  ],
-                  "correctAnswers": [
-                    "λ=  217,610^-10 m"
-                  ]
-                },
-                {
-                  "question": "Un photon de longueur d'onde ^ = 25,64 mm peut -il être absorbé par un électron se trouvant initialement sur le niveau n=2 de _4 Be^+3 ? si oui, dans quel état se trouve alors l'ion _4 Be^+3 ? le photon est donc absorbé par _4 Be^+3 qui passe à l'état excité n= ?",
-                  "options": [
-                    "nj =5",
-                    "nj =3",
-                    "nj =6",
-                    "nj =4"
-                  ],
-                  "correctAnswers": [
-                    "nj =3"
-                  ]
-                },
-                {
-                  "question": "définit cette raie.",
-                  "options": [
-                    "C'est la 2^eme raie de la série de Pfund ",
-                    "C'est la 3^eme raie de la série de Paschen",
-                    "C'est la 4^eme raie de la série de Balmer",
-                    "C'est la 5^eme raie de la série de Lyman"
-                  ],
-                  "correctAnswers": [
-                    "C'est la 3^eme raie de la série de Paschen"
-                  ]
-                },
-                {
-                  "question": "La longueur d'onde de de Broglie est associé à un électron se déplaçant à une\nvitesse cent fois plus lente que celle de la lumière est :",
-                  "options": [
-                    "2,422 x 10^-7 mm ",
-                    "2.422 x 10^-11 m",
-                    "24.22 x 10^-12 m",
-                    "2.422 x 10^-10 m"
-                  ],
-                  "correctAnswers": [
-                    "2.422 x 10^-10 m"
-                  ]
-                },
-                {
-                  "question": "Qu'indique le principe d'incertitude d'Heisenberg",
-                  "options": [
-                    "Deux grandeurs, la position et la quantité de mouvement, peuvent être connues simultanément avec précision infinie.",
-                    "Les orbitales atomiques.",
-                    "Deux grandeurs, la position et la quantité de mouvement.",
-                    "Deux grandeurs, la position et la quantité de mouvement, ne peuvent pas être connues simultanément avec précision infinie."
-                  ],
-                  "correctAnswers": [
-                    "Deux grandeurs, la position et la quantité de mouvement, ne peuvent pas être connues simultanément avec précision infinie."
-                  ]
-                },
-                {
-                  "question": "Quelle est l'orbitale atomique associée aux nombres quantiques n=2; 1=2 et mt =0 ?",
-                  "options": [
-                    "Il s'agit d'une orbitale atomique 5d",
-                    "Il s'agit d'une orbitale atomique 4f",
-                    "impossible car & doit être inférieur ou égal à n-1.",
-                    " Il s'agit d'une orbitale atomique 4P."
-                  ],
-                  "correctAnswers": [
-                    "Il s'agit d'une orbitale atomique 5d",
-                    "impossible car & doit être inférieur ou égal à n-1."
-                  ]
-                },
-                {
-                  "question": "Une orbitale atomique est caractérisée par :",
-                  "options": [
-                    "un ensemble de quatre nombres quantiques.",
-                    "Une énergie caractéristique.",
-                    "un ensemble de trois nombres quantiques. ",
-                    " Les nombres quantiques n ; 1=2 et m."
-                  ],
-                  "correctAnswers": [
-                    "un ensemble de quatre nombres quantiques."
-                  ]
-                },
-                {
-                  "question": " Lequel de ces éléments possède exactement deux électrons non appariés ?",
-                  "options": [
-                    "L'hélium He",
-                    "L'oxygène O",
-                    "Le bore B",
-                    "Le béryllium Be"
-                  ],
-                  "correctAnswers": [
-                    "L'oxygène O"
-                  ]
-                },
-                {
-                  "question": "D'après le principe d'exclusion de Pauli, les sous-couches s, p. d et f contiennent\nau maximum respectivement 2, 6, 10 et 14 électrons.",
-                  "options": [
-                    "Le remplissage des sous-couches se fait par énergie décroissante. ",
-                    "L'ordre énergétique des sous-couches est donné par la règle de Klechkowski.",
-                    "Une sous-couche de type nd contient 26+1 orbitales atomiques.",
-                    "Le remplissage des sous-couches se fait par énergie croissante."
-                  ],
-                  "correctAnswers": [
-                    "Le remplissage des sous-couches se fait par énergie décroissante. ",
-                    "L'ordre énergétique des sous-couches est donné par la règle de Klechkowski.",
-                    "Une sous-couche de type nd contient 26+1 orbitales atomiques."
-                  ]
-                },
-                {
-                  "question": " Ecrire la configuration électronique des métaux de transition suivants :\nNi(Z-28), Zr(Z-40), Cd(Z-48).",
-                  "options": [
-                    "[Ar] 3d^10 4s^0, [Kr] 4d^2 5s^2 et [Kr] 4d^10 5s^2",
-                    "[Ar] 3d^8 4s^2, [Ar] 4d^2 5s^2 et [Kr] 4d^10 5s^2",
-                    "[Ar] 3d^8 4s^2, [Kr] 4d^4 5s^0 et [Kr] 4d^10 5s^2",
-                    "[Ar] 3d^8 4s^2, [Kr] 4d^2 5s^2 et [Kr] 4d^10 5s^2"
-                  ],
-                  "correctAnswers": [
-                    "[Ar] 3d^8 4s^2, [Ar] 4d^2 5s^2 et [Kr] 4d^10 5s^2"
-                  ]
-                },
-                {
-                  "question": "La configuration électronique de l'oxygène _8 O est :",
-                  "options": [
-                    "1s^2 2s^2 2p^6",
-                    "1s^2 2s^2 2p^4",
-                    "1s^2 2s^2 2p^3",
-                    "[He] 2s^2 2p^4"
-                  ],
-                  "correctAnswers": [
-                    "1s^2 2s^2 2p^4",
-                    "[He] 2s^2 2p^4"
-
-                  ]
-                },
-                {
-                  "question": " Parmi les configurations électroniques suivantes\n1)- 1s^2 2s^2 2p^1; 2)- 1s^2 2s^2 2p^3; 3)- 1s^2 2s^2 2p^6 ;4)- 1s^2 2s^2 2p^6 3s^2 ; 5)- 1s^2 2s^2 2p^6 3s^2 3p^2\nLa quelle correspond à un gaz rare :",
-                  "options": [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
-                  ],
-                  "correctAnswers": [
-                    "3"
-                  ]
-                },
-                {
-                  "question": "Quel est l'atome qui se trouve sur la 6eme ligne et sur la 13*me colonne ?",
-                  "options": [
-                    "_29 Cu",
-                    "_81 Ti",
-                    "_38 Sr",
-                    "_40 Zr"
-                  ],
-                  "correctAnswers": [
-                    "_81 Ti"
-                  ]
-                },
-                {
-                  "question": " Donnez les configurations électroniques inexactes",
-                  "options": [
-                    "_18 Ar:1s^2 2s^2 2p^6 3s^2 3p^6",
-                    "_20 Ca:1s^2 2s^2 2p^6 3s^2 3p^8",
-                    "_33 As:1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^11 4p^2",
-                    "_18 Ar:1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^6"
-                  ],
-                  "correctAnswers": [
-                    "_20 Ca:1s^2 2s^2 2p^6 3s^2 3p^8",
-                    "_33 As:1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^11 4p^2",
-                    "_18 Ar:1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^6"                  ]
-                },
-                {
-                  "question": "Combien y a-t-il d'orbitales 5f ?",
-                  "options": [
-                    "5 OA Sf. Une sous-couche f correspond à 1=3 donc il y a 21+1=7 valeurs de m possibles soit 7 OA dans une sous-couche f.",
-                    "7 0A Sf. Une sous-couche f correspond à 1=2 donc il y a 21+1=5 valeurs de m possibles soit 5 OA dans une sous-couche f.",
-                    "3 OA Sf. Une sous-couche f correspond à 1-1 donc il y a 21+1-3 valeurs de m possibles soit 3 OA dans une sous-couche f.",
-                    "7 0A Sf. Une sous-couche f correspond à 1=3 done il y a 21+1-7 valeurs de m possibles soit 7 OA dans une sous-couche f."
-                  ],
-                  "correctAnswers": [
-                    "7 0A Sf. Une sous-couche f correspond à 1=3 done il y a 21+1-7 valeurs de m possibles soit 7 OA dans une sous-couche f."
-                  ]
-                }
-              ]
-            },
-            {
-              "module": "Chimie",
-              "year": "2018/2019",
-              "questions": [
-                {
-                  "question": "Au cours de la recherche de la déflexion d'un faisceau d'azote ionisé qui passe à travers un champ magnétique ainsi qu'un champ électrique sur la plaque photographique qui lui sert comme détecteur, il observe deux taches qui correspondent aux atomes de masses atomiques 14 et 15. Il conclut que l'azote est constitué :",
-                  "options": [
-                    "d'atomes de masses différentes.",
-                    "d'atomes ayant une très petite masse et une charge négative.",
-                    "de deux isotopes.",
-                    "d'atomes de numéros atomiques différents."
-                  ],
-                  "correctAnswers": [
-                    "de deux isotopes.",
-                    "d'atomes de masses différentes."
-                  ]
-                },
-                {
-                  "question": "La masse théorique du noyau du béryllium 10 est :",
-                  "options": [
-                    "10,07826 u.m.a.",
-                    "10,08104 u.m.a.",
-                    "10,07270 u.m.a.",
-                    "10,08660 u.m.a."
-                  ],
-                  "correctAnswers": [
-                    "10,08104 u.m.a."
-                  ]
-                },
-                {
-                  "question": "Le défaut de masse du noyau du béryllium 10 est :",
-                  "options": [
-                    "0",
-                    "0,06140 u.m.a.",
-                    "0,06974 u.m.a.",
-                    "0,06696 u.m.a."
-                  ],
-                  "correctAnswers": [
-                    "0,06974 u.m.a."
-                  ]
-                },
-                {
-                  "question": "La figure représentée ci-après :",
-                  "options": [
-                    "présente le tube de CROOKES",
-                    "sert à déterminer les particules chargées négativement",
-                    "contient une croix métallique placée sur le trajet qui sert à déterminer l'énergie cinétique des électrons",
-                    "prouve que les rayonnements cathodiques ont une trajectoire rectiligne."
-                  ],
-                  "correctAnswers": [
-                    "présente le tube de CROOKES",
-                    "sert à déterminer les particules chargées négativement"
-                  ],
-                  "photo": "assets/imageChimie/chimie7.jpg"
-                },
-                {
-                  "question": "La charge élémentaire a été déterminée à l'aide :",
-                  "options": [
-                    "D'un tube de Crookes",
-                    "D'une chambre de Wilson",
-                    "De l'expérience de la goutte d'huile de Max Planck",
-                    "Aucune des propositions citées (A à C) n'est exacte."
-                  ],
-                  "correctAnswers": [
-                    "Aucune des propositions citées (A à C) n'est exacte."
-                  ]
-                },
-                {
-                  "question": "Joseph John Thomson imagine un modèle de l'atome auquel :",
-                  "options": [
-                    "l'atome est assimilé à une sphère dont la surface porterait des énergies négatives.",
-                    "l'atome est assimilé à une sphère remplie d'une substance électriquement positive et fourrée d'électrons négatifs.",
-                    "son idée est contredite plus tard par Einstein.",
-                    "l'atome est assimilé à une sphère dont la surface porterait des énergies positives et à l'intérieure de laquelle se trouvent des électrons."
-                  ],
-                  "correctAnswers": [
-                    "l'atome est assimilé à une sphère remplie d'une substance électriquement positive et fourrée d'électrons négatifs.",
-                    "l'atome est assimilé à une sphère dont la surface porterait des énergies positives et à l'intérieure de laquelle se trouvent des électrons."
-
-                  ]
-                },
-                {
-                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique). Dans ce modèle appliqué à l'atome d'hydrogène :",
-                  "options": [
-                    "L'énergie totale du système noyau-électron est d'autant moins importante que le rayon de l'orbite est plus grand.",
-                    "Dans l'état fondamental, l'électron gravite autour du noyau sur une orbite circulaire de rayons r = 0,053 n' (nm) avec n = entier positif.",
-                    "Lorsque l'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
-                    "Lorsque l'électron passe du niveau n = 1 (d'énergie Ei) sur le niveau n = 2 (d'énergie Ez) il y a émission d'une radiation de fréquence v telle que v=(Ei-Ez)/h (h=constante de Planck)."
-                  ],
-                  "correctAnswers": [
-                    "Dans l'état fondamental, l'électron gravite autour du noyau sur une orbite circulaire de rayons r = 0,053 n' (nm) avec n = entier positif.",
-                    "Lorsque l'électron passe du niveau n = 1 (d'énergie Ei) sur le niveau n = 2 (d'énergie Ez) il y a émission d'une radiation de fréquence v telle que v=(Ei-Ez)/h (h=constante de Planck)."
-
-                  ]
-                },
-                {
-                  "question": "Thomson, Schrödinger, Millikan, Rutherford et Heisenberg sont cinq scientifiques qui ont travaillé sur le modèle de l'atome, classez leur nom par ordre chronologique.",
-                  "options": [
-                    "J. J. Thomson, Schrödinger, Millikan, Rutherford et Heisenberg.",
-                    "Rutherford, J. J. Thomson, Millikan, Heisenberg et Schrödinger.",
-                    "J. J. Thomson, Rutherford, Schrödinger, Millikan et Heisenberg.",
-                    "J. J. Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
-                  ],
-                  "correctAnswers": [
-                    "J. J. Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
-                  ]
-                },
-                {
-                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène, pris dans son état fondamental pour faire passer l'électron sur le niveau n=6. Après excitation, on enregistre le spectre d'émission. Le spectre d'émission contient :",
-                  "options": [
-                    "trois raies d'émission",
-                    "trois transitions dans l'infra rouge",
-                    "une seule transition dans l'ultraviolet",
-                    "une seule transition de la série de Pfund"
-                  ],
-                  "correctAnswers": [
-                    "trois transitions dans l'infra rouge",
-                    "une seule transition de la série de Pfund"
-
-                  ]
-                },
-                {
-                  "question": "La loi de MOSELEY établit la relation entre la fréquence des rayons x émis par chaque élément et :",
-                  "options": [
-                    "Le numéro atomique",
-                    "La longueur d'onde",
-                    "La masse atomique",
-                    "Le nombre de masse"
-                  ],
-                  "correctAnswers": [
-                    "Le numéro atomique"
-                  ]
-                },
-                {
-                  "question": "Les deux espèces chimiques He^+ et Li^2+ :",
-                  "options": [
-                    "ont le même noyau",
-                    "ne peuvent être différenciées car elles ont la même structure électronique",
-                    "ne peuvent être différenciées car elles ont le même noyau",
-                    "ont la même structure électronique"
-                  ],
-                  "correctAnswers": [
-                    "ont la même structure électronique"
-                  ]
-                },
-                {
-                  "question": "Au cours de l'émission d'un rayonnement de fréquence v, par un atome d'hydrogène, un électron passe d'un niveau d'énergie w1 à un autre w2. Si l'on astreint à ce que n soit inférieur ou égal à 5. Combien y a-t-il de raies possibles dans le spectre et calculer la plus grande fréquence. On donne : h = 4,14x10^(-15) eV.s.",
-                  "options": [
-                    "il y a 10 raies possibles et Vmax =3,155x10^15 gl",
-                    "il y a 10 raies possibles et vux - AEmax/h = 4,155 s-'",
-                    "il y a 9 raies possibles et max correspond à AEmax",
-                    "il y a 10 raies possibles et Ymer Correspond à Emin"
-                  ],
-                  "correctAnswers": [
-                    "il y a 10 raies possibles et Vmax =3,155x10^15 gl"
-                  ]
-                },
-                {
-                  "question": "Associer aux fonctions d'ondes électroniques ainsi définies Ф3, 1,-1 à leurs orbitales :",
-                  "options": [
-                    "6s, 3p, 4d, 5f",
-                    "6s, 3p, 4d, 7d",
-                    "6s, 4d, 5f",
-                    "3p, 4d, 7d"
-                  ],
-                  "correctAnswers": [
-                    "6s, 3p, 4d, 5f"
-                  ]
-                },
-                {
-                  "question": "Le nombre quantique azimutal pour une orbitale 4f est :",
-                  "options": [
-                    "l = 0",
-                    "l = 1",
-                    "l = 4",
-                    "l = 3"
-                  ],
-                  "correctAnswers": [
-                    "l = 3"
-                  ]
-                },
-                {
-                  "question": "Le nombre quantique magnétique mi pour une orbitale 4f est :",
-                  "options": [
-                    "m = -3",
-                    "mi = -1",
-                    "m = 0",
-                    "m = +2"
-                  ],
-                  "correctAnswers": [
-                    "m = -3",
-                    "mi = -1",
-                    "m = 0",
-                    "m = +2"                  ]
-                }
-              ]
-
-            },
-            {
-              "module": "Chimie",
-              "year": "2017/2018",
-              "questions": [
-                {
-                  "question": "Au cours de la recherche de la déflexion d'un faisceau de néon ionisé qui passe à travers un champ magnétique ainsi qu'un champ électrique sur la plaque photographique qui lui sert comme détecteur, il observe deux taches qui correspondent aux atomes de masses 20 et 22. Il conclut que le néon est constitué",
-                  "options": [
-                    "d'atomes de masses différentes.",
-                    "d'atomes ayant une très petite masse et une charge négative.",
-                    "de plus de deux isotopes.",
-                    "d'atomes de numéros atomiques différents."
-                  ],
-                  "correctAnswers": [
-                    "d'atomes de masses différentes."
-                  ]
-                },
-                {
-                  "question": "La charge élémentaire a été déterminée à l'aide de :",
-                  "options": [
-                    "Un tube de CROOKES",
-                    "Une chambre de WILSON",
-                    "De l'expérience de la goutte d'huile de MILLIKAN",
-                    "D'un spectromètre de masse"
-                  ],
-                  "correctAnswers": [
-                    "De l'expérience de la goutte d'huile de MILLIKAN"
-                  ]
-                },
-                {
-                  "question": "Joseph John Thomson imagine un modèle de l'atome auquel",
-                  "options": [
-                    "l'atome est assimilé à une sphère dont la surface porterait des énergies négatives.",
-                    "l'atome est assimilé à une sphère dont la surface porterait des énergies positives et à l'intérieur de laquelle se trouvent des électrons.",
-                    "l'atome est assimilé à une sphère remplie d'une substance électriquement positive et fourrée d'électrons négatifs.",
-                    "son idée est contredite plus tard par Einstein."
-                  ],
-                  "correctAnswers": [
-                    "l'atome est assimilé à une sphère dont la surface porterait des énergies positives et à l'intérieur de laquelle se trouvent des électrons.",
-                    "l'atome est assimilé à une sphère remplie d'une substance électriquement positive et fourrée d'électrons négatifs."
-                  ]
-                },
-                {
-                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique). Dans ce modèle appliqué à l'atome d'hydrogène :",
-                  "options": [
-                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand.",
-                    "Dans l'état fondamental, l'électron gravite autour du noyau sur plusieurs orbites circulaire de rayons r=0,053n²(nm) avec n=entier positif.",
-                    "Lorsque l'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
-                    "Lorsque l'électron passe du niveau n=1 (d'énergie E1) sur le niveau n=2 (d'énergie E2), il y a émission d'une radiation de fréquence v telle que v=E2-E1/h (=constante de Planck)."
-                  ],
-                  "correctAnswers": [
-                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand."
-                  ]
-                },
-                {
-                  "question": "Thomson, Schrödinger, Millikan, Rutherford et Heisenberg sont 5 scientifiques qui ont travaillé sur le modèle de l'atome, classer leur nom par ordre chronologique.",
-                  "options": [
-                    "J.J.Thomson, Schrödinger, Millikan, Rutherford et Heisenberg.",
-                    "Rutherford, J.J.Thomson, Millikan, Heisenberg et Schrödinger.",
-                    "J.J.Thomson, Rutherford, Schrödinger, Millikan et Heisenberg.",
-                    "J.J.Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
-                  ],
-                  "correctAnswers": [
-                    "J.J.Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
-                  ]
-                },
-                {
-                  "question": " Le spectre d'émission contient :",
-                  "options": [
-                    "trois raies d'émission",
-                    "trois transition dans l'ultraviolet",
-                    "une seule transition dans l'ultraviolet",
-                    "une seule transition dans le visible"
-                  ],
-                  "correctAnswers": [
-                    "trois raies d'émission",
-                    "une seule transition dans le visible"
-                  ]
-                },
-                {
-                  "question": "La loi de MOSELEY établit une relation entre la fréquence des rayons x émis par chaque élément et :",
-                  "options": [
-                    "Le nombre de masse",
-                    "La longueur d'onde",
-                    "Le numéro atomique",
-                    "La masse atomique"
-                  ],
-                  "correctAnswers": [
-                    "Le numéro atomique"
-                  ]
-                },
-                {
-                  "question": "Le comportement d'un faisceau de lumière lors de la déviation d'un cristal est dépendant de :",
-                  "options": [
-                    "La longueur d'onde de la lumière",
-                    "Le type de cristal utilisé",
-                    "La symétrie de l'atome à l'intérieur du cristal",
-                    "Tous les paramètres ci-dessus"
-                  ],
-                  "correctAnswers": [
-                    "Tous les paramètres ci-dessus"
-                  ]
-                },
-                {
-                  "question": "Pour tout système hydrogénoide,obtenu à partir d'un élément chimique X de numéro atomique Z, la formule de Ritz-Rydberg donnée pour l'atome d'hydrogène se généralise et on appelle Rx la constante de Rydberg de l'élément X Rx=(mxz2/mx+me)*RH. Dans cette formule mx est la masse du noyau de l'élément chimique X,m_e, la\nmasse de l'éléctron et RH=1,09737.10^7 m^-1 .On étudie ici l'atome d'hydrogène et ses deux isotopes : le deutérium et le tritium.",
-                  "options": [
-                  ],
-                  "correctAnswers": [
-                  ]
-                },
-                {
-                  "question": "Calculer, le nombre d'onde de la première raie de la série de lyman de l'atome d'hydrogène",
-                  "options": [
-                    " La série de lyman correspond à n=1. Pour l'atome d'hydrogène est ses isotopes (2=1) .v=0.",
-                    "La série de lyman correspond à n=2. Pour l'atome d'hydrogène est ses isotopes (2=1)v^' -82258cm^-1",
-                    "La série de lyman correspond à n= 1. Pour l'atome d'hydrogène est ses isotopes (Z=1).v -3155cm^-1",
-                    "La série de lyman correspond à n=1. Pour l'atome d'hydrogène est ses isotopes (Z=1).v=82258cm^-1"
-                  ],
-                  "correctAnswers": [
-                    "La série de lyman correspond à n=1. Pour l'atome d'hydrogène est ses isotopes (Z=1).v=82258cm^-1"
-                  ]
-                },
-                {
-                  "question": " les premières raies de la série analogue à celle de lyman pour le deutérium et le tritium valent respectivement :\nv (D)=82281,476cm^-1\"' et v (T)=82288,010cm^-1- En déduire les valeurs numériques de mp et my masses respectives des noyaux de deutérium et de tritium",
-                  "options": [
-                    "m_D =2,5232.10^-24 Kg et m_T =4,0854.10 Kg^-24",
-                    "m_D =2,5232.10^-27 Kg et m_T =4,0854.10 Kg^-27",
-                    "mo=2,0000.10^-27 Kg et mr=3,0000.10^-27 Kg",
-                    "Aucune des propositions citées (A à C) n'est exacte."
-                  ],
-                  "correctAnswers": [
-                    "m_D =2,5232.10^-27 Kg et m_T =4,0854.10 Kg^-27"
-                  ]
-                },
-                {
-                  "question": "calculer le nombre d'onde limite de la série de balmer pour chaque isotope de l'hydrogène.",
-                  "options": [
-                    "La série de Balmer correspond à n=3. Pour l'atome d'hydrogène est ses isotopes (Z=1).v= (1/4) mx R_H / m_e + m_x",
-                    "Pour le deutériumv=(¼) m_D R_H / m_e +m_D=24719 cm_-1 'et Pour le tritium v=(¼) m_T R_H / m_e +m_H=27419 cm^-1",
-                    "Pour le deutériumy =(3/4)mp Ru / metmp=24719 cm'et Pour le tritium v=(3/4) mrRu / metmr=27419 cm^-1 ",
-                    "Pour le deutériumv=(¼) m_D R_H / me+mp=27427 cm 'et Pour le tritium v=(¼) mr Ru / m_e +m_y=27429cm^-1"
-                  ],
-                  "correctAnswers": [
-                    "Pour le deutériumv=(¼) m_D R_H / me+mp=27427 cm 'et Pour le tritium v=(¼) mr Ru / m_e +m_y=27429cm^-1"
-                  ]
-                },
-                {
-                  "question": " quel est le numéro atomique Z de l'atome A, la charge de son noyau étant de\nQ=1.249x10^-17 C et comporte 195 nucléons.",
-                  "options": [
-                    "Le numéro atomique Z=79.",
-                    "Le numéro atomique 2=78 correspond à un métal de transition.",
-                    "Le numéro atomiqueZ=78.L'atome Platine Pt (Z=78) correspond à une irrégularitéet appartient au bloc D.",
-                    "Le numéro atomique Z=79 correspond au Einsteinium et appartient à la colonne 15."
-                  ],
-                  "correctAnswers": [
-                    "Le numéro atomique 2=78 correspond à un métal de transition.",
-                    "Le numéro atomiqueZ=78.L'atome Platine Pt (Z=78) correspond à une irrégularitéet appartient au bloc D."
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes Co (2= 27), 1 (Z= 53) Na (2= 11) et Pu (Z= 94) les bonnes structures électroniques parmi : 1) [Kr] 4d^10 5s^2 5p^5\n 2) [Ar] 3d^7 4s^2\n3) [Xe] 4f^14 5d^6 6s^2\n4) [Rn] 5f^6 7s^2\n5)[He] 2s^2 2p^3 6)[Ne] 3s^1\nLes bonnes associations sont :",
-                  "options": [
-                    "Co (2), I (1), Na (6) et Pu (4)",
-                    "Na (1), Pu (3), Co (5) et I (2)",
-                    "Pu (5), Na (4), I (6) et Co (3)",
-                    "Co (3), Na (1), I(2) et PU (6)"
-                  ],
-                  "correctAnswers": [
-                    "Co (2), I (1), Na (6) et Pu (4)"
-                  ]
-                },
-                {
-                  "question": "Choisir la (ou les) bonne(s) réponse(s).",
-                  "options": [
-                    "Les éléments de la 2ême colonne Constituent la famille des Alcalino-terreux et possède le même nombre d'électrons de valence égale à 1.",
-                    "Tous les isotopes d'un élément chimique possèdent le même nombre d'électrons de valence.",
-                    "Les éléments de la 11ême colonne de la Classification donnent facilement des anions.",
-                    "il existe 9 gaz rares dans la Classification périodique des éléments."
-                  ],
-                  "correctAnswers": [
-                    "Tous les isotopes d'un élément chimique possèdent le même nombre d'électrons de valence."
-                  ]
-                },
-                {
-                  "question": "Choisir la (ou les) bonne(s) réponse(s)\nLe néon, l'argon et le krypton :",
-                  "options": [
-                    "Ont la même structure électronique externe ;",
-                    "Ont une faible réactivité chimique:",
-                    "Existent sous forme diatomique ;",
-                    "Appartiennent à la même famille;"
-                  ],
-                  "correctAnswers": [
-                    "Ont la même structure électronique externe ;",
-                    "Ont une faible réactivité chimique:",
-                    "Appartiennent à la même famille;"
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes Ba (2= 56), Fe (Z- 26) Sn (Z= 50) et Cm (2= 96) les bonnes structures électroniques parmi :\n1) [Kr] 5s^24d^10 5p^2 2) [Xe] 4f^14 5d^5 6s^2 3) [Rn] 5f^3 6d^1 7s^2\n4)[Ar] 3d^6 4s^2 5)[Xe]6s^2 6)[Rn] 5f^7 6d^1 7s^2\nLes bonnes associations sont :",
-                  "options": [
-                    "Sn -1)",
-                    "Ba -5)",
-                    "Fe -4)",
-                    "Cm -6)"
-                  ],
-                  "correctAnswers": [
-                    "Sn -1)",
-                    "Ba -5)",
-                    "Fe -4)",
-                    "Cm -6)"
-
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes Sc(Z-21), V (Z=23), Cr(Z=24), Fe (Z-26) et Ni (Z=28) et Cu (Z=29) les potentiels de troisième ionisation.\nLes potentiels de troisième ionisation sont : (1) 36,8 cV ;(2) 24,8 eV ; (3) 35,2 cV ;\n(4) 31,0 cV ; (5) 30,6 eV et (6)29,3 cV.\nLes bonnes associations sont :",
-                  "options": [
-                    "Cr(1), V (3),Sc(2)Ni (6),Fe(5)et Cu(4)",
-                    "Sc(3), V(1),Fe(2) Cu(6),Ni(5)et Cr(4)",
-                    "Fe(5), Cr(4), V(6)Ni(3), Cu (1)et Sc(2)",
-                    "Aucune des propositions citées (A à C) n'est exacte"
-                  ],
-                  "correctAnswers": [
-                    "Fe(5), Cr(4), V(6)Ni(3), Cu (1)et Sc(2)"
-                  ]
-                },
-                {
-                  "question": "Energie d'ionisation :",
-                  "options": [
-                    "L'énergie de première ionisation est l'énergie minimale qu'il faut fournir à un atome\nX à l'état gazeux pour arracher un électron de sa couche la plus interne.",
-                    "L'arrachement d'un électron est toujours un processus endothermique.",
-                    "L'énergie de première ionisation diminue avec le numéro atomique sur une période.",
-                    "L'énergie de première ionisation des métaux alcalins est particulièrement faible."
-                  ],
-                  "correctAnswers": [
-                    "L'arrachement d'un électron est toujours un processus endothermique.",
-                    "L'énergie de première ionisation des métaux alcalins est particulièrement faible."
-                  ]
-                },
-                {
-                  "question": "Le brome et le fluor qui constituent la molécule de BrF, appartiennent à la famille des halogènes. Le brome est l'atome central de cette molécule.",
-                  "options": [
-                    "",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "correctAnswers": [
-                    "."
-                  ]
-                },
-                {
-                  "question": "Le schéma de Lewis de BrF montre que :",
-                  "options": [
-                    "Seuls les électrons de valence participent à la formation des liaisons.",
-                    "L'atome de brome ne porte aucun doublet non liant",
-                    "L'atome de brome porte 2 doublets non liants",
-                    "Les atomes de la molécule vérifient la règle de l'octet."
-
-                  ],
-                  "correctAnswers": [
-                    "Seuls les électrons de valence participent à la formation des liaisons.",
-                    "L'atome de brome porte 2 doublets non liants",
-                    "Les atomes de la molécule vérifient la règle de l'octet."
-
-                  ]
-                },
-                {
-                  "question": "donner la (ou les) bonne(s) proposition(s):",
-                  "options": [
-                    "Le caractère ionique partiel est calculer en utilisant la différence d'énergie d'ionisation.",
-                    "chaque liaison Br-F à un moment dipolaire non nul",
-                    "Le pourcentage ionique de la liaison est le rapport entre le moment dipolaire théorique et le moment dipolaireexpérimental",
-                    "la molécule BrFj, à un moment dipolaire non nul"
-
-                  ],
-                  "correctAnswers": [
-                    "chaque liaison Br-F à un moment dipolaire non nul",
-                    "la molécule BrFj, à un moment dipolaire non nul"
-                  ]
-                },
-                {
-                  "question": "Quel serait, s'il existait, le numéro atomique du premier élément du bloc g de la classification périodique ?",
-                  "options": [
-                    "Cet élément chimique vient d'être découvert.",
-                    "le numéro atomique Z du premier élément du bloc g soit : Z=119.",
-                    "La configuration électronique du premier élément du bloc g se terminant en 5g^1",
-                    "Le numéro atomique Z du premier élément du bloc g soit : Z=121. "
-
-                  ],
-                  "correctAnswers": [
-                    "La configuration électronique du premier élément du bloc g se terminant en 5g^1",
-                    "Le numéro atomique Z du premier élément du bloc g soit : Z=121. "
-                  ]
-                }
-
-              ]
-            },
-            {
-              "module": "Chimie",
-              "year": "2015/2016",
-              "questions": [
-                {
-                  "question": "À la suite de l'expérience sur le tube de Crookes, on fait passer les rayons cathodiques entre deux plaques métalliques chargées électriquement. Ceux-ci sont attirés par la plaque positive, ceci constitue une preuve que :",
-                  "options": [
-                    "A) les rayons cathodiques sont en réalité un flux de particules ayant une très petite masse et une charge négative.",
-                    "B) les rayons cathodiques sont des particules ayant une charge négative.",
-                    "C) les rayons cathodiques sont des particules avec une charge positive.",
-                    "D) les rayons cathodiques ne sont pas de particules."
-                  ],
-                  "correctAnswers": [
-                    "A) les rayons cathodiques sont en réalité un flux de particules ayant une très petite masse et une charge négative."
-                  ]
-                },
-                {
-                  "question": "Dans une expérience de J.J. Thomson sur les rayons cathodiques, la lumière est déviée entre deux plaques métalliques horizontales produisant un champ électrique uniforme. Sachant que l'intensité du champ électrique entre les deux plaques est E = 2.27x10^5 V/m, que l'électron sort des plaques avec une vitesse de 8.5x10^6 m/s et que la distance entre les plaques est de 1.85 cm. Quelle est l'intensité du champ magnétique ?",
-                  "options": [
-                    "A) L'intensité du champ électrique entre les deux plaques est de 28.15 kV/cm².",
-                    "B) L'intensité du champ magnétique est de 1.76x10^1 kV/m.",
-                    "C) Aucun des paramètres n'est connu.",
-                    "D) L'intensité du champ est de 1.27x10^3 N/C."
-                  ],
-                  "correctAnswers": [
-                    "A) L'intensité du champ électrique entre les deux plaques est de 28.15 kV/cm²."
-                  ]
-                },
-                {
-                  "question": "Une expérience historique établie par Milikan sur les gouttelettes de micro masse et de charge a montré que les gouttelettes peuvent être suspendues à l’aide d’un champ électrique. Calculez la charge élémentaire de ces gouttelettes.",
-                  "options": [
-                    "A) La charge est quantifiée et est un multiple de 1.6x10^-19 C.",
-                    "B) La charge est multiple des mêmes charges quantifiées.",
-                    "C) Aucune charge n'est définie.",
-                    "D) Aucune des propositions n'est correcte."
-                  ],
-                  "correctAnswers": [
-                    "A) La charge est quantifiée et est un multiple de 1.6x10^-19 C."
-                  ],
-                  "photo": "assets/imageChimie/chimie6.jpg"
-
-                },
-                {
-                  "question": "La charge de la gouttelette est donnée par la relation Q = 6πnηr(vg + vg'). Estimez la charge des gouttelettes A et B en utilisant les données du tableau et cette relation.",
-                  "options": [
-                    "A) La charge des gouttelettes est donnée par la relation 6πnηr(vg + vg').",
-                    "B) La charge est égale à vg seul.",
-                    "C) La charge est égale à la somme des valeurs vg et vg'.",
-                    "D) Aucune des propositions n'est correcte."
-                  ],
-                  "correctAnswers": [
-                    "A) La charge des gouttelettes est donnée par la relation 6πnηr(vg + vg')."
-                  ]
-                },
-                {
-                  "question": "Thomson, Schrödinger, Millikan, Rutherford et Heisenberg sont 5 scientifiques ayant travaillé sur le modèle atomique. Classez-les dans l'ordre chronologique.",
-                  "options": [
-                    "A) Thomson, Schrödinger, Millikan, Rutherford et Heisenberg.",
-                    "B) Thomson, Millikan, Rutherford, Heisenberg et Schrödinger.",
-                    "C) Rutherford, Thomson, Millikan, Heisenberg et Schrödinger.",
-                    "D) Thomson, Rutherford, Schrödinger, Millikan et Heisenberg."
-                  ],
-                  "correctAnswers": [
-                    "B) Thomson, Millikan, Rutherford, Heisenberg et Schrödinger."
-                  ]
-                },
-                {
-                  "question": "L'énergie nécessaire pour exciter l'atome d'hydrogène, pris dans son état fondamental, pour faire passer l'électron sur le niveau supérieur est :",
-                  "options": [
-                    "A) égale à 13.6.",
-                    "B) supérieure à 13.6.",
-                    "C) inférieure à 13.6.",
-                    "D) donnée par la relation 13.6/n²."
-                  ],
-                  "correctAnswers": [
-                    "C) inférieure à 13.6."
-                  ]
-                },
-                {
-                  "question": "Le spectre d'émission de l'atome d'hydrogène contient :",
-                  "options": [
-                    "A) neuf raies d'émission.",
-                    "B) trois transitions dans le visible.",
-                    "C) une seule transition dans la série de Pfund.",
-                    "D) trois transitions dans l'ultraviolet."
-                  ],
-                  "correctAnswers": [
-                    "C) une seule transition dans la série de Pfund."
-                  ]
-                },
-                {
-                  "question": "Calculer en A la longueur d’onde associée à une balle de fusil dont la masse est de 2g et la vitesse = 300m.s⁻¹.",
-                  "options": [
-                    "la longueur d’onde associée cette balle de fusil est de 1,103m",
-                    "une balle de fusil est une particule de longueur d’onde négligeable.",
-                    "la longueur d’onde associée à cette balle de fusil est de 1,103×10⁻³⁵m.",
-                    "la longueur d’onde associée à cette balle de fusil est donnée par la relation de Ritz Rydberg."
-                  ],
-                  "correctAnswers": ["la longueur d’onde associée à cette balle de fusil est de 1,103×10⁻³⁵m."]
-                },
-                {
-                  "question": "Calculer en Å la longueur d’onde associée à des électrons d’énergie cinétique 54eV.",
-                  "options": [
-                    "la longueur d’onde associée à des électrons est de 1,036×10⁻⁸m.",
-                    "la longueur d’onde associée à ces électrons est de 1,678×10⁻²⁰m.",
-                    "la longueur d’onde de ces électrons est négligeable.",
-                    "la longueur d’onde associée à ces électrons est donnée par la relation de de Broglie et d’Einstein."
-                  ],
-                  "correctAnswers": ["la longueur d’onde associée à des électrons est de 1,036×10⁻⁸m."]
-                },
-                {
-                  "question": "Associer aux fonctions d’ondes électroniques ainsi définies Ψ₁₀₀, Ψ₄₀₀, Ψ₅₀₀ et Ψ₃₂₁ les orbitales.",
-                  "options": [
-                    "1s, 2p, 4d et 4f.",
-                    "1s, 4s, 5p et 5f.",
-                    "2s, 3d, 4f et 5f.",
-                    "4s, 2p, 5d et 5f."
-                  ],
-                  "correctAnswers": ["1s, 4s, 5p et 5f."]
-                },
-                {
-                  "question": "On recherche les valeurs que peuvent prendre les nombres quantiques l et ml lorsqu’ils caractérisent un électron décrit par une orbitale 4f.",
-                  "options": [
-                    "l = 1.",
-                    "l = 3.",
-                    "l = 0.",
-                    "l = -1."
-                  ],
-                  "correctAnswers": [
-                    "l = 3.",
-                    "ml = -5."
-                  ]
-                },
-                {
-                  "question": "Le nombre quantique magnitique m.",
-                  "options": [
-                    "m = -4.",
-                    "m = -1.",
-                    "m = 0.",
-                    "m = +5."
-                  ],
-                  "correctAnswers": [
-                    "m = -1.",
-                    "m = 0."
-                  ]
-                },
-                {
-                  "question": "Quel est le numéro atomique Z de l’atome A, la charge de son noyau étant de Q = 1,33×10⁻¹⁹ C et comporte 209 nucléons.",
-                  "options": [
-                    "Le numéro atomique Z = 200.",
-                    "Le numéro atomique Z = 80 correspond à un alcalino terreux.",
-                    "Le numéro atomique Z = 83 est appartient au bloc d.",
-                    "Le numéro atomique Z = 83 correspond au bismuth et appartient à la colonne 15."
-                  ],
-                  "correctAnswers": ["Le numéro atomique Z = 83 correspond au bismuth et appartient à la colonne 15."]
-                },
-                {
-                  "question": "Les atomes de certains éléments ont des noyaux instables qui se décomposent spontanément et se transforment en d’autres éléments en émettant des rayonnements. On les utilise notamment en médecine pour diagnostiquer.",
-                  "options": [
-                    "(Z=53) à 6s²5p².",
-                    "(Z=12) à 3p⁶.",
-                    "(Z=94) à 5f⁴7s².",
-                    "(Z=11) à 3p³4s⁴."
-                  ],
-                  "correctAnswers": ["(Z=94) à 5f⁴7s²."]
-                },
-                {
-                  "question": "Choisir la ou les bonnes réponses :\n les element situes dans la 1^ere colonnes de la classification ",
-                  "options": [
-                    "constituent la famille des halogènes;",
-                    "ont des atomes avec un seul électron externe;",
-                    "donnent facilement des cations:",
-                    "présentent un caractère métallique"
-                  ],
-                  "correctAnswers": [
-                    "ont des atomes avec un seul électron externe;",
-                    "donnent facilement des cations:",
-                    "présentent un caractère métallique"
-                  ]
-                },
-                {
-                  "question": "Choisir la (ou les) bonne(s) réponse(s). L’hélium, le néon, l’argon :",
-                  "options": [
-                    "ont la même structure électronique externe.",
-                    "appartiennent à la même famille.",
-                    "existent sous forme diatomique.",
-                    "ont une faible réactivité chimique."
-                  ],
-                  "correctAnswers": [
-                    "appartiennent à la même famille.",
-                    "ont une faible réactivité chimique."
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes Os (Z = 76), Bi (Z = 83) Ku (Z = 104) et Np (Z = 93) les bonnes structures électroniques parmi :\n 1) [kr]5s^2 4d^10 5p^2 ,[xe]4f^14 5d^6 6s^2 ,[xe]4f^2 6s^2 \n[Re]5f^14 6d^7 7s^7 ,[xe]4f^14 5d^10 6s^2 6p^2 ,[He]2s^2 2p^3",
-                  "options": [
-                    "Os -2",
-                    "Ku -4",
-                    "Np -6",
-                    "Bi -5"
-                  ],
-                  "correctAnswers": [
-                    "Os -2",
-                    "Ku -4",
-                    "Bi -5"
-
-                  ]
-                },
-                {
-                  "question": "Les deux espèces chimiques _4 Be et _5 B^4 ",
-                  "options": [
-                    "ont le même noyau.",
-                    "ne peuvent être différenciées car elles ont la même structure électronique.",
-                    "ne peuvent être différenciées car elles ont le même noyau.",
-                    "ont la même structure électro"
-                  ],
-                  "correctAnswers": ["B) Non."]
-                },
-                {
-                  "question": "Dans la classification périodique des éléments, chaque atome occupe une colonne et une période bien déterminée. Donner la (les) bonne(s) réponse(s).",
-                  "options": [
-                    "A) Tous les éléments de la colonne 1 ont pour structure électronique ns¹.",
-                    "B) Tous les éléments de la colonne 6 ont la structure électronique externe ns²np⁴.",
-                    "C) Tous les éléments ayant la même structure électronique externe ns²n'p² sont situés en colonne 2.",
-                    "D) 18 est le nombre maximum d’éléments que peut contenir une colonne."
-                  ],
-                  "correctAnswers": ["A) Tous les éléments de la colonne 1 ont pour structure électronique ns¹."]
-                },
-                {
-                  "question": "Associer aux atomes Ne (Z = 10), Na (Z = 11) et Mg (Z = 12) \nles potentiels de première ionisation  1) 05.14eV; 2) 07.64eV 3) 21.56eV \n seconde ionisation:4) 47.29eV 5)41.07eV ,5)22.67eV ",
-                  "options": [
-                    "A) Ne (3) Na(1) et Mg(2)",
-                    "B) Ne (1) Na(3) et Mg(2)",
-                    "C) Ne (5) Na(4) et Mg(6)",
-                    "D) Ne (6) Na(5) et Mg(4)"
-                  ],
-                  "correctAnswers": [
-                    "A) Ne (3) Na(1) et Mg(2)",
-                    "C) Ne (5) Na(4) et Mg(6)"
-                  ]
-                }
-              ]
-            },
-            {
-              "module": "Chimie",
-              "year": "2014/2015",
-              "questions": [
-                {
-                  "question": "On établit entre les 2 disques une différence de potentiel U=3,8 kV. Quelle est la charge et le nombre\nle ont per en e a le cuite Benae este unique de 'huile : P=851kg.m^-3 charge de l electron=1.602x10^-19 C rt le rayon dela goutte est de 1.64 µm",
-                  "options": [
-                    "Q = 31, 89x10^-20 C et 2 électrons portés par la gouttelette.",
-                    "Q-7,527x10^-19 C et 4 électrons portés par la gouttelette",
-                    "Q= 1,6x10^-18 C et 10 électrons portés par la gouttelette",
-                    "Aucune des propositions citées (A a D) n'est exacte"
-                  ],
-                  "correctAnswers": [
-                    "De l'expérience de la goutte d'huile de MILLIKAN"
-                  ],
-                  "photo": "assets/imageChimie/chimie3.jpg"
-                },
-                {
-                  "question": "EXERCICE comportant les questions 2, 3, 4 et 5:\nDes atomes d'hydrogène à l'état fondamental sont excités par un rayonnement UV de longueur d'onde\n97,35 nm.",
-                  "options": [
-                  ],
-                  "correctAnswers": [
-                  ]
-                },
-                {
-                  "question": "Quel est le nombre quantique principal de l'état ainsi obtenu ?donnée : Rw= 1,09677.10' m''.",
-                  "options": [
-                    "égal à 2,97",
-                    " Il faut arrondir le résultat numérique à l'entier le plus proche si le nombre quantique n'est pas un entier positif",
-                    "inférieur ou égal à 4.",
-                    "donné par la relation 2-h/mv."
-                  ],
-                  "correctAnswers": [
-                    " Il faut arrondir le résultat numérique à l'entier le plus proche si le nombre quantique n'est pas un entier positif",
-                    "inférieur ou égal à 4."
-                  ]
-                },
-                {
-                  "question": "Combien de sous-couches admet le nombre quantique principal calculé dans la question 2 ?",
-                  "options": [
-                    "le niveau admet 1 sous- couche.",
-                    "le niveau admet les trois sous- couches s, p et d.",
-                    "le niveau admet 4 sous- couches.",
-                    "Aucune des propositions citées (A à D) n'est exacte."
-                  ],
-                  "correctAnswers": [
-                    "le niveau admet 4 sous- couches."
-                  ]
-                },
-                {
-                  "question": "Quels sont les longueurs d'onde des différentes radiations que peuvent émettre ces atomes lorsqu'ils se désexcitent vers le niveau n=2.",
-                  "options": [
-                    "les longueurs d'onde émises sont calculées à l'aide de la formule de Ritz-Rydberg",
-                    "λ_1 =1.88µm et λ_2 =486nm",
-                    "λ_1 =486µm",
-                    "λ_1 =486µm et λ_2 =656nm"
-                  ],
-                  "correctAnswers": [
-                    "les longueurs d'onde émises sont calculées à l'aide de la formule de Ritz-Rydberg"
-                  ]
-                },
-                {
-                  "question": " Quelles sont les longueurs d'onde des différentes radiations que peuvent émettre ces atomes lorsqu'ils se désexcitent vers le niveau n=1.",
-                  "options": [
-                    "λ_1 =97.3µm et λ_2 =103nm λ_3 =122nm ",
-                    "λ_1 =1.88µm et λ_2 =486nm",
-                    "λ_1 =486µm et λ_2 =656nm",
-                    "les longueurs d'onde émises sont calcuiées à l'aide de la loi de Moseley"
-                  ],
-                  "correctAnswers": [
-                    "les longueurs d'onde émises sont calculées à l'aide de la formule de Ritz-Rydberg"
-                  ]
-                },
-                {
-                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène, pris dans son état fondamental pour faire passer l'électron sur le niveau n=6. Après excitation, on enregistre le spectre d'émission.\nLe spectre d'émission contient :",
-                  "options": [
-                    "Quinze raies d'émission.",
-                    "Quatre transitions dans le visible.",
-                    "Trois transitions dans l'infra-rouge.",
-                    "Une seule transition de la série de Pfund."
-                  ],
-                  "correctAnswers": [
-                    "Quinze raies d'émission.",
-                    "Quatre transitions dans le visible.",
-                    "Trois transitions dans l'infra-rouge.",
-                    "Une seule transition de la série de Pfund."
-                  ]
-                },
-                {
-                  "question": " Quelle est l'énergie nécessaire pour ioniser un atome d'hydrogène à partir de son état fondamental ?",
-                  "options": [
-                    "E_iosination = -13,6 eV",
-                    "E_iosination = E_final- E_initial =-13.6 kJoule/mole",
-                    "E_iosination =E_0 - E_1 =-13.6 eV",
-                    "Aucune des propositions citées (A à D) n'est exacte."
-                  ],
-                  "correctAnswers": [
-                    "E_iosination =E_0 - E_1 =-13.6 eV"
-                  ]
-                },
-                {
-                  "question": " L'ion X est un hydrogénoide. L'énergie du niveau fondamental est -217 eV et l'énergie du même état pour l'atome d'hydrogène est - 13,6 eV.\nDonner le numéro atomique de X ainsi que le rayon de l'ion pour n=2.",
-                  "options": [
-                    "L'ion X a pour numéro atomique Z - 24.",
-                    "L'ion X a pour numéro atomique 2 - 4, correspondant au béryllium.",
-                    "Le rayon de X (ion) pour n = 2 est r = 0.132 A",
-                    "Le rayon de X (ion) pour n= 2 est r= 0.530 À."
-                  ],
-                  "correctAnswers": [
-                    "L'ion X a pour numéro atomique 2 - 4, correspondant au béryllium.",
-                    "Le rayon de X (ion) pour n= 2 est r= 0.530 À."
-                  ]
-                },
-                {
-                  "question": "Associer aux orbitales ainsi définies 3s, 4p. 6d et 5f des fonctions d'ondes électroniques :",
-                  "options": [
-                    "Ψ3.0.0 Ψ4.2.-1 Ψ6.1.0 et Ψ5.3.3",
-                    "Ψ4.3.3 Ψ4.2.-1 Ψ2.1.0 et Ψ1.0.0",
-                    "Ψ2.0.0 Ψ4.1.0 Ψ6.2.-1 et Ψ4.3.3",
-                    "Ψ3.0.0 Ψ4.1.-1 Ψ6.2.-2 et Ψ5.3.0"
-                  ],
-                  "correctAnswers": [
-                    "Ψ3.0.0 Ψ4.1.-1 Ψ6.2.-2 et Ψ5.3.0"
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes Re (2- 75), Po (Z- 84) Hs (2- 109) et Am (2- 95) les bonnes structures électroniques parmi\n 1) [Kr] 5s^2 4d^10 5p^2 4) [Rn] Sf^6 d^1 7s^2\n2) (Xe) 4f^14 Sd^5 6s^2  5) [Xe] 4f^14 5d^10 6s^2 6p^4\"\n3) [Xe) 4f^2 6s^2 6) [He] 2s^2 2p^3",
-                  "options": [
-                    "Re-2)",
-                    "Am-4)",
-                    "Hs-6)",
-                    "Po-5)"
-                  ],
-                  "correctAnswers": [
-                    "Re-2)",
-                    "Am-4)",
-                    "Po-5)"
-                  ]
-                },
-                {
-                  "question": " Dans la classification périodique des éléments. le cuivre (Z.-29) se trouve situé :",
-                  "options": [
-                    "en période 6:",
-                    "dans la couche d :",
-                    "sous-groupe IB:",
-                    "en colonne 6."
-                  ],
-                  "correctAnswers": [
-                    "sous-groupe IB:"
-                  ]
-                },
-                {
-                  "question": " On raisonne sur un élément de la période 4. Donner la (les) bonne (s) proposition(s) :",
-                  "options": [
-                    "son numéro atomique est supérieur ou égal à 29.",
-                    "son numéro atomique est inférieur ou égal à 36.",
-                    "s'il est en colonne 14, il appartient au groupe d.",
-                    "s'il est en colonne 11, alors 7 électrons sont décrits par des orbitales S."
-                  ],
-                  "correctAnswers": [
-                    "son numéro atomique est inférieur ou égal à 36.",
-                    "s'il est en colonne 11, alors 7 électrons sont décrits par des orbitales S."
-                  ]
-                },
-                {
-                  "question": "On raisonne sur un élément de numéro atomique Z= 92.",
-                  "options": [
-                    "sa structure électronique externe est de 5f^14 6d^10 7s^2.",
-                    "est un élément du bloc f",
-                    "de configuration [Rn] Sf^3 6d^1 7s^2, ne fait pas partie des cas irrégulier.",
-                    "est un actinide."
-                  ],
-                  "correctAnswers": [
-                    "est un élément du bloc f",
-                    "est un actinide."
-                  ]
-                },
-                {
-                  "question": "On mesure un moment dipolaire expérimental,ε:mesure la valeur absolue de la charge réelle de chaque atome.",
-                  "options": [
-                    "Le moment dipolaire expérimental est de 4,95x10^-31 C.m",
-                    "la liaison CO ne peut avoir un moment dipolaire",
-                    "Le moment dipolaire théorique est de 1.84 x10^-29 C.m = 3.52 D",
-                    "Le pourcentage ionique de la liaison est 70%"
-                  ],
-                  "correctAnswers": [
-                    "Le moment dipolaire expérimental est de 4,95x10^-31 C.m",
-                    "Le moment dipolaire théorique est de 1.84 x10^-29 C.m = 3.52 D"
-                  ],
-                  "photo": "assets/imageChimie/chimie4.jpg"
-
-                },
-                {
-                  "question": ": L'oxygène et le carbone peuvent s'associer pour former le monoxyde de carbone",
-                  "options": [
-                    "La formule de Lewis du monoxyde de carbone vérifie la règle de l'octet.",
-                    "On crée une liaison triple pour que les deux atomes respectent la règle de l'octer: C≡O)",
-                    " La localisation des charges est en désaccord avec les électronégativités.",
-                    " Le pourcentage d'ionicité d'une liaison est le rapport entre le moment dipolaire théorique et le moment dipolaire expérimental."
-                  ],
-                  "correctAnswers": [
-                    "On crée une liaison triple pour que les deux atomes respectent la règle de l'octer: C≡O)",
-                    " La localisation des charges est en désaccord avec les électronégativités."
-                  ]
-                }
-              ]
-            },
-            {
-              "module": "Chimie",
-              "year": "2013/2014",
-              "questions": [
-                {
-                  "question": "On établit entre les 2 disques une différence de potentiel U=2470V. Quelle est la charge et le nombre d'électrons portés par une gouttelette à l'équilibre?",
-                  "options": [
-                    "Q = 3,1 * 10^-20 C et 2 électrons portés par la gouttelette.",
-                    "Q = 6,4 * 10^-19 C et 4 électrons portés par la gouttelette.",
-                    "Q = 1,6 * 10^-19 C et 10 électrons portés par la gouttelette.",
-                    "Q = 9,45 * 10^-19 C et 6 électrons portés par la gouttelette."
-                  ],
-                  "correctAnswers": [
-                    "Q = 9,45 * 10^-19 C et 6 électrons portés par la gouttelette."
-                  ],
-                  "photo": "assets/imageChimie/chimie4.jpg"
-
-                },
-                {
-                  "question": "Un électron a pour longueur d'onde associée λ=0,364 A. Calculer l'incertitude minimale sur sa position sachant que l'incertitude relative sur la longueur est de 1/100.",
-                  "options": [
-                    "Δx ≥ 36,4 Å.",
-                    "Δx ≤ 36,4 Å.",
-                    "Δx > 36,4 Å.",
-                    "Δx < 36,4 Å."
-                  ],
-                  "correctAnswers": [
-                    "Δx ≥ 36,4 Å."
-                  ]
-                },
-                {
-                  "question": "Connaissant la valeur de la longueur d'onde associée à un électron égal à 3,306 Å. Calculer la vitesse de cette onde.",
-                  "options": [
-                    "v = 33 m/s.",
-                    "v = 0,22 * 10^7 m/s.",
-                    "v = 5 * 10^5 m/s.",
-                    "Aucune des propositions citées."
-                  ],
-                  "correctAnswers": [
-                    "v = 0,22 * 10^7 m/s."
-                  ]
-                },
-                {
-                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique). Lorsque l'électron passe du niveau n=1 (d'énergie E1) au niveau n=2 (d'énergie E2), il y a émission d'une radiation de fréquence ν telle que ν = E2-E1/h.",
-                  "options": [
-                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand.",
-                    "L'électron gravite autour du noyau sur plusieurs orbites circulaires de rayons r = 0,053 n².",
-                    "L'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
-                    "Lorsqu'il passe du niveau n=1 au niveau n=2, il y a émission d'une radiation dans l'ultraviolet."
-                  ],
-                  "correctAnswers": [
-                    "Lorsqu'il passe du niveau n=1 au niveau n=2, il y a émission d'une radiation dans l'ultraviolet."
-                  ]
-                },
-                {
-                  "question": "L'analyse d'un objet métallique par fluorescence X révèle la présence d'une raie Kα à 2,285 Å. Déterminer le numéro atomique de l'élément responsable de cette émission.",
-                  "options": [
-                    "L'élément responsable de cette émission est le manganèse.",
-                    "L'élément responsable de cette émission est le chrome.",
-                    "L'élément responsable de cette émission est le fer.",
-                    "Aucune des propositions citées."
-                  ],
-                  "correctAnswers": [
-                    "L'élément responsable de cette émission est le chrome."
-                  ]
-                },
-                {
-                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène pour le faire passer de son état fondamental à son état excité, puis on examine le spectre d'émission. Le spectre contient :",
-                  "options": [
-                    "Deux transitions dans le visible.",
-                    "Trois transitions dans l'ultraviolet.",
-                    "Une seule transition dans l'ultraviolet.",
-                    "Deux transitions dans l'infrarouge."
-                  ],
-                  "correctAnswers": [
-                    "Deux transitions dans le visible."
-                  ]
-                },
-                {
-                  "question": "Retrouver la proposition exacte qui donne le classement des rayonnements par ordre d'énergie croissante.",
-                  "options": [
-                    "UV < visible < IR < X.",
-                    "X < IR < visible < UV.",
-                    "X < UV < visible < IR.",
-                    "UV < IR < visible < X."
-                  ],
-                  "correctAnswers": [
-                    "X < UV < visible < IR."
-                  ]
-                },
-                {
-                  "question": "La formule de Rydberg donnée pour l'atome d'hydrogène se généralise. Pour le deutérium, déterminer la masse du noyau de deutérium.",
-                  "options": [
-                    "md = 0.",
-                    "md = 6,2726 * 10^-27 kg.",
-                    "md = 6,6261 * 10^-27 kg.",
-                    "md = 4,7125 * 10^-27 kg."
-                  ],
-                  "correctAnswers": [
-                    "md = 6,6261 * 10^-27 kg."
-                  ],
-                  "photo": "assets/imageChimie/chimie5.jpg"
-
-                },
-                {
-                  "question": "Associer aux orbitales ainsi définies 1s, 2P, 4d et 4f des fonctions d'ondes électroniques.",
-                  "options": [
-                    "Ψ1,0,0.",
-                    "Ψ4,3,3.",
-                    "Ψ4,2,2.",
-                    "Aucune des propositions citées."
-                  ],
-                  "correctAnswers": [
-                    "Ψ1,0,0."
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes V (Z=23), Ce (Z=58) et U (Z=92) les bonnes structures électroniques parmi : [Ar] 3d^4 4s^2, [Rn] 5f^4 6d^2, [Xe] 4f^1 6s^2.",
-                  "options": [
-                    "A) 2, 4, 6",
-                    "B) 2, 5, 3",
-                    "C) 1, 5, 4",
-                    "D) 3, 4, 6"
-                  ],
-                  "correctAnswers": [
-                    "C) 1, 5, 4"
-                  ]
-                },
-                {
-                  "question": "Dans la classification périodique des éléments, l'iridium (Z=77) se trouve situé :",
-                  "options": [
-                    "A) en période 6.",
-                    "B) dans la couche P.",
-                    "C) en sous-groupe VIIIB.",
-                    "D) en colonne 6."
-                  ],
-                  "correctAnswers": [
-                    "A) en période 6.",
-                    "C) en sous-groupe VIIIB."
-                  ]
-                },
-                {
-                  "question": "On raisonne sur un élément de la période 6 de la classification périodique. Donner la (les) bonne(s) proposition(s).",
-                  "options": [
-                    "A) Son numéro atomique est supérieur ou égal à 18.",
-                    "B) Son numéro atomique est inférieur ou égal à 86.",
-                    "C) S'il est en colonne 3, il appartient au groupe d.",
-                    "D) S'il est en colonne 3, alors 26 électrons sont décrits par des orbitales p."
-                  ],
-                  "correctAnswers": [
-                    "B) Son numéro atomique est inférieur ou égal à 86.",
-                    "C) S'il est en colonne 3, il appartient au groupe d."
-                  ]
-                },
-                {
-                  "question": "Quelle est la structure électronique externe de rutherfordium Rf (Z=104)?",
-                  "options": [
-                    "[Rn] 5f^14 6d^2 7s^2.",
-                    "[Xe] 4f^14 5d^10 6s^2.",
-                    "[Ar] 3d^10 4s^2.",
-                    "[Rn] 5f^14 6d^2 7s^1."
-                  ],
-                  "correctAnswers": [
-                    "[Rn] 5f^14 6d^2 7s^2."
-                  ]
-                },
-                {
-                  "question": "Les trois espèces chimiques He²⁺ (Z=2), Li²⁺ (Z=3), et Be²⁺ (Z=4) ont la même structure électronique car elles ont le même noyau.",
-                  "options": [
-                    "A) Elles ont la même structure électronique.",
-                    "B) Elles ont la même charge nucléaire.",
-                    "C) Elles ont des charges nucléaires différentes.",
-                    "D) Elles sont dans des groupes voisins."
-                  ],
-                  "correctAnswers": [
-                    "C) Elles ont des charges nucléaires différentes."
-                  ]
-                },
-                {
-                  "question": "Associer les éléments Mn (Z=25), S (Z=16), et I (Z=53) à leurs propriétés chimiques.",
-                  "options": [
-                    "A) 6 électrons dans la couche externe.",
-                    "B) Z=25.",
-                    "C) Z=53.",
-                    "D) 4 électrons dans la couche externe."
-                  ],
-                  "correctAnswers": [
-                    "A) 6 électrons dans la couche externe."
-                  ]
-                }
-              ]
-            },
-            {
-              "module": "Chimie",
-              "year": "2012/2013",
-              "questions": [
-                {
-                  "question": "La charge élémentaire a été déterminée à l'aide :",
-                  "options": [
-                    "D'un tube de CROOKES",
-                    "D'une chambre de WILSON",
-                    "De l'expérience de lu goutte d'huile de MILLIKAN X",
-                    "D'un spectromètre de masse",
-                    "Aucune des propositions citées (a à d) n'est exacte"
-                  ],
-                  "correctAnswers": [
-                    "De l'expérience de lu goutte d'huile de MILLIKAN X"
-                  ]
-                },
-                {
-                  "question": "On établit entre les 2 disques une différence de potentiel U = 2400V. Quelle est la charge et le nombre d'électrons portés par une gouttelette d'huile ù l'équilibre?\nDonnées: masse volumique de l'huile : p =914,3 kg.m^-3), charge de l'électron -1,6x 10^-19 C et le rayon de la goutte est de 1 um",
-                  "options": [
-                    "Q = 31, 89x10^-20 C et 2 électrons portés par la gouttelette.",
-                    "Q = 6,4X10^-19 C et 4 électrons portés par la gouttelette",
-                    "Q = 1,6.x10^-18 et 10 électrons portés par la gouttelette",
-                    "Q = 9,6x10^-18 C et 60 électrons portés par la gouttelette",
-                    "Q = 11,2X10^-19 C et 7 électrons portés par la gouttelette"
-                  ],
-                  "correctAnswers": [
-                    "Q = 31, 89x10^-20 C et 2 électrons portés par la gouttelette."
-                  ],
-                  "photo": "assets/imageChimie/chimie3.jpg"
-
-                },
-                {
-                  "question": "3- La masse théorique du noyau du béryllium 10 est :",
-                  "options": [
-                    "10,07826 u.m.a.",
-                    "10,07270 u.m.a.",
-                    "10,08104 u.m.a.",
-                    "10,08660 u.m.a.",
-                    "10,01130 u.m.a."
-                  ],
-                  "correctAnswers": [
-                    "10,08104 u.m.a."
-                  ]
-                },
-                {
-                  "question": "4- Le défaut de masse du noyau du béryllium 10 est :",
-                  "options": [
-                    "о",
-                    "0,06140 u.m.a.",
-                    "0,06696 u.m.a.",
-                    "0,06974 u.m.a.",
-                    "0,07530 u.m.a."
-                  ],
-                  "correctAnswers": [
-                    "0,06974 u.m.a."
-                  ]
-                },
-                {
-                  "question": "Niels Bohr a proposé un modèle de l'atome fondé sur la théorie des quanta (mécanique quantique).\nDans ce modèle appliqué à l'atome d'hydrogène:",
-                  "options": [
-                    "L'énergie est une fonction continue de l/r (r = distance électron-noyau).",
-                    "Dans l'état fondamental, l'électron gravite autour du noyau sur plusieurs orbites circulaire de rayons r = 0,053nª(nm) avec n = entier positif.",
-                    "Lorsque l'électron gravite sur la première orbite de Bohr, il peut émettre une radiation dans l'ultraviolet.",
-                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand.",
-                    "Lorsque l'électron passe du niveau n=1 (d'énergie E,) sur le niveau n=2 (d'énergie\nE2) il y a émission d'une radiation de fréquence v telle que. V=E_2 -E_1,/h (h=constante de Planck)."
-                  ],
-                  "correctAnswers": [
-                    "L'énergie totale du système noyau-électron est d'autant plus importante que le rayon de l'orbite est plus grand."
-                  ]
-                },
-                {
-                  "question": "La loi de MOSELEY établit une relation entre la fréquence des rayons x émis par chaque élément et :",
-                  "options": [
-                    "Le nombre de masse",
-                    "La longueur d'onde",
-                    "Le numéro atomique",
-                    "La musse atomique",
-                    "Le rapport entre lu charge et la musse de l'électron."
-                  ],
-                  "correctAnswers": [
-                    "Le numéro atomique"
-                  ]
-                },
-                {
-                  "question": "On fournit suffisamment d'énergie à l'atome d'hydrogène, pris dans son état fondamental pour faire passer l'électron sur le niveau n=3. Après excitation, on enregistre le spectre d'émission.",
-                  "options": [
-                  ],
-                  "correctAnswers": [
-                  ]
-                },
-                {
-                  "question": "7- L'énergie (en eV) qui a été fournie est :",
-                  "options": [
-                    "Égale à 13,6",
-                    "Inférieure 13,6",
-                    "Supérieure à 13,6",
-                    "Donnée par la relation 13,6/n^2",
-                    "Donnée par la relation 13,6n^2"
-                  ],
-                  "correctAnswers": [
-                    "Inférieure 13,6"
-                  ]
-                },
-                {
-                  "question": "Le spectre d'émission contient :",
-                  "options": [
-                    "Trois raies d'émission.",
-                    "Trois transitions dans l'ultraviolet",
-                    "Une seule transition dans l'ultraviolet",
-                    "Une seule transition dans le visible",
-                    "Une seule transition dans l'infrarouge"
-                  ],
-                  "correctAnswers": [
-                    "Trois raies d'émission."
-                  ]
-                },
-                {
-                  "question": " Retrouver la proposition exacte qui donne le classement des rayonnements par ordre d'énergie croissante.",
-                  "options": [
-                    "UV < Visible < IR < X",
-                    "X < IR < Visible < UV",
-                    "IR < Visible < UV < X",
-                    "X < UV < Visible < IR",
-                    "Visible < IR < UV < X"
-                  ],
-                  "correctAnswers": [
-                    "IR < Visible < UV < X"
-                  ]
-                },
-                {
-                  "question": "On recherche les valeurs que peuvent prendre les nombres quantiques | et m, lorsqu'ils caractérisent un électron décrit par une orbitale 4p.\n Le nombre quantique secondaire I :",
-                  "options": [
-                    "I = 0",
-                    "I = 1",
-                    "I = 2",
-                    "I = -1",
-                    "I = -2"
-                  ],
-                  "correctAnswers": [
-                    "I = 1"
-                  ]
-                },
-                {
-                  "question": "Le nombre quantique magnétique mi:",
-                  "options": [
-                    "m_1 =-2",
-                    "m_1 =-1",
-                    "m_1 =0",
-                    "m_1 =1",
-                    "m_1 =2"
-                  ],
-                  "correctAnswers": [
-                    "m_1 =-1",
-                    "m_1 =0",
-                    "m_1 =1"
-                  ]
-                },
-                {
-                  "question": "Dans la classification périodique des éléments, le molybdène (Z=42) se trouve situé :",
-                  "options": [
-                    "En période 3",
-                    "En période 5",
-                    "Sous-groupe VB",
-                    "En colonne 6",
-                    "En colonne 15"
-                  ],
-                  "correctAnswers": [
-                    "En période 5",
-                    "En colonne 6"
-                  ]
-                },
-                {
-                  "question": "On raisonne sur un élément de la période 4 de la classification périodique. Donner la (les) bonne (s) proposition(s) :",
-                  "options": [
-                    "Son numéro atomique est supérieur ou égal à 18",
-                    "Son numéro atomique est inférieur ou égal à 36",
-                    "S'il est en colonne 13, alors 13 électrons sont décrits par des orbitales p",
-                    "S'il est en colonne 2, alors aucun électron n'est décrit par une orbitale p",
-                    "S'il est en colonne 3, il appartient au groupe p"
-                  ],
-                  "correctAnswers": [
-                    "Son numéro atomique est inférieur ou égal à 36",
-                    "S'il est en colonne 13, alors 13 électrons sont décrits par des orbitales p"
-                  ]
-                },
-                {
-                  "question": "Les deux espèces chimiques He^+ et Li^2- :",
-                  "options": [
-                    "Ont le même noyau",
-                    "Ont la même structure électronique",
-                    "Ne peuvent être différenciées car elles ont le même noyau",
-                    "Ne peuvent être différenciées car elles ont la même structure électronique",
-                    "Proviennent d'atomes neutres qui ont gagné au moins un électron"
-                  ],
-                  "correctAnswers": [
-                    "Ont la même structure électronique"
-                  ]
-                },
-                {
-                  "question": "Dans la classification périodique des éléments, chaque atome occupe une colonne et une période bien déterminée.\nDonner la(les) bonne(s) proposition(s)",
-                  "options": [
-                    "Tous les éléments de la période 1 ont pour structure électronique externe ns^1",
-                    "Tous les éléments de la colonne 8 ont la structure électronique externe ns^2 np^6",
-                    "Tous les éléments ayant comme structure électronique externe ns' avec n>1 sont situés en colonne 2",
-                    "Chaque période contient au moins 8 éléments",
-                    "18 est le nombre maximum d'éléments que peut contenir une colonne"
-                  ],
-                  "correctAnswers": [
-                    "Tous les éléments ayant comme structure électronique externe ns' avec n>1 sont situés en colonne 2"
-                  ]
-                },
-                {
-                  "question": " Pour l'électron de l'atome d'hydrogène dans le modèle de Bohr, quel(s) est (sont) le\n(s) couple(s) de valeurs possible(s) pour E et n? :",
-                  "options": [
-                    "E = -6,044 eV ; n = 2,25",
-                    "E = 0,544 eV ; n = 25",
-                    "E = -0,544 eV ; n = 5",
-                    "E = -6,044 eV ; n = 1,5",
-                    "E = 0,544 eV ; n= 5"
-                  ],
-                  "correctAnswers": [
-                    "E = -0,544 eV ; n = 5"
-                  ]
-                },
-                {
-                  "question": "Associer aux atomes K (2 = 19), P (2 = 15) et 5n (2 = 50) les bonnes structures\nélectroniques parmi : 1)_36 [Kr] 5s^2 4d^10 5p^2 2)_18 [Ar] 4s^2 3d^10 4p^2 3)_10 [Ne] 3s^1 \n 4)_18 [Ar] 4s^1 _10[Ne] 3s^2 3p^3  6)_2 [He] 2S^2 2p^3",
-                  "options": [
-                    "K -2)",
-                    "K -5)",
-                    "p -3)",
-                    "p -6)",
-                    "Sn -1)"
-                  ],
-                  "correctAnswers": [
-                    "K -5)",
-                    "p -3)",
-                    "Sn -1)"
-
-                  ]
-                },
-                {
-                  "question": "Quelle est la structure électronique externe de l'europium Eu (2=63) ? :",
-                  "options": [
-                    "7s^2 6d^7",
-                    "6s^2 6d^7",
-                    "7s^2 4F^7",
-                    "6s^2- 4F^7",
-                    "6s^2 5d^7"
-                  ],
-                  "correctAnswers": [
-                    "6s^2- 4F^7"
-                  ]
-                },
-                {
-                  "question": "On considère les éléments suivants K (Z=19) et Ca (Z=20), donner la(les)\nproposition(s) juste correspondant à leur énergie de 1^ère et 2^ème ionisation",
-                  "options": [
-                    "Ei, 1 (K) > Ei, 1 (Ca)",
-                    "Ei, 2 (K) > Ei, 1 (Ca)",
-                    "Ei, 1 (K) < Ei, 1 (Ca)",
-                    "Ei, 2 (K) = Ei, 2 (Ca)",
-                    "Aucune des propositions citées (A à D) n'est exacte"
-                  ],
-                  "correctAnswers": [
-                    "Ei, 2 (K) > Ei, 1 (Ca)",
-                    "Ei, 1 (K) < Ei, 1 (Ca)"
-                  ]
-                },
-                {
-                  "question": "On donne Yévolution de 'énersie de première ionisation des chalcogenes (2-5), '\nS (Z=16), Se (Z=34) et Te (2=50):",
-                  "options": [
-                    "Ei, 1 (O) < Ei, 1 (S) < Ei, 1 (Se) < Ei, 1 (Te)",
-                    "Ei, 1 (O) >Ei, 1 (Se) >Ei, 1 (S) >Ei, 1 (Te)",
-                    "Ei, 1 (O) >Ei, 1 (Te) >Ei, 1 (S) >Ei, 1 (Se)",
-                    "Ei, 1 (0) >Ei, 1 (S) >Ei, 1 (Se) >Ei, 1 (Te)",
-                    "Ei, 1 (S) < Ei, 1 (O) < Ei, 1 (Te) < Ei, 1 (Se)"
-                  ],
-                  "correctAnswers": [
-                    "Ei, 1 (0) >Ei, 1 (S) >Ei, 1 (Se) >Ei, 1 (Te)"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "semestre": "Semestre 2",
-          "modules": [
-            {
-              "module": "Physiologie",
-              "year": "2019/2020",
-              "questions": [
-                {
-                  "question": "Question about physiology :",
-                  "options": [
-                    "Option A.",
-                    "Option B.",
-                    "Option C.",
-                    "Option D."
-                  ],
-                  "correctAnswers": [
-                    "Option C."
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+  },
+  {
+    "module": "Anatomie",
+    "year": "2016/2017",
+    "questions": [
+      {
+        "question": "A propos du système circulatoire :",
+        "options": [
+          "Toutes les veines transportent le sang veineux.",
+          "La circulation pulmonaire est une circulation fonctionnelle.",
+          "La veine cave inférieure draine le sang veineux de tout le corps.",
+          "Les artères transportent le sang artériel."
+        ],
+        "correctAnswers": [
+          "La circulation pulmonaire est une circulation fonctionnelle.",
+          "Les artères transportent le sang artériel."
+        ]
+      },
+      {
+        "question": "Concernant le système ventilatoire :",
+        "options": [
+          "Le trachée est élément principal.",
+          "Le diaphragme ne fait pas partie.",
+          "Les muscles intercostaux sont des muscles principaux.",
+          "La cage thoracique est l'élément principal."
+        ],
+        "correctAnswers": [
+          "Les muscles intercostaux sont des muscles principaux.",
+          "La cage thoracique est l'élément principal."
+        ]
+      },
+      {
+        "question": "Concernant le pharynx :",
+        "options": [
+          "L'oropharynx sa poursuit par le larynx.",
+          "L'oropharynx et le nasopharynx sont séparés par le voile du palais.",
+          "Le cavum est le nasopharynx.",
+          "C'est un carrefour aéro-digestif."
+        ],
+        "correctAnswers": [
+          "Le cavum est le nasopharynx.",
+          "C'est un carrefour aéro-digestif."
+        ]
+      },
+      {
+        "question": "Concernant la trachée",
+        "options": [
+          "Est un canal arrière supérieur.",
+          "Mesure 12 cm.",
+          "Le segment thoracique est plus long que le segment cervical.",
+          "Est formée de deux segments."
+        ],
+        "correctAnswers": [
+          "Mesure 12 cm.",
+          "Le segment thoracique est plus long que le segment cervical."
+        ]
+      },
+      {
+        "question": "Concernant le poumon droit :",
+        "options": [
+          "L'unité fonctionnelle est le sac alvéolo-capillaire.",
+          "Poumon droit est plus grand que le gauche.",
+          "Ils présentent les mêmes segments que le gauche.",
+          "Sa face médiastinale répond aux côtes."
+        ],
+        "correctAnswers": [
+          "L'unité fonctionnelle est le sac alvéolo-capillaire.",
+          "Poumon droit est plus grand que le gauche."
+        ]
+      },
+      {
+        "question": "Concernant l'atrium droit:",
+        "options": [
+          "Il reçoit le sang riche on CO2 ramoné par les veines caves supérieure et inférieure.",
+          "est située sur le côté droit du Cœur.",
+          "Il est séparée du ventricule droit par un septum menu d'une valve tricuspide ?",
+          "Il communique largement avec l'atrium gauche."
+        ],
+        "correctAnswers": [
+          "Il reçoit le sang riche on CO2 ramoné par les veines caves supérieure et inférieure.",
+          "est située sur le côté droit du Cœur.",
+          "Il est séparée du ventricule droit par un septum menu d'une valve tricuspide ?"
+        ]
+      },
+      {
+        "question": "La cage thoracique est formée par :",
+        "options": [
+          "Les 12paires de côtes.",
+          "Les 12cartilages costaux X Non",
+          "Les 12 vertèbres dorsales.",
+          "Le steinum."
+        ],
+        "correctAnswers": [
+          "Les 12paires de côtes.",
+          "Les 12 vertèbres dorsales.",
+          "Le steinum."
+        ]
+      },
+      {
+        "question": "Le larynx présente de haut en bas:",
+        "options": [
+          "Les cartilages épiglotte thyroïde cricoïde.",
+          "Les cartilages épiglotte cricoïde thyroïde.",
+          "Les cartilages thyroïdes épiglotte cricoïde.",
+          "Les cartilages thyroïde cricoïde épiglotte."
+        ],
+        "correctAnswers": [
+          "Les cartilages épiglotte thyroïde cricoïde."
+        ]
+      },
+      {
+        "question": "A proposdu larynx:",
+        "options": [
+          "Est l'organe de la phonation et de la déglutition",
+          "Présente tes cordes vocales.",
+          "Appartient aux voies aériennes supérieures.",
+          "Appartient aux voies aériennes inférieures."
+        ],
+        "correctAnswers": [
+          "Présente tes cordes vocales.",
+          "Appartient aux voies aériennes supérieures."
+        ]
+      },
+      {
+        "question": "A propos du pharynx:",
+        "options": [
+          "Est unorgane musculaire.",
+          "Il a undouble rôle.",
+          "Sa contraction provoque la déglutition.",
+          "sa situation est antérieure par rapport sux pe."
+        ],
+        "correctAnswers": [
+          "Est unorgane musculaire.",
+          "Il a undouble rôle.",
+          "Sa contraction provoque la déglutition."
+        ]
+      },
+      {
+        "question": "Concernant la trachée",
+        "options": [
+          "Elle présente 3 segments.",
+          "tletatsurteascarlage/hycidetor.",
+          "Elle est formée d'anneaux cartilagineux incomplets en avant.",
+          "Elle setermine au niveau e huile pulmonaire."
+        ],
+        "correctAnswers": [
+          "Elle est formée d'anneaux cartilagineux incomplets en avant.",
+          "Elle setermine au niveau e huile pulmonaire."
+        ]
+      },
+      {
+        "question": "Concernant les bronches:",
+        "options": [
+          "Chaque poumon présente 3 bronches lobaires.",
+          "Les bronches segmentaires font' suite-aux bronches lobaires.",
+          "GLa stuture l'arbre bronchique est identique à celle de la trachée.",
+          "La muqueuse des bronches est une muqueuse ciliée."
+        ],
+        "correctAnswers": [
+          "Les cartilages épiglotte thyroïde cricoïde."
+        ]
+      },
+      {
+        "question": "Concernant le lobule pulmonaire :",
+        "options": [
+          "Représente l'unité fonctionnelle du poumon.",
+          "C'est une structure microscopique.",
+          "Présente une artériole une veinule et une bronchiole terminale.",
+          "La veinule pulmonaire est située à l'intérieur du lobule."
+        ],
+        "correctAnswers": [
+          "Représente l'unité fonctionnelle du poumon.",
+          "C'est une structure microscopique.",
+          "Présente une artériole une veinule et une bronchiole terminale."
+        ]
+      },
+      {
+        "question": "Concernant le diaphragme :",
+        "options": [
+          "Présente un centre tendineux périphérique.",
+          "Présente un centre musculaire périphérique.",
+          "Présente trois orifices principaux.",
+          "Est traversé par artère pulmonaire."
+        ],
+        "correctAnswers": [
+          "Présente un centre tendineux périphérique.",
+          "Présente trois orifices principaux."
+        ]
+      },
+      {
+        "question": "A propos du plan sagittal :",
+        "options": [
+          "Il détermine les parties latérales droite et gauche.",
+          "Il détermine les parties supérieure et inférieure.",
+          "Il se dirige de l'avant vers l'arrière.",
+          "Il se dirige de droite à gauche."
+        ],
+        "correctAnswers": [
+          "Il détermine les parties latérales droite et gauche.",
+          "Il se dirige de l'avant vers l'arrière."
+        ]
+      },
+      {
+        "question": "Concernant le poumon gauche :",
+        "options": [
+          "Le poumon gauche est plus grand que le droit.",
+          "Ils présentent les mêmes segments que le droit.",
+          "Sa face médiastinale est médiale.",
+          "Est parcouru par deux scissures."
+        ],
+        "correctAnswers": [
+          "Ils présentent les mêmes segments que le droit.",
+          "Sa face médiastinale est médiale."
+        ]
+      },
+      {
+        "question": "A propos des nerfs :",
+        "options": [
+          "Tous les nerfs rachidiens sont mixtes.",
+          "Les nerfs rachidiens ramènent les informations vers la moelle.",
+          "Les nerfs rachidiens ramènent les informations vers le cerveau.",
+          "Certains sont uniquement sensitifs."
+        ],
+        "correctAnswers": [
+          "Tous les nerfs rachidiens sont mixtes.",
+          "Les nerfs rachidiens ramènent les informations vers la moelle."
+        ]
+      },
+      {
+        "question": "A propos de l'aorte :",
+        "options": [
+          "Ramène le sang vers le ventricule gauche.",
+          "Quitte le cœur par la valve mitrale.",
+          "Il est à l'origine de toutes les artères.",
+          "Se trouve dans le médiastin antérieur."
+        ],
+        "correctAnswers": [
+          "Quitte le cœur par la valve mitrale.",
+          "Il est à l'origine de toutes les artères."
+        ]
+      },
+      {
+        "question": "A propos des bronches souches :",
+        "options": [
+          "Sont au nombre de trois à droite.",
+          "Sont au nombre de deux à gauche.",
+          "La bronche souche droite est presque verticale.",
+          "La bronche souche gauche est presque verticale."
+        ],
+        "correctAnswers": [
+          "Sont au nombre de trois à droite.",
+          "Sont au nombre de deux à gauche."
+        ]
+      },
+      {
+        "question": "A propos de la vertèbre thoracique :",
+        "options": [
+          "Sont au nombre de douze.",
+          "Présente un corps vertébral antérieur.",
+          "Le trou vertébral est en arrière de l'arc.",
+          "S'articule avec l'extrémité antérieure de la côte."
+        ],
+        "correctAnswers": [
+          "Sont au nombre de douze.",
+          "Le trou vertébral est en arrière de l'arc."
+        ]
+      },
+      {
+        "question": "A propos des côtes :",
+        "options": [
+          "Sont des os longs.",
+          "La tête de la côte s'articule avec le sternum.",
+          "Toutes les côtes possèdent un cartilage costal.",
+          "Les 10e et 11e présentent un cartilage costal commun."
+        ],
+        "correctAnswers": [
+          "Sont des os longs.",
+          "Toutes les côtes possèdent un cartilage costal."
+        ]
+      },
+      {
+        "question": "A propos de la position anatomique :",
+        "options": [
+          "Variable selon l'axe et le plan.",
+          "La face regarde en bas.",
+          "La paume de la main en avant.",
+          "Indispensable à l'étude du corps humain."
+        ],
+        "correctAnswers": [
+          "La paume de la main en avant.",
+          "Indispensable à l'étude du corps humain."
+        ]
+      },
+      {
+        "question": "Concernant les articulations :",
+        "options": [
+          "Ce sont des jointures entre les diaphyses osseuses.",
+          "Ce sont des jointures entre les épiphyses osseuses.",
+          "Les moyens d'union sont uniquement actifs.",
+          "L'aspect des surfaces articulaires détermine les types de mouvement."
+        ],
+        "correctAnswers": [
+          "Ce sont des jointures entre les épiphyses osseuses."
+        ]
+      },
+      {
+        "question": "Concernant les articulations :",
+        "options": [
+          "Toutes les articulations mobiles bougent dans les trois plans de l'espace.",
+          "Une articulation sphéroïde possède trois degrés de liberté.",
+          "L'articulation du poignet est une articulation ovoïde.",
+          "Une articulation sphéroïde possède un degré de liberté."
+        ],
+        "correctAnswers": [
+          "Une articulation sphéroïde possède trois degrés de liberté.",
+          "L'articulation du poignet est une articulation ovoïde."
+        ]
+      },
+      {
+        "question": "A propos du diaphragme :",
+        "options": [
+          "Est une cloison fibreuse qui sépare les cavités abdominales et thoracique.",
+          "Est une cloison purement musculaire qui sépare les cavités abdominales et thoracique.",
+          "Est une cloison purement musculo-tendineuse qui sépare les cavités abdominales et thoraciques.",
+          "Est un ensemble de muscles digastriques."
+        ],
+        "correctAnswers": [
+          "Est une cloison purement musculo-tendineuse qui sépare les cavités abdominales et thoraciques.",
+          "Est un ensemble de muscles digastriques."
+        ]
+      },
+      {
+        "question": "Concernant les os :",
+        "options": [
+          "Un os est long lorsque ses épiphyses sont longues.",
+          "Un os est long lorsque sa diaphyse est longue.",
+          "La moelle osseuse se trouve dans le canal rachidien.",
+          "Les sinus sont des cavités aériennes."
+        ],
+        "correctAnswers": [
+          "Un os est long lorsque sa diaphyse est longue."
+        ]
+      },
+      {
+        "question": "A propos du cœur :",
+        "options": [
+          "Présente 3 faces.",
+          "Sa face antérieure est aplatie.",
+          "Sa pointe est orientée en bas et en avant.",
+          "Sa base est postéro-supérieure."
+        ],
+        "correctAnswers": [
+          "Présente 3 faces.",
+          "Sa base est postéro-supérieure."
+        ]
+      },
+      {
+        "question": "A propos du cœur :",
+        "options": [
+          "Sa face latérale gauche présente le sillon inter-ventriculaire latéral.",
+          "La tricuspide sépare l'atrium droit et le ventricule droit.",
+          "Le cœur droit peut communiquer avec le cœur gauche.",
+          "Les veines pulmonaires débouchent au niveau de l'atrium droit."
+        ],
+        "correctAnswers": [
+          "Sa face latérale gauche présente le sillon inter-ventriculaire latéral.",
+          "La tricuspide sépare l'atrium droit et le ventricule droit."
+        ]
+      },
+      {
+        "question": "A propos du cœur :",
+        "options": [
+          "La couche musculaire est la plus épaisse.",
+          "Le muscle cardiaque est un muscle lisse.",
+          "Le péricarde fibreux facilite la contraction cardiaque.",
+          "La cavité péricardique est une cavité réelle."
+        ],
+        "correctAnswers": [
+          "La couche musculaire est la plus épaisse.",
+          "La cavité péricardique est une cavité réelle."
+        ]
+      }
+    ]
+  }
+]
