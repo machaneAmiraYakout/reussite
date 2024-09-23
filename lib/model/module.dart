@@ -6,7 +6,7 @@ class ModuleData {
   final List<String> resumes;
   final List<String> autres;
   RxString imagePath; // Make it reactive
-  final List<String> coursespdfs; // Add PDFs field
+  final Map<String, List<String>> coursesByYear; // Map to hold PDFs by year
 
   ModuleData(
       this.name,
@@ -14,6 +14,7 @@ class ModuleData {
       this.resumes,
       this.autres, {
         String? imagePath,
-        this.coursespdfs = const [], // Initialize empty list for PDFs by default
-      }) : imagePath = imagePath?.obs ?? ''.obs;
+        Map<String, List<String>>? coursesByYear, // Accept map for courses by year
+      })  : imagePath = imagePath?.obs ?? ''.obs,
+        coursesByYear = coursesByYear ?? {}; // Initialize to empty map if null
 }

@@ -1,0 +1,35 @@
+{
+  "yearsMed": [
+    {
+      "annee": "1 ÈRE ANNÉE",
+      "semesters": [
+        {
+          "semestre": "Semestre 1",
+          "modules": [
+            {
+              "module": "Chimie",
+              "link": "assets/resources/annee1S1/ChimieMed.json"
+            },
+            {
+              "module": "Biochimie",
+              "link": "assets/resources/annee1S1/BiochimieMed.json"
+            },
+            {
+              "module": "Biostatistique",
+              "link": "assets/resources/annee1S1/BiostatistiqueMed.json"
+            }
+          ]
+        },
+        {
+          "semestre": "Semestre 2",
+          "modules": [
+            {
+              "module": "Physiologie",
+              "link": "assets/resources/annee1S1/physiologie.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

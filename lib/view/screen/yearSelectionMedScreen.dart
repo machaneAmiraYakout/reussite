@@ -4,15 +4,15 @@ import 'package:reussite1/view/screen/qcmScreen.dart';
 import '../../model/module.dart';
 import '../../presenter/controllers/imageAndDataModuleController.dart';
 import '../../presenter/controllers/moduleController.dart';
-import '../../presenter/controllers/qcmController.dart';
+import '../../presenter/controllers/qcmMedController.dart';
 import '../../presenter/controllers/semestreController.dart';
 import '../../presenter/controllers/yearController.dart';
 import '../widget/colors.dart';
 
-class YearSelectionScreen extends StatelessWidget {
+class YearSelectionMedScreen extends StatelessWidget {
   final ModuleData module;
 
-  YearSelectionScreen({super.key, required this.module}) {
+  YearSelectionMedScreen({super.key, required this.module}) {
     if (Get.isRegistered<ImageAndDataController>(tag: module.name)) {
       Get.delete<ImageAndDataController>(tag: module.name);
     }
@@ -22,7 +22,7 @@ class YearSelectionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ImageAndDataController controller = Get.find<ImageAndDataController>(tag: module.name);
-    final QuestionController cont = Get.put(QuestionController());
+    final QuestionMedController questionMedController = Get.put(QuestionMedController());
 
     final YearsController yearsController = Get.find();
     final SemestreController semController = Get.find();
@@ -31,9 +31,12 @@ class YearSelectionScreen extends StatelessWidget {
     final selectedYear = yearsController.getSelectedYear();
     final selectedSem = semController.getSelectedSem();
     final selectedMod = modController.getSelectedMod();
-
     // Load available years based on the selected year, semester, and module
-    cont.loadAvailableYears(selectedYear!.name, selectedSem!.name, selectedMod!.name,);
+    questionMedController.loadAvailableMYears(
+      selectedYear!.name,
+      selectedSem!.name,
+      selectedMod!.name,
+    );
 
     return Scaffold(
       body: SafeArea(
@@ -98,12 +101,10 @@ class YearSelectionScreen extends StatelessWidget {
             const SizedBox(height: 40),
             Expanded(
               child: Obx(() {
-                if (cont.availableYears.isEmpty) {
+                if (questionMedController.availableYears.isEmpty) {
                   return const Center(child: CircularProgressIndicator());
                 }
-
-                print("Available Years in UI: ${cont.availableYears}");
-
+                print("Available Years in UI: ${questionMedController.availableYears}");
                 return GridView.builder(
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
@@ -111,12 +112,12 @@ class YearSelectionScreen extends StatelessWidget {
                     mainAxisSpacing: 10.0,
                     childAspectRatio: 3.0,
                   ),
-                  itemCount: cont.availableYears.length,
+                  itemCount: questionMedController.availableYears.length,
                   itemBuilder: (context, index) {
-                    final year = cont.availableYears[index];
+                    final year = questionMedController.availableYears[index];
                     return GestureDetector(
                       onTap: () async {
-                        await cont.loadQuestionsForYear(
+                        await questionMedController.loadQuestionsMForYear(
                           selectedYear.name,
                           selectedSem.name,
                           selectedMod.name,

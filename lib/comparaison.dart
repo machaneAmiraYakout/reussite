@@ -1,4 +1,3 @@
-// lib/comparison_utils.dart
 import 'model/jsonModule.dart';
 import 'model/jsonQuest.dart';
 import 'model/jsonSemestre.dart';
@@ -11,11 +10,9 @@ bool compareYear(YearJson yearJson, YearData yearData) {
   if (yearJson.annee != yearData.name) {
     return false;
   }
-
   if (yearJson.semesters.length != yearData.semesters.length) {
     return false;
   }
-
   for (int i = 0; i < yearJson.semesters.length; i++) {
     if (!compareSemester(yearJson.semesters[i], yearData.semesters[i])) {
       return false;
@@ -24,7 +21,6 @@ bool compareYear(YearJson yearJson, YearData yearData) {
 
   return true;
 }
-
 bool compareSemester(SemesterJson semesterJson, SemesterData semesterData) {
   if (semesterJson.semestre != semesterData.name) {
     return false;
@@ -42,11 +38,9 @@ bool compareSemester(SemesterJson semesterJson, SemesterData semesterData) {
 
   return true;
 }
-
 bool compareModule(ModuleJson moduleJson, ModuleData moduleData) {
   return moduleJson.module == moduleData.name;
 }
-
 bool compareQuestion(QuestionJson questionJson, QuestionData questionData) {
   if (questionJson.question != questionData.question) {
     return false;
@@ -62,7 +56,6 @@ bool compareQuestion(QuestionJson questionJson, QuestionData questionData) {
 
   return true;
 }
-
 bool listEquals<T>(List<T> list1, List<T> list2) {
   if (list1.length != list2.length) return false;
   for (int i = 0; i < list1.length; i++) {

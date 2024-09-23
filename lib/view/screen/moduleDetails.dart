@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:reussite1/view/screen/yearSelectionMedScreen.dart';
 import '../../comparaison.dart';
 import '../../model/jsonModule.dart';
 import '../../model/jsonSemestre.dart';
 import '../../model/jsonYear.dart';
 import '../../model/module.dart';
 import '../../presenter/controllers/imageAndDataModuleController.dart';
-import '../../presenter/controllers/moduleController.dart';
 import '../../presenter/controllers/selectionContoller.dart';
-import '../../presenter/controllers/semestreController.dart';
 import '../../presenter/controllers/yearController.dart';
 import '../widget/colors.dart';
 import '../widget/customdetailsbutton.dart';
@@ -20,8 +19,9 @@ import 'yearSelectionScreen.dart';
 
 class ModuleDetailsScreen extends StatelessWidget {
   final ModuleData module;
+  final String listName;
 
-  ModuleDetailsScreen({super.key, required this.module,}) {
+  ModuleDetailsScreen({super.key, required this.module, required this.listName,}) {
     // Create or find an instance of ModuleController for this module
     if (Get.isRegistered<ImageAndDataController>(tag: module.name)) {
       Get.delete<ImageAndDataController>(tag: module.name); // Ensure old instance is deleted
@@ -32,15 +32,11 @@ class ModuleDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Get instances of the controllers
-    final SemestreController semController = Get.find();
-    final ModuleController modController = Get.find();
     final YearsController yearsController = Get.find();
     final controller = Get.find<SelectionController>();
 
     // Retrieve the stored data
     final selectedYear = yearsController.getSelectedYear();
-    final selectedSem = semController.getSelectedSem();
-    final selectedMod = modController.getSelectedMod();
     final ImageAndDataController controller1 = Get.find<ImageAndDataController>(tag: module.name);
 
 
@@ -109,7 +105,7 @@ class ModuleDetailsScreen extends StatelessWidget {
                 width: 350,
                 padding: const EdgeInsets.all(16.0),
                 decoration: BoxDecoration(
-                  color: o,
+                  color: listName == 'years' ?o:k,
                   borderRadius: BorderRadius.circular(30),
                 ),
                 child: Row(
@@ -160,7 +156,7 @@ class ModuleDetailsScreen extends StatelessWidget {
                   icon: Icons.book,
                   color: pricipalColor,
                   onPressed: () {
-                    Get.to(CoursesScreen(courses: module.coursespdfs));
+                    Get.to(CoursesScreen(coursesByYear: module.coursesByYear));
                   },
                 ),
                 CustomDetailsButton(
@@ -182,10 +178,14 @@ class ModuleDetailsScreen extends StatelessWidget {
                   icon: Icons.question_answer,
                   color: Colors.orangeAccent,
                   onPressed: () {
-                    Get.to(YearSelectionScreen(module: module,));
-                    print('jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj$selectedYear');
-                    print(selectedSem);
-                    print(selectedMod);
+                    if(listName=='years') {
+                      Get.to(YearSelectionScreen(module: module,));
+                      print('jjrrrrrrrrrrrrrrrrrrrrrrrrrrrrrjjjjjjjjjjjjjjjjjjjjj$selectedYear');
+                    } else{
+                      Get.to(YearSelectionMedScreen(module: module,));
+                      print('medmedmemdmedmemdmemdmemmdmemdmemdmedmjjjjjjjjjjjjjjjjjjjjj$selectedYear');
+
+                    }
                   },
                 ),
                 CustomDetailsButton(

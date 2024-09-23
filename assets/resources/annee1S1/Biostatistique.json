@@ -1,0 +1,2677 @@
+[
+  {
+    "year": "2023/2024",
+    "questions": [
+      {
+        "question": "Dans une série statistique de N données qui prennent x valeurs, l'écart-type :",
+        "options": [
+          "Mesure la distribution des p-valeurs.",
+          "Mesure la dispersion de la série de x valeurs autour de la moyenne.",
+          "Peut être négatif.",
+          "Est l'intervalle entre la plus petite et la plus grande valeur."
+        ],
+        "correctAnswers": [
+          "Mesure la distribution des p-valeurs."
+        ]
+      },
+      {
+        "question": "Quel est le type de la variable étudié :",
+        "options": [
+          "Quantitative continue.",
+          "Quantitative discrète.",
+          "Qualitative dichotomique.",
+          "Qualitative ordinale."
+        ],
+        "correctAnswers": [
+          "Qualitative dichotomique."
+        ]
+      },
+      {
+        "question": "Quelle est la probabilité d'observer au moins 3 sujets présentant un tel effet indésirable ?",
+        "options": [
+          "18%",
+          "14%",
+          "60%",
+          "Impossible de la calculer puisque les conditions d'application ne sont pas valides."
+        ],
+        "correctAnswers": [
+          "18%"
+        ]
+      },
+      {
+        "question": "Parmi les affirmations suivantes concernant la loi de Gauss, laquelle est juste :",
+        "options": [
+          "Dans une distribution normale, la médiane est bien égale au 75ème percentile.",
+          "Dans une distribution normale, le mode, la médiane et la moyenne ont la même valeur.",
+          "L'écart type et la moyenne ont la même valeur.",
+          "La surface sous la courbe est égale à 90%."
+        ],
+        "correctAnswers": [
+          "Dans une distribution normale, le mode, la médiane et la moyenne ont la même valeur."
+        ]
+      },
+      {
+        "question": "Le coefficient de variance permet de :",
+        "options": [
+          "Calculer la moyenne pondérée.",
+          "Calculer l'écart type.",
+          "Calculer la variance résiduelle.",
+          "Comparer deux distributions ayant deux unités de mesure différentes."
+        ],
+        "correctAnswers": [
+          "Comparer deux distributions ayant deux unités de mesure différentes."
+        ]
+      },
+      {
+        "question": "Comment la forme de la courbe de la loi normale est-elle influencée par la moyenne et l'écart-type ?",
+        "options": [
+          "La moyenne détermine la position centrale de la courbe et l'écart-type détermine la largeur de la courbe.",
+          "L'écart-type détermine la position centrale de la courbe et la moyenne détermine la largeur de la courbe.",
+          "La moyenne et l'écart-type n'ont aucun impact sur la forme de la courbe.",
+          "Aucune de ces réponses n'est correcte."
+        ],
+        "correctAnswers": [
+          "La moyenne détermine la position centrale de la courbe et l'écart-type détermine la largeur de la courbe."
+        ]
+      },
+      {
+        "question": "La loi binomiale, dite de Bernoulli, s'applique à une expérience aléatoire quand :",
+        "options": [
+          "L'événement choisi parmi deux issues, de probabilité p, se répète n fois (avec remise).",
+          "L'événement parmi plusieurs éléments possibles survient n fois.",
+          "Plusieurs événements (n) surviennent avec une probabilité p.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+          "L'événement choisi parmi deux issues, de probabilité p, se répète n fois (avec remise)."
+        ]
+      },
+      {
+        "question": "Dans une commune, le nombre moyen d'accouchements par mois (30 jours) est 500 ; la fréquence des malformations fœtales est 0,2%. Les expressions justes des lois de probabilité :",
+        "options": [
+          "Loi binomiale : B(500, 0,002).",
+          "Loi de Poisson : P(2).",
+          "Loi binomiale : B(1 000, 0,02).",
+          "Loi de Poisson : P(1)."
+        ],
+        "correctAnswers": [
+          "Loi de Poisson : P(1)."
+        ]
+      },
+      {
+        "question": "Lors d'une expérience aléatoire suivant une loi de Bernoulli de paramètres n et p, l'espérance de l'événement choisi vaut :",
+        "options": [
+          "np(1-p).",
+          "np.",
+          "n/p.",
+          "n."
+        ],
+        "correctAnswers": [
+          "np."
+        ]
+      },
+      {
+        "question": "Dans une certaine région de N individus, il y a en moyenne 3 cas d'une maladie rare en un an. La variable aléatoire « nombre de cas de la maladie par an » suit une loi de Poisson avec m = 3.",
+        "options": [
+          "La variable aléatoire X suit une loi Binomiale.",
+          "La variable aléatoire X suit une loi Uniforme.",
+          "La variable aléatoire X suit une loi de Poisson avec m = 3.",
+          "La variance de X est égale à 3."
+        ],
+        "correctAnswers": [
+          "La variable aléatoire X suit une loi de Poisson avec m = 3.",
+          "La variance de X est égale à 3."
+
+        ]
+      },
+      {
+        "question": "La loi de probabilité du nombre d'individus ayant fait une occlusion après l'opération est :",
+        "options": [
+          "Bernoulli.",
+          "Normale.",
+          "Binomiale.",
+          "Poisson car la probabilité d'avoir une occlusion est très faible."
+        ],
+        "correctAnswers": [
+          "Binomiale."
+        ]
+      },
+      {
+        "question": "La probabilité d'avoir au moins un cas d'occlusion parmi les 5 individus :",
+        "options": [
+          "0,019",
+          "0,201",
+          "0,220",
+          "0,799"
+        ],
+        "correctAnswers": [
+          "0,799"
+        ]
+      },
+      {
+        "question": "La représentation graphique de cette distribution:",
+        "options": [
+          "Histogramme",
+          "Evoque une distribution normale.",
+          "Est un diagramme en barre non accolées",
+          "Diagramme intégrale."
+        ],
+        "correctAnswers": [
+          "Histogramme"
+        ],
+        "photo":"assets/imageBiost/bs2.jpg"
+      },
+      {
+        "question": "Le tableau :",
+        "options": [
+          "Est un tableau à simple entrée.",
+          "Son titre est incomplet.",
+          "Est un tableau de contingence",
+          "Est un tableau à double entrée."
+        ],
+        "correctAnswers": [
+          "Est un tableau à simple entrée.",
+          "Son titre est incomplet."
+        ]
+      },
+      {
+        "question": "La moyenne :",
+        "options": [
+          "Egale 6,13 cm.",
+          "Egale 6,77 cm.",
+          "A le plus grand effectif",
+          "Se rapproche du mode et de la médiane de cette série puisque la distribution est gaussienne."
+        ],
+        "correctAnswers": [
+          "Egale 6,77 cm."
+        ]
+      },
+      {
+        "question": "L'écart type :",
+        "options": [
+          "Est un paramètre de tendance centrale",
+          "Plus grand que la variance.",
+          "Egale 20,5.",
+          "Egale 2,55."
+        ],
+        "correctAnswers": [
+          "Egale 2,55."
+        ]
+      },
+      {
+        "question": "Le premier décile :",
+        "options": [
+          "Est un paramètre de position.",
+          "Peut être calculé par (m-1,282).",
+          "On ne peut pas le calculer.",
+          "On ne peut pas le calculer par (m-1,282) qu'après avoir fait un ajustement de cette distribution à une loi normale."
+        ],
+        "correctAnswers": [
+          "Est un paramètre de position.",
+          "On ne peut pas le calculer par (m-1,282) qu'après avoir fait un ajustement de cette distribution à une loi normale."
+
+        ]
+      },
+      {
+        "question": "Dans une population donnée, l'urémie (taux d'urée sanguin) suit une loi normale de moyenne m=0,40g et l'écart type S=0,15g. Quelle est la probabilité pour un individu d'avoir une urémie comprise entre 0,35 et 0,50g?",
+        "options": [
+          "0,50",
+          "0,375",
+          "0,40",
+          "0,80"
+        ],
+        "correctAnswers": [
+          "0,375"
+        ]
+      },
+      {
+        "question": "Sur 400 sujets examinés, combien en moyenne auront une urémie comprise entre 0,35 et 0,50g ?",
+        "options": [
+          "160",
+          "150",
+          "148",
+          "130"
+        ],
+        "correctAnswers": [
+          "150"
+        ]
+      },
+      {
+        "question": "Quelle est la probabilité pour un individu d'avoir une urémie supérieure à 0,70 ?",
+        "options": [
+          "0,04",
+          "0,033",
+          "0,25"
+        ],
+        "correctAnswers": [
+          "0,033"
+        ]
+      },
+      {
+        "question": "L'ajustement analytique d'une distribution observée à une loi normale nécessite de :",
+        "options": [
+          "Déterminer l'écart-réduit z de chaque modalité ou borne inférieure de la classe.",
+          "Déterminer la probabilité cumulée moins de.",
+          "Déterminer les fréquences relatives de chaque modalité ou de chaque classe.",
+          "Calcul des effectifs théoriques."
+        ],
+        "correctAnswers": [
+          "Déterminer la probabilité cumulée moins de.",
+          "Déterminer les fréquences relatives de chaque modalité ou de chaque classe.",
+          "Calcul des effectifs théoriques."        ]
+      },
+      {
+        "question": "Quelle est la moyenne pour l'ensemble de l'échantillon ?",
+        "options": [
+          "1,59",
+          "3,9",
+          "4,03"
+        ],
+        "correctAnswers": [
+          "4,03"
+        ],
+        "photo":"assets/imageBiost/bs1.jpg"
+
+      },
+      {
+        "question": "La variance pour l'ensemble de l'échantillon égale :",
+        "options": [
+          "1,31",
+          "1,803",
+          "1,946",
+          "2,1"
+        ],
+        "correctAnswers": [
+          "1,946"
+        ]
+      },
+      {
+        "question": "Quelle est la probabilité d'observer 0 accident mortel :",
+        "options": [
+          "9,5%.",
+          "18,4%.",
+          "36,8%.",
+          "5%."
+        ],
+        "correctAnswers": [
+          "36,8%."
+        ]
+      },
+      {
+        "question": "Quelle est la probabilité d'observer moins d'1 accident mortel :",
+        "options": [
+          "36,8%",
+          "85,6%",
+          "60%",
+          "50%"
+        ],
+        "correctAnswers": [
+          "36,8%"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2022/2023",
+    "questions": [
+      {
+        "question": "Dans une série statistique de N données qui prennent x valeurs, la variance :",
+        "options": [
+          "S'exprime dans la même unité que les valeurs de la série",
+          "Est P'intervalle entre la plus petite et la plus grande valeur.",
+          "Mesure la dispersion de la série de x valeurs autour de la moyenne.",
+          "Est toujours élevé lorsque les valeurs de la série statistique sont très dispersées."
+        ],
+        "correctAnswers": [
+          "Mesure la dispersion de la série de x valeurs autour de la moyenne.",
+          "Est toujours élevé lorsque les valeurs de la série statistique sont très dispersées."        ]
+      },
+      {
+          "question": "Parmi les affirmations suivantes, laquelle (ou lesquelles) est (sont) juste(s) ?",
+          "options": [
+            "La tâche de la statistique descriptive est de recueillir des données.",
+            "La tâche de la statistique descriptive est de présenter les données sous forme de tableaux, de graphiques et d'indicateurs statistiques.",
+            "Les valeurs des variables sont aussi appelées unités statistiques.",
+            "Pour une variable qualitative, chaque individu statistique ne peut avoir qu'une seule modalité."
+          ],
+          "correctAnswers": [
+            "La tâche de la statistique descriptive est de présenter les données sous forme de tableaux, de graphiques et d'indicateurs statistiques.",
+            "Pour une variable qualitative, chaque individu statistique ne peut avoir qu'une seule modalité."
+          ]
+        },
+      {
+          "question": "Parmi les affirmations suivantes concernant la loi de Gauss, laquelle (ou lesquelles) est (sont) juste(s) ?",
+          "options": [
+            "Dans une distribution normale, la médiane est égale au 75ème percentile.",
+            "Dans une distribution normale, le mode, la médiane et la moyenne ont la même valeur.",
+            "L'écart type et la moyenne ont la même valeur.",
+            "La surface sous la courbe est égale à 90%."
+          ],
+          "correctAnswers": [
+            "Dans une distribution normale, le mode, la médiane et la moyenne ont la même valeur."
+          ]
+        },
+      {
+          "question": "Comment la forme de la courbe de la loi normale est-elle influencée par la moyenne et l'écart-type ?",
+          "options": [
+            "La moyenne détermine la position centrale de la courbe et l'écart-type détermine la largeur de la courbe.",
+            "L'écart-type détermine la position centrale de la courbe et la moyenne détermine la largeur de la courbe.",
+            "La moyenne et l'écart-type n'ont aucun impact sur la forme de la courbe.",
+            "Aucune de ces réponses n'est correcte."
+          ],
+          "correctAnswers": [
+            "La moyenne détermine la position centrale de la courbe et l'écart-type détermine la largeur de la courbe."
+          ]
+        },
+      {
+          "question": "La loi de Poisson est utilisée si :",
+          "options": [
+            "La variable étudiée est qualitative.",
+            "S'applique aux événements fréquents.",
+            "Nécessite de connaître le nombre absolu moyen de l'événement.",
+            "Moyenne - Variance."
+          ],
+          "correctAnswers": [
+            "La variable étudiée est qualitative.",
+            "Nécessite de connaître le nombre absolu moyen de l'événement.",
+            "Moyenne - Variance."
+          ]
+        },
+      {
+          "question": "Que représente a dans la formule de la loi binomiale ?",
+          "options": [
+            "Le nombre d'essais.",
+            "Le nombre de réussites.",
+            "La probabilité de réussite.",
+            "La probabilité d'échec."
+          ],
+          "correctAnswers": [
+            "Le nombre d'essais."
+          ]
+        },
+      {
+          "question": "Quelle est la relation entre n et k dans la formule de la loi binomiale ?",
+          "options": [
+            "n doit être égal à k.",
+            "n doit être supérieur à k.",
+            "n doit être inférieur à k.",
+            "Il n'y a pas de relation spécifique entre n et k."
+          ],
+          "correctAnswers": [
+            "n doit être supérieur à k."
+          ]
+        },
+      {
+          "question": "Quelle est la signification de p dans la formule de la loi binomiale ?",
+          "options": [
+            "La probabilité de réussite pour un essai donné",
+            "La probabilité d’échec pour un essai donné",
+            "La probabilité cumulative de réussite pour tous les essais",
+            "La probabilité cumulative d’échec pour tous les essais"          ],
+          "correctAnswers": [
+            "La probabilité de réussite pour un essai donné"
+          ]
+        },
+      {
+          "question": "La représentation graphique de cette distribution :",
+          "options": [
+            "Histogramme.",
+            "Évoque une distribution normale.",
+            "Est un diagramme en barre non accolées.",
+            "Diagramme intégral."
+          ],
+          "correctAnswers": [
+            "Histogramme."
+          ]
+        },
+      {
+          "question": "Le tableau :",
+          "options": [
+            "Est un tableau à simple entrée.",
+            "Son titre est incomplet.",
+            "Est un tableau de contingence.",
+            "Est un tableau à double entrée."
+          ],
+          "correctAnswers": [
+            "Est un tableau à simple entrée.",
+            "Son titre est incomplet."
+          ]
+        },
+      {
+          "question": "La moyenne :",
+          "options": [
+            "Égale 6,13 cm.",
+            "Égale 6,77 cm.",
+            "A le plus grand effectif.",
+            "Se rapproche du mode et de la médiane de cette série puisque la distribution est gaussienne."
+          ],
+          "correctAnswers": [
+            "Égale 6,77 cm."
+          ]
+        },
+      {
+          "question": "L'écart type :",
+          "options": [
+            "Est un paramètre de tendance centrale.",
+            "Plus grand que la variance.",
+            "Égale 20,5.",
+            "Égale 2,55."
+          ],
+          "correctAnswers": [
+            "Égale 2,55."
+          ]
+        },
+      {
+          "question": "Le premier décile :",
+          "options": [
+            "Est un paramètre.",
+            "On ne peut pas le calculer.",
+            "On ne peut pas le calculer qu'après avoir fait un ajustement de la distribution à une loi normale."
+          ],
+          "correctAnswers": [
+            "Est un paramètre.",
+            "On ne peut pas le calculer qu'après avoir fait un ajustement de la distribution à une loi normale."
+          ]
+        },
+      {
+          "question": "Le tableau de ces deux variables est :",
+          "options": [
+            "Un tableau de corrélation.",
+            "Aucune réponse juste.",
+            "Un tableau simple.",
+            "Un tableau de contingence."
+          ],
+          "correctAnswers": [
+            "Un tableau de corrélation."
+          ]
+        },
+      {
+          "question": "Le degré de la variabilité relative des distributions de ces deux caractères est mesuré par :",
+          "options": [
+            "L'étendue.",
+            "Le coefficient de variation.",
+            "La médiane.",
+            "Le mode."
+          ],
+          "correctAnswers": [
+            "Le coefficient de variation."
+          ]
+        },
+      {
+          "question": "On peut conclure que :",
+          "options": [
+            "Les deux caractères ont la même variation relative.",
+            "Les deux caractères n'ont pas la même variation relative.",
+            "La capacité vitale varie plus que le périmètre thoracique.",
+            "Le périmètre thoracique varie plus que la capacité vitale."
+          ],
+          "correctAnswers": [
+            "Les deux caractères n'ont pas la même variation relative.",
+            "La capacité vitale varie plus que le périmètre thoracique."
+          ]
+        },
+      {
+          "question": "Le nombre x de malformations observées pendant une période donnée :",
+          "options": [
+            "Une loi normale de moyenne 5.",
+            "Une loi binomiale.",
+            "Une loi de Poisson.",
+            "Est une variable qualitative."
+          ],
+          "correctAnswers": [
+            "Une loi de Poisson.",
+            "Est une variable qualitative."
+          ]
+        },
+      {
+          "question": "Quelle est la probabilité d'observer 0 ou 1 ou 2 malformations ?",
+          "options": [
+            "0,1246.",
+            "0,345.",
+            "0,506.",
+            "Aucune réponse juste."
+          ],
+          "correctAnswers": [
+            "0,1246."
+          ]
+        },
+      {
+          "question": "Quelle est la probabilité d'observer 16 malformations en deux mois ?",
+          "options": [
+            "2,17%.",
+            "8,56%.",
+            "7,5%.",
+            "97,5%."
+          ],
+          "correctAnswers": [
+            "2,17%."
+          ]
+        },
+      {
+          "question": "Quelle est la moyenne pour l'ensemble de l'échantillon ?",
+          "options": [
+            "159.",
+            "160,48.",
+            "130.",
+            "163."
+          ],
+          "correctAnswers": [
+            "160,48."
+          ],
+        "photo": "assets/imageBiost/bs3.jpg"
+        },
+      {
+          "question": "Quel est l'écart type pour l'ensemble de l'échantillon ?",
+          "options": [
+            "8,31.",
+            "8,002."
+          ],
+          "correctAnswers": [
+            "8,31."
+          ]
+        },
+      {
+          "question": "L'ajustement analytique d'une distribution observée à une loi normale nécessite de :",
+          "options": [
+            "Déterminer l'écart-réduit z de chaque modalité ou borne inférieure de la classe.",
+            "Déterminer la probabilité cumulée.",
+            "Déterminer les fréquences relatives de chaque modalité ou de chaque classe.",
+            "Calcul des effectifs théoriques."
+          ],
+          "correctAnswers": [
+            "Déterminer la probabilité cumulée.",
+            "Déterminer les fréquences relatives de chaque modalité ou de chaque classe.",
+            "Calcul des effectifs théoriques."          ]
+        },
+      {
+          "question": "Quelle est la probabilité pour un individu d'avoir une tension artérielle supérieure à 140 mm de mercure ?",
+          "options": [
+            "9,5%.",
+            "85,6%.",
+            "2,3%.",
+            "5%."
+          ],
+          "correctAnswers": [
+            "2,3%."
+          ]
+        },
+      {
+          "question": "Quelle est la proportion de la population présentant une tension artérielle comprise entre 100 mm et 150 mm de mercure ?",
+          "options": [
+            "95%.",
+            "85,6%.",
+            "75%.",
+            "97,5%."
+          ],
+          "correctAnswers": [
+            "97,5%."
+          ]
+        }
+     ]
+  },
+  {
+    "year": "2021/2022",
+    "questions": [
+      {
+        "question": "La discipline de bio statistique est mise au service des Sciences biomédicales pour répondre à certaines problématiques. Lesquelles?",
+        "options": [
+          "Quelle est la valeur normale d'une grandeur biologique ?",
+          "Quelle est la fiabilité d'un examen complémentaire ?",
+          "Quel est le risque de complication d'une maladie ?",
+          "Le traitement A est-il plus efficace que le traitement B ?"
+        ],
+        "correctAnswers": [
+          "Quelle est la fiabilité d'un examen complémentaire ?",
+          "Quel est le risque de complication d'une maladie ?"
+        ]
+      },
+      {
+        "question": "La variabilité d'origine métrologique peut être liée à :",
+        "options": [
+          "La variation inter individuelle",
+          "La variabilité intra-individuelle",
+          "L'appareil de mesure",
+          "La méthode expérimentale"
+        ],
+        "correctAnswers": [
+          "La variabilité intra-individuelle",
+          "La méthode expérimentale"
+        ]
+      },
+      {
+        "question": "La représentation graphique d'une variable quantitative peut se faire par :",
+        "options": [
+          "Un tableau",
+          "Histogramme",
+          "Bâtonnets",
+          "Secteur (circulaire)"
+        ],
+        "correctAnswers": [
+          "Histogramme"
+        ]
+      },
+      {
+        "question": "Les paramètres de dispersion :",
+        "options": [
+          "Visent le centre de la série statistique",
+          "Renseignent sur le degré de l'étalement de la série",
+          "Sont seulement trois (3) paramètres",
+          "Font partie des paramètres de réduction"
+        ],
+        "correctAnswers": [
+          "Visent le centre de la série statistique"
+        ]
+      },
+      {
+        "question": "Toutes les propositions suivantes sont convenables avec un échantillon sauf :",
+        "options": [
+          "C'est une partie réduite d'une population.",
+          "Parfois, il a la même taille que sa population d'origine.",
+          "Fait l'objet d'une étude exhaustive.",
+          "Représentatif s'il est homogène avec son origine"
+        ],
+        "correctAnswers": [
+          "C'est une partie réduite d'une population.",
+          "Fait l'objet d'une étude exhaustive.",
+          "Représentatif s'il est homogène avec son origine"        ]
+      },
+      {
+        "question": "Parmi les affirmations suivantes, laquelle (ou lesquelles) est (sont) juste(s) :",
+        "options": [
+          "Les déciles D2 et D9 : 40 % à l'extérieur et 60% à l'intérieur : z = 0,642",
+          "Les déciles D4 et D6 : 80 % à l'extérieur et 20% à l'intérieur : z = 0,253",
+          "Les percentiles P1 et P99 : 98% à l'intérieur et 2% à l'extérieur : z = 2,326",
+          "Aucune réponse n'est juste"
+        ],
+        "correctAnswers": [
+          "Aucune réponse n'est juste"
+        ]
+      },
+      {
+        "question": "Dans la Loi normale:",
+        "options": [
+          "La courbe en forme de cloche",
+          "Les probabilités sont asymétriques par rapport à la moyenne",
+          "La moyenne représente toujours la plus grande probabilité",
+          "Les probabilités sont situées sur l'axe des abscisses (X)"
+        ],
+        "correctAnswers": [
+          "La courbe en forme de cloche",
+          "La moyenne représente toujours la plus grande probabilité"
+        ]
+      },
+      {
+        "question": "Indiquer la (les) affirmation(s) fausse(s):",
+        "options": [
+          "La variance est toujours positive",
+          "Les déciles sont au nombre de 10 et divisent la population en effectifs égaux",
+          "L'histogramme est le diagramme différentiel d'une variable discontinue",
+          "Un tableau unidimensionnel fait correspondre chaque modalité de la variable à l'effectif correspondant"
+        ],
+        "correctAnswers": [
+          "L'histogramme est le diagramme différentiel d'une variable discontinue"
+        ]
+      },
+      {
+        "question": "La Loi binomiale est asymétrique autour de la moyenne :",
+        "options": [
+          "Sauf dans le cas P=Q=0,50",
+          "Asymétrie négligeable en cas de grands effectifs",
+          "Asymétrie confirmée si P et Q sont différents",
+          "Toutes les réponses sont fausses"
+        ],
+        "correctAnswers": [
+          "Sauf dans le cas P=Q=0,50",
+          "Asymétrie négligeable en cas de grands effectifs",
+          "Asymétrie confirmée si P et Q sont différents"
+        ]
+      },
+      {
+        "question": "La loi de Poisson est utilisée si:",
+        "options": [
+          "La variable étudiée est qualitative",
+          "S'applique aux événements fréquents",
+          "Nécessite de connaître le nombre absolu moyen de l'événement",
+          "Moyenne et Variance sont égales"
+        ],
+        "correctAnswers": [
+          "S'applique aux événements fréquents",
+          "Nécessite de connaître le nombre absolu moyen de l'événement",
+          "Moyenne et Variance sont égales"
+        ]
+      },
+      {
+          "question": "La valeur de l'HbAic est une variable:",
+          "options": [
+            "Quantitative",
+            "Semi quantitative",
+            "Ordinale",
+            "Discrète"
+          ],
+          "correctAnswers": [
+            "Quantitative",
+            "Semi quantitative"
+          ]
+        },
+      {
+          "question": "La représentation graphique doit se faire par :",
+          "options": [
+            "Histogramme",
+            "Bâtonnet",
+            "Circulaire",
+            "Nuage de points"
+          ],
+          "correctAnswers": [
+            "Bâtonnet"
+          ]
+        },
+      {
+          "question": "La moyenne arithmétique est :",
+          "options": [
+            "M=8,32",
+            "M=8,28",
+            "M=8,23",
+            "M=8,18"
+          ],
+          "correctAnswers": [
+            "M=8,18"
+          ]
+        },
+      {
+          "question": "La médiane déterminée par les calculs est :",
+          "options": [
+            "Me=7,54",
+            "Me=7,44",
+            "Me=7,35",
+            "Me=7,66"
+          ],
+          "correctAnswers": [
+            "Me=7,54",
+            "Me=7,66"
+          ]
+        },
+      {
+          "question": "Indiquer la (les) proposition(s) juste(s):",
+          "options": [
+            "77,3% des sujets ont une des valeurs supérieures à la normale",
+            "23,7% des sujets ont une des valeurs supérieures à la normale",
+            "Plus de la moitié des sujets ont une des valeurs supérieures à 7,5",
+            "La majorité des sujets ont des valeurs anormales"
+          ],
+          "correctAnswers": [
+            "23,7% des sujets ont une des valeurs supérieures à la normale"
+          ]
+        },
+      {
+          "question": "Indiquer la (les) proposition(s) juste(s):",
+          "options": [
+            "Le premier quartile Q1 se situe dans la classe [4,5 - 6,5]",
+            "Le dernier quartile Q3 se situe dans la classe [8,5 - 10,5]",
+            "Le deuxième quartile Me se situe dans la classe [6,5 - 8,5]",
+            "Aucune proposition n'est juste"
+          ],
+          "correctAnswers": [
+            "Le dernier quartile Q3 se situe dans la classe [8,5 - 10,5]",
+            "Le deuxième quartile Me se situe dans la classe [6,5 - 8,5]"
+          ]
+        },
+      {
+          "question": "Les valeurs de la glycémie qui correspondent aux quartiles Q1, Q3 :",
+          "options": [
+            "Q1=1,19 - Q3=1,53",
+            "Q1=1,20 - Q3=1,52",
+            "Q1=1,29 - Q3=1,43",
+            "Q1=1,26 - Q3=1,46"
+          ],
+          "correctAnswers": [
+            "Q1=1,29 - Q3=1,43",
+            "Q1=1,26 - Q3=1,46"          ]
+        },
+      {
+          "question": "Sachant que la valeur seuil d'une glycémie normale est de 1,26 g/dl, la probabilité d'avoir un diabétique est :",
+          "options": [
+            "P=16%",
+            "P=84%",
+            "P=95%",
+            "P=5%"
+          ],
+          "correctAnswers": [
+            "P=16%"
+          ]
+        },
+      {
+          "question": "Quelle est la probabilité d'avoir un sujet non diabétique ?",
+          "options": [
+            "P=16%",
+            "P=2,5%",
+            "P=10%",
+            "P=5%"
+          ],
+          "correctAnswers": [
+            "P=16%"
+          ]
+        },
+      {
+          "question": "Quelle est la probabilité d'avoir une glycémie comprise entre 1,26 et 1,56 ?",
+          "options": [
+            "P=16%",
+            "P=81%",
+            "P=95%",
+            "P=5%"
+          ],
+          "correctAnswers": [
+            "P=81%"
+          ]
+        },
+      {
+        "question": "Le nombre de sujets avec une glycémie anormale est :",
+        "options": [
+          "N=168",
+          "N=110",
+          "N=115",
+          "N=130"
+        ],
+        "correctAnswers": [
+          "N=168"
+        ]
+      },
+      {
+        "question": "Le nombre de sujet entre Q1 et la médiane Me est de :",
+        "options": [
+          "25",
+          "50",
+          "75",
+          "100"
+        ],
+        "correctAnswers": [
+          "50",
+          "75",
+          "100"
+        ]
+      },
+      {
+        "question": "Sachant que le seuil du diabète est baissé à 1,16 g/dl, le nombre de sujets diabétiques :",
+        "options": [
+          "Sera augmenté parce que le seuil est baissé",
+          "Reste stable parce que la moyenne est stable",
+          "Sera baissé parce que le seuil est baissé",
+          "Reste stable parce que la taille de l'échantillon est la même"
+        ],
+        "correctAnswers": [
+          "Sera augmenté parce que le seuil est baissé"
+        ]
+      },
+      {
+        "question": "Les expressions justes des lois de probabilité sont :",
+        "options": [
+          "Loi binomiale: B (500; 0,002)",
+          "Loi de poisson: P (2)",
+          "Loi binomiale: B (1000; 0,02)",
+          "Loi de poisson: P (1)"
+        ],
+        "correctAnswers": [
+          "Loi de poisson: P (1)"
+        ]
+      },
+      {
+        "question": "Les expressions justes des lois de probabilité dans une période de 3 mois (90 jours) sont :",
+        "options": [
+          "Loi binomiale: B (1500; 0,002)",
+          "Loi de poisson: P (3)",
+          "Loi binomiale: B (3000; 0,006)",
+          "Loi de poisson: P (6)"
+        ],
+        "correctAnswers": [
+          "Loi de poisson: P (3)"
+        ]
+      },
+      {
+        "question": "Le risque a :",
+        "options": [
+          "Le risque de conclure un faux résultat",
+          "Généralement, il est choisi à 5%",
+          "Si Z augmente, a augmente",
+          "Probabilité d'être à l'intérieur de l'intervalle [+2,2]"
+        ],
+        "correctAnswers": [
+          "Probabilité d'être à l'intérieur de l'intervalle [+2,2]"
+        ]
+      },
+      {
+        "question": "Une variable qualitative ordinale :",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswers": [
+          "3"
+        ]
+      },
+      {
+        "question": "Parmi les suivantes, deux variables peuvent être dichotomiques :",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "correctAnswers": [
+          "2"
+        ]
+      },
+      {
+        "question": "L'une des variables suivantes ne peut être classée qualitative ou quantitative qu'après observation des données, laquelle ?",
+        "options": [
+          "6",
+          "2",
+          "3",
+          "5"
+        ],
+        "correctAnswers": [
+          "5"
+        ]
+      }
+      ]
+  },
+  {
+    "year": "2017/2018",
+    "questions": [
+      {
+        "question": "Le nombre de grossesse est une variable :",
+        "options": [
+          "Quantitative.",
+          "Qualitative.",
+          "Qualitative binaire.",
+          "Quantitative discrète.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Quantitative.",
+          "Quantitative discrète."
+        ]
+      },
+      {
+        "question": "Le graphique le mieux adapté pour représenter les poids d'une série de 1000 individus :",
+        "options": [
+          "Histogramme.",
+          "Diagramme en barres.",
+          "Pyramide.",
+          "Polygone de fréquence.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Histogramme.",
+          "Polygone de fréquence."
+        ]
+      },
+      {
+        "question": "La variante :",
+        "options": [
+          "Est un paramètre servant à mesurer la dispersion.",
+          "S'exprime dans la même unité que les valeurs de série.",
+          "Est indépendante de l'écart type.",
+          "Est élevée lorsque les valeurs de la série sont très dispersées.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Est un paramètre servant à mesurer la dispersion.",
+          "Est élevée lorsque les valeurs de la série sont très dispersées."
+        ]
+      },
+      {
+        "question": "L'écart type :",
+        "options": [
+          "Est un paramètre de mesure centrale.",
+          "S'exprime dans la même unité que les valeurs de série.",
+          "A une valeur différente si on le mesure sur un échantillon ou une population.",
+          "Est faible lorsque les valeurs sont dispersées.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "S'exprime dans la même unité que les valeurs de série.",
+          "A une valeur différente si on le mesure sur un échantillon ou une population."
+        ]
+      },
+      {
+        "question": "Chez les enfants souffrant d'une angine, 33% sont infectés par le Streptocoque A. La probabilité d'observer au moins 5 angines à streptocoque A parmi 10 enfants souffrant d'une angine est de :",
+        "options": [
+          "50%",
+          "5%",
+          "20.6%",
+          "90%",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "20.6%"
+        ]
+      },
+      {
+        "question": "On observe une moyenne de 1 accident mortel par weekend sur les routes d'une Wilaya. La probabilité d'observer moins de deux accidents mortels est de :",
+        "options": [
+          "73.6%.",
+          "26.4%.",
+          "53.2%.",
+          "36.8%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "73.6%."
+        ]
+      },
+      {
+        "question": "Un paramètre biologique X est distribué de façon normale dans une population. La probabilité d'observer une valeur inférieure à la moyenne m est de :",
+        "options": [
+          "95%",
+          "5%.",
+          "68%.",
+          "50%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "50%"
+        ]
+      },
+      {
+        "question": "La probabilité d'observer une valeur comprise entre la moyenne m et (m - écart type) est de :",
+        "options": [
+          "34%.",
+          "95%.",
+          "5%.",
+          "68%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "34%."
+        ]
+      },
+      {
+        "question": "La probabilité d'observer une valeur inférieure à (m - 1 écart type) est de :",
+        "options": [
+          "5%",
+          "16%.",
+          "95%.",
+          "2.5%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "16%."
+        ]
+      },
+      {
+        "question": "La probabilité d'observer une valeur inférieure à (m - 2 écarts types) est de :",
+        "options": [
+          "5%.",
+          "16%.",
+          "95%.",
+          "2.5%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "16%."
+        ]
+      },
+      {
+        "question": "La probabilité d'observer une valeur inférieure à (m - 2 écarts types) est de :",
+        "options": [
+          "5%.",
+          "16%.",
+          "95%.",
+          "2.5%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "2.5%."
+        ]
+      },
+      {
+        "question": "On cherche à estimer le taux moyen d'une variable biologique sanguine dans une population. On effectue un sondage aléatoire simple sur un échantillon de 50 sujets et on trouve une moyenne de 1.8 g/l et un écart type de 0.36 g/l. L'intervalle de confiance du taux moyen pour un risque d'erreur de 1% est de :",
+        "options": [
+          "1.7g/l - 1.9g/l.",
+          "1.8g/l ± 0.10.",
+          "1.8g/l ± 0.13.",
+          "Entre 1.67g/l et 1.93g/l.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Entre 1.67g/l et 1.93g/l.",
+          "1.8g/l ± 0.13."
+        ]
+      },
+      {
+        "question": "Sur un échantillon de 200 sujets représentatifs de la population des cyclistes, on constate que 28% portent un casque. L'intervalle de confiance à 95% est de 22% à 34%. Cet intervalle signifie que la proportion des cyclistes portant un casque :",
+        "options": [
+          "Est comprise entre 22% et 34% avec 5% de chance de se tromper.",
+          "Est comprise entre 22% et 34% avec 95% de chance de se tromper.",
+          "A 2.5% de chances d'être supérieure à 34%.",
+          "A 2.5% de chances d'être inférieure à 28%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "Est comprise entre 22% et 34% avec 5% de chance de se tromper.",
+          "A 2.5% de chances d'être supérieure à 34%."
+        ]
+      },
+      {
+        "question": "La proportion d'une maladie a été comparée sur deux échantillons d'une population A et B. Le test statistique se conclut par p < 0.02. Cela signifie que :",
+        "options": [
+          "La différence entre les deux proportions est significative.",
+          "Il y a 2 chances sur 100 de se tromper en affirmant qu'il existe une différence.",
+          "On ne peut rien conclure.",
+          "La différence entre les proportions des deux populations est inférieure à 2%.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "La différence entre les deux proportions est significative.",
+          "Il y a 2 chances sur 100 de se tromper en affirmant qu'il existe une différence."
+        ]
+      },
+      {
+        "question": "Lors d'une enquête nutritionnelle, on a comparé les proportions d'albumine d'un groupe d'enfants sains et d'un groupe d'enfants malades. L'hypothèse nulle formulée est :",
+        "options": [
+          "L'albumine est identique chez les enfants sains et malades.",
+          "L'albumine est différente chez les deux groupes.",
+          "Il n'existe pas de lien entre la maladie et le taux d'albumine.",
+          "Il existe un lien entre la maladie et le taux d'albumine.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "L'albumine est identique chez les enfants sains et malades.",
+          "Il n'existe pas de lien entre la maladie et le taux d'albumine."
+        ]
+      },
+      {
+        "question": "L'écart réduit (z) est de :",
+        "options": [
+          "0.5",
+          "2.4",
+          "3",
+          "4",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "2.4"
+        ]
+      },
+      {
+        "question": "La conclusion est :",
+        "options": [
+          "L'hypothèse nulle est rejetée.",
+          "Il existe une différence significative entre l'albumine des enfants sains et des enfants malades.",
+          "Il n'existe pas de différence significative entre l'albumine des enfants sains et des enfants malades.",
+          "Le taux d'albumine est identique chez les deux groupes.",
+          "Les propositions sont fausses."
+        ],
+        "correctAnswers": [
+          "L'hypothèse nulle est rejetée.",
+          "Il existe une différence significative entre l'albumine des enfants sains et des enfants malades."
+        ]
+      }
+    ]
+
+  },
+  {
+    "year": "2011/2012(sans correction)",
+    "questions": [
+      {
+        "question": "Le taux de glucose dans le sang est un variable quantitative continue. Le taux de glucose dans le sang réparti en < 1g/| et ≥ 1 g/l est une variable quantitative discrète. Le nombre de grossesses est une variable qualitative ordinale. L'intensité de la douleur mesurée par : 0 = pas de douleur, + = douleur minime, ++ = douleur moyenne, +++ = douleur intense; est une variable qualitative ordinale.",
+        "options": [
+          "Le taux de glucose dans le sang est un variable quantitative continue.",
+          "Le taux de glucose dans le sang réparti en < 1g/| et ≥ 1 g/l est une variable quantitative discrète.",
+          "Le nombre de grossesses est une variable qualitative ordinale.",
+          "L'intensité de la douleur mesurée par : 0 = pas de douleur, + = douleur minime, ++ = douleur moyenne, +++ = douleur intense; est une variable qualitative ordinale.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Le nombre médian d'otite est de 4. Le mode de cette distribution est de 4. La moyenne approximative est de 4. L'étendue de cette distribution est de 4. La variance de cette distribution est de 4.",
+        "options": [
+          "Le nombre médian d'otite est de 4.",
+          "Le mode de cette distribution est de 4.",
+          "La moyenne approximative est de 4.",
+          "L'étendue de cette distribution est de 4.",
+          "La variance de cette distribution est de 4."
+        ],
+        "correctAnswers": [
+
+        ]
+      },
+      {
+        "question": "Cette distribution peut être :",
+        "options": [
+          "Proche d'une loi normale parce que le mode, la moyenne et la médiane ont la même valeur.",
+          "Proche d'une loi normale d'après les effectifs observés.",
+          "Proche d'une loi binomiale d'effectif 15.",
+          "Proche d'une loi de Poisson de moyenne 4.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Les 15 enfants présentant otite sont observés sur un échantillon de 1500 sujets donnant une fréquence de 1 %. S'agit-il donc d'une binomiale:",
+        "options": [
+          "B (150Đ ; 1).",
+          "B (1500; 15).",
+          "B (57; 15).",
+          "B (1500 ; 0,01).",
+          "B (57; 0.01)."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "L'approximation de cette loi binomiale par se faire :",
+        "options": [
+          "Uniquement par la loi normale.",
+          "Uniquement par la loi de Poisson.",
+          "Par la loi normale et la loi de Poisson.",
+          "Ni par la loi normale ni par la loi de Poisson.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Le nombre de classes est de :",
+        "options": [
+          "6 classes.",
+          "7 classes.",
+          "9 classes.",
+          "11 classes.",
+          "12 classes."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Quel est le type de graphique qu'on peut utiliser pour représenter ces données :",
+        "options": [
+          "Un diagramme a bâtonnets.",
+          "Un diagramme à piliers.",
+          "Un graphique circulaire.",
+          "Un histogramme.",
+          "Un polygone de fréquences."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Concernant toujours la température des 20 sujets :",
+        "options": [
+          "Il n'y a pas assez de données pour pouvoir connaître la classe modale de la distribution.",
+          "La classe modale est celle comprise entre 37,0 et 37,2 C.",
+          "L'étendue est égale à 2.5 C°.",
+          "Sa température médiane est de 37,0 C°.",
+          "Si on ajoute à la série une valeur de 36,5 C°, la médiane reste inchangée."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "La probabilité pour que le nombre de plaquettes d'un sujet ne soit pas compris entre 225 et 375 est compris entre :",
+        "options": [
+          "10% et 20%.",
+          "20% et 30%.",
+          "30% et 40%.",
+          "40% et 50%.",
+          "50% et 60%."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "On peut considérer dans cette population qu'environ :",
+        "options": [
+          "95% des sujets ont un nombre de plaquettes compris entre 150 et 450.",
+          "95% des sujets ont un nombre de plaquettes compris entre 175 et 425.",
+          "95% des sujets ont un nombre de plaquettes compris entre 175 et 525.",
+          "99% des sujets ont un nombre de plaquettes compris entre 175 et 425.",
+          "99% des sujets ont un nombre de plaquettes compris entre 175 et 525."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Parmi les variables statistiques suivantes, quelle(s) est (sont) celle(s) qui ne donne(nt) pas une variabilité intra-individuelle :",
+        "options": [
+          "L'âge.",
+          "Le poids.",
+          "La glycémie.",
+          "Le groupe sanguin.",
+          "La situation familiale."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Lorsque deux distributions de même moyenne suivent une loi normale, la valeur de troisième quartile :",
+        "options": [
+          "Est plus grande pour celle qui a le plus grand écart-type.",
+          "Est plus grande pour celle qui a le plus petit écart-type.",
+          "Est la même pour les deux distributions.",
+          "Ne dépend pas de la valeur de l'écart-type.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "La différence entre la loi binomiale et la loi de Poisson dépend de :",
+        "options": [
+          "La nature de la variable étudiée.",
+          "L'effectif de la population étudiée.",
+          "La proportion moyenne p de la modalité étudiée.",
+          "De la variance de cette proportion p.",
+          "Toutes les réponses sont justes."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "La fréquence de sujets du groupe sanguin O dans une population est de 42%. La probabilité de trouver 21 sujets du groupe O sur un échantillon de 50 sujets est :",
+        "options": [
+          "Nulle.",
+          "50%.",
+          "100%.",
+          "La plus grande parmi toutes les probabilités.",
+          "Aucune réponse juste."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "La courbe des probabilités de cette distribution :",
+        "options": [
+          "Est symétrique autour de la moyenne.",
+          "Est asymétrique à droite.",
+          "Est asymétrique à gauche.",
+          "Peut donner 2 ou plusieurs probabilités égales.",
+          "On ne peut pas répondre à cette question."
+        ],
+        "correctAnswers": [
+        ]
+      },
+      {
+        "question": "Sur un échantillon représentatif de 600 sujets, la prévalence d'une maladie M dans une population est estimée entre 130 et 170 cas pour 1000 habitants avec une probabilité d'erreur de 5%. Le nombre de malades observés sur l'échantillon est de :",
+        "options": [
+          "78 malades.",
+          "90 malades.",
+          "102 malades.",
+          "Entre 78 et 102 malades.",
+          "Aucune réponse exacte."
+        ],
+        "correctAnswers": [
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2023/2024(médecine)",
+    "questions":[
+      {
+        "question": "Dans un laboratoire d'analyse médicale, les valeurs de Q1 et Q3 sont :",
+        "options": [
+          "Q1-0,91 Q3-1,18",
+          "Q1-0,96 Q3-1,36",
+          "Q1-0,93 Q3-1,18",
+          "Q1-0,85 Q3-1,25",
+          "Q1-0,80 Q3-1,32"
+        ],
+        "correctAnswers": [
+          "Q1-0,91 Q3-1,18",
+          "Q1-0,80 Q3-1,32"
+        ]
+      },
+      {
+        "question": "La probabilité d'avoir un diabétique est :",
+        "options": [
+          "P = 16%",
+          "P = 2,5%",
+          "P = 37%",
+          "P = 5%",
+          "P = 25%"
+        ],
+        "correctAnswers": ["P = 16%"]
+      },
+      {
+        "question": "La probabilité de ne pas avoir un sujet en hypoglycémie est :",
+        "options": [
+          "P = 16%",
+          "P = 2,5%",
+          "P = 37%",
+          "P = 93,5%",
+          "P = 13%"
+        ],
+        "correctAnswers": ["P = 37%"]
+      },
+      {
+        "question": "50% des sujets ont une glycémie inférieure à :",
+        "options": [
+          "1.26",
+          "1.06",
+          "1.10",
+          "1.16",
+          "1.20"
+        ],
+        "correctAnswers": ["1.16"]
+      },
+      {
+        "question": "Le nombre de sujets en hypoglycémie (glycémie ≤ 0.7) est :",
+        "options": [
+          "N = 20",
+          "N = 40",
+          "N = 55",
+          "N = 75"
+        ],
+        "correctAnswers": ["N = 20"]
+      },
+      {
+        "question": "Le nombre de sujets entre 0.7 et la médiane est de :",
+        "options": [
+          "25",
+          "50",
+          "75",
+          "100",
+          "150"
+        ],
+        "correctAnswers": ["75"]
+      },
+      {
+        "question": "Le nombre de sujets diabétiques après abaissement du seuil à 1.16 g/dL :",
+        "options": [
+          "Sera augmenté parce que le seuil est baissé",
+          "Restera stable parce que la moyenne est stable",
+          "Sera baissé parce que le seuil est baissé",
+          "Restera stable parce que la taille de l'échantillon est la même",
+          "Aucune réponse n'est juste"
+        ],
+        "correctAnswers": [
+          "Sera baissé parce que le seuil est baissé"
+        ]
+      },
+      {
+        "question": "Parmi les affirmations suivantes, laquelle est juste :",
+        "options": [
+          "Les déciles D1 et D9 : 40 % à l'extérieur et 60 % à l'intérieur : z = 0,642",
+          "Les déciles D2 et D8 : 80 % à l'extérieur et 20 % à l'intérieur : z = 0,253",
+          "Les déciles D2 et D3 : 40 % à l'extérieur et 60 % à l'intérieur : z = 0,642",
+          "Les percentiles P1 et P99 : 98 % à l'intérieur et 2 % à l'extérieur : z = 2,326",
+          "Aucune réponse n'est juste"
+        ],
+        "correctAnswers": [
+          "Les déciles D2 et D3 : 40 % à l'extérieur et 60 % à l'intérieur : z = 0,642"
+        ]
+      },
+      {
+        "question": " Indiquer la (les) affiruations juste :",
+        "options": [
+          "La variance est toujours positive",
+          "Les déciles sont au nombre de 10 et divisent la Population en parties égales d'effectifs",
+          "L'histogramme est le digramme différenticl d'une variable quantitative discontinue",
+          "Dans un tableau unidimensionnel, Chaque modalité de la variable est associée l'effectif correspondant",
+          "Mode =modalité qui a in plus grande effectif"
+        ],
+        "correctAnswers": [
+          "Les déciles sont au nombre de 10 et divisent la Population en parties égales d'effectifs"
+        ]
+      },
+      {
+        "question": "Dans la loi normale",
+        "options": [
+          "La variable étudiée est quantitative continue",
+          "S'applique aux événements fréquents",
+          "Nécessite de connaitre le nombre absolue moyen de l'événement",
+          "Moyenne = moder= médiane",
+          "La distribution est symétrique autour de la moyenne"
+        ],
+        "correctAnswers": [
+          "La variable étudiée est quantitative continue"
+        ]
+      },
+      {
+        "question": "Le risque d'erreur alpha (α) :",
+        "options": [
+          "Est inversement proportionnel à la valeur de l'écart réduit (z)",
+          "Est la probabilité d'avoir des valeurs à l'extérieur de l'intervalle [-z, z]",
+          "Si z = 1,60, α = 10%",
+          "Généralement, α = 5%",
+          "Toutes les réponses sont justes"
+        ],
+        "correctAnswers": [
+          "Si z = 1,60, α = 10%"
+        ]
+      },
+      {
+        "question": "Un échantillon est :",
+        "options": [
+          "Une partie réduite d'une population",
+          "Parfois de même taille que la population d'origine",
+          "Fait l'objet d'une étude exhaustive",
+          "Représentatif s'il est homogène avec son origine",
+          "La majorité des études sont faites sur des échantillons"
+        ],
+        "correctAnswers": [
+          "Parfois de même taille que la population d'origine"
+        ]
+      },
+      {
+        "question": "Dans la loi normale:",
+        "options": [
+          "la courbe est en forme de Cloche",
+          "Les probabilités sont asymétriques par rapport à la moyenne",
+          "La moyenne représente toujours la plus grande probabilité",
+          "Les probabilités sont situées sur l'axe des ordonnées",
+          "La courbe est parfois asymétrique"
+        ],
+        "correctAnswers": [
+          "Les probabilités sont asymétriques par rapport à la moyenne",
+          "Les probabilités sont situées sur l'axe des ordonnées"
+        ]
+      },
+      {
+        "question": "Une variable qualitative ordinale :",
+        "options": [
+          "(1) Âge",
+          "(2) Sexe",
+          "(3) Maladie",
+          "(4) Niveau d'étude",
+          "(5) Tension artérielle",
+          "(6) Nombre d'enfants"
+        ],
+        "correctAnswers": ["(4) Niveau d'étude"]
+      },
+      {
+        "question": "Parmi les suivantes, deux variables peuvent être dichotomiques :",
+        "options": [
+          "(1) Âge",
+          "(2) Sexe",
+          "(3) Maladie",
+          "(6) Nombre d'enfants",
+          "(5) Tension artérielle"
+        ],
+        "correctAnswers": ["(3) Maladie"]
+      },
+      {
+        "question": "Le coefficient de variation représente :",
+        "options": [
+          "Le degré d'homogénéité d'une série",
+          "L'asymétrie de la distribution",
+          "Le nombre de modalités",
+          "L'effet taille de l'échantillon",
+          "Le degré de significativité"
+        ],
+        "correctAnswers": [
+          "Le nombre de modalités"
+        ]
+      },
+      {
+        "question": "Si l'écart-type d'une série vaut 25 et que son coefficient de variation est de 10%, la moyenne est :",
+        "options": [
+          "2,5",
+          "25",
+          "250",
+          "750",
+          "On ne peut pas déterminer avec les données fournies"
+        ],
+        "correctAnswers": ["750"]
+      },
+      {
+        "question": "Quelle est la probabilité qu'une variable aléatoire normale standardisée soit supérieure à 1,96 ?",
+        "options": [
+          "0,05",
+          "0,025",
+          "0,5",
+          "0,95",
+          "0,975"
+        ],
+        "correctAnswers": ["0,025"]
+      },
+      {
+        "question": "La forme de la courbe de la loi normale est influencée par :",
+        "options": [
+          "La moyenne détermine la position centrale, l'écart-type détermine la largeur",
+          "L'écart-type détermine la position centrale, la moyenne détermine la largeur",
+          "La moyenne et l'écart-type n'ont aucun impact",
+          "Moyenne et écart-type sont indépendants"
+        ],
+        "correctAnswers": [
+          "La moyenne détermine la position centrale, l'écart-type détermine la largeur"
+        ]
+      },
+      {
+        "question": "Pour une loi normale, plus la probabilité est élevée, plus la densité de la distribution est :",
+        "options": [
+          "Éloignée de la moyenne",
+          "Proche de la médiane",
+          "Proche de la moyenne",
+          "Proche des extrêmes",
+          "Constante sur toute la courbe"
+        ],
+        "correctAnswers": ["Proche de la moyenne"]
+      },
+      {
+        "question": "La loi binomiale représente :",
+        "options": [
+          "Une loi continue",
+          "Une variable qualitative à deux modalités",
+          "Une distribution normale",
+          "Une distribution uniforme"
+        ],
+        "correctAnswers": [
+          "Une loi continue"
+        ]
+      },
+      {
+        "question": "Quand une loi binomiale peut-elle être approximée par une loi normale ?",
+        "options": [
+          "Lorsque p = 0.5 et n > 30",
+          "Lorsque p est très grand",
+          "Lorsque n est très petit",
+          "Lorsque la moyenne est égale à l'écart-type"
+        ],
+        "correctAnswers": [ "Lorsque n est très petit"]
+      },
+      {
+        "question": "Quelle est la relation entre n et k dans la formule de la loi binomiale?",
+        "options": [
+          "n doit etre égale a A ",
+          "n doit être supérieur à k et k doit être inférieur à k.",
+          "Il n'y a pas de relation spécifique entre n et k.",
+          "Aucune de ces réponses n'est correcte."
+        ],
+        "correctAnswers": [
+          "n doit etre égale a A ",
+          "Il n'y a pas de relation spécifique entre n et k."
+        ]
+      },
+      {
+        "question": "Quelle est la signification de p dans la formule de la loi binomiale?",
+        "options": [
+          "La probabilité de réussite pour un essai donné.",
+          "La probabilité d'échec pour un essai donné.",
+          "La probabilité cumulative de réussite pour tous les essais.",
+          "La probabilité cumulative d'échec pour tous les essais.",
+          "Aucune de ces réponses n'est correcte."
+        ],
+        "correctAnswers": [
+          "La probabilité cumulative d'échec pour tous les essais.",
+          "Aucune de ces réponses n'est correcte."        ]
+      },
+      {
+        "question": "Dans la loi de Poisson, qu'est-ce qui est égal à la variance?",
+        "options": [
+          "La moyenne.",
+          "L'écart-type.",
+          "Le mode.",
+          "Le nombre d'échantillons.",
+          "Aucune de ces réponses n'est correcte."
+        ],
+        "correctAnswers": [
+          "La moyenne."
+        ]
+      },
+      {
+        "question": "Dans quelle situation utilise-t-on la loi de Poisson?",
+        "options": [
+          "Lorsqu'il y a deux modalités d'une variable et que l'une est très rare.",
+          "Lorsque la variable suit une loi normale.",
+          "Lorsque la taille de l'échantillon est très grande.",
+          "Lorsque la variable est continue."
+        ],
+        "correctAnswers": [
+          "Lorsqu'il y a deux modalités d'une variable et que l'une est très rare.",
+          "Lorsque la taille de l'échantillon est très grande."
+        ]
+      },
+      {
+        "question": "Le titre de ce tableau est-il complet?",
+        "options": [
+          "est complet.",
+          "est incomplet",
+          "Non, il manque le lieu de cette enquête seulement.",
+          "Non, il manque le lieu et la période de déroulement de enquête.",
+          "Aucune de ces réponses n'est correcte."
+        ],
+        "correctAnswers": [
+          "Oui, il est complet.",
+          "Non, il manque le lieu de cette enquête seulement.",
+          "Non, il manque le lieu et la période de déroulement de enquête."
+        ],
+        "photo": "assets/imageBiost/bs4.jpg"
+      },
+      {
+        "question": "Quel est le type de la variable étudiée?",
+        "options": [
+          "Quantitative continue.",
+          "Quantitative discrète.",
+          "Qualitative nominale.",
+          "Qualitative ordinale.",
+          "Aucune de ces réponses n'est correcte."
+        ],
+        "correctAnswers": [
+          "Qualitative ordinale."
+        ]
+      },
+      {
+        "question": "30. La moyenne de l'ensemble de l'échantillion égale :",
+        "options": [
+          "5",
+          "10",
+          "4.4",
+          "2",
+          "11"
+        ],
+        "correctAnswers": [
+          "4.4"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2023/2024(médecine)",
+    "questions":[
+      {
+        "questions": [
+          {
+            "question": "La discipline de bio statistique est mise au service des Sciences biomédicales pour répondre à certaines problématiques:",
+            "options": [
+              "Quelle est la valeur normale d'une grandeur biologique?",
+              "Quelle est la fiabilité d'un examen complémentaire?",
+              "Quel est le risque de complication d'une maladie?",
+              "Le traitement A est-il plus efficace que le traitement B?"
+            ],
+            "correctAnswers": [
+              "Quelle est la valeur normale d'une grandeur biologique?",
+              "Quelle est la fiabilité d'un examen complémentaire?",
+              "Quel est le risque de complication d'une maladie?",
+              "Le traitement A est-il plus efficace que le traitement B?"
+            ]
+          },
+          {
+            "question": "La variabilité d'origine métrologique peut être liée à:",
+            "options": [
+              "La variation inter-individuelle",
+              "La variabilité intra-individuelle",
+              "L'appareil de mesure",
+              "La méthode expérimentale"
+            ],
+            "correctAnswers": [
+              "L'appareil de mesure",
+              "La méthode expérimentale"
+            ]
+          },
+          {
+            "question": "La représentation graphique d'une variable quantitative peut se faire par:",
+            "options": [
+              "Un tableau",
+              "Histogramme",
+              "Bâtonnets",
+              "Secteur (circulaire)"
+            ],
+            "correctAnswers": [
+              "Histogramme",
+              "Bâtonnets"
+            ]
+          },
+          {
+            "question": "Les paramètres de dispersion:",
+            "options": [
+              "Visent le centre de la série statistique",
+              "Renseignent sur le degré de l'étalement de la série",
+              "Sont seulement trois(3) paramètres",
+              "Font partie des paramètres de réduction"
+            ],
+            "correctAnswers": [
+              "Renseignent sur le degré de l'étalement de la série",
+              "Font partie des paramètres de réduction"
+            ]
+          },
+          {
+            "question": "Toutes les propositions suivantes sont convenables avec un échantillon:",
+            "options": [
+              "C'est une partie réduite d'une population.",
+              "Parfois, il a la même taille que sa population d'origine",
+              "Fait l'objet d'une étude exhaustive.",
+              "Représentatif s'il est homogène avec son origine"
+            ],
+            "correctAnswers": [
+              "C'est une partie réduite d'une population.",
+              "Représentatif s'il est homogène avec son origine"
+            ]
+          },
+          {
+            "question": "Parmi les affirmations suivantes, laquelle est juste?",
+            "options": [
+              "Les déciles D2 et D8; 40% à l'extérieur et 60% à l'intérieur: z = 0,642",
+              "Les déciles D4 et D6; 80% à l'extérieur et 20% à l'intérieur: z = 0,253",
+              "Les percentiles P1 et P99; 98% à l'intérieur et 2% à l'extérieur: z= 2,326",
+              "Aucune réponse n'est juste"
+            ],
+            "correctAnswers": [
+              "Les percentiles P1 et P99; 98% à l'intérieur et 2% à l'extérieur: z= 2,326",
+              "Les déciles D4 et D6; 80% à l'extérieur et 20% à l'intérieur: z = 0,253"
+            ]
+          },
+          {
+            "question": "Dans la loi normale:",
+            "options": [
+              "La courbe est en forme de cloche",
+              "Les probabilités sont asymétriques par rapport à la moyenne",
+              "La moyenne représente toujours la plus grande probabilité",
+              "Les probabilités sont situées sur l'axe des abscisses (X)"
+            ],
+            "correctAnswers": [
+              "La courbe est en forme de cloche",
+              "La moyenne représente toujours la plus grande probabilité"
+            ]
+          },
+          {
+            "question": "Les valeurs de la glycémie qui correspondent aux quartiles Q1 et Q3 sont:",
+            "options": [
+              "Q1= 1,19 ; Q3= 1,53",
+              "Q1= 1,20 ; Q3= 1,52",
+              "Q1= 1,29 ; Q3= 1,43",
+              "Q1= 1,26 ; Q3= 1,46"
+            ],
+            "correctAnswers": [
+              "Q1= 1,29 ; Q3= 1,43"
+            ]
+          },
+          {
+            "question": "Sachant que la valeur seuil d'une glycémie normale est de 1,26 g/dl, la probabilité d'avoir un diabétique est:",
+            "options": [
+              "P = 16%",
+              "P = 84%",
+              "P = 95%",
+              "P = 5%"
+            ],
+            "correctAnswers": [
+              "P = 84%"
+            ]
+          },
+          {
+            "question": "Quelle est la probabilité d'avoir un sujet non diabétique?",
+            "options": [
+              "P = 16%",
+              "P = 2,5%",
+              "P = 10%",
+              "P = 5%"
+            ],
+            "correctAnswers": [
+              "P = 16%"
+            ]
+          },
+          {
+            "question": "Quelle est la probabilité d'avoir une glycémie comprise entre 1.26 et 1,56?",
+            "options": [
+              "P = 16%",
+              "P = 81%",
+              "P = 95%",
+              "P = 5%"
+            ],
+            "correctAnswers": [
+              "P = 81%"
+            ]
+          },
+          {
+            "question": "Le nombre de sujets avec une glycémie anormale est:",
+            "options": [
+              "N = 168",
+              "N = 110",
+              "N = 115",
+              "N = 130"
+            ],
+            "correctAnswers": [
+              "N = 168"
+            ]
+          },
+          {
+            "question": "Le nombre de sujets entre Q1 et la médiane Me est de:",
+            "options": [
+              "25",
+              "50",
+              "75",
+              "100"
+            ],
+            "correctAnswers": [
+              "50"
+            ]
+          },
+          {
+            "question": "Sachant que le seuil de diabète est baissé à 1,16 g/dl, le nombre de sujets diabétiques:",
+            "options": [
+              "Sera augmenté parce que le seuil est baissé",
+              "Reste stable parce que la moyenne est stable",
+              "Sera baissé parce que le seuil est baissé",
+              "Reste stable parce que la taille de l'échantillon est la même"
+            ],
+            "correctAnswers": [
+              "Sera augmenté parce que le seuil est baissé"
+            ]
+          },
+          {
+            "question": "Indiquer la (les) affirmation(s) fausse(s):",
+            "options": [
+              "La variance est toujours positive",
+              "Les déciles sont au nombre de 10 et divisent la population en parties égales d'effectifs",
+              "L'histogramme est le diagramme différentiel d'une variable discontinue",
+              "Un tableau unidimensionnel fait correspondre chaque modalité de la variable à l'effectif correspondant"
+            ],
+            "correctAnswers": [
+              "Les déciles sont au nombre de 10 et divisent la population en parties égales d'effectifs",
+              "L'histogramme est le diagramme différentiel d'une variable discontinue"
+            ]
+          },
+          {
+            "question": "La loi binomiale est asymétrique autour de la moyenne:",
+            "options": [
+              "Sauf dans le cas P = Q = 0.50",
+              "Asymétrie négligeable en cas de grands effectifs",
+              "Asymétrie confirmée si P et Q sont différents",
+              "Toutes les réponses sont fausses"
+            ],
+            "correctAnswers": [
+              "Sauf dans le cas P = Q = 0.50",
+              "Asymétrie négligeable en cas de grands effectifs",
+              "Asymétrie confirmée si P et Q sont différents"
+            ]
+          },
+          {
+            "question": "La loi de Poisson est utilisée si:",
+            "options": [
+              "La variable étudiée est qualitative",
+              "S'applique aux événements fréquents",
+              "Nécessite de connaitre le nombre absolu moyen de l'événement",
+              "Moyenne = Variance"
+            ],
+            "correctAnswers": [
+              "La variable étudiée est qualitative",
+              "Nécessite de connaitre le nombre absolu moyen de l'événement",
+              "Moyenne = Variance"
+            ]
+          },
+          {
+            "question": "La valeur de l'HbAlc est une variable:",
+            "options": [
+              "Quantitative",
+              "Semi-quantitative",
+              "Ordinale",
+              "Discrète"
+            ],
+            "correctAnswers": [
+              "Quantitative"
+            ]
+          },
+          {
+            "question": "La représentation graphique doit se faire par:",
+            "options": [
+              "Histogramme",
+              "Bâtonnet",
+              "Circulaire",
+              "Nuage de points"
+            ],
+            "correctAnswers": [
+              "Histogramme"
+            ]
+          },
+          {
+            "question": "La moyenne arithmétique est:",
+            "options": [
+              "M = 8,32",
+              "M = 8,28",
+              "M = 8,23",
+              "M = 8,18"
+            ],
+            "correctAnswers": [
+              "M = 8,23"
+            ]
+          },
+          {
+            "question": "La médiane déterminée par les calculs est:",
+            "options": [
+              "Me = 8,35",
+              "Me = 8,28",
+              "Me = 8,34",
+              "Me = 8,30"
+            ],
+            "correctAnswers": [
+            ]
+          },
+          {
+            "question": "Environ 40% des malades ont une valeur plus de :",
+            "options": [
+              "6,5",
+              "7,5",
+              "8,5",
+              "10,5"
+            ],
+            "correctAnswers": [
+              "8,5"
+            ]
+          },
+          {
+            "question": "Indiquer la (les) proposition(s) juste(s):",
+            "options": [
+              "77,3% des sujets ont une des valeurs supérieures à la normale",
+              "23,7% des sujets ont une des valeurs supérieures à la normale",
+              "Plus de la moitié des sujets ont une des valeurs supérieures à 7,5",
+              "La majorité des sujets ont des valeurs anormales"
+            ],
+            "correctAnswers": [
+              "77,3% des sujets ont une des valeurs supérieures à la normale",
+              "Plus de la moitié des sujets ont une des valeurs supérieures à 7,5",
+              "La majorité des sujets ont des valeurs anormales"
+            ]
+          },
+          {
+            "question": "Indiquer la (les) proposition(s) juste(s):",
+            "options": [
+              "Le premier quartile «Q1» se situe dans la classe: [4,5-6,5]",
+              "Le dernier quartile «Q3» se situe dans la classe: [8,5-10,5]",
+              "Le deuxième quartile se situe dans la classe: [6,5-8,5]",
+              "Aucune proposition n’est juste"
+            ],
+            "correctAnswers": [
+              "Le dernier quartile «Q3» se situe dans la classe: [8,5-10,5]",
+              "Le deuxième quartile se situe dans la classe: [6,5-8,5]"
+            ]
+          },
+          {
+            "question": "Les expressions justes des lois de probabilité sont :",
+            "options": [
+              "Loi binomiale : 1 (500 : 0,002)",
+              "Loi de poisson : P (2)",
+              "Loi binomiale : B (1 000 : 0,02)",
+              "Loi de poisson : P (1)"
+            ],
+            "correctAnswers": [
+              "Loi binomiale : B (1 000 : 0,02)",
+              "Loi de poisson : P (2)"
+            ]
+          },
+          {
+            "question": "Le risque a :",
+            "options": [
+              "Le risque de conclure un faux résultat",
+              "Généralement, il est choisi à 5%",
+              "Si Z augmente a augmente",
+              "Probabilité d'être à l'intérieur de l'intervalle [+2, -z)"
+            ],
+            "correctAnswers": [
+              "Le risque de conclure un faux résultat",
+              "Généralement, il est choisi à 5%"
+            ]
+          },
+          {
+            "question": "Une variable qualitative ordinale est :",
+            "options": [
+              "(1) âge",
+              "(2) sexe",
+              "(3) maladie",
+              "(4) niveau d'étude"
+            ],
+            "correctAnswers": [
+              "(4) niveau d'étude"
+            ]
+          },
+          {
+            "question": "Parmi les suivantes, deux variables peuvent être dichotomiques :",
+            "options": [
+              "(1) âge",
+              "(2) sexe",
+              "(3) maladie",
+              "(6) nombre d'enfants"
+            ],
+            "correctAnswers": [
+              "(2) sexe",
+              "(3) maladie"
+            ]
+          },
+          {
+            "question": "L'une des variables suivantes ne peut être classée qualitative ou quantitative qu'après observer les données, laquelle ?",
+            "options": [
+              "(6) nombre d'enfants",
+              "(2) sexe",
+              "(3) maladie",
+              "(5) tension artérielle"
+            ],
+            "correctAnswers": [
+              "(5) tension artérielle"
+            ]
+          },
+          {
+            "question": "Les expressions justes des lois de probabilité dans une période de 3 mois (90 jours) sont :",
+            "options": [
+              "Loi binomiale : B (1500; 0,002)",
+              "Loi de poisson : P (3)",
+              "Loi binomiale : B (3000 : 0,006)",
+              "Loi de poisson : P (6)"
+            ],
+            "correctAnswers": [
+              "Loi binomiale : B (1500; 0,002)",
+              "Loi de poisson : P (3)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2021/2022(médecine)",
+    "questions":[
+            {
+              "question": "Indiquer la (les) affirmation(s) fausse(s) :",
+              "options": [
+                "La variabilité d'une mesure n'est due qu'à la variabilité interindividuelle.",
+                "La variabilité de la mesure est liée notamment à l'appareil de mesure.",
+                "La variabilité en biologie est toujours très faible.",
+                "Les différentes sources de variabilité se neutralisent toujours."
+              ],
+              "correctAnswers": [
+                "La variabilité d'une mesure n'est due qu'à la variabilité interindividuelle.",
+                "La variabilité en biologie est toujours très faible.",
+                "Les différentes sources de variabilité se neutralisent toujours."
+              ]
+            },
+            {
+              "question": "Indiquer la (les) affirmation(s) juste(s) :",
+              "options": [
+                "Les variables qualitatives peuvent être continues ou discrètes",
+                "Les variables qualitatives binaires permettent de calculer une moyenne",
+                "Dans une variable quantitative continue les données sont souvent mises en classes.",
+                "Les variables ordinales permettent de calculer une moyenne et un écart type"
+              ],
+              "correctAnswers": [
+                "Les variables qualitatives binaires permettent de calculer une moyenne",
+                "Dans une variable quantitative continue les données sont souvent mises en classes."
+              ]
+            },
+            {
+              "question": "Sont des variables qualitatives :\n \"La couleur des cheveux : noirs, etc.\",\n                \"Le mode d'entrée à l'hôpital : transfert, provenance du domicile\",\n                \"Les taux d'enzymes sanguines en unité/ml\",\n                \"La masse d'une tumeur en grammes\",\n                \"Le nombre de comprimés avalés par jour\",\n                \"L'autonomie de la personne: autonome, besoin d'une aide partielle, besoin d'une aide totale\",\n                \"L'intensité de la douleur : +, ++, +++\"",
+              "options": [
+                "1:2;5",
+                "1;3;4",
+                "1:2;6",
+                "1;3;7"
+              ],
+              "correctAnswers": [
+                "1:2;6"
+              ]
+            },
+            {
+              "question": "Indiquer la (les) affirmation(s) juste(s) :",
+              "options": [
+                "3;4 sont des variables quantitatives continues",
+                "6;7 sont des variables qualitatives",
+                "5 est une variable discontinue",
+                "Les données des 3;4;5 permettent de calculer une moyenne"
+              ],
+              "correctAnswers": [
+                "3;4 sont des variables quantitatives continues",
+                "6;7 sont des variables qualitatives",
+                "5 est une variable discontinue",
+                "Les données des 3;4;5 permettent de calculer une moyenne"
+              ]
+            },
+            {
+              "question": "Quelles sont les indications exactes :",
+              "options": [
+                "Une variable qualitative peut être transformée en variables quantitative",
+                "Une variable de N modalités peut être ramenée à N variables qualitatives binaires",
+                "Une variable quantitative peut être transformée en variables qualitative",
+                "Une variable ordinale peut être transformée en variable nominale"
+              ],
+              "correctAnswers": [
+                "Une variable qualitative peut être transformée en variables quantitative",
+                "Une variable de N modalités peut être ramenée à N variables qualitatives binaires",
+                "Une variable quantitative peut être transformée en variables qualitative"
+              ]
+            },
+            {
+              "question": "Une variable qualitative peut être représentée par :",
+              "options": [
+                "Un diagramme en bâtonnets",
+                "Un secteur (cercle)",
+                "Histogramme",
+                "Nuage de points"
+              ],
+              "correctAnswers": [
+                "Un diagramme en bâtonnets",
+                "Un secteur (cercle)"
+              ]
+            },
+            {
+              "question": "les parametres de tendance central:",
+              "options": [
+                "Estiment de la variabilité de la série au tour de la moyenne",
+                "Mesures d'étalement des observations autour des paramètres de tendance centrale",
+                "Sont liées au degré d'étalement de la série statistique",
+                "La médiane fait partie des ces paramètres"
+              ],
+              "correctAnswers": [
+                "La médiane fait partie des ces paramètres"
+              ]
+            },
+            {
+              "question": "La durée de la rémission est une variable :",
+              "options": [
+                "Qualitative ordinale",
+                "Quantitative discrète",
+                "Quantitative continue",
+                "Quantitative discrète et continue"
+              ],
+              "correctAnswers": [
+                "Quantitative continue"
+              ]
+            },
+            {
+              "question": "La durée moyenne de rémission est de :",
+              "options": [
+                "32 mois",
+                "35 mois",
+                "30 mois",
+                "31 mois"
+              ],
+              "correctAnswers": [
+                "30 mois"
+              ]
+            },
+            {
+              "question": "La médiane de la rémission est de :",
+              "options": [
+                "28 mois",
+                "32 mois",
+                "36 mois",
+                "60 mois"
+              ],
+              "correctAnswers": [
+                "28 mois"
+              ]
+            },
+            {
+              "question": "On suppose que le malade numéro 11 ait en réalité une durée de rémission de 80 mois :",
+              "options": [
+                "La moyenne de la rémission devient 30 mois",
+                "La moyenne de la rémission devient 34 mois",
+                "La médiane de la rémission devient 30 mois",
+                "Même si on modifiait toutes les durées de rémission, la médiane serait inférieure ou égale à la moyenne."
+              ],
+              "correctAnswers": [
+                "La moyenne de la rémission devient 34 mois"
+              ]
+            },
+            {
+              "question": "Quelle est la probabilité de n'observer aucun accident en un quart d'heure ?",
+              "options": [
+                "0.135",
+                "0.125",
+                "0.140",
+                "0.129"
+              ],
+              "correctAnswers": [
+                "0.135"
+              ]
+            },
+            {
+              "question": "Quelle est la probabilité d'observer moins de 2 accidents en un quart d'heure ?",
+              "options": [
+                "0.445",
+                "0.300",
+                "0.405",
+                "0.440"
+              ],
+              "correctAnswers": [
+                "0.405"
+              ]
+            },
+            {
+              "question": "Quelle est la probabilité de n'observer aucun accident en une heure ?",
+              "options": [
+                "0.003",
+                "0.0032",
+                "0.0003",
+                "0.03"
+              ],
+              "correctAnswers": [
+                "0.0003"
+              ]
+            },
+            {
+              "question": "Les expressions justes des lois de probabilité est :",
+              "options": [
+                "Loi binomiale: B (500; 0,004)",
+                "Loi de poisson: P (2)",
+                "Loi binomiale: B (500; 0,04)",
+                "Loi de poisson : P (1)"
+              ],
+              "correctAnswers": [
+                "Loi binomiale: B (500; 0,004)",
+                "Loi de poisson: P (2)"
+              ]
+            },
+            {
+              "question": "Les expressions justes des lois de probabilité dans une période de 3 mois (90 jours) sont :",
+              "options": [
+                "Loi binomiale: B (1500; 0,004)",
+                "Loi de poisson: P (4)",
+                "Loi binomiale: B (500; 0,006)",
+                "Loi de poisson : P (6)"
+              ],
+              "correctAnswers": [
+                "Loi binomiale: B (1500; 0,004)",
+                "Loi de poisson : P (6)"
+              ]
+            },
+            {
+              "question": "Les 2.5 et 97.5 percentiles correspondent respectivement dans une distribution normale à :",
+              "options": [
+                "m - S et m + S",
+                "m - 2S et m + 2S",
+                "m - 3S et m + 3S",
+                "Aucune réponse n'est juste"
+              ],
+              "correctAnswers": [
+                "m - 2S et m + 2S"
+              ]
+            },
+            {
+              "question": "Les valeurs de la glycémie qui correspondent aux déciles D2, D8 sont :",
+              "options": [
+                "D2 = 0,93, D8 = 1,19",
+                "D2 = 0,50, D8 = 1,23",
+                "D2 = 0,95, D8 = 1,14",
+                "D2 = 0,55, D8 = 1,25"
+              ],
+              "correctAnswers": [
+                "D2 = 0,50, D8 = 1,23"
+              ]
+            },
+            {
+              "question": "Sachant que la valeur seuil d'une glycémie normale est de 1,26 g/dl, la probabilité d'avoir un sujet non diabétique est :",
+              "options": [
+                "P = 90 %",
+                "P = 84 %",
+                "P = 65 %",
+                "P = 75 %"
+              ],
+              "correctAnswers": [
+                "P = 84 %"
+              ]
+            },
+            {
+              "question": "Soit les deux séries statistiques qui correspondent à la tension artérielle moyenne dans deux populations : I (m1 = 10; s1 = 2) et II (m2 = 10; s2 = 1), sachant que les deux séries suivent la loi normale :",
+              "options": [
+                "Le quartile Q2 de la série I est plus petit que celui de la série II",
+                "Le quartile Q1 de la série I est plus petit que celui de la série II",
+                "La série II a un coefficient de variation CV = 5 %",
+                "Les deux séries peuvent avoir le même mode et doivent avoir la même médiane (Me)"
+              ],
+              "correctAnswers": [
+                "Le quartile Q1 de la série I est plus petit que celui de la série II",
+                "Les deux séries peuvent avoir le même mode et doivent avoir la même médiane (Me)"
+              ]
+            }
+          ]
+  },
+  {
+    "year": "2020/2021(médecine)",
+        "questions": [
+          {
+            "question": "Sachant que cette distribution suit une loi normale, les valeurs de la glycémie qui correspondent aux quartiles Q1, Q3 sont :",
+            "options": [
+              "Q1= 0,91 Q3=1,18",
+              "Q1= 0,95 Q3=1,14",
+              "Q1= 0,93 Q3=1,18",
+              "Q1= 0,85 Q3=1,25"
+            ],
+            "correctAnswers": [
+              "Q1= 0,93 Q3=1,18"
+            ]
+          },
+          {
+            "question": "Sachant que la valeur seuil d'une glycémie normale est de 1,26 g/dL, la probabilité d'avoir un diabétique est :",
+            "options": [
+              "P= 16%",
+              "P= 2,5%",
+              "P= 10%",
+              "P= 5%"
+            ],
+            "correctAnswers": [
+              "P= 16%"
+            ]
+          },
+          {
+            "question": "Parmi les affirmations suivantes, la (les) quelle(s) qui est (sont) juste(s) :",
+            "options": [
+              "Les déciles D1 et D9 : 40% à l'extérieur et 60% à l'intérieur : z = 0,642",
+              "Les déciles D2 et D6 : 80% à l'extérieur et 20% à l'intérieur : z = 0,253",
+              "Les percentiles P1 et P99 : 98% à l'intérieur et 2% à l'extérieur : z = 2.326",
+              "Aucune réponse n'est juste"
+            ],
+            "correctAnswers": [
+              "Les déciles D2 et D6 : 80% à l'extérieur et 20% à l'intérieur : z = 0,253",
+              "Les percentiles P1 et P99 : 98% à l'intérieur et 2% à l'extérieur : z = 2.326"
+            ]
+          },
+          {
+            "question": "Une variable quantitative continue peut être représentée par :",
+            "options": [
+              "Un diagramme en bâtonnets",
+              "Un tableau",
+              "Histogramme",
+              "Nuage de points"
+            ],
+            "correctAnswers": [
+              "Un tableau",
+              "Histogramme"
+            ]
+          },
+          {
+            "question": "Les paramètres de dispersion :",
+            "options": [
+              "Visent le centre de la série",
+              "Estiment l'étalement des observations autour des paramètres de tendance centrale",
+              "Le degré de dispersion est proportionnel à la valeur de l'écart type",
+              "La médiane fait partie de ces paramètres"
+            ],
+            "correctAnswers": [
+              "Estiment l'étalement des observations autour des paramètres de tendance centrale",
+              "Le degré de dispersion est proportionnel à la valeur de l'écart type"
+            ]
+          },
+          {
+            "question": "Dans une commune, le nombre moyen d'accouchements par mois (30 jours) est de 500, avec une fréquence des malformations fatales de 0,2%. Les expressions justes des lois de probabilité sont :",
+            "options": [
+              "Loi binomiale : B (500 : 0,002)",
+              "Loi de poisson : P (2)",
+              "Loi binomiale : B (1000 : 0,02)",
+              "Loi de poisson : P (1)"
+            ],
+            "correctAnswers": [
+              "Loi binomiale : B (500 : 0,002)",
+              "Loi de poisson : P (1)"
+            ]
+          },
+          {
+            "question": "Les expressions justes des lois de probabilité dans une période de 3 mois (90 jours) sont :",
+            "options": [
+              "Loi binomiale : B (1500; 0,002)",
+              "Loi de poisson : P (3)",
+              "Loi binomiale : B (3000; 0,006)",
+              "Loi de poisson : P (6)"
+            ],
+            "correctAnswers": [
+              "Loi binomiale : B (1500; 0,002)",
+              "Loi de poisson : P (6)"
+            ]
+          },
+          {
+            "question": "Indiquer la (les) affirmation(s) fausse(s) :",
+            "options": [
+              "La variance est toujours positive",
+              "Les déciles sont au nombre de 10 et divisent la population en parties égales d'effectifs",
+              "L'histogramme est le diagramme différentiel d'une variable quantitative discontinue",
+              "Un tableau unidimensionnel fait correspondre chaque modalité de la variable à l'effectif correspondant"
+            ],
+            "correctAnswers": [
+              "L'histogramme est le diagramme différentiel d'une variable quantitative discontinue"
+            ]
+          },
+          {
+            "question": "La loi de Poisson est utilisée si :",
+            "options": [
+              "La variable étudiée est qualitative",
+              "S'applique aux événements fréquents",
+              "Nécessite de connaître le nombre absolu moyen de l'événement",
+              "Moyenne = Variance"
+            ],
+            "correctAnswers": [
+              "Moyenne = Variance",
+              "Nécessite de connaître le nombre absolu moyen de l'événement",
+              "Moyenne = Variance"
+
+            ]
+          },
+          {
+            "question": "Le risque d'erreur alpha (α) :",
+            "options": [
+              "Est proportionnel à la valeur de l'écart réduit (Z)",
+              "Probabilité d'avoir des valeurs à l'extérieur de l'intervalle [-Z; +Z]",
+              "Si l'écart réduit Z = 1,60, α = 10%",
+              "Toutes les réponses sont justes"
+            ],
+            "correctAnswers": [
+              "Probabilité d'avoir des valeurs à l'extérieur de l'intervalle [-Z; +Z]"
+            ]
+          },
+          {
+            "question": "La loi normale :",
+            "options": [
+              "Courbe en forme de cloche",
+              "Caractérisée par une moyenne et une variance",
+              "Mode, moyenne et médiane se confondent",
+              "La probabilité d'avoir une valeur est située sur l'axe des ordonnées (y)"
+            ],
+            "correctAnswers": [
+              "Courbe en forme de cloche",
+              "Mode, moyenne et médiane se confondent", "Courbe en forme de cloche",
+              "Caractérisée par une moyenne et une variance",
+              "Mode, moyenne et médiane se confondent",
+              "La probabilité d'avoir une valeur est située sur l'axe des ordonnées (y)"
+            ]
+          },
+          {
+            "question": "La répartition de 100 malades dans une clinique privée en fonction de leur salaire journalier a donné les résultats suivants : L'étendue est :",
+            "options": [
+                  "4000",
+                  "3500",
+                  "4500",
+                  "3000"
+                ],
+            "correctAnswers": [
+                  "4000"
+                ],
+            "photo": "assets/imageBiost/bs5.jpg"
+          },
+          {
+            "question": "L'écart absolu moyen est ",
+            "options": [
+              "810,50",
+              "818,50",
+              "825,50",
+              "808,50"
+            ],
+            "correctAnswers": [
+              "810,50"            ]
+          },
+          {
+            "question": "L'écart type est :",
+            "options": [
+              "973,32",
+              "960,32",
+              "965,32",
+              "970,32"
+            ],
+            "correctAnswers": [
+              "973,32"
+            ]
+          },
+          {
+            "question": "Le coefficient de variation est :",
+            "options": [
+              "61,21%",
+              "64,21%",
+              "68,21%",
+              "71,21%"
+            ],
+            "correctAnswers": [
+              "61,21%"
+            ]
+          },
+          {
+            "question": "Une certaine intervention chirurgicale se décompose en 3 phases : préparation (moyenne 3h, écart-type 1h), intervention (moyenne 4h, écart-type 2h), et réveil (moyenne 5h, écart-type 3h). La durée totale moyenne de ce type d'intervention est :",
+            "options": [
+              "12h",
+              "4h",
+              "13h",
+              "10h"
+            ],
+            "correctAnswers": [
+              "12h"
+            ]
+          },
+          {
+            "question": "L'écart-type de la durée totale de l'intervention est :",
+            "options": [
+              "3h15",
+              "3h45",
+              "3h35",
+              "3h05"
+            ],
+            "correctAnswers": [
+              "3h45"
+            ]
+          },
+          {
+            "question": "Il y a 95 chances sur 100 pour que la durée totale de l'intervention soit comprise entre :",
+            "options": [
+              "5.2h et 18.8h",
+              "4.6h et 19.4h",
+              "3.1h et 20.9h",
+              "8.2h et 15.8h"
+            ],
+            "correctAnswers": [
+              "4.6h et 19.4h"
+            ]
+          },
+          {
+            "question": "Il y a 68 chances sur 100 pour que la durée totale de l'intervention soit comprise entre :",
+            "options": [
+              "5.2h et 18.8h",
+              "4.6h et 19.4h",
+              "3.1h et 20.9h",
+              "8.2h et 15.8h"
+            ],
+            "correctAnswers": [
+              "8.2h et 15.8h"
+            ]
+          },
+          {
+            "question": "Lors d'une intervention chirurgicale, la probabilité d'avoir une durée égale à 12h est :",
+            "options": [
+              "Très peu probable mais c'est la plus grande probabilité élémentaire possible",
+              "Très probable et c'est la plus grande probabilité élémentaire possible",
+              "Très probable mais c'est la plus petite probabilité élémentaire possible",
+              "A une probabilité p supérieur à 0,5"
+            ],
+            "correctAnswers": [
+              "Très peu probable mais c'est la plus grande probabilité élémentaire possible"
+            ]
+          }
+        ]
+  }
+]

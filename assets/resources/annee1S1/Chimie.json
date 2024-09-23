@@ -1,6 +1,5 @@
 [
   {
-    "module": "Chimie",
     "year": "2021/2022",
     "questions": [
       {
@@ -269,7 +268,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2020/2021",
     "questions": [
       {
@@ -523,7 +521,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2018/2019",
     "questions": [
       {
@@ -721,7 +718,6 @@
 
   },
   {
-    "module": "Chimie",
     "year": "2017/2018",
     "questions": [
       {
@@ -1017,7 +1013,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2015/2016",
     "questions": [
       {
@@ -1260,7 +1255,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2014/2015",
     "questions": [
       {
@@ -1467,7 +1461,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2013/2014",
     "questions": [
       {
@@ -1659,7 +1652,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2012/2013",
     "questions": [
       {
@@ -1942,7 +1934,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2023/2024 (médecine)",
     "questions": [
       {
@@ -1962,7 +1953,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2022/2023 (médecine)",
     "questions": [
       {
@@ -1982,7 +1972,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2021/2022 (médecine)",
     "questions": [
       {
@@ -2252,7 +2241,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2019/2020 (médecine)",
     "questions": [
       {
@@ -2441,7 +2429,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2018/2019 (médecine)",
     "questions": [
       {
@@ -2702,7 +2689,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2017/2018 (médecine)",
     "questions": [
       {
@@ -2966,7 +2952,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2016/2017 (médecine)",
     "questions": [
       {
@@ -3227,7 +3212,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2015/2016 (médecine)",
     "questions": [
       {
@@ -3491,7 +3475,6 @@
 
   },
   {
-    "module": "Chimie",
     "year": "2014/2015 (médecine)",
     "questions": [
       {
@@ -3678,7 +3661,6 @@
 
   },
   {
-    "module": "Chimie",
     "year": "2013/2014 (médecine)",
     "questions": [
       {
@@ -3838,7 +3820,6 @@
     ]
   },
   {
-    "module": "Chimie",
     "year": "2012/2013 (médecine)",
     "questions": [
       {

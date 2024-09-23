@@ -9,8 +9,10 @@ class ModuleSelectionScreen extends StatelessWidget {
 
   final SemesterData semester;
   final String year;
+  final String listName; // Add this line
 
-  const ModuleSelectionScreen({super.key, required this.semester, required this.year,});
+
+  const ModuleSelectionScreen({super.key, required this.semester, required this.year, required this.listName,});
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +43,7 @@ class ModuleSelectionScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Center(
+            listName == 'years' ? Center(
               child: Stack(
                 clipBehavior: Clip.none, // This ensures the overflowing children are not clipped
                 children: [
@@ -50,7 +52,7 @@ class ModuleSelectionScreen extends StatelessWidget {
                     width: 320,
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
-                      color: o,
+                      color:o, // 'o' for years, 'k' for others
                       borderRadius: BorderRadius.circular(70),
                     ),
                     child:  Center(
@@ -92,6 +94,62 @@ class ModuleSelectionScreen extends StatelessWidget {
                   ),
                 ],
               ),
+            ): Center(
+              child: Stack(
+                clipBehavior: Clip
+                    .none, // This ensures the overflowing children are not clipped
+                children: [
+                  Container(
+                    height: 100,
+                    width: 320,
+                    padding: const EdgeInsets.all(16.0),
+                    decoration: BoxDecoration(
+                      color:k, // 'o' for years, 'k' for others
+                      borderRadius: BorderRadius.circular(70),
+                    ),
+                    child:  Center(
+                        child: Container(
+                          width: 200, // Adjust the width to fit your design
+                          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                          child: Text(year+semester.name,
+                            style:  TextStyle(
+                              fontSize: MediaQuery.of(context).size.width * 0.055, // Error here
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            maxLines: 2, // Limit to 2 lines
+                            overflow: TextOverflow.ellipsis, // Add ellipsis if text overflows
+                            textAlign: TextAlign.center, // Align the text in the center
+                          ),
+                        )
+
+
+                    ),
+                  ),
+                  Positioned(
+                    left:
+                    -80, // Adjust this value to position the injection icon
+                    bottom:
+                    -90, // Adjust this value to position the injection icon
+                    child: Image.asset(
+                      'assets/inj.png', // Path to injection icon asset
+                      width: 220,
+                      height: 220,
+                    ),
+                  ),
+                  Positioned(
+                    right:
+                    -40, // Adjust this value to position the stethoscope icon
+                    top:
+                    -40, // Adjust this value to position the stethoscope icon
+                    child: Image.asset(
+                      'assets/sth.png', // Path to stethoscope icon asset
+                      width: 130,
+                      height: 130,
+                    ),
+                  ),
+                ],
+              ),
             ),
             const SizedBox(
                 height: 50),
@@ -120,13 +178,13 @@ class ModuleSelectionScreen extends StatelessWidget {
                       // Store the selected module in the controller
                       modController.selectedMod(semester.modules[index]);
                       // Navigate to the module details screen
-                      Get.to(() => ModuleDetailsScreen(module: semester.modules[index]));
+                      Get.to(() => ModuleDetailsScreen(module: semester.modules[index], listName:listName,));
 
                     },
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: o, // Background color of each grid item
+                        color: listName == 'years' ?o:k, // Background color of each grid item
                         borderRadius: BorderRadius.circular(20), // Rounded corners
                       ),
                       child: Text(

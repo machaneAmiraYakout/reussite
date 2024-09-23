@@ -116,7 +116,7 @@ class _ChrScreenState extends State<ChrScreen> {
                       // Compare the selected year with the fetched annee
                       if (selectedYear.name.trim() == fetchedAnnee) {
                         // Navigate to the semester selection screen
-                        Get.to(SemesterSelectionScreen(year: selectedYear));
+                        Get.to(SemesterSelectionScreen(year: selectedYear, listName:'years'));
                       } else {
                         // Show dialog if the year does not match
                         fetchAnneeController.showAccessDeniedDialogA();

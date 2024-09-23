@@ -37,8 +37,11 @@
             {
               "module": "Biochimie",
               "link": "assets/resources/annee1S1/Biochimie.json"
+            },
+            {
+              "module": "Biostatistique",
+              "link": "assets/resources/annee1S1/Biostatistique.json"
             }
-
           ]
         },
         {

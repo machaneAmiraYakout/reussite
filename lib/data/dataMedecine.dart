@@ -1,41 +1,9 @@
 import '../model/module.dart';
 import '../model/semestre.dart';
 import '../model/year.dart';
-final years = [
+final yearsMed = [
   YearData('1 ÈRE ANNÉE ', [
     SemesterData('Semestre 1', [
-      ModuleData('Anatomie',
-        ['QCM Anatomie'],
-        ['Resume Anatomie'],
-        ['Autre Anatomie'],imagePath: 'assets/anatomie.png',
-        coursesByYear: {
-          '2023/2024': [
-            'assets/pdfs/Anatomie/1-Généralités d\'Anatomie Humain.pdf',
-            'assets/pdfs/Anatomie/2-Anatomie du Thorax.pdf',
-            'assets/pdfs/Anatomie/3-App Respiratoire.pdf',
-            'assets/pdfs/Anatomie/4-App Cardio-Vasculaire.pdf',
-            'assets/pdfs/Anatomie/5-Abdomen-App Digestif.pdf'
-          ],
-          '2024/2025': [
-          ],
-        },
-      ),
-      ModuleData('Anglais' ,['QCM Anglais'], ['Resume Anglais'], ['Autre Anglais'],imagePath: 'assets/anglais.png',),
-      ModuleData('Biochimie',
-        ['QCM Biochimie'],
-        ['Resume Biochimie'],
-        ['Autre Biochimie'],
-        imagePath: 'assets/biochimie.png',
-        coursesByYear: {
-          '2023/2024': [
-            'assets/pdfs/Biochimie/1- Les Glucides.pdf',
-            'assets/pdfs/Biochimie/2-Les Proteines 2023.pdf',
-          ],
-          '2024/2025': [
-          ],
-        },
-      ),
-      ModuleData('Biophysique', ['QCM Biophysique'], ['Resume Biophysique'], ['Autre Biophysique'],imagePath: 'assets/biophysique.png'),
       ModuleData('Biostatistique',
         ['QCM Biostatistique'],
         ['Resume Biostatistique'],
@@ -72,50 +40,25 @@ final years = [
           ],
         },
       ),
-      ModuleData('francais', ['QCM francais'], ['Resume francais'], ['Autre francais'],imagePath: 'assets/francais.png',),
-      ModuleData('histoCyto', ['QCM histologie'], ['Resume histologie'], ['Autre histologie'],imagePath: 'assets/histologie.png',),
-      ModuleData('genetique',
-        ['QCM genetique'],
-        ['Resume genetique'],
-        ['Autre genetique'],
-        imagePath: 'assets/genetique.png',
+      ModuleData('Biochimie',
+        ['QCM Biochimie'],
+        ['Resume Biochimie'],
+        ['Autre Biochimie'],
+        imagePath: 'assets/biochimie.png',
         coursesByYear: {
           '2023/2024': [
-            'assets/pdfs/genetique/1-1-Structure de la chromatine et des chromosomes.pdf',
-            'assets/pdfs/genetique/1-2-Les bases physiques de l’hérédité.pdf',
-            'assets/pdfs/genetique/2-Monohybridisme.pdf',
-            'assets/pdfs/genetique/3-Génétique humaine.pdf',
-            'assets/pdfs/genetique/4-Hérédité liée au sexe.pdf',
-            'assets/pdfs/genetique/5-Polyallélie.pdf',
-            'assets/pdfs/genetique/6-Gènes létaux.pdf',
-            'assets/pdfs/genetique/7-Dihybridisme.pdf',
-            'assets/pdfs/genetique/8-Gènes liés.pdf',
-            'assets/pdfs/genetique/9-1-Génétique moléculaire.pdf',
-            'assets/pdfs/genetique/10-Les mutations.pdf',
-            'assets/pdfs/genetique/11-Cytogénétique.pdf',
-            'assets/pdfs/genetique/12-Outils de génie génétique.pdf',
-            'assets/pdfs/genetique/13-Génétique bactérienne.pdf',
+            'assets/pdfs/Biochimie/1- Les Glucides.pdf',
+            'assets/pdfs/Biochimie/2-Les Proteines 2023.pdf',
           ],
           '2024/2025': [
           ],
         },
       ),
-      ModuleData('physique',  ['QCM physique'], ['Resume physique'], ['Autre physique'],imagePath: 'assets/physique.png',),
+
     ]),
     SemesterData('Semestre 2', [
       ModuleData('Épidémiologie',  ['QCM Épidémiologie'], ['Resume Épidémiologie'], ['Autre Épidémiologie']),
-      ModuleData('Santé Sociale', ['QCM Santé Sociale'], ['Resume Santé Sociale'], ['Autre Santé Sociale']),
-      ModuleData('Physiologie',['QCM Physiologie'], ['Resume Physiologie'], ['Autre Physiologie']),
-      ModuleData('Embryologie',['QCM Embryologie'], ['Resume Embryologie'], ['Autre Embryologie']),
-      ModuleData('Génétique', ['QCM Génétique'], ['Resume Génétique'], ['Autre Génétique']),
-      ModuleData('Histologie',['QCM Histologie'], ['Resume Histologie'], ['Autre Histologie']),
-      ModuleData('Anatomie',  ['QCM Anatomie'], ['Resume Anatomie'], ['Autre Anatomie']),
-      ModuleData('Anglais',  ['QCM Anglais'], ['Resume Anglais'], ['Autre Anglais']),
-      ModuleData('Biochimie',  ['QCM Biochimie'], ['Resume Biochimie'], ['Autre Biochimie']),
-      ModuleData('Biophysique',['QCM Biophysique'], ['Resume Biophysique'], ['Autre Biophysique']),
-      ModuleData('Biostatistique', ['QCM Biostatistique'], ['Resume Biostatistique'], ['Autre Biostatistique']),
-      ModuleData('Chimie', ['QCM Chimie'], ['Resume Chimie'], ['Autre Chimie']),
-      ModuleData('Cytologie', ['QCM Cytologie'], ['Resume Cytologie'], ['Autre Cytologie']),
+
 
     ]),
   ]),
@@ -176,6 +119,14 @@ final years = [
     ]),
   ]),
   YearData('5 ÈME ANNÉE ', [
+    SemesterData('Semestre 1', [
+      ModuleData('Pharmacologie', ['QCM Pharmacologie'], ['Resume Pharmacologie'], ['Autre Pharmacologie']),
+    ]),
+    SemesterData('Semestre 2', [
+      ModuleData('Parodo..logie', ['QCM Parodo..logie'], ['Resume Parodo..logie'], ['Autre Parodo..logie']),
+    ]),
+  ]),
+  YearData('6 ÈME ANNÉE ', [
     SemesterData('Semestre 1', [
       ModuleData('Pharmacologie', ['QCM Pharmacologie'], ['Resume Pharmacologie'], ['Autre Pharmacologie']),
     ]),

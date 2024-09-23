@@ -2,10 +2,7 @@
 import 'package:get/get.dart';
 import '../../model/module.dart';
 class ImageAndDataController extends GetxController {
-  var years = <String>[].obs;
-
   final ModuleData module;
-
   ImageAndDataController(this.module);
 
 

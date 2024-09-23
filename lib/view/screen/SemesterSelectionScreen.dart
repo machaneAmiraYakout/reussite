@@ -8,15 +8,13 @@ import 'ModuleSelectionScreen.dart';
 
 class SemesterSelectionScreen extends StatelessWidget {
   final YearData year; // Received from ChrScreen
-
-  const SemesterSelectionScreen({super.key, required this.year});
+  final String listName;
+  const SemesterSelectionScreen({super.key, required this.year, required this.listName});
 
   @override
   Widget build(BuildContext context) {
     final QuoteController controller = Get.put(QuoteController());
     final SemestreController semController = Get.find();
-
-
     return Scaffold(
       body: SafeArea(
         child: Column(
@@ -41,7 +39,7 @@ class SemesterSelectionScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Center(
+            listName == 'years' ? Center(
               child: Stack(
                 clipBehavior: Clip.none, // This ensures the overflowing children are not clipped
                 children: [
@@ -91,6 +89,54 @@ class SemesterSelectionScreen extends StatelessWidget {
                   ),
                 ],
               ),
+            ):Center(
+              child: Stack(
+                clipBehavior: Clip
+                    .none, // This ensures the overflowing children are not clipped
+                children: [
+                  Container(
+                    height: 100,
+                    width: 300,
+                    padding: const EdgeInsets.all(16.0),
+                    decoration: BoxDecoration(
+                      color: k,
+                      borderRadius: BorderRadius.circular(70),
+                    ),
+                    child: const Center(
+                      child: Text(
+                        'MÉDECINE',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left:
+                    -80, // Adjust this value to position the injection icon
+                    bottom:
+                    -90, // Adjust this value to position the injection icon
+                    child: Image.asset(
+                      'assets/inj.png', // Path to injection icon asset
+                      width: 220,
+                      height: 220,
+                    ),
+                  ),
+                  Positioned(
+                    right:
+                    -40, // Adjust this value to position the stethoscope icon
+                    top:
+                    -40, // Adjust this value to position the stethoscope icon
+                    child: Image.asset(
+                      'assets/sth.png', // Path to stethoscope icon asset
+                      width: 130,
+                      height: 130,
+                    ),
+                  ),
+                ],
+              ),
             ),
             const SizedBox(height: 50),
             Center(
@@ -104,7 +150,7 @@ class SemesterSelectionScreen extends StatelessWidget {
                   width: 300,
                   padding: const EdgeInsets.all(16.0),
                   decoration: BoxDecoration(
-                    color: k,
+                    color:listName == 'years' ? k : o,
                     borderRadius: BorderRadius.circular(50),
                   ),
                   child: Center(
@@ -132,15 +178,14 @@ class SemesterSelectionScreen extends StatelessWidget {
                     onTap: () {
                       // Store the selected semester in the controller
                       semController.selectedSem(year.semesters[index]);
-
                       // Navigate to the module selection screen
-                      Get.to(() => ModuleSelectionScreen(semester: year.semesters[index], year: year.name,));
+                      Get.to(() => ModuleSelectionScreen(semester: year.semesters[index], year: year.name, listName: listName,));
                     },
                     child: Container(
                       margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 90.0),
                       height: 60,
                       decoration: BoxDecoration(
-                        color: o, // Use the desired color
+                        color:listName == 'years' ? o : k, // 'o' for years, 'k' for others
                         borderRadius: BorderRadius.circular(50),
                       ),
                       child: Center(

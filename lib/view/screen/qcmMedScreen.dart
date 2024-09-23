@@ -5,15 +5,15 @@ import '../../presenter/controllers/favoriteController.dart';
 import '../../presenter/controllers/noteController.dart';
 import '../../presenter/controllers/qcmController.dart';
 import '../widget/colors.dart';
-class QcmScreen extends StatefulWidget {
-  final String year;
-  final String name;
+class QcmMedScreen extends StatefulWidget {
+  final String yearM;
+  final String nameM;
 
-  const QcmScreen({super.key, required this.year, required this.name});
+  const QcmMedScreen({super.key, required this.yearM, required this.nameM});
   @override
   _QcmScreenState createState() => _QcmScreenState();
 }
-class _QcmScreenState extends State<QcmScreen> {
+class _QcmScreenState extends State<QcmMedScreen> {
   late final QuestionController controller;
   late final NoteController noteController;
   late final TextEditingController noteTextController;
@@ -159,7 +159,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                   options: controller.currentQuestion.options ?? [],
                                   correctOptions: correctOptions,
                                   photo: controller.currentQuestion.photo,
-                                  nameModule:widget.name,
+                                  nameModule:widget.nameM,
                                 );
 
                                 favoriteController.toggleFavorite(currentFavoriteQuestion);
@@ -178,7 +178,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                   options: controller.currentQuestion.options ?? [],
                                   correctOptions: correctOptions,
                                   photo: controller.currentQuestion.photo,
-                                  nameModule: widget.name,
+                                  nameModule: widget.nameM,
                                 );
                                 bool isFavorite = favoriteController.isFavorite(currentFavoriteQuestion);
                                 return Icon(
@@ -227,10 +227,10 @@ class _QcmScreenState extends State<QcmScreen> {
                                     children: [
                                       TextField(
                                         controller: TextEditingController(
-                                          text: noteController.notes['${widget.year}_${controller.currentQuestionIndex.value}'] ?? '',
+                                          text: noteController.notes['${widget.yearM}_${controller.currentQuestionIndex.value}'] ?? '',
                                         ),
                                         onChanged: (value) {
-                                          noteController.notes['${widget.year}_${controller.currentQuestionIndex.value}'] = value;
+                                          noteController.notes['${widget.yearM}_${controller.currentQuestionIndex.value}'] = value;
                                         },
                                         decoration: const InputDecoration(
                                           hintText: "Write your note here...",
@@ -244,9 +244,9 @@ class _QcmScreenState extends State<QcmScreen> {
                                           ElevatedButton(
                                             onPressed: () {
                                               noteController.saveNote(
-                                                widget.year,
+                                                widget.yearM,
                                                 controller.currentQuestionIndex.value,
-                                                noteController.notes['${widget.year}_${controller.currentQuestionIndex.value}'] ?? '',
+                                                noteController.notes['${widget.yearM}_${controller.currentQuestionIndex.value}'] ?? '',
                                               ); // Save the note
                                               Get.back();
                                             },
@@ -258,7 +258,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                           ElevatedButton(
                                             onPressed: () {
                                               noteController.deleteNote(
-                                                widget.year,
+                                                widget.yearM,
                                                 controller.currentQuestionIndex.value,
                                               ); // Delete the note
                                               Get.back();
@@ -272,7 +272,7 @@ class _QcmScreenState extends State<QcmScreen> {
                                       ),
                                       const SizedBox(height: 10),
                                       Obx(() {
-                                        String currentNote = noteController.notes['${widget.year}_${controller.currentQuestionIndex.value}'] ?? '';
+                                        String currentNote = noteController.notes['${widget.yearM}_${controller.currentQuestionIndex.value}'] ?? '';
                                         return Container(
                                           padding: const EdgeInsets.all(10),
                                           decoration: BoxDecoration(

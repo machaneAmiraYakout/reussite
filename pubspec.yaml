@@ -80,6 +80,7 @@ flutter:
     - assets/imageGenetique/
     - assets/imageHisto/
     - assets/imageBiochimie/
+    - assets/imageBiost/
     - assets/pdfs/Anatomie/
     - assets/pdfs/Chimie/
     - assets/pdfs/Biochimie/

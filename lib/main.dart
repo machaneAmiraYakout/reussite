@@ -8,9 +8,9 @@ import 'package:reussite1/presenter/controllers/favoriteController.dart';
 import 'package:reussite1/presenter/controllers/fetchAnneController.dart';
 import 'package:reussite1/presenter/controllers/moduleController.dart';
 import 'package:reussite1/presenter/controllers/qcmController.dart';
+import 'package:reussite1/presenter/controllers/qcmMedController.dart';
 import 'package:reussite1/presenter/controllers/selectionContoller.dart';
 import 'package:reussite1/presenter/controllers/semestreController.dart';
-import 'package:reussite1/presenter/controllers/sessionController.dart';
 import 'package:reussite1/presenter/controllers/yearController.dart';
 import 'package:reussite1/view/screen/splashScreen.dart';
 void main()async{
@@ -27,11 +27,8 @@ void main()async{
   Get.put(UserDetailsController());
   Get.put(FetchAnneeController());
   Get.put(ConnectivityService());
-  Get.put(  QuestionController());
-
-
-  final sessionController = Get.put(SessionController());
-
+  Get.put(QuestionController());
+  Get.put(QuestionMedController());
   runApp( GetMaterialApp(
     title: 'ELearning',
     debugShowCheckedModeBanner: false,

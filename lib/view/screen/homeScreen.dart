@@ -67,33 +67,39 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    buildSpecialtyCard(
-                      'Médecine',
-                      'assets/heart.png',  // Replace with your image asset
-                      k,
-                      120,
-                          () {
-                        if (specialite == 'Médecine') {
-                          Get.to(() => const MedScreen());
-                        } else {
-                          userDetailsController.showAccessDeniedDialogS();
-                        }
-                      },
+                    Expanded(
+                      child: buildSpecialtyCard(
+                        'Médecine',
+                        'assets/heart.png',  // Replace with your image asset
+                        k,
+                        120,
+                            () {
+                          if (specialite == 'Médecine') {
+                            Get.to(() => const MedScreen());
+                          } else {
+                            userDetailsController.showAccessDeniedDialogS();
+                          }
+                        },
+                      ),
                     ),
-                    buildSpecialtyCard(
-                      'ChirDent',
-                      'assets/dent.png',  // Replace with your image asset
-                      o,
-                      100,
-                          () {
-                        if (specialite == 'ChirDent') {
-                          Get.to(() => const ChrScreen());
-                        } else {
-                          userDetailsController.showAccessDeniedDialogS();
-                        }
-                      },
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width * 0.05,  // Adjust this percentage based on your design
+                    ),
+                    Expanded(
+                      child: buildSpecialtyCard(
+                        'ChirDent',
+                        'assets/dent.png',  // Replace with your image asset
+                        o,
+                        100,
+                            () {
+                          if (specialite == 'ChirDent') {
+                            Get.to(() => const ChrScreen());
+                          } else {
+                            userDetailsController.showAccessDeniedDialogS();
+                          }
+                        },
+                      ),
                     ),
                   ],
                 ),
